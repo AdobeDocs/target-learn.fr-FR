@@ -9,7 +9,7 @@ audience: developer
 doc-type: tutorial
 activity-type: implement
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: 199fbde58696a0511623c5500cc6afbbcfdd67a3
 workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 1%
@@ -78,13 +78,17 @@ Suivez les mêmes étapes que celles répertoriées ci-dessus pour créer une au
 
    ![Créer une Audience d’utilisateur régulier](assets/audience_returning_mobile_app_users.jpg)
 
->[!NOTE] Toutes les mesures et dimensions de cycle de vie collectées dans le SDK [!DNL Target] mobile sont précédées de &quot;a&quot; (par exemple, a.Launches) et sont disponibles dans l’option &quot;Personnalisé&quot; du menu déroulant et peuvent être utilisées pour créer des audiences.
+>[!NOTE]
+>
+>Toutes les mesures et dimensions de cycle de vie collectées dans le SDK [!DNL Target] mobile sont précédées de &quot;a&quot; (par exemple, a.Launches) et sont disponibles dans l’option &quot;Personnalisé&quot; du menu déroulant et peuvent être utilisées pour créer des audiences.
 
 ### Créer une Audience pour les utilisateurs Réservation d&#39;un voyage à San Diego
 
 Nous allons ensuite créer quelques audiences pour certaines des destinations proposées par l&#39;application We.Travel. Lors de la dernière leçon, nous avons transmis la destination en tant que paramètre d&#39;emplacement dans la demande d&#39;emplacement wetravel_context_dest. Ce paramètre est disponible dans l&#39;option &quot;Personnalisé&quot; du menu déroulant.
 
->[!NOTE] Si un paramètre que vous prévoyez de voir dans la liste déroulante Personnalisé n’apparaît pas dans l’ [!DNL Target] interface, vérifiez par doublon qu’il est effectivement transmis dans la requête. Si vous avez vérifié que la requête se trouve dans l’ [!DNL Target] interface, mais que celle-ci n’est pas chargée en différé, il vous suffit de taper le nom du paramètre et d’appuyer sur Entrée pour continuer à définir votre audience.
+>[!NOTE]
+>
+>Si un paramètre que vous prévoyez de voir dans la liste déroulante Personnalisé n’apparaît pas dans l’ [!DNL Target] interface, vérifiez par doublon qu’il est effectivement transmis dans la requête. Si vous avez vérifié que la requête se trouve dans l’ [!DNL Target] interface, mais que celle-ci n’est pas chargée en différé, il vous suffit de taper le nom du paramètre et d’appuyer sur Entrée pour continuer à définir votre audience.
 
 1. Nommez la _destination de l&#39;audience : San Diego_.
 1. Utilisez une règle personnalisée avec cette définition : _locationDest contient San Diego_.
