@@ -9,7 +9,7 @@ audience: developer
 doc-type: tutorial
 activity-type: implement
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: 199fbde58696a0511623c5500cc6afbbcfdd67a3
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 1%
@@ -35,7 +35,9 @@ Dans cette leçon, nous allons créer une offre &quot;indicateur de fonction&quo
 
 Dans l&#39;application de démonstration de nos leçons précédentes, nous allons ajouter un nouvel emplacement appelé &quot;wetravel_feature_flag_recs&quot; à la demande de prérécupération dans l&#39;Activité d&#39;accueil et la charger à l&#39;écran avec une nouvelle méthode Java.
 
->[!NOTE] L&#39;un des avantages de l&#39;utilisation d&#39;une requête de prérécupération est que l&#39;ajout d&#39;une nouvelle requête n&#39;ajoute pas de surcharge réseau supplémentaire ou ne provoque pas de charge supplémentaire puisque la requête est incluse dans la requête de prérécupération.
+>[!NOTE]
+>
+>L&#39;un des avantages de l&#39;utilisation d&#39;une requête de prérécupération est que l&#39;ajout d&#39;une nouvelle requête n&#39;ajoute pas de surcharge réseau supplémentaire ou ne provoque pas de charge supplémentaire puisque la requête est incluse dans la requête de prérécupération.
 
 Tout d’abord, vérifiez que la constante wetravel_feature_flag_recs est ajoutée dans le fichier Constant.java :
 
