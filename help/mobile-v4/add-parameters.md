@@ -7,7 +7,7 @@ audience: developer
 doc-type: tutorial
 activity-type: implement
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: 199fbde58696a0511623c5500cc6afbbcfdd67a3
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 0%
@@ -47,7 +47,9 @@ Même si nous n&#39;avons ajouté que `Config.collectLifecycleData()` au contrô
 
 Les propriétés de l’Adobe Target sont définies dans l’ [!DNL Target] interface et servent à définir des limites pour la personnalisation des applications et des sites Web. Le paramètre at_property identifie la propriété spécifique dans laquelle vos offres et activités sont consultées et conservées. Nous allons ajouter une propriété aux demandes d&#39;emplacement prérécupéré et actif.
 
->[!NOTE] Selon votre licence, les options Propriétés de l’ [!DNL Target] interface peuvent s’afficher ou non. Si vous n&#39;avez pas ces options, ou si vous n&#39;utilisez pas Propriétés dans votre société, passez directement à la section suivante de cette leçon.
+>[!NOTE]
+>
+>Selon votre licence, les options Propriétés de l’ [!DNL Target] interface peuvent s’afficher ou non. Si vous n&#39;avez pas ces options, ou si vous n&#39;utilisez pas Propriétés dans votre société, passez directement à la section suivante de cette leçon.
 
 Vous pouvez récupérer votre valeur at_property dans l’ [!DNL Target] interface sous [!UICONTROL Configuration] > [!UICONTROL Propriétés].  Passez la souris sur la propriété, sélectionnez l’icône de fragment de code et copiez la `at_property` valeur :
 
@@ -140,9 +142,13 @@ public void targetLoadRequest(final ArrayList<Recommandation> recommandations) {
 Exécutez l&#39;émulateur et ouvrez Logcat. Filtrez l’un des paramètres pour vérifier que la requête contient les paramètres nécessaires :
 ![Validation des paramètres personnalisés dans la demande d’emplacement dynamique](assets/parameters_live_location_validation.jpg)
 
->[!NOTE] Demandes et paramètres de confirmation de commande : Bien qu’elle ne soit pas utilisée dans ce projet de démonstration, les détails de la commande sont généralement capturés dans une mise en oeuvre réelle afin [!DNL Target] d’utiliser les détails de la commande comme mesures/dimensions. Consultez la documentation pour savoir comment [mettre en oeuvre la demande de confirmation de commande et les paramètres](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-target-methods.html).
+>[!NOTE]
+>
+>Demandes et paramètres de confirmation de commande : Bien qu’elle ne soit pas utilisée dans ce projet de démonstration, les détails de la commande sont généralement capturés dans une mise en oeuvre réelle afin [!DNL Target] d’utiliser les détails de la commande comme mesures/dimensions. Consultez la documentation pour savoir comment [mettre en oeuvre la demande de confirmation de commande et les paramètres](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-target-methods.html).
 
->[!NOTE] Analytics pour Cible (A4T) : Adobe Analytics peut être configuré comme source de rapports pour [!DNL Target]. Cela permet à toutes les mesures/dimensions collectées par le SDK de Cible d’être visualisées dans Adobe Analytics. Pour plus d’informations, consultez la présentation [d’](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) A4T.
+>[!NOTE]
+>
+>Analytics pour Cible (A4T) : Adobe Analytics peut être configuré comme source de rapports pour [!DNL Target]. Cela permet à toutes les mesures/dimensions collectées par le SDK de Cible d’être visualisées dans Adobe Analytics. Pour plus d’informations, consultez la présentation [d’](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) A4T.
 
 Bon travail ! Maintenant que les paramètres sont en place, nous sommes prêts à utiliser ces paramètres pour créer des audiences et des offres dans l&#39;Adobe Target.
 
