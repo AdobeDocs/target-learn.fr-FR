@@ -1,6 +1,6 @@
 ---
 title: Présentation des flux dans Recommendations
-seo-title: Présentation des flux dans les recommandations d’Adobe Target
+seo-title: Présentation des flux dans le Recommendations Adobe Target
 audience: marketer
 difficulty: 3
 author: Daniel Wright
@@ -26,4 +26,4 @@ ht-degree: 18%
 * [Créer des conceptions personnalisées](create-custom-designs.md)
 * [Créer des collections et des exclusions](create-collections-and-exclusions.md)
 * [Création d’une activité de recommandations](create-a-recommendations-activity.md)
-* [Documentation des recommandations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Documentation de Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
