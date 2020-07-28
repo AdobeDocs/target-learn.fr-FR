@@ -1,6 +1,6 @@
 ---
 title: Ajouter des demandes d'Adobe Target
-description: 'Le Adobe Mobile Services SDK (v4) fournit des méthodes et fonctionnalités d’Adobe Target qui vous permettent de personnaliser votre application avec différentes expériences pour différents utilisateurs.   '
+description: 'L’Adobe Mobile Services SDK (v4) fournit des méthodes et fonctionnalités d’Adobe Target qui vous permettent de personnaliser votre application avec différentes expériences pour différents utilisateurs.   '
 feature: mobile
 kt: 3040
 audience: developer
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Ajouter des demandes d&#39;Adobe Target
 
-Le Adobe Mobile Services SDK (v4) fournit des méthodes et fonctionnalités d’Adobe Target qui vous permettent de personnaliser votre application avec différentes expériences pour différents utilisateurs. En règle générale, une ou plusieurs requêtes sont envoyées de l’application à l’Adobe Target pour récupérer le contenu personnalisé et mesurer l’impact de ce contenu.
+L’Adobe Mobile Services SDK (v4) fournit des méthodes et fonctionnalités d’Adobe Target qui vous permettent de personnaliser votre application avec différentes expériences pour différents utilisateurs. En règle générale, une ou plusieurs requêtes sont envoyées de l’application à l’Adobe Target pour récupérer le contenu personnalisé et mesurer l’impact de ce contenu.
 
 Dans cette leçon, vous préparerez l’application We.Travel pour la personnalisation en implémentant [!DNL Target] des requêtes.
 
@@ -45,7 +45,7 @@ Vous trouverez ci-dessous quelques-uns des principaux termes de Cible que nous u
 * **Demande de lot :**  une seule requête incluant plusieurs emplacements
 * **Prérécupérer la demande :**  une requête unique qui récupère les offres et les met en cache dans la mémoire pour une utilisation ultérieure dans l’application.
 * **Demande de prérécupération par lot :**  une requête unique qui prérécupère des offres pour plusieurs emplacements
-* **Audience :**  un groupe de visiteurs défini dans l&#39; [!DNL Target] interface ou partagé avec [!DNL Target] d&#39;autres applications Adobe (ex. &quot;visiteurs iPhone X&quot;, &quot;visiteurs in the California&quot;, &quot;First App Open&quot;)
+* **Audience :**  un groupe de visiteurs défini dans l&#39; [!DNL Target] interface ou partagé avec [!DNL Target] d&#39;autres applications d&#39;Adobe (ex. &quot;visiteurs iPhone X&quot;, &quot;visiteurs in the California&quot;, &quot;First App Open&quot;)
 * **Activité :**  un [!DNL Target] concept, défini dans l’interface [!DNL Target] utilisateur (ou avec l’API) qui lie les emplacements, les offres et les Audiences pour créer une expérience personnalisée.
 
 ## Ajouter une demande de prérécupération de lot
