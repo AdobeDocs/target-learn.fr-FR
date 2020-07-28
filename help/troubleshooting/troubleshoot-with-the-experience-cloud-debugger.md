@@ -1,5 +1,5 @@
 ---
-title: Résolution des problèmes liés à l'Adobe Target avec le débogueur Experience Cloud
+title: Résolution des problèmes d'Adobe Target avec l'Experience Cloud Debugger
 description: Le débogueur Adobe Experience Cloud vous permet de comprendre rapidement et facilement votre implémentation Target. Vous pouvez afficher rapidement la configuration de votre bibliothèque, examiner les demandes pour vérifier que vos paramètres personnalisés sont transmis correctement, activer la journalisation de la console et désactiver toutes les demandes Target. Authentifiez-vous dans Experience Cloud afin de pouvoir utiliser le puissant outil Mbox Trace pour inspecter vos qualifications d’activité et d’audience ainsi que votre profil de visiteur.
 audience: marketer
 difficulty: 3
@@ -15,7 +15,7 @@ ht-degree: 64%
 ---
 
 
-# Résolution des problèmes liés au débogueur Experience Cloud
+# Résolution des problèmes avec l&#39;Experience Cloud Debugger
 
 Le débogueur Adobe Experience Cloud vous permet de comprendre rapidement et facilement votre implémentation Target. Vous pouvez afficher rapidement la configuration de votre bibliothèque, examiner les demandes pour vérifier que vos paramètres personnalisés sont transmis correctement, activer la journalisation de la console et désactiver toutes les demandes Target. Authentifiez-vous dans Experience Cloud afin de pouvoir utiliser le puissant outil Mbox Trace pour inspecter vos qualifications d’activité et d’audience ainsi que votre profil de visiteur.
 
@@ -27,4 +27,4 @@ Le débogueur Adobe Experience Cloud vous permet de comprendre rapidement et fac
 * [Débogueur Adobe Experience Cloud dans Chrome Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)
 * [Ajouter la vidéo de l&#39;extension Débogueur](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/debugger/add-the-extension.html)
 * [Documentation de l’aide de la Cible de dépannage](https://docs.adobe.com/content/help/en/target/using/troubleshoot/troubleshooting-target.html)
-* [Utilisation de la vidéo du débogueur Experience Cloud](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/debugger/use-the-experience-cloud-debugger.html)
+* [Utilisation de la vidéo Experience Cloud Debugger](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/debugger/use-the-experience-cloud-debugger.html)
