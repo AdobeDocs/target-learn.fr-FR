@@ -1,7 +1,7 @@
 ---
-title: Utilisation des Offres de recommandations dans les Activités de test A/B et de ciblage d’expérience
-seo-title: Utilisation des Offres de recommandations dans les Activités de test A/B et de ciblage d’expérience dans l’Adobe Target
-description: Les offres de recommandations peuvent être utilisées avec les Activités de test A/B et de ciblage d’expérience.
+title: Utilisation des Offres Recommendations dans les Activités de test A/B et de ciblage d’expérience
+seo-title: Utilisation des Offres Recommendations dans les Activités de test A/B et de ciblage d’expérience dans l’Adobe Target
+description: Les offres Recommendations peuvent être utilisées avec les Activités de test A/B et de ciblage d’expérience.
 feature: recommendations
 kt: kt-3451
 audience: marketer
@@ -16,9 +16,9 @@ ht-degree: 35%
 ---
 
 
-# Utilisation des Offres de recommandations dans les Activités de test A/B et de ciblage d’expérience
+# Utilisation des Offres Recommendations dans les Activités de test A/B et de ciblage d’expérience
 
-Les offres de recommandations peuvent être utilisées avec les Activités de test A/B et de ciblage d’expérience. Cette fonctionnalité offre de nouvelles fonctionnalités, telles que :
+Les offres Recommendations peuvent être utilisées avec les Activités de test A/B et de ciblage d’expérience. Cette fonctionnalité offre de nouvelles fonctionnalités, telles que :
 
 * Mélanger le contenu des recommandations et des non-recommandations dans la même activité
 * Testez facilement l’emplacement des recommandations sur la page, y compris l’ordre de plusieurs recommandations
@@ -29,5 +29,5 @@ Les offres de recommandations peuvent être utilisées avec les Activités de te
 
 ## Ressources supplémentaires
 
-* [Recommandations en tant que documentation d’offre](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-as-an-offer.html)
-* [Vidéo sur la création d’une Activité de recommandations](create-a-recommendations-activity.md)
+* [Recommendations en tant que documentation d’offre](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-as-an-offer.html)
+* [Création d’une vidéo d’Activité Recommendations](create-a-recommendations-activity.md)
