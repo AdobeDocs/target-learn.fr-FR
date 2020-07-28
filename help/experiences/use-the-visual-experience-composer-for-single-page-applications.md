@@ -25,7 +25,7 @@ Le compositeur d’expérience visuelle d’une application d’une seule page p
 ## Aperçu
 
 * Le compositeur d’expérience visuelle d’une seule page peut être utilisé pour créer des tests A/B et d’affectation automatique et des activités de ciblage d’expérience.
-* Le compositeur d’expérience visuelle d’une seule page ne prend pas en charge les activités de Cible automatique, de personnalisation automatisée ou de recommandations.
+* Le compositeur d’expérience visuelle d’application d’une seule page ne prend pas en charge les activités de Cible automatique, Automated Personalization ou Recommendations
 * Le compositeur d’expérience visuelle d’application d’une seule page prend en charge les intégrations A4T, Audiences Experience Cloud et Attributs  du client.
 * Toutes les actions du compositeur d’expérience visuelle sont prises en charge dans les applications d’une seule page, y compris le code personnalisé.
 * Les actions du compositeur d’expérience visuelle peuvent être appliquées à une seule vue ou au événement de chargement de page.
