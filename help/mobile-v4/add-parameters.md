@@ -1,6 +1,6 @@
 ---
 title: Ajouter des paramètres aux requêtes
-description: Dans cette leçon, nous allons ajouter des mesures de cycle de vie et des paramètres personnalisés Adobe aux demandes de Cible ajoutées dans la leçon précédente. Ces mesures et paramètres seront utilisés pour créer des audiences personnalisées plus loin dans le didacticiel.
+description: Dans cette leçon, nous allons ajouter des mesures de cycle de vie des Adobes et des paramètres personnalisés aux demandes de Cible ajoutées dans la leçon précédente. Ces mesures et paramètres seront utilisés pour créer des audiences personnalisées plus loin dans le didacticiel.
 feature: mobile
 kt: 3040
 audience: developer
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Ajouter des paramètres aux requêtes
 
-Dans cette leçon, nous allons ajouter des mesures de cycle de vie et des paramètres personnalisés Adobe aux [!DNL Target] requêtes ajoutées dans la leçon précédente. Ces mesures et paramètres seront utilisés pour créer des audiences personnalisées plus loin dans le didacticiel.
+Dans cette leçon, nous allons ajouter des mesures de cycle de vie des Adobes et des paramètres personnalisés aux [!DNL Target] requêtes ajoutées dans la leçon précédente. Ces mesures et paramètres seront utilisés pour créer des audiences personnalisées plus loin dans le didacticiel.
 
 ## Objectifs d&#39;apprentissage
 
@@ -30,7 +30,7 @@ Dans cette leçon, nous allons ajouter des mesures de cycle de vie et des param�
 
 ## Ajouter les paramètres de cycle de vie
 
-Activez les mesures [de cycle de vie des dispositifs portables](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html)Adobe. Ceci ajoute des paramètres aux requêtes d’emplacement contenant des informations riches sur l’appareil de l’utilisateur et son engagement dans l’application. Nous créerons des audiences dans la leçon suivante en utilisant les données fournies par la demande de cycle de vie.
+Activez les mesures [de cycle de vie des](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html)Adobes mobiles. Ceci ajoute des paramètres aux requêtes d’emplacement contenant des informations riches sur l’appareil de l’utilisateur et son engagement dans l’application. Nous créerons des audiences dans la leçon suivante en utilisant les données fournies par la demande de cycle de vie.
 
 Pour activer les mesures de cycle de vie, ouvrez à nouveau le contrôleur HomeActivity et ajoutez `Config.collectLifecycleData(this);` à la fonction onResume() :
 
@@ -148,7 +148,7 @@ Exécutez l&#39;émulateur et ouvrez Logcat. Filtrez l’un des paramètres pour
 
 >[!NOTE]
 >
->Analytics pour Cible (A4T) : Adobe Analytics peut être configuré comme source de rapports pour [!DNL Target]. Cela permet à toutes les mesures/dimensions collectées par le SDK de Cible d’être visualisées dans Adobe Analytics. Pour plus d’informations, consultez la présentation [d’](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) A4T.
+>Analytics pour Cible (A4T) : Adobe Analytics peut être configuré comme source de rapports pour [!DNL Target]. Cela permet à toutes les mesures/dimensions collectées par le SDK de Cible d’être consultées dans Adobe Analytics. Pour plus d’informations, consultez la présentation [d’](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) A4T.
 
 Bon travail ! Maintenant que les paramètres sont en place, nous sommes prêts à utiliser ces paramètres pour créer des audiences et des offres dans l&#39;Adobe Target.
 
