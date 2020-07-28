@@ -28,7 +28,7 @@ The newest version of `at.js` provides rich feature sets that equip your busines
 * Mettez en oeuvre la `adobe.target.triggerView()` fonction chaque fois que la vue change dans votre application d’une seule page. Diverses techniques peuvent être utilisées pour ce faire, telles que l’écoute des modifications de hachage d’URL, l’écoute des événements personnalisés déclenchés par votre application d’une seule page d’accueil, ou l’incorporation directe du `triggerView()` code dans votre application. Choisissez l’option qui convient le mieux à votre application d’une seule page.
 * Le nom de la vue est le premier paramètre de la `triggerView()` fonction. Utilisez des noms simples, clairs et uniques pour faciliter leur sélection dans le compositeur d’expérience visuelle de Cible.
 * Vous pouvez déclencher des vues dans de petites modifications de vue, ainsi que dans des contextes autres que l’application d’une seule page (par exemple, à mi-chemin d’une page de défilement infini).
-* `at.js` La version 2.0 et `triggerView()` peut être implémentée via une solution de gestion des balises, telle que le lancement d’Adobe Experience Platform.
+* `at.js` 2.0 et `triggerView()` peut être implémenté via une solution de gestion des balises, telle que Adobe Experience Platform Launch.
 
 ## Limites d’at.js 2.0
 
