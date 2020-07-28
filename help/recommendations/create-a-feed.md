@@ -1,6 +1,6 @@
 ---
 title: Création d’un flux dans Recommendations
-seo-title: Création d’un flux dans les recommandations d’Adobe Target
+seo-title: Création d’un flux dans l’Adobe Target Recommendations
 audience: marketer
 difficulty: 3
 author: Daniel Wright
@@ -26,4 +26,4 @@ ht-degree: 17%
 * [Création de critères](create-criteria.md)
 * [Créer des conceptions personnalisées](create-custom-designs.md)
 * [Créer des collections et des exclusions](create-collections-and-exclusions.md)
-* [Documentation des recommandations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Documentation de Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
