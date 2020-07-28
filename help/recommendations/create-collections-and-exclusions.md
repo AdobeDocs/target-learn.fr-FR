@@ -1,6 +1,6 @@
 ---
 title: Créer des collections et des exclusions
-seo-title: Créer des collections et des exclusions dans les recommandations d’Adobe Target
+seo-title: Créer des collections et des exclusions dans le Recommendations Adobe Target
 description: null
 audience: marketer
 difficulty: 3
@@ -27,4 +27,4 @@ ht-degree: 17%
 * [Création d’un flux](create-a-feed.md)
 * [Création de critères](create-criteria.md)
 * [Créer des conceptions personnalisées](create-custom-designs.md)
-* [Documentation des recommandations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Documentation de Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
