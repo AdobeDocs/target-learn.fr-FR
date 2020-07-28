@@ -1,6 +1,6 @@
 ---
-title: Présentation des didacticiels sur les Adobes Target
-seo-title: Présentation des didacticiels sur les Adobes Target
+title: Présentation des Tutorials Adobes Target
+seo-title: Présentation des Tutorials Adobes Target
 description: Ensemble de vidéos et de didacticiels pratiques pour vous aider à utiliser vos Adobes Target de manière efficace
 translation-type: tm+mt
 source-git-commit: 0ef2d3c853aa85fef8c9f524588b29b02c7aceda
@@ -17,13 +17,13 @@ Adobe Target est la solution d’Adobe Experience Cloud qui fournit tout ce do
 
 ## Nouveautés
 
-* **[Utiliser les Offres de recommandations (vidéo)](recommendations/use-recommendations-offers.md)**   <br>
+* **[Utiliser les Offres Recommendations (vidéo)](recommendations/use-recommendations-offers.md)**   <br>
    *Utilisez les recommandations de produit dans les Activités de test A/B et de ciblage d’expérience.*
 
 * **[Mise en oeuvre du compositeur d’expérience visuelle de Cible dans les applications Android™ (didacticiel)](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)**   <br>
    *Mettez en oeuvre le compositeur d’expérience visuelle (VEC) convivial pour les Cibles dans les applications Android natives.*
 
-* **[Création d’une Activité de recommandations (vidéo)](recommendations/create-a-recommendations-activity.md)**   <br>
+* **[Création d’une Activité Recommendations (vidéo)](recommendations/create-a-recommendations-activity.md)**   <br>
    *Cette fonctionnalité Premium vous recommande des produits à grande échelle.*
 
 ## Sélection du personnel
@@ -32,11 +32,11 @@ Adobe Target est la solution d’Adobe Experience Cloud qui fournit tout ce do
 <tr>
   <td>
     <a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html">
-      <img alt="Mise en oeuvre de la Cible avec le lancement d'Adobe Experience Platform" src="assets/launch_referencearchitectureguides.png" />
+      <img alt="Mise en oeuvre de la Cible avec Adobe Experience Platform Launch" src="assets/launch_referencearchitectureguides.png" />
     </a>
     <div>
       <a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html">
-    <strong>Mise en oeuvre de la Cible avec le lancement d'Adobe Experience Platform</strong>
+    <strong>Mise en oeuvre de la Cible avec Adobe Experience Platform Launch</strong>
     </a>
     </div>
     <p>
@@ -58,11 +58,11 @@ Adobe Target est la solution d’Adobe Experience Cloud qui fournit tout ce do
   </td>
   <td>
     <a href="troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md">
-      <img alt="Résolution des problèmes de Cible avec le débogueur Experience Cloud" src="assets/using_the_experienceclouddebuggerwithadobetarget.png" />
+      <img alt="Résolution des problèmes de Cible avec l'Experience Cloud Debugger" src="assets/using_the_experienceclouddebuggerwithadobetarget.png" />
     </a>
     <div>
       <a href="troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md">
-    <strong>Résolution des problèmes de Cible avec le débogueur Experience Cloud</strong>
+    <strong>Résolution des problèmes de Cible avec l'Experience Cloud Debugger</strong>
     </a>
     </div>
     <p>
