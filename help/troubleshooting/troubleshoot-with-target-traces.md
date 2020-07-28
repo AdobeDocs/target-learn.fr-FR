@@ -25,5 +25,5 @@ ht-degree: 17%
 
 * [Débogueur Adobe Experience Cloud dans Chrome Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)
 * [Documentation de l’aide de la Cible de dépannage](https://docs.adobe.com/content/help/en/target/using/troubleshoot/troubleshooting-target.html)
-* [Résolution des problèmes liés à la Cible de la vidéo du débogueur Experience Cloud](troubleshoot-with-the-experience-cloud-debugger.md)
-* [Utilisation de la vidéo du débogueur Experience Cloud](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/debugger/use-the-experience-cloud-debugger.html)
+* [Dépannage de la Cible de la vidéo Experience Cloud Debugger](troubleshoot-with-the-experience-cloud-debugger.md)
+* [Utilisation de la vidéo Experience Cloud Debugger](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/debugger/use-the-experience-cloud-debugger.html)
