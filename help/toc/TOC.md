@@ -23,7 +23,7 @@ ht-degree: 8%
    + [Mise en oeuvre d’at.js 2.0 dans une application monopage (SPA)](../implementation/implement-atjs-20-in-a-single-page-application.md)
    + [Fonctionnement d’at.js 2.0](../implementation/understanding-how-atjs-20-works.md)
    + [Utiliser l’inclusion pour contrôler les solutions Experience Cloud en fonction du consentement de l’utilisateur](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/id-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html)
-+ Activités{#activities}
++ Activités {#activities}
    + [Comprendre les types d’Activités](../activities/understanding-the-types-of-activities.md)
    + [Utiliser les capacités d&#39;intelligence artificielle et d&#39;automatisation pour relever les défis de la personnalisation](../activities/use-the-artificial-intelligence-and-automation-capabilities-to-meet-the-challenges-of-personalization.md)
    + [Créer des tests A/B](../activities/create-ab-tests.md)
@@ -56,12 +56,12 @@ ht-degree: 8%
    + [Configuration des propriétés](../administration/set-up-properties.md)
 + Recommandations{#recommendations}
    + [Création d’une activité de recommandations](../recommendations/create-a-recommendations-activity.md)
-   + [Utiliser les Offres de recommandations](../recommendations/use-recommendations-offers.md)
+   + [Utiliser les Offres Recommendations](../recommendations/use-recommendations-offers.md)
    + [Présentation des flux](../recommendations/understanding-feeds.md)
    + [Création d’un flux](../recommendations/create-a-feed.md)
    + [Création de critères](../recommendations/create-criteria.md)
    + [Créer des conceptions personnalisées](../recommendations/create-custom-designs.md)
    + [Créer des collections et des exclusions](../recommendations/create-collections-and-exclusions.md)
 + Résolution des problèmes{#troubleshooting}
-   + [Résolution des problèmes liés au débogueur Experience Cloud](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
+   + [Résolution des problèmes avec l&#39;Experience Cloud Debugger](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
    + [Résolution des problèmes liés aux traces de Cible](../troubleshooting/troubleshoot-with-target-traces.md)
