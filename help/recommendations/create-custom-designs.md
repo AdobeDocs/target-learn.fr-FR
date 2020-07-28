@@ -1,6 +1,6 @@
 ---
 title: Création de conceptions personnalisées dans Recommendations
-seo-title: Créer des conceptions personnalisées dans les recommandations d’Adobe Target
+seo-title: Créer des conceptions personnalisées dans le Recommendations Adobe Target
 audience: marketer
 difficulty: 3
 author: Daniel Wright
@@ -26,4 +26,4 @@ ht-degree: 17%
 * [Présentation des flux](understanding-feeds.md)
 * [Création d’un flux](create-a-feed.md)
 * [Création de critères](create-criteria.md)
-* [Documentation des recommandations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Documentation de Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
