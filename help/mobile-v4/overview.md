@@ -40,7 +40,7 @@ Après avoir terminé cet didacticiel, vous serez en mesure de :
 
 Dans ces leçons, on suppose que vous :
 
-* Disposer d’un ID Adobe et d’un accès de niveau approbateur à l’interface de l’Adobe Target (voir les étapes de vérification ci-dessous)
+* Posséder un ID d&#39;Adobe et un accès de niveau approbateur à l&#39;interface de l&#39;Adobe Target (voir les étapes de vérification ci-dessous)
 * Connaissez votre code client d’Adobe Target afin que vous puissiez envoyer des requêtes à votre propre compte. Le code client s’affiche dans l’interface d’Adobe Target de l’écran Configuration > Implémentation > Modifier les paramètres at.js.
 * Ont accès à l’interface utilisateur de [Mobile Services et sont familiers avec celle-ci](https://mobilemarketing.adobe.com)
 * Disposez d&#39;un IDE pour le développement d&#39;applications mobiles Android. Ce didacticiel présente [Android Studio](https://developer.android.com/studio/install) en différentes étapes et captures d’écran.
@@ -53,7 +53,7 @@ En outre, il est supposé que vous connaissez bien le développement Android dan
 
 Cette leçon nécessite un accès à l&#39;Adobe Target. Avant de passer aux étapes suivantes, assurez-vous d’avoir accès à l’Adobe Target en procédant comme suit :
 
-1. Connectez-vous à [Adobe Experience Cloud.](https://experience.adobe.com/)
+1. Connectez-vous au [Adobe Experience Cloud](https://experience.adobe.com/)
 1. From the Experience Cloud home screen, click [!DNL Target]:
    ![Écran d’accueil Experience Cloud](assets/aec_homeScreen_clickTarget.png)
 1. Vous devez accéder à la liste Activités de l’Adobe Target, comme illustré ci-dessous, et vous devriez voir que votre utilisateur dispose d’un accès de niveau Approbateur. Si vous ne parvenez pas à accéder [!DNL Target] ou ne pouvez pas vérifier l’accès au niveau Approbateur, contactez l’un des administrateurs Experience Cloud de votre société, demandez cet accès et reprenez ce didacticiel une fois qu’il a été accordé :
