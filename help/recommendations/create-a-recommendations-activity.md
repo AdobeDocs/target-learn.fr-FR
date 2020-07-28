@@ -1,6 +1,6 @@
 ---
 title: Création d’une activité de recommandations
-seo-title: Création d’une Activité de recommandations dans un Adobe Target
+seo-title: Création d’une Activité Recommendations dans l’Adobe Target
 audience: marketer
 difficulty: 3
 author: Daniel Wright
@@ -21,10 +21,10 @@ ht-degree: 22%
 
 ## Ressources supplémentaires
 
-* [Utilisation des Offres de recommandations dans les Activités de test A/B et de ciblage d’expérience](use-recommendations-offers.md)
+* [Utilisation des Offres Recommendations dans les Activités de test A/B et de ciblage d’expérience](use-recommendations-offers.md)
 * [Présentation des flux](understanding-feeds.md)
 * [Création d’un flux](create-a-feed.md)
 * [Création de critères](create-criteria.md)
 * [Créer des conceptions personnalisées](create-custom-designs.md)
 * [Créer des collections et des exclusions](create-collections-and-exclusions.md)
-* [Documentation des recommandations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Documentation de Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
