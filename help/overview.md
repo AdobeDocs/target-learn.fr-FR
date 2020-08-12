@@ -1,30 +1,35 @@
 ---
-title: Présentation des Tutorials Adobes Target
-seo-title: Présentation des Tutorials Adobes Target
-description: Ensemble de vidéos et de didacticiels pratiques pour vous aider à utiliser vos Adobes Target de manière efficace
+title: Présentation des Tutorials Adobe Target
+seo-title: Présentation des Tutorials Adobe Target
+description: Une collection de vidéos et de didacticiels pratiques pour devenir un utilisateur expérimenté de Adobe Target
 translation-type: tm+mt
-source-git-commit: 0ef2d3c853aa85fef8c9f524588b29b02c7aceda
+source-git-commit: 49b21a85ca776f9da12f14cab85772395ba4ce16
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 18%
+source-wordcount: '242'
+ht-degree: 16%
 
 ---
 
 
 # Aperçu
 
-Adobe Target est la solution d’Adobe Experience Cloud qui fournit tout ce dont vous avez besoin pour personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et d’autres canaux numériques. Utilisez ces vidéos et ces didacticiels pour découvrir les nombreux composants de l&#39;Adobe Target.
+Adobe Target est la solution d’Adobe Experience Cloud qui fournit tout ce dont vous avez besoin pour personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et d’autres canaux numériques. Utilisez ces vidéos et ces didacticiels pour découvrir les nombreux composants de Adobe Target.
 
 ## Nouveautés
 
+* **[Utilisation de l’API Recommendations (didacticiel)](recommendations-api-tutorial/recs-api-overview.md)**   <br>
+   *Pour les développeurs : Bénéficiez d&#39;une pratique pratique à l&#39;aide des[!DNL Recommendations]API pour configurer et gérer[!DNL Recommendations]des catalogues et des critères personnalisés, etc.*
+
+* **[Mise en oeuvre de Adobe Target avec Adobe Mobile Services SDK v4 pour Android (didacticiel)](mobile-v4/overview.md)**   <br>
+   *Pour les développeurs qui utilisent déjà Adobe Mobile Services SDK v4 : découvrez comment début de la personnalisation des expériences d’application avec Adobe Target. Ces étapes sont fournies en tant que prise en charge des utilisateurs hérités.<!-- Concepts learned here are also applicable to Adobe Experience Platform Mobile SDK (v5).-->*
+
 * **[Utiliser les Offres Recommendations (vidéo)](recommendations/use-recommendations-offers.md)**   <br>
-   *Utilisez les recommandations de produit dans les Activités de test A/B et de ciblage d’expérience.*
+   *Pour tous les utilisateurs de la Cible : Découvrez comment utiliser les recommandations de produit dans les Activités A/B et de ciblage d’expérience.*
 
-* **[Mise en oeuvre du compositeur d’expérience visuelle de Cible dans les applications Android™ (didacticiel)](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)**   <br>
-   *Mettez en oeuvre le compositeur d’expérience visuelle (VEC) convivial pour les Cibles dans les applications Android natives.*
-
-* **[Création d’une Activité Recommendations (vidéo)](recommendations/create-a-recommendations-activity.md)**   <br>
-   *Cette fonctionnalité Premium vous recommande des produits à grande échelle.*
+<!--
+* **[Create a Recommendations Activity (Video)](recommendations/create-a-recommendations-activity.md)**
+    <br>
+    *Recommend products to your customers at scale with this Premium feature.* -->
 
 ## Sélection du personnel
 
