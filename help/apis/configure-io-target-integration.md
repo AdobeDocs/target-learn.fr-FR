@@ -1,7 +1,7 @@
 ---
 title: Configurer l’authentification
 keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe Target Recommendations comprend un ensemble dédié d'API qui vous permet de gérer votre catalogue de produits et/ou de contenu recommandés ; gérer vos algorithmes et campagnes de recommandations ; et diffuser des recommandations dans des objets JSON, HTML ou XML à afficher dans des canaux Web, mobiles, e-mail, IOT et autres.
+description: adobe target Recommendations comprend un ensemble dédié d'API qui vous permet de gérer votre catalogue de produits et/ou de contenu recommandés ; gérer vos algorithmes et campagnes de recommandations ; et diffuser des recommandations dans des objets JSON, HTML ou XML à afficher dans des canaux Web, mobiles, e-mail, IOT et autres.
 kt: null
 audience: developer
 doc-type: tutorial
@@ -11,9 +11,9 @@ topics: recommendations;adobe recommendations;premium;api;apis
 solution: Adobe Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 562cf1fe659ade7fa085a3ba6cb9e7ae3c1957a5
+source-git-commit: c67105ec2ec4a72f7c1080dccc0051f5a7ef5b26
 workflow-type: tm+mt
-source-wordcount: '1876'
+source-wordcount: '1877'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ Cette leçon décrit les étapes préliminaires nécessaires à la génération 
 | Ressource | Détails |
 | --- | --- |
 | Postman | Pour réussir ces étapes, obtenez l&#39;application [](https://www.postman.com/downloads/) Postman pour votre système d&#39;exploitation. Postman basique est gratuit avec la création de compte. Bien qu&#39;il ne soit pas nécessaire pour utiliser les API Adobe Target en général, Postman facilite les workflows d&#39;API et Adobe Target fournit plusieurs collections Postman pour aider à exécuter ses API et apprendre comment elles fonctionnent. Le reste de ce tutoriel suppose une connaissance pratique de Postman. Pour obtenir de l&#39;aide, veuillez consulter la documentation [de](https://learning.getpostman.com/)Postman. |
-| Références | La connaissance des ressources suivantes est assurée tout au long du reste de ce didacticiel :<UL><li>[E/S Adobe Github](https://github.com/adobeio)</li><li>[Documentation sur les E/S Cible Adobe](https://developers.adobetarget.com/api/#introduction)</li><li>[Documentation de l’API Recommendations](https://developers.adobetarget.com/api/recommendations/)</li></ul> |
+| Références | La connaissance des ressources suivantes est assurée tout au long du reste de ce didacticiel :<UL><li>[E/S Adobe Github](https://github.com/adobeio)</li><li>[Documentation sur les E/S cible Adobe](https://developers.adobetarget.com/api/#introduction)</li><li>[Documentation de l’API Recommendations](https://developers.adobetarget.com/api/recommendations/)</li></ul> |
 
 ## Créer un projet d&#39;E/S d&#39;Adobe
 
@@ -53,7 +53,7 @@ Dans cette section, vous accéderez à la console de développement des Adobes e
 
    ![configure-io-cible-create-project3.png](assets/configure-io-target-createproject3.png)
 
-4. Cliquez sur **[!UICONTROL Ajouter l’API]** pour ajouter une API REST à votre projet afin d’accéder aux services et aux produits d’Adobe.
+4. Cliquez sur **[!UICONTROL Ajouter l&#39;API]** pour ajouter une API REST à votre projet afin d&#39;accéder aux services et aux produits d&#39;Adobe.
 
    ![API Ajoute](assets/configure-io-target-createproject4.png)
 
@@ -112,10 +112,12 @@ Ces étapes sont également décrites ci-dessous.
    ![JWT5](assets/configure-io-target-jwt5.png)
 6. Dans le mode **Gérer les Environnements** de Postman, cliquez sur le nom de l&#39;environnement nouvellement importé pour l&#39;inspecter. (Votre nom d&#39;environnement peut être différent de celui indiqué ici. Modifiez le nom selon vos besoins. Il n’est pas nécessaire de faire correspondre le nom du projet d’Adobe.)
    ![JWT6](assets/configure-io-target-jwt6.png)
-7. Les valeurs des notes `CLIENT_SECRET` et `API_KEY` (ainsi que d’autres variables) sont prérenseignées, à partir de votre intégration, comme défini dans la console de développement des Adobes. (La `CLIENT_SECRET` variable Postman doit correspondre aux informations d’identification de l’ `CLIENT SECRET` Adobe affichées dans la Console développeur et `API_KEY` dans Postman doit également correspondre `CLIENT ID` dans la Console développeur.) En revanche, la remarque `PRIVATE_KEY`, `JWT_TOKEN`et `ACCESS_TOKEN` sont vides. début en fournissant la `PRIVATE_KEY` valeur.
+7. Les valeurs des notes `CLIENT_SECRET` et `API_KEY` (ainsi que d’autres variables) sont prérenseignées, à partir de votre intégration, comme défini dans la console de développement des Adobes. (La `CLIENT_SECRET` variable Postman doit correspondre aux informations d’identification de l’ `CLIENT SECRET` Adobe affichées dans la Console développeur et `API_KEY` dans Postman doit également correspondre `CLIENT ID` dans la Console développeur.) En revanche, la remarque `PRIVATE_KEY`, `JWT_TOKEN`et `ACCESS_TOKEN` sont vides. Début en fournissant la `PRIVATE_KEY` valeur.
    ![JWT7](assets/configure-io-target-jwt7.png)
 
-   >[!SURPRISE]
+   >[!NOTE]
+   >
+   >**Surprise !**
    >
    >Quoique-nique ! Pouvez-vous vous souvenir où se trouve votre clé privée ?
    >C&#39;est exact, il se trouve dans le `config` fichier téléchargé plus tôt depuis la Console développeur de l&#39;Adobe !
