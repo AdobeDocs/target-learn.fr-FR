@@ -1,17 +1,17 @@
 ---
 title: Gérer les critères personnalisés
 keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe Target Recommendations comprend un ensemble dédié d'API qui vous permet de gérer votre catalogue de produits et/ou de contenu recommandés ; gérer vos algorithmes et campagnes de recommandations ; et diffuser des recommandations dans des objets JSON, HTML ou XML à afficher dans des canaux Web, mobiles, e-mail, IOT et autres.
+description: adobe target Recommendations comprend un ensemble dédié d'API qui vous permet de gérer votre catalogue de produits et/ou de contenu recommandés ; gérer vos algorithmes et campagnes de recommandations ; et diffuser des recommandations dans des objets JSON, HTML ou XML à afficher dans des canaux Web, mobiles, e-mail, IOT et autres.
 kt: 3815
 audience: developer
 doc-type: tutorial
 activity: use
 feature: api
 topics: recommendations;adobe recommendations;premium;api;apis
-solution: Adobe Target
+solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 78b30bc0018527f9d8b2a5b50edee86e877d14c7
+source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
 workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 1%
@@ -45,7 +45,7 @@ Ne passez à ce didacticiel qu’après avoir lu l’avertissement ci-dessus et 
 
    ![CreateCustomCriteria1](assets/CreateCustomCriteria1.png)
 
-2. Ajoutez votre **corps** en tant que fichier JSON **brut** qui définit l’emplacement de votre fichier CSV de critères personnalisés. Utilisez l’exemple fourni dans la documentation de l’API [](https://developers.adobetarget.com/api/recommendations/#operation/getAllCriteriaCustom) Créer des critères personnalisés comme modèle, en fournissant vos `environmentId` valeurs et d’autres valeurs si nécessaire. Pour cet exemple, nous utilisons LAST_PURCHASED comme clé.
+2. ajoutez votre **corps** en tant que fichier JSON **brut** qui définit l’emplacement de votre fichier CSV de critères personnalisés. Utilisez l’exemple fourni dans la documentation de l’API [](https://developers.adobetarget.com/api/recommendations/#operation/getAllCriteriaCustom) Créer des critères personnalisés comme modèle, en fournissant vos `environmentId` valeurs et d’autres valeurs si nécessaire. Pour cet exemple, nous utilisons LAST_PURCHASED comme clé.
 
    ![CreateCustomCriteria2](assets/CreateCustomCriteria2.png)
 
