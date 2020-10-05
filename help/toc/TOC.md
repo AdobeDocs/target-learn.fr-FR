@@ -1,12 +1,13 @@
 ---
+title: Didacticiels d’Adobe Target
 user-guide-title: Didacticiels d’Adobe Target
 breadcrumb-title: Target Tutorials
 audience: end-user
 solution: Target
 translation-type: tm+mt
-source-git-commit: 23f1b9b62d88596ec6571e9d4d90798dd14a5de9
+source-git-commit: 7e57febf5f552d697260283a3f98f9b403663f28
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '371'
 ht-degree: 8%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 8%
 
 # Didacticiels d’Adobe Target {#tutorials}
 
-+ [Aperçu](../overview.md)
++ [Présentation des Tutorials Adobe Target](../overview.md)
 + Administration{#administration}
    + [Stratégie de mise en oeuvre et gouvernance du système](../dev101/1.1-implementation-strategy-sys-governance.md)
    + [Configuration des préférences de compte](../administration/set-up-account-preferences.md)
