@@ -1,7 +1,7 @@
 ---
 title: Configuration de l’authentification pour les API Adobe Target
 keywords: recommendations;adobe recommendations;premium;api;apis
-description: adobe target Recommendations comprend un ensemble dédié d'API qui vous permet de gérer votre catalogue de produits et/ou de contenu recommandés ; gérer vos algorithmes et campagnes de recommandations ; et diffuser des recommandations dans des objets JSON, HTML ou XML à afficher dans des canaux Web, mobiles, e-mail, IOT et autres.
+description: Adobe Target Recommendations comprend un ensemble dédié d'API qui vous permet de gérer votre catalogue de produits et/ou de contenu recommandés ; gérer vos algorithmes et campagnes de recommandations ; et diffuser des recommandations dans des objets JSON, HTML ou XML à afficher dans des canaux Web, mobiles, e-mail, IOT et autres.
 kt: null
 audience: developer
 doc-type: tutorial
@@ -11,7 +11,7 @@ topics: recommendations;adobe recommendations;premium;api;apis
 solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 7e57febf5f552d697260283a3f98f9b403663f28
+source-git-commit: 624172d4bc4bc2431ad8af0956c93d3bcc0b9870
 workflow-type: tm+mt
 source-wordcount: '1885'
 ht-degree: 2%
@@ -181,13 +181,17 @@ Dans cet exercice, vous utiliserez votre nouveau jeton d&#39;accès au porteur e
 1. Ouvrez le module Gérer les Environnements, puis sélectionnez votre environnement.
    ![JWT11](assets/configure-io-target-jwt11.png)
 1. Tapez pour ajouter une nouvelle variable `{{TENANT_ID}}` d&#39;environnement. Copiez et collez la valeur de votre ID de client dans les champs VALEUR **** INITIALE et VALEUR **** ACTUELLE pour votre nouvelle variable d’ `TENANT_ID` environnement.
+
    ![testtoken5](assets/configure-io-target-testtoken5.png)
+
    >[!NOTE]
    >
    >L&#39;ID du locataire est différent de votre [!DNL Target]`clientcode`. L&#39;ID de client existe dans l&#39;URL lorsque vous êtes connecté à [!DNL Target]. Pour obtenir votre ID de locataire, connectez-vous au [!DNL Adobe Experience Cloud], ouvrez [!DNL Target], puis cliquez sur la [!DNL Target] carte. Utilisez la valeur ID du client comme indiqué dans le sous-domaine URL.
    >
    >Par exemple, si votre URL lors de la connexion à Adobe Target est
-   ><https://mycompany.experiencecloud.adobe.com/...>
+   >
+   >`<https://mycompany.experiencecloud.adobe.com/...>`
+   >
    >votre ID de client est alors &quot;mycompany&quot;.
 
 1. Envoyez votre demande, après avoir sélectionné l’environnement approprié. Vous devriez recevoir une réponse contenant votre liste d&#39;activités.
