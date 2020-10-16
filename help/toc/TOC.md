@@ -1,14 +1,14 @@
 ---
 title: Didacticiels d’Adobe Target
 user-guide-title: Didacticiels d’Adobe Target
-breadcrumb-title: Target Tutorials
+breadcrumb-title: Tutoriels Target
 audience: end-user
 solution: Target
 translation-type: tm+mt
 source-git-commit: 6b8bded0235ed9d894fe30ff505d39b789fbeef1
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 8%
+source-wordcount: '378'
+ht-degree: 9%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 8%
    + [Présentation des demandes de Cible](../dev101/2.3-intro-to-target-requests.md)
    + [Présentation des paramètres de Cible](../dev101/2.4-intro-to-target-params.md)
    + [Fonctionnement d’at.js 2.0](../implementation/understanding-how-atjs-20-works.md)
-   + [Mise en oeuvre d’at.js 2.0 dans une application monopage (SPA)](../implementation/implement-atjs-20-in-a-single-page-application.md)
+   + [Mise en oeuvre d’at.js 2.0 dans une application d’une seule page (SPA)](../implementation/implement-atjs-20-in-a-single-page-application.md)
    + [Conception d’une mise en oeuvre de Cible](../dev101/2.5-design-target-implementation.md)
    + [Étapes suivantes pour concevoir une mise en oeuvre de Cible](../dev101/2.6-next-steps-design-target-implementation.md)
    + [Utiliser l’inclusion pour contrôler les solutions Experience Cloud en fonction du consentement de l’utilisateur](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/id-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html)
@@ -65,7 +65,7 @@ ht-degree: 8%
    + [Utiliser la comparaison des Profils pour créer des Audiences](../audiences/use-profile-comparison-to-build-audiences.md)
 + Expériences{#experiences}
    + [Utilisation du compositeur d’expérience visuelle](../experiences/use-the-visual-experience-composer.md)
-   + [Utilisation du compositeur d’expérience visuelle pour les applications d’une seule page (compositeur d’expérience visuelle d’une seule page)](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
+   + [Utilisation du compositeur d’expérience visuelle pour les applications d’une seule page (SPA compositeur d’expérience visuelle)](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
    + [Utilisation du compositeur d’expérience d’après les formulaires](../experiences/use-the-form-based-experience-composer.md)
    + [Utilisation de fragments d’expérience AEM dans Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
 + Rapports{#reports}
