@@ -4,10 +4,11 @@ user-guide-title: Didacticiels d’Adobe Target
 breadcrumb-title: Tutoriels Target
 audience: end-user
 solution: Target
+type: tutorial
 translation-type: tm+mt
-source-git-commit: 6b8bded0235ed9d894fe30ff505d39b789fbeef1
+source-git-commit: 009b19539470c64d7497e848e6042f8399192903
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '381'
 ht-degree: 9%
 
 ---
@@ -37,13 +38,14 @@ ht-degree: 9%
    + [Étapes suivantes pour concevoir une mise en oeuvre de Cible](../dev101/2.6-next-steps-design-target-implementation.md)
    + [Utiliser l’inclusion pour contrôler les solutions Experience Cloud en fonction du consentement de l’utilisateur](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/id-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html)
    + [Comprendre le déploiement hybride Adobe Target](../implementation/hybrid-deployment.md)
+   + [Présentation de la prise de décision sur le périphérique](../implementation/on-device-decisioning-overview.md)
 + Intégrations{#integrations}
    + [Intégration de la Cible à Analytics](../dev101/3.2-target-analytics.md)
    + [Utilisation d’Analytics en tant que source de données pour la Cible (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
    + [Intégrer la Cible à l&#39;Audience Manager](../dev101/3.3-target-dmp.md)
    + [Intégrer la Cible aux Audiences Experience Cloud](../dev101/3.4-target-exc-audiences.md)
    + [Intégration de Target à  Campaign](../dev101/3.6-target-campaign.md)
-   + [Intégration de la Cible avec les E/S Adobe](../dev101/3.7-target-io.md)
+   + [Intégrer la Cible à Adobe I/O](../dev101/3.7-target-io.md)
    + [Intégration de la Cible avec Scene7](../dev101/3.8-target-scene7.md)
    + [Intégration de la Cible avec Adobe Experience Manager](../dev101/3.5-target-aem.md)
    + [Utilisation de fragments d’expérience AEM dans Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
