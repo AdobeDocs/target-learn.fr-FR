@@ -1,5 +1,5 @@
 ---
-title: Configuration des préférences de compte dans l’Adobe Target
+title: Configuration des préférences de compte en Adobe Target
 description: valeur nulle
 audience: administrator
 difficulty: 1
