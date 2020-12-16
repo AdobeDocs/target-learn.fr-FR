@@ -1,6 +1,6 @@
 ---
 title: Création d’un flux dans Recommendations
-seo-title: Création d’un flux dans l’Adobe Target Recommendations
+seo-title: Création d’un flux dans Adobe Target Recommendations
 audience: marketer
 difficulty: 3
 author: Daniel Wright
