@@ -1,6 +1,6 @@
 ---
-title: Utilisation du compositeur d’expérience d’après les formulaires dans un Adobe Target
-seo-title: Utilisation du compositeur d’expérience d’après les formulaires dans un Adobe Target
+title: Utilisation du compositeur d’expérience d’après les formulaires en Adobe Target
+seo-title: Utilisation du compositeur d’expérience d’après les formulaires en Adobe Target
 description: valeur nulle
 audience: marketer
 difficulty: 1
@@ -16,6 +16,6 @@ ht-degree: 4%
 ---
 
 
-# Utilisation du compositeur d’expérience d’après les formulaires dans un Adobe Target
+# Utilisation du compositeur d’expérience d’après les formulaires en Adobe Target
 
 >[!VIDEO](https://video.tv.adobe.com/v/17390/?quality=12)
