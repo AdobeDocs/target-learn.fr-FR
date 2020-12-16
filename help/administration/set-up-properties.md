@@ -1,5 +1,5 @@
 ---
-title: Configuration des propriétés dans l’Adobe Target
+title: Configuration des propriétés en Adobe Target
 description: valeur nulle
 audience: administrator
 difficulty: 1
