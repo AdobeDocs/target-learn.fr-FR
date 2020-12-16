@@ -1,6 +1,6 @@
 ---
 title: Création de conceptions personnalisées dans Recommendations
-seo-title: Créer des conceptions personnalisées dans le Recommendations Adobe Target
+seo-title: Création de conceptions personnalisées dans Adobe Target Recommendations
 audience: marketer
 difficulty: 3
 author: Daniel Wright
