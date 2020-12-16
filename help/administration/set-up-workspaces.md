@@ -1,5 +1,5 @@
 ---
-title: Configuration des espaces de travail dans l’Adobe Target
+title: Configuration des espaces de travail en Adobe Target
 description: valeur nulle
 audience: administrator
 difficulty: 1
