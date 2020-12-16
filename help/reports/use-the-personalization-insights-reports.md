@@ -1,5 +1,5 @@
 ---
-title: Utilisation des rapports Custom Insights dans l’Adobe Target
+title: Utilisation des rapports Custom Insights en Adobe Target
 description: Les activités Automated Personalization et Auto-Cible utilisent l’apprentissage automatique avancé pour offrir à chaque visiteur l’expérience la plus adaptée en fonction de son profil client individuel et du comportement des visiteurs précédents ayant des profils similaires. Les rapports Custom Insights fournissent des informations sur la manière dont ces modèles prennent leurs décisions.
 audience: analyst
 difficulty: 3
