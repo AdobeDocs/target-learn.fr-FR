@@ -1,6 +1,6 @@
 ---
 title: Créer des collections et des exclusions
-seo-title: Créer des collections et des exclusions dans le Recommendations Adobe Target
+seo-title: Créer des collections et des exclusions dans Adobe Target
 description: null
 audience: marketer
 difficulty: 3
