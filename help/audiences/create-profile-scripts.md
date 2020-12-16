@@ -1,6 +1,6 @@
 ---
-title: Création de scripts de Profil dans un Adobe Target
-seo-title: Création de scripts de Profil dans un Adobe Target
+title: Création de scripts de Profil dans Adobe Target
+seo-title: Création de scripts de Profil dans Adobe Target
 description: valeur nulle
 audience: marketer
 difficulty: 5
@@ -16,6 +16,6 @@ ht-degree: 5%
 ---
 
 
-# Création de scripts de Profil dans un Adobe Target
+# Création de scripts de Profil dans Adobe Target
 
 >[!VIDEO](https://video.tv.adobe.com/v/17394/?quality=12)
