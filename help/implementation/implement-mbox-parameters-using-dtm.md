@@ -16,6 +16,6 @@ ht-degree: 4%
 ---
 
 
-# Mise en oeuvre des paramètres de mbox pour l’Adobe Target à l’aide de la gestion dynamique des balises
+# Mise en oeuvre des paramètres de mbox pour Adobe Target à l’aide de la gestion dynamique des balises
 
 >[!VIDEO](https://video.tv.adobe.com/v/17383/?quality=12)
