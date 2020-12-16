@@ -1,5 +1,5 @@
 ---
-title: Utilisation du ciblage des Activités dans l’Adobe Target
+title: Utilisation du ciblage des Activités dans Adobe Target
 description: valeur nulle
 audience: marketer
 difficulty: 2
