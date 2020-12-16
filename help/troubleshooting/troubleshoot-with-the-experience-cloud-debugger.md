@@ -1,5 +1,5 @@
 ---
-title: Résolution des problèmes d'Adobe Target avec l'Experience Cloud Debugger
+title: Résolution des problèmes liés à Adobe Target avec l'Experience Cloud Debugger
 description: Le débogueur Adobe Experience Cloud vous permet de comprendre rapidement et facilement votre implémentation Target. Vous pouvez afficher rapidement la configuration de votre bibliothèque, examiner les demandes pour vérifier que vos paramètres personnalisés sont transmis correctement, activer la journalisation de la console et désactiver toutes les demandes Target. Authentifiez-vous dans Experience Cloud afin de pouvoir utiliser le puissant outil Mbox Trace pour inspecter vos qualifications d’activité et d’audience ainsi que votre profil de visiteur.
 audience: marketer
 difficulty: 3
