@@ -1,5 +1,5 @@
 ---
-title: Utiliser des mesures dans les Activités d'Adobe Target
+title: Utiliser des mesures dans les Activités Adobe Target
 description: valeur nulle
 audience: marketer
 difficulty: 2
