@@ -15,8 +15,8 @@ ht-degree: 2%
 
 + [Aperçu](overview.md)
 + [Téléchargement et mise à jour de l’exemple d’application](download-and-update-the-sample-app.md)
-+ [Ajouter des requêtes](add-requests.md)
-+ [Paramètres de Ajoute](add-parameters.md)
++ [Demandes d&#39;Ajoute](add-requests.md)
++ [Paramètres d&#39;Ajoute](add-parameters.md)
 + [Créer des Audiences et des Offres](create-audiences-and-offers.md)
 + [Personnaliser les mises en page](personalize-layouts.md)
 + [Marquage des fonctionnalités](feature-flagging.md)
