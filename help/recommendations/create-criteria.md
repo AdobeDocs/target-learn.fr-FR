@@ -1,6 +1,6 @@
 ---
 title: Création de critères dans Recommendations
-seo-title: Créer des critères dans le Recommendations Adobe Target
+seo-title: Créer des critères dans Adobe Target Recommendations
 audience: marketer
 difficulty: 3
 author: Daniel Wright
