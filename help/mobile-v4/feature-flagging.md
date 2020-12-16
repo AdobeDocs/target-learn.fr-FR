@@ -1,8 +1,8 @@
 ---
 title: Marquage des fonctionnalités
 seo-title: Marquage des fonctionnalités
-description: L'Adobe Target peut être utilisé pour expérimenter des fonctionnalités UX telles que la couleur, la copie, les boutons, le texte et les images et fournir ces fonctionnalités à des audiences spécifiques.
-seo-description: L'Adobe Target peut être utilisé pour expérimenter des fonctionnalités UX telles que la couleur, la copie, les boutons, le texte et les images et fournir ces fonctionnalités à des audiences spécifiques.
+description: Adobe Target peut être utilisé pour expérimenter des fonctionnalités UX telles que la couleur, la copie, les boutons, le texte et les images et fournir ces fonctionnalités à des audiences spécifiques.
+seo-description: Adobe Target peut être utilisé pour expérimenter des fonctionnalités UX telles que la couleur, la copie, les boutons, le texte et les images et fournir ces fonctionnalités à des audiences spécifiques.
 feature: mobile
 kt: 3040
 audience: developer
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 # Marquage des fonctionnalités
 
-Les propriétaires de produits d&#39;applications mobiles ont besoin de la flexibilité nécessaire pour déployer de nouvelles fonctionnalités dans leur application sans avoir à investir dans plusieurs versions d&#39;applications. Ils peuvent également souhaiter déployer progressivement des fonctionnalités sur un pourcentage de la base d’utilisateurs afin de tester l’efficacité. L&#39;Adobe Target peut être utilisé pour expérimenter des fonctionnalités UX telles que la couleur, la copie, les boutons, le texte et les images et fournir ces fonctionnalités à des audiences spécifiques.
+Les propriétaires de produits d&#39;applications mobiles ont besoin de la flexibilité nécessaire pour déployer de nouvelles fonctionnalités dans leur application sans avoir à investir dans plusieurs versions d&#39;applications. Ils peuvent également souhaiter déployer progressivement des fonctionnalités sur un pourcentage de la base d’utilisateurs afin de tester l’efficacité. Adobe Target peut être utilisé pour expérimenter des fonctionnalités UX telles que la couleur, la copie, les boutons, le texte et les images et fournir ces fonctionnalités à des audiences spécifiques.
 
 Dans cette leçon, nous allons créer une offre &quot;indicateur de fonction&quot; qui peut être utilisée comme déclencheur pour activer des fonctionnalités spécifiques de l&#39;application.
 
@@ -28,7 +28,7 @@ Dans cette leçon, nous allons créer une offre &quot;indicateur de fonction&quo
 À la fin de cette leçon, vous pourrez :
 
 * Ajouter un nouvel emplacement à la demande de prérécupération par lot
-* Créer une [!DNL Target] activité avec une offre qui sera utilisée comme indicateur de fonctionnalité
+* Créer une activité [!DNL Target] avec une offre qui sera utilisée comme indicateur de fonctionnalité
 * Charger et valider l’offre d’indicateur de fonction dans votre application
 
 ## Ajouter un nouvel emplacement à la demande de prérécupération sur l&#39;Activité d&#39;accueil
@@ -41,7 +41,7 @@ Dans l&#39;application de démonstration de nos leçons précédentes, nous allo
 
 Tout d’abord, vérifiez que la constante wetravel_feature_flag_recs est ajoutée dans le fichier Constant.java :
 
-![Constante d’indicateur de fonction Ajoute](assets/feature_flag_constant.jpg)
+![Constante d&#39;indicateur de fonction d&#39;Ajoute](assets/feature_flag_constant.jpg)
 
 Voici le code :
 
@@ -49,7 +49,7 @@ Voici le code :
 public static final String wetravel_feature_flag_recs = "wetravel_feature_flag_recs";
 ```
 
-Ajoutez maintenant l’emplacement à la requête de prérécupération et chargez une nouvelle fonction appelée `processFeatureFlags()`:
+Ajoutez maintenant l’emplacement à la requête de prérécupération et chargez une nouvelle fonction appelée `processFeatureFlags()` :
 
 ![Code d’indicateur de fonction](assets/feature_flag_code.jpg)
 
@@ -112,13 +112,13 @@ Une fois le code ajouté, exécutez l’émulateur sur l’Activité d’accueil
 
 ## Création d’une Offre JSON d’indicateur de fonction
 
-Nous allons maintenant créer une simple offre JSON qui servira d&#39;indicateur ou de déclencheur pour une audience spécifique - l&#39;audience qui recevra le déploiement de la fonctionnalité dans son application. Dans l’ [!DNL Target] interface, créez une offre :
+Nous allons maintenant créer une simple offre JSON qui servira d&#39;indicateur ou de déclencheur pour une audience spécifique - l&#39;audience qui recevra le déploiement de la fonctionnalité dans son application. Dans l&#39;interface [!DNL Target], créez une offre :
 
 ![Créer une Offre JSON d’indicateur de fonction](assets/feature_flag_json_offer.jpg)
 
 Nommons-le &quot;Feature Flag v1&quot; avec la valeur {&quot;enable&quot;:1}
 
-![Offre JSON feature_flag_v1](assets/feature_flag_json_name.jpg)
+![offre JSON feature_flag_v1](assets/feature_flag_json_name.jpg)
 
 ## Création d’une activité
 
@@ -132,16 +132,16 @@ Maintenant, créons une activité de test A/B avec cette offre. Pour obtenir des
 
 1. Cliquez sur **[!UICONTROL Ajouter l’expérience]** pour ajouter l’expérience B.
 1. Laissez l’emplacement &quot;wetravel_feature_flag_recs&quot;
-1. Conserver le contenu **** par défaut pour le contenu
-1. Click **[!UICONTROL Next]** to advance to the [!UICONTROL Targeting] screen
+1. Conserver **[!UICONTROL Contenu par défaut]** pour le contenu
+1. Cliquez sur **[!UICONTROL Suivant]** pour accéder à l’écran [!UICONTROL Ciblage].
 
    ![Configuration de l&#39;Activité d&#39;indicateur de fonction](assets/feature_flag_activity_2.jpg)
 
-1. Dans l’écran [!UICONTROL Ciblage] , vérifiez que la méthode d’affectation [!UICONTROL du] trafic est définie sur le paramètre par défaut (Manuel) et que chaque expérience dispose de l’affectation par défaut de 50 %. Sélectionnez **[!UICONTROL Suivant]** pour passer aux **[!UICONTROL Objectifs et paramètres]**.
+1. Dans l’écran [!UICONTROL Ciblage], vérifiez que la méthode [!UICONTROL Affectation du trafic] est définie sur le paramètre par défaut (Manuel) et que chaque expérience possède l’affectation par défaut de 50 %. Sélectionnez **[!UICONTROL Suivant]** pour passer à **[!UICONTROL Objectifs et paramètres]**.
 
    ![Configuration de l&#39;Activité d&#39;indicateur de fonction](assets/feature_flag_activity_3.jpg)
 
-1. Définissez l’objectif **** Principal sur **[!UICONTROL Conversion]**.
+1. Définissez **[!UICONTROL Objectif Principal]** sur **[!UICONTROL Conversion]**.
 1. Définissez l’action sur **[!UICONTROL Affichage d’une mbox]**. Nous utiliserons l&#39;emplacement &quot;wetravel_context_dest&quot; (puisque cet emplacement se trouve sur l&#39;écran de confirmation, nous pouvons l&#39;utiliser pour voir si la nouvelle fonctionnalité conduit à plus de conversions).
 1. Cliquez sur **[!UICONTROL Enregistrer et fermer]**.
 
@@ -151,19 +151,19 @@ activer l’activité ;
 
 ## Valider l&#39;Activité d&#39;indicateur de fonction
 
-Utilisez maintenant l’émulateur pour surveiller la demande. Puisque le ciblage est défini sur 50 % des utilisateurs, la réponse de l’indicateur de fonction contient la `{enable:1}` valeur 50 %.
+Utilisez maintenant l’émulateur pour surveiller la demande. Puisque le ciblage est défini sur 50 % des utilisateurs, la réponse de l’indicateur de fonction contient la valeur `{enable:1}`.
 
 ![Validation des indicateurs de fonction](assets/feature_flag_validation.jpg)
 
-Si vous ne voyez pas la `{enable:1}` valeur, cela signifie que vous n’avez pas été ciblé pour l’expérience. En tant que test temporaire, pour forcer l’offre à s’afficher, vous pouvez :
+Si vous ne voyez pas la valeur `{enable:1}`, cela signifie que vous n’avez pas été ciblé pour l’expérience. En tant que test temporaire, pour forcer l’offre à s’afficher, vous pouvez :
 
 1. Désactivez l’activité.
 1. Modifiez l’affectation du trafic à 100 % sur la nouvelle expérience de fonctionnalité.
 1. Enregistrez et réactivez.
 1. Essuyez les données de votre émulateur, puis redémarrez l’application.
-1. L’offre doit maintenant renvoyer la `{enable:1}` valeur.
+1. L’offre doit maintenant renvoyer la valeur `{enable:1}`.
 
-Dans un scénario en direct, la `{enable:1}` réponse peut être utilisée pour activer une logique plus personnalisée dans votre application afin d’afficher le jeu de fonctionnalités spécifique à afficher pour votre audience de cible.
+Dans un scénario en direct, la réponse `{enable:1}` peut être utilisée pour activer une logique plus personnalisée dans votre application afin d’afficher le jeu de fonctionnalités spécifique à afficher pour votre audience de cible.
 
 ## Conclusion
 
