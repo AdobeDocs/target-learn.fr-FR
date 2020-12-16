@@ -1,6 +1,6 @@
 ---
-title: Utiliser Analytics comme source de données pour la Cible (A4T)
-seo-title: Utiliser Analytics comme source de données pour la Cible (A4T)
+title: Utilisation d’Analytics en tant que source de données pour la Cible (A4T)
+seo-title: Utilisation d’Analytics en tant que source de données pour la Cible (A4T)
 description: valeur nulle
 audience: marketer
 difficulty: 2
@@ -16,6 +16,6 @@ ht-degree: 3%
 ---
 
 
-# Utiliser Adobe Analytics comme source de données pour l’Adobe Target (A4T)
+# Utiliser Adobe Analytics comme source de données pour Adobe Target (A4T)
 
 >[!VIDEO](https://video.tv.adobe.com/v/17384/?quality=12)
