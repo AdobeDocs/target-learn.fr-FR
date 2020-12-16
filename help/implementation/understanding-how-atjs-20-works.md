@@ -1,7 +1,7 @@
 ---
-title: Fonctionnement de l’Adobe Target at.js 2.0
-seo-title: Fonctionnement de l’Adobe Target at.js 2.0
-description: at.js 2.0 améliore la prise en charge des applications d’une seule page par l’Adobe Target et s’intègre à d’autres solutions Experience Cloud. Cette vidéo et les diagrammes qui l'accompagnent expliquent comment tout se rassemble.
+title: Fonctionnement de Adobe Target avec at.js 2.0
+seo-title: Fonctionnement de Adobe Target avec at.js 2.0
+description: at.js 2.0 améliore la prise en charge Adobe Target des applications d’une seule page (SPA) et s’intègre à d’autres solutions Experience Cloud. Cette vidéo et les diagrammes qui l'accompagnent expliquent comment tout se rassemble.
 audience: developer
 difficulty: 3
 author: Daniel Wright
@@ -16,9 +16,9 @@ ht-degree: 20%
 ---
 
 
-# Fonctionnement de l’Adobe Target at.js 2.0
+# Fonctionnement de Adobe Target avec at.js 2.0
 
-`at.js` La version 2.0 améliore la prise en charge des applications d’une seule page par l’Adobe Target et s’intègre à d’autres solutions Experience Cloud. Cette vidéo et les diagrammes qui l&#39;accompagnent expliquent comment tout se rassemble.
+`at.js` La version 2.0 améliore la prise en charge des applications d’une seule page par Adobe Target (SPA) et s’intègre à d’autres solutions Experience Cloud. Cette vidéo et les diagrammes qui l&#39;accompagnent expliquent comment tout se rassemble.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?quality=12)
 
@@ -32,17 +32,17 @@ ht-degree: 20%
 
 1. La demande de chargement de page comprend tous les paramètres configurés, ECID, SDID et ID de client.
 
-1. Profile scripts execute and feed into the [!UICONTROL Profile Store]. The Store requests qualified audiences from the [!UICONTROL Audience Library] (e.g. audiences shared from [!DNL Analytics], Audience Manager, etc). [!UICONTROL Les attributs] du client sont envoyés au magasin [!UICONTROL de] Profils par lots.
-1. Based on URL, request parameters, and profile data, [!DNL Target] decides which Activities and Experiences to return to the visitor for the current page and future views
+1. Les scripts de profil s’exécutent et sont insérés dans le [!UICONTROL Profil Store]. Le magasin demande des audiences qualifiées à la [!UICONTROL bibliothèque d&#39;Audiences] (par exemple, audiences partagées à partir de [!DNL Analytics], Audience Manager, etc.). [!UICONTROL Les ] attributs du client sont envoyés à  [!UICONTROL Profil ] Storein dans un traitement par lot.
+1. En fonction de l’URL, des paramètres de requête et des données de profil, [!DNL Target] décide quelles Activités et expériences renvoyer au visiteur pour la page active et les futures vues.
 
 1. Contenu ciblé renvoyé à la page, incluant éventuellement des valeurs de profil pour une personnalisation supplémentaire.
 
    Le contenu ciblé sur la page actuelle est affiché aussi rapidement que possible, sans scintillement du contenu par défaut.
 
-   Le contenu ciblé pour les futures vues d’une application d’une seule page est mis en cache dans le navigateur, de sorte qu’il peut être immédiatement appliqué sans appel de serveur supplémentaire lorsque les vues sont déclenchées. (Voir le diagramme suivant pour `triggerView()` le comportement).
+   Le contenu ciblé pour les futures vues d’une application d’une seule page est mis en cache dans le navigateur, de sorte qu’il peut être immédiatement appliqué sans appel de serveur supplémentaire lorsque les vues sont déclenchées. (Voir le diagramme suivant pour le comportement de `triggerView()`).
 
-1. [!DNL Analytics] données envoyées de la page aux serveurs de collecte [!UICONTROL de] données
-1. [!DNL Target]Les données sont associées aux données par l’intermédiaire du SDID et sont traitées dans le magasin de rapports Analytics. [!DNL Analytics] [!DNL Analytics] les données peuvent ensuite être visualisées à la fois dans [!DNL Analytics] et [!DNL Target] via les rapports A4T.
+1. [!DNL Analytics] données envoyées de la page aux serveurs de  [!UICONTROL collecte de ] données
+1. [!DNL Target]Les données sont associées aux données par l’intermédiaire du SDID et sont traitées dans le magasin de rapports Analytics. [!DNL Analytics] [!DNL Analytics] les données peuvent ensuite être visualisées dans  [!DNL Analytics] et  [!DNL Target] via les rapports A4T.
 
 ![comportement d’at.js 2.0 lorsque la fonction triggerView() est utilisée](assets/triggerview.png)
 
@@ -52,12 +52,12 @@ ht-degree: 20%
 1. Le contenu ciblé s’affiche aussi rapidement que possible, sans scintillement du contenu par défaut
 
 1. La demande de notification est envoyée au magasin de profils [!DNL Target] pour compter le visiteur dans l’activité et incrémenter les mesures
-1. [!DNL Analytics] les données sont envoyées depuis l’application d’une seule page aux serveurs de collecte [!UICONTROL de] données
+1. [!DNL Analytics] les données sont envoyées du SPA aux serveurs de  [!UICONTROL collecte de ] données
 
-1. [!DNL Target] les données sont envoyées depuis l’ [!DNL Target] arrière-plan aux serveurs de collecte [!UICONTROL de] données. Les données [!DNL Target] sont associées aux données [!DNL Analytics] par l’intermédiaire du SDID et sont traitées dans le magasin de rapports [!DNL Analytics]. [!DNL Analytics] les données peuvent ensuite être visualisées à la fois dans [!DNL Analytics] et [!DNL Target] via les rapports A4T.
+1. [!DNL Target] les données sont envoyées depuis l’ [!DNL Target] arrière-plan aux serveurs  [!UICONTROL de ] collecte de données. Les données [!DNL Target] sont associées aux données [!DNL Analytics] par l’intermédiaire du SDID et sont traitées dans le magasin de rapports [!DNL Analytics]. [!DNL Analytics] les données peuvent ensuite être visualisées dans  [!DNL Analytics] et  [!DNL Target] via les rapports A4T.
 
 ## Ressources supplémentaires
 
 * [Mise en oeuvre d’at.js 2.0 dans une application d’une seule page](implement-atjs-20-in-a-single-page-application.md)
-* [Utilisation du compositeur d’expérience visuelle d’Adobe Target pour les applications d’une seule page (compositeur d’expérience visuelle d’application monopage)](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
+* [Utilisation du compositeur d’expérience visuelle Adobe Target pour les applications d’une seule page (SPA compositeur d’expérience visuelle)](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
 * [Documentation du fonctionnement d’at.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/at-js/how-atjs-works.html)
