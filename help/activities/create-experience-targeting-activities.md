@@ -1,5 +1,5 @@
 ---
-title: Création d’Activités de ciblage d’expérience dans un Adobe Target
+title: Création d’Activités de ciblage d’expérience dans Adobe Target
 description: Les activités de ciblage d’expérience permettent aux spécialistes du marketing de cible du contenu spécifique à une audience spécifique.
 seo-description: Les activités de ciblage d’expérience permettent aux spécialistes du marketing de cible du contenu spécifique à une audience spécifique.
 audience: marketer
