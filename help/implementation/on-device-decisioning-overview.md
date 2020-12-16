@@ -37,7 +37,7 @@ La prise de décision Adobe Target sur le périphérique permet une diffusion de
 * Décrire la prise de décision sur le périphérique et ses avantages
 * Activer la prise de décision sur le périphérique dans la Cible
 * Création d’une activité de compositeur basée sur des formulaires destinée à être utilisée avec la prise de décision sur le périphérique
-* Pour en savoir plus sur la configuration du SDK requise pour la prise de décision sur le périphérique, consultez la documentation du SDK [Adobe Target.](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
+* Pour en savoir plus sur la configuration du SDK requise pour la prise de décision sur le périphérique, consultez la [documentation du SDK Adobe Target](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
 * Identifier les expériences des utilisateurs finaux concernant le contenu diffusé à l’aide de la prise de décision sur le périphérique
 
 
@@ -47,4 +47,4 @@ La prise de décision Adobe Target sur le périphérique permet une diffusion de
 
 >[!VIDEO](https://video.tv.adobe.com/v/329032/?quality=12)
 
-Pour plus d’informations, consultez la documentation [du SDK](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)Adobe Target.
+Pour plus d’informations, consultez la [documentation du SDK Adobe Target](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning).
