@@ -1,6 +1,6 @@
 ---
 title: Présentation des flux dans Recommendations
-seo-title: Présentation des flux dans le Recommendations Adobe Target
+seo-title: Présentation des flux dans Adobe Target Recommendations
 audience: marketer
 difficulty: 3
 author: Daniel Wright
