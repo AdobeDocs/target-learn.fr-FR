@@ -1,5 +1,5 @@
 ---
-title: Utiliser les paramètres d'Activité dans l'Adobe Target
+title: Utilisation des paramètres d’Activité dans Adobe Target
 description: valeur nulle
 audience: marketer
 difficulty: 2
