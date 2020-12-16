@@ -1,5 +1,5 @@
 ---
-title: Créer des tests multivariés dans un Adobe Target
+title: Création de tests multivariés en Adobe Target
 description: valeur nulle
 audience: marketer
 difficulty: 1
