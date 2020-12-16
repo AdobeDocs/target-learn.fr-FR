@@ -1,5 +1,5 @@
 ---
-title: Comprendre les autorisations d’utilisateur d’entreprise dans l’Adobe Target
+title: Comprendre les autorisations d’utilisateur d’entreprise en Adobe Target
 description: valeur nulle
 audience: administrator
 difficulty: 1
