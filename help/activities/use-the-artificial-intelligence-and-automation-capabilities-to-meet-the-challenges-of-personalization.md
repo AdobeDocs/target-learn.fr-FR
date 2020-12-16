@@ -1,7 +1,7 @@
 ---
-title: 'Utiliser les capacités d''intelligence artificielle et d''automatisation de l''Adobe Target pour relever les défis de la personnalisation '
-description: Cette vidéo traite de l'importance de la personnalisation, des défis à relever pour bien personnaliser la personnalisation, de la solution à ces défis (les quatre offres d'IA/Automatisation en Adobe Target) et des éléments clés pour fournir des expériences personnalisées. Il s'agit d'une version éditée de la présentation du Sommet des Adobes 2018 de Jamie Brighton.
-seo-description: Cette vidéo traite de l'importance de la personnalisation, des défis à relever pour bien personnaliser la personnalisation, de la solution à ces défis (les quatre offres d'IA/Automatisation en Adobe Target) et des éléments clés pour fournir des expériences personnalisées. Il s'agit d'une version éditée de la présentation du Sommet des Adobes 2018 de Jamie Brighton.
+title: 'Utiliser les capacités d''intelligence artificielle et d''automatisation de Adobe Target pour relever les défis de la personnalisation '
+description: Cette vidéo traite de l'importance de la personnalisation, des défis que représente la personnalisation, de la solution à ces défis (les quatre offres d'IA/Automatisation en Adobe Target) et des éléments clés pour fournir des expériences personnalisées. Il s'agit d'une version éditée de la présentation du Sommet des Adobes 2018 de Jamie Brighton.
+seo-description: Cette vidéo traite de l'importance de la personnalisation, des défis que représente la personnalisation, de la solution à ces défis (les quatre offres d'IA/Automatisation en Adobe Target) et des éléments clés pour fournir des expériences personnalisées. Il s'agit d'une version éditée de la présentation du Sommet des Adobes 2018 de Jamie Brighton.
 audience: marketer
 difficulty: 1
 author: Daniel Wright
@@ -19,6 +19,6 @@ ht-degree: 0%
 
 # Utiliser les capacités d&#39;intelligence artificielle et d&#39;automatisation pour relever les défis de la personnalisation
 
-Cette vidéo traite de l&#39;importance de la personnalisation, des défis à relever pour bien personnaliser la personnalisation, de la solution à ces défis (les quatre offres d&#39;IA/Automatisation en Adobe Target) et des éléments clés pour fournir des expériences personnalisées. Il s&#39;agit d&#39;une version éditée de la présentation du Sommet des Adobes 2018 de Jamie Brighton.
+Cette vidéo traite de l&#39;importance de la personnalisation, des défis que représente la personnalisation, de la solution à ces défis (les quatre offres d&#39;IA/Automatisation en Adobe Target) et des éléments clés pour fournir des expériences personnalisées. Il s&#39;agit d&#39;une version éditée de la présentation du Sommet des Adobes 2018 de Jamie Brighton.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25440/?quality=12)
