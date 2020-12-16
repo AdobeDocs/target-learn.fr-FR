@@ -1,6 +1,6 @@
 ---
 title: Utilisation des Offres Recommendations dans les Activités de test A/B et de ciblage d’expérience
-seo-title: Utilisation des Offres Recommendations dans les Activités de test A/B et de ciblage d’expérience dans l’Adobe Target
+seo-title: Utilisation des Offres Recommendations dans les Activités de test A/B et de ciblage d’expérience dans Adobe Target
 description: Les offres Recommendations peuvent être utilisées avec les Activités de test A/B et de ciblage d’expérience.
 feature: recommendations
 kt: kt-3451
