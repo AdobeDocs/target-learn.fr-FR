@@ -4,11 +4,11 @@ user-guide-title: Didacticiels d’Adobe Target
 breadcrumb-title: Tutoriels Target
 audience: end-user
 solution: Target
-type: tutorial
+type: didacticiel
 translation-type: tm+mt
 source-git-commit: 009b19539470c64d7497e848e6042f8399192903
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '382'
 ht-degree: 9%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 9%
    + [Intégrer la Cible à l&#39;Audience Manager](../dev101/3.3-target-dmp.md)
    + [Intégrer la Cible aux Audiences Experience Cloud](../dev101/3.4-target-exc-audiences.md)
    + [Intégration de Target à  Campaign](../dev101/3.6-target-campaign.md)
-   + [Intégrer la Cible à Adobe I/O](../dev101/3.7-target-io.md)
+   + [Intégrer la Cible à l&#39;Adobe I/O](../dev101/3.7-target-io.md)
    + [Intégration de la Cible avec Scene7](../dev101/3.8-target-scene7.md)
    + [Intégration de la Cible avec Adobe Experience Manager](../dev101/3.5-target-aem.md)
    + [Utilisation de fragments d’expérience AEM dans Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
