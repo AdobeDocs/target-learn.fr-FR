@@ -6,10 +6,10 @@ audience: end-user
 solution: Target
 type: didacticiel
 translation-type: tm+mt
-source-git-commit: 009b19539470c64d7497e848e6042f8399192903
+source-git-commit: 60a434ae3bac84a9dfc3715850bb93ca8598ef2b
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 9%
+source-wordcount: '393'
+ht-degree: 8%
 
 ---
 
@@ -42,6 +42,7 @@ ht-degree: 9%
 + Intégrations{#integrations}
    + [Intégration de la Cible à Analytics](../dev101/3.2-target-analytics.md)
    + [Utilisation d’Analytics en tant que source de données pour la Cible (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
+   + [Configuration des rapports A4T en Analysis Workspace pour les Activités à Cible automatique](../integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)
    + [Intégrer la Cible à l&#39;Audience Manager](../dev101/3.3-target-dmp.md)
    + [Intégrer la Cible aux Audiences Experience Cloud](../dev101/3.4-target-exc-audiences.md)
    + [Intégration de Target à  Campaign](../dev101/3.6-target-campaign.md)
