@@ -10,7 +10,7 @@ topic: Analytics pour la Cible (A4T), Cible automatique
 solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 814ce9b49eff6cbc41a84bb65718f4e5f4f0142d
+source-git-commit: 98ea1a58e1adef2f8778fc0f6654228bf8b550ab
 workflow-type: tm+mt
 source-wordcount: '2237'
 ht-degree: 1%
@@ -34,7 +34,7 @@ Ce didacticiel présente les modifications recommandées pour l’analyse des ac
 
 Pour créer un rapport A4T pour [!DNL Auto-Target], début avec le panneau **[!UICONTROL Analyses pour la Cible]** dans Workspace, comme illustré ci-dessous, ou commencer par un tableau à structure libre. Ensuite, effectuez les sélections suivantes :
 
-1. **[!UICONTROL Expérience]** de contrôle : Vous pouvez choisir n’importe quelle expérience ; cependant, nous reprendrons plus tard ce choix. Notez que pour les activités [!DNL Auto-Target], l&#39;expérience de contrôle est en fait une stratégie de contrôle, qui est soit : a) servir de façon aléatoire parmi toutes les expériences, soit b) diffuser une seule expérience (ce choix est fait au moment de la création de l&#39;activité dans Adobe Target). Même si vous optez pour le choix b), votre activité [!DNL Auto-Target] a désigné une expérience spécifique comme le contrôle, vous devez tout de même suivre l&#39;approche décrite dans ce didacticiel pour analyser A4T pour les activités [!DNL Auto-Target].
+1. **[!UICONTROL Expérience]** de contrôle : Vous pouvez choisir n’importe quelle expérience ; toutefois, vous remplacerez ce choix plus tard. Notez que pour les activités [!DNL Auto-Target], l&#39;expérience de contrôle est en fait une stratégie de contrôle, qui est soit : a) servir de façon aléatoire parmi toutes les expériences, soit b) diffuser une seule expérience (ce choix est fait au moment de la création de l&#39;activité dans Adobe Target). Même si vous optez pour le choix b), votre activité [!DNL Auto-Target] a désigné une expérience spécifique comme le contrôle, vous devez tout de même suivre l&#39;approche décrite dans ce didacticiel pour analyser A4T pour les activités [!DNL Auto-Target].
 2. **[!UICONTROL Mesure]** de normalisation : Sélectionnez Visites.
 3. **[!UICONTROL Mesures]** de réussite : Bien que vous puissiez sélectionner une ou plusieurs mesures sur lesquelles générer un rapport, vous devez généralement vue des rapports sur la même mesure qui a été choisie pour l’optimisation lors de la création d’activités dans Adobe Target.
 
@@ -86,8 +86,8 @@ Comparons les rapports au niveau des visiteurs et des visites :
 
 | Expérience | Visiteurs uniques | Visites | Conversions | norme visiteuse. Conv. clics publicitaires | Norme de visite. Conv. clics publicitaires |
 | --- | --- | --- | --- | --- | --- |
-| Une | 1 | 1 | - | 0% | 0 % |
-| B | 2 | 3 | 3 | 50 % | 33,3 % |
+| Une | 1 | 3 | - | 0% | 0 % |
+| B | 2 | 3 | 1 | 50 % | 33,3 % |
 | Totaux | 2 | 4 | 3 | 50 % | 25 % |
 *Tableau 1 : Exemple de comparaison de rapports normalisés par visiteur et de rapports normalisés par visite pour un scénario dans lequel les décisions sont collantes à une visite (et non à un visiteur, comme dans le cas de tests A/B réguliers). Les mesures normalisées par visiteur sont déroutantes dans ce scénario.*
 
