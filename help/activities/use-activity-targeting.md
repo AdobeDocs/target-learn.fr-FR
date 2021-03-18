@@ -1,19 +1,35 @@
 ---
-title: Utilisation du ciblage des Activités dans Adobe Target
-description: valeur nulle
-audience: marketer
-difficulty: 2
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+title: Utilisation du ciblage des Activités
+description: Adobe Target fournit différents leviers pour contrôler les expériences présentées à différentes audiences lorsqu’une activité est activée. Apprenez à contrôler qui voit quoi en utilisant les audiences et l'affectation du trafic.
+role: Professionnel
+level: Intermédiaire
+topic: Personnalisation
+feature: Activités, Audiences
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 6ebdda26ef1e210cca495fe9ea73c67eca039d6f
+source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
 workflow-type: tm+mt
-source-wordcount: '10'
-ht-degree: 10%
+source-wordcount: '78'
+ht-degree: 29%
 
 ---
 
+
 # Utilisation du ciblage des Activités
+
+## Description
+
+Dans cette vidéo, vous apprendrez à :
+
+* Affecter une audience à votre activité
+* Augmenter ou ralentir le trafic
+* Sélectionner votre méthode d’affectation du trafic
+* Affecter du trafic entre différentes expériences
+
+## Audience prévue
+
+* Professionnel
 
 >[!VIDEO](https://video.tv.adobe.com/v/17385/?quality=12)
