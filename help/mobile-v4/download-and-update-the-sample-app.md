@@ -1,17 +1,17 @@
 ---
 title: Téléchargement et mise à jour de l’exemple d’application We.Travel
-seo-title: Téléchargez l’exemple d’application et vérifiez le SDK des services mobiles.
 description: 'L’exemple d’application We.Travel est préimplémenté avec le Adobe Mobile Services SDK v4. Il vous suffit de le mettre à jour pour qu''il pointe vers votre propre organisation Experience Cloud et vos comptes de solution.   '
-seo-description: L’exemple d’application We.Travel est préimplémenté avec le Adobe Mobile Services SDK v4. Il vous suffit de le mettre à jour pour qu'il pointe vers votre propre organisation Experience Cloud et vos comptes de solution.
-feature: mobile
-kt: 3040
-audience: developer
+role: Développeur
+level: Intermédiaire
+topic: Mobile, personnalisation
+feature: Mise en oeuvre de Mobile
 doc-type: tutorial
-activity-type: implement
+kt: 3040
+thumbnail: null
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
