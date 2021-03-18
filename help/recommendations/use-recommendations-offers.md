@@ -1,24 +1,25 @@
 ---
-title: Utilisation des Offres Recommendations dans les Activités de test A/B et de ciblage d’expérience
-seo-title: Utilisation des Offres Recommendations dans les Activités de test A/B et de ciblage d’expérience dans Adobe Target
-description: Les offres Recommendations peuvent être utilisées avec les Activités de test A/B et de ciblage d’expérience.
-feature: recommendations
-kt: kt-3451
-audience: marketer
-doc-type: feature-video
-activity-type: use
+title: Utilisation des Offres Recommendations dans les tests A/B et les Activités de ciblage d’expérience
+description: Découvrez comment utiliser les offres Recommendations dans les tests A/B et les Activités de ciblage d’expérience à Adobe Target.
+role: Professionnel
+level: Intermédiaire
+topic: Personnalisation
+feature: Recommendations, Cible automatique, affectation automatique
+doc-type: feature video
+thumbnail: null
+kt: 3451
 translation-type: tm+mt
-source-git-commit: cbc8499b9c4018d709d8d93405b3f816b091b36e
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 35%
+source-wordcount: '138'
+ht-degree: 29%
 
 ---
 
 
 # Utilisation des Offres Recommendations dans les Activités de test A/B et de ciblage d’expérience
 
-Les offres Recommendations peuvent être utilisées avec les Activités de test A/B et de ciblage d’expérience. Cette fonctionnalité offre de nouvelles fonctionnalités, telles que :
+Les offres Recommendations peuvent être utilisées avec les Activités de test A/B et de ciblage d’expérience. Cette fonctionnalité permet d’accéder à de riches fonctionnalités, ce qui vous permet d’effectuer les opérations suivantes :
 
 * Mélanger le contenu des recommandations et des non-recommandations dans la même activité
 * Testez facilement l’emplacement des recommandations sur la page, y compris l’ordre de plusieurs recommandations
