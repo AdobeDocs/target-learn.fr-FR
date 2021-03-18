@@ -1,17 +1,18 @@
 ---
-title: Création d’Activités de ciblage d’expérience dans Adobe Target
-description: Les activités de ciblage d’expérience permettent aux spécialistes du marketing de cible du contenu spécifique à une audience spécifique.
-seo-description: Les activités de ciblage d’expérience permettent aux spécialistes du marketing de cible du contenu spécifique à une audience spécifique.
-audience: marketer
-difficulty: 1
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+title: Comment créer des Activités de ciblage d’expérience
+description: Les activités de ciblage d’expérience permettent aux spécialistes du marketing de cible du contenu spécifique à une audience spécifique. Découvrez les avantages des activités XT et comment les créer et les utiliser.
+role: Professionnel
+level: Début
+topic: Personnalisation
+feature: Ciblage d’expérience, Activités, compositeur d’expérience visuelle (VEC)
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: bab376b87bb489492bde4e51f6e22ed0c6fa098d
+source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 22%
+source-wordcount: '221'
+ht-degree: 19%
 
 ---
 
@@ -19,6 +20,16 @@ ht-degree: 22%
 # Création d’Activités de ciblage d’expérience
 
 Le ciblage d’expérience est la première étape dans le monde de la personnalisation et commence souvent par des tests A/B. Un spécialiste du marketing exécute un test A/B et, en utilisant des audiences avec création de rapports, découvre que différentes expériences agissent différemment avec différentes audiences. Le ciblage d’expérience (ou ciblage d’expérience) permet au spécialiste du marketing d’exploiter facilement cette découverte et de passer au ciblage à long terme du contenu pour ces différents segments d’utilisateurs.
+
+## Description
+
+Dans cette vidéo, vous apprendrez à :
+
+* Utilisez le compositeur d’expérience visuelle Adobe Target (VEC) pour créer une activité de ciblage d’expérience (XT).
+
+## Audience prévue
+
+* Professionnels des affaires
 
 >[!VIDEO](https://video.tv.adobe.com/v/22418?quality=12)
 
