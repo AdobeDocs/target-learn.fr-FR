@@ -1,15 +1,17 @@
 ---
 title: Demandes d'Ajoute Adobe Target
 description: 'L’Adobe Mobile Services SDK (v4) fournit des méthodes et fonctionnalités Adobe Target qui vous permettent de personnaliser votre application avec différentes expériences pour différents utilisateurs.   '
-feature: mobile
-kt: 3040
-audience: developer
+role: Développeur
+level: Intermédiaire
+topic: Mobile, personnalisation
+feature: Mise en oeuvre de Mobile
 doc-type: tutorial
-activity-type: implement
+kt: 3040
+thumbnail: null
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '1804'
+source-wordcount: '1810'
 ht-degree: 0%
 
 ---
@@ -303,7 +305,7 @@ Il s’agit d’un modèle d’utilisation très courant lors de l’utilisation
 
 Ouvrez l’émulateur Android et suivez toutes les étapes pour réserver un voyage : Accueil > Résultats de la recherche de bus > Sélection de sièges, options de paiement (toute option de paiement avec des données vides fonctionnera).
 
-Sur l&#39;écran de remerciement final, regardez Logcat pour la réponse. La réponse doit se lire comme suit : &quot;Le contenu par défaut a été renvoyé pour &quot;wetravel_context_dest&quot; :
+Sur l’écran de remerciement final, regardez Logcat pour la réponse. La réponse doit se lire comme suit : &quot;Le contenu par défaut a été renvoyé pour &quot;wetravel_context_dest&quot; :
 
 ![Ajouter un emplacement en temps réel sur l&#39;écran de remerciement](assets/thankyou_validation.jpg)
 
