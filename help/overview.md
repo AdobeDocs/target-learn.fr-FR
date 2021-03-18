@@ -1,17 +1,16 @@
 ---
-title: Didacticiels d’Adobe Target
-seo-title: Didacticiels d’Adobe Target
-description: Une collection de vidéos et de didacticiels pratiques pour devenir un utilisateur influent de Adobe Target
+title: Découvrez comment utiliser Adobe Target
+description: Découvrez comment utiliser Adobe Target avec cette collection de didacticiels et de vidéos couvrant tous ses composants. Utilisez efficacement la puissance de Adobe Target.
 translation-type: tm+mt
-source-git-commit: f7aef8f332173c8dfca9fbb09d13c5a43a42ffbc
+source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 20%
+source-wordcount: '250'
+ht-degree: 16%
 
 ---
 
 
-# Didacticiels d’Adobe Target
+# Apprendre à utiliser Adobe Target
 
 Adobe Target est la solution d’Adobe Experience Cloud qui fournit tout ce dont vous avez besoin pour personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et d’autres canaux numériques. Utilisez ces vidéos et ces didacticiels pour découvrir les nombreux composants de l&#39;Adobe Target.
 
