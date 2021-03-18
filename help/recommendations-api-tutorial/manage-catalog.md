@@ -1,19 +1,18 @@
 ---
-title: Gérer votre catalogue Recommendations à l’aide d’API
-keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe Target Recommendations comprend un ensemble dédié d'API qui vous permet de gérer votre catalogue de produits et/ou de contenu recommandés ; gérer vos algorithmes et campagnes de recommandations ; et diffuser des recommandations dans des objets JSON, HTML ou XML à afficher dans des canaux Web, mobiles, e-mail, IOT et autres.
-kt: 3815
-audience: developer
+title: Gestion de votre catalogue Recommendations à l’aide d’API
+description: Cette partie du didacticiel guide les développeurs à travers les étapes requises pour utiliser les API Adobe Target pour créer, mettre à jour, enregistrer, obtenir et supprimer des entités dans votre catalogue Recommendations.
+role: Développeur
+level: Intermédiaire
+topic: Personnalisation, administration, intégrations, développement
+feature: API/SDK, Recommendations, Administration et configuration
 doc-type: tutorial
-activity: use
-feature: api
-topics: recommendations;adobe recommendations;premium;api;apis
-solution: Target
+kt: 3815
+thumbnail: null
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '924'
 ht-degree: 1%
 
 ---
