@@ -1,24 +1,23 @@
 ---
 title: Configuration des rapports A4T en Analysis Workspace pour les Activités à Cible automatique
-description: Comment configurer les rapports A4T en Analysis Workspace pour obtenir les résultats escomptés lors de l’exécution d’activités de Cible automatique
-kt: null
-audience: business user
-doc-type: tutorial
-activity: use, setup
+description: Une fois l’intégration d’Analytics pour la Cible (A4T) en place et les activités d’Cible automatique en cours d’exécution, comment pouvez-vous vous assurer d’interpréter correctement les résultats ? Suivez ces étapes pour configurer les rapports A4T en Analysis Workspace afin d’obtenir les résultats escomptés lors de l’exécution des activités d’Cible automatique.
+role: Professionnel
+level: Intermédiaire
+topic: Personnalisation
 feature: Analytics pour la Cible (A4T), Cible automatique
-topic: Analytics pour la Cible (A4T), Cible automatique
-solution: Target
-author: Judy Kim
+doc-type: tutorial
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 98ea1a58e1adef2f8778fc0f6654228bf8b550ab
+source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
 workflow-type: tm+mt
-source-wordcount: '2237'
+source-wordcount: '2262'
 ht-degree: 1%
 
 ---
 
 
-# Configuration des rapports A4T en Analysis Workspace pour les activités [!DNL Auto-Target]
+# Configuration de rapports A4T en Analysis Workspace pour [!DNL Auto-Target] activités
 
 L’intégration d’Analytics pour la Cible (A4T) pour les activités [!DNL Auto-Target] utilise les algorithmes d’apprentissage automatique d’ensemble (ML) de Adobe Target pour choisir la meilleure expérience pour chaque visiteur en fonction de son profil, de son comportement et de son contexte, tout en utilisant une mesure d’objectif Adobe Analytics.
 
@@ -87,8 +86,8 @@ Comparons les rapports au niveau des visiteurs et des visites :
 | Expérience | Visiteurs uniques | Visites | Conversions | norme visiteuse. Conv. clics publicitaires | Norme de visite. Conv. clics publicitaires |
 | --- | --- | --- | --- | --- | --- |
 | Une | 1 | 3 | - | 0% | 0 % |
-| B | 2 | 3 | 1 | 50 % | 33,3 % |
-| Totaux | 2 | 4 | 3 | 50 % | 25 % |
+| B | 2 | 3 | 3 | 50 % | 33,3 % |
+| Totaux | 2 | 4 | 1 | 50 % | 25 % |
 *Tableau 1 : Exemple de comparaison de rapports normalisés par visiteur et de rapports normalisés par visite pour un scénario dans lequel les décisions sont collantes à une visite (et non à un visiteur, comme dans le cas de tests A/B réguliers). Les mesures normalisées par visiteur sont déroutantes dans ce scénario.*
 
 Comme le montre le tableau ci-dessous, il existe une incongruité évidente de chiffres de niveau visiteur. Bien qu&#39;il y ait deux visiteurs uniques au total, il ne s&#39;agit pas d&#39;une somme de visiteurs uniques individuels pour chaque expérience. Bien que le taux de conversion au niveau du visiteur ne soit pas nécessairement erroné, lorsqu&#39;on compare des expériences individuelles, les taux de conversion au niveau des visites ont sans doute beaucoup plus de sens. Officiellement, l’unité d’analyse (&quot;visites&quot;) est la même que l’unité d’adhérence de la décision, ce qui signifie que les ventilations au niveau de l’expérience des mesures peuvent être ajoutées et comparées.
