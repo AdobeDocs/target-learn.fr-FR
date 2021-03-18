@@ -1,19 +1,18 @@
 ---
 title: Récupération de Recommendations avec l'API de Diffusion
-keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe Target Recommendations comprend un ensemble dédié d'API qui vous permet de gérer votre catalogue de produits et/ou de contenu recommandés ; gérer vos algorithmes et campagnes de recommandations ; et diffuser des recommandations dans des objets JSON, HTML ou XML à afficher dans des canaux Web, mobiles, e-mail, IOT et autres.
-kt: 3815
-audience: developer
+description: Cette partie du didacticiel guide les développeurs à travers les étapes requises pour récupérer le contenu des recommandations à l’aide de l’API Adobe Target Diffusion.
+role: Développeur
+level: Intermédiaire
+topic: Personnalisation, administration, intégrations, développement
+feature: API/SDK, Recommendations, Administration et configuration
 doc-type: tutorial
-activity: use
-feature: api
-topics: recommendations;adobe recommendations;premium;api;apis
-solution: Target
+kt: 3815
+thumbnail: null
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
+source-git-commit: 2c371ea17ce38928bcf3655a0d604a69e29963a0
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1459'
 ht-degree: 0%
 
 ---
@@ -27,7 +26,7 @@ Les API Adobe Target et Adobe Target [!DNL Recommendations] peuvent être utilis
 >
 > Lorsque vous demandez du contenu contenant des recommandations réelles (produits ou éléments recommandés), utilisez l&#39;API de Diffusion [!DNL Target].
 
-Pour récupérer les recommandations, envoyez un appel du POST de l’API Diffusion Adobe Target avec les informations contextuelles appropriées, qui peuvent inclure un ID d’utilisateur (à utiliser avec les recommandations spécifiques au profil telles que les éléments récemment consultés par l’utilisateur), le nom de mbox approprié, les paramètres de mbox, les paramètres de profil ou d’autres attributs. La réponse inclura des entity.ids recommandés (et peut inclure d&#39;autres données d&#39;entité) au format JSON ou HTML, qui peuvent ensuite être affichés sur le périphérique.
+Pour récupérer les recommandations, envoyez un appel du POST de l’API Diffusion Adobe Target avec les informations contextuelles appropriées, qui peuvent inclure un ID utilisateur (à utiliser avec des recommandations spécifiques au profil, telles que les éléments récemment consultés par l’utilisateur), un nom de mbox approprié, des paramètres de mbox, des paramètres de profil ou d’autres attributs. La réponse inclura des entity.ids recommandés (et peut inclure d&#39;autres données d&#39;entité) au format JSON ou HTML, qui peuvent ensuite être affichés sur le périphérique.
 
 L’[API de Diffusion](https://developers.adobetarget.com/api/delivery-api/) pour Adobe Target présente toutes les fonctionnalités existantes fournies par une requête [!DNL Target] standard.
 
