@@ -3,15 +3,15 @@ title: Configuration des rapports A4T en Analysis Workspace pour les Activités 
 description: Une fois l’intégration d’Analytics pour la Cible (A4T) en place et les activités d’Cible automatique en cours d’exécution, comment pouvez-vous vous assurer d’interpréter correctement les résultats ? Suivez ces étapes pour configurer les rapports A4T en Analysis Workspace afin d’obtenir les résultats escomptés lors de l’exécution des activités d’Cible automatique.
 role: Professionnel
 level: Intermédiaire
-topic: Personnalisation
-feature: Analytics pour la Cible (A4T), Cible automatique
+topic: Personnalisation, intégrations
+feature: Analytics pour la Cible (A4T), Cible automatique, Intégrations
 doc-type: tutorial
 thumbnail: null
 kt: null
 translation-type: tm+mt
-source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '2262'
+source-wordcount: '2264'
 ht-degree: 1%
 
 ---
