@@ -1,15 +1,18 @@
 ---
-title: Résolution des problèmes liés à Adobe Target avec des traces de Cible
+title: Résolution des problèmes liés aux traces de Cible
 description: Le débogueur Adobe Experience Cloud vous permet de comprendre rapidement et facilement votre implémentation Target. Apprenez à vous authentifier dans l'Experience Cloud et à utiliser l'outil puissant Traces de Cible pour vérifier vos compétences en activité et en audience ainsi que votre profil visiteur.
-audience: marketer
-difficulty: 3
+role: Professionnel
+level: Intermédiaire
+topic: Personnalisation, performances
+feature: Résolution des problèmes
+doc-type: feature video
+kt: null
+thumbnail: null
 author: Daniel Wright
-doc-type: feature-video
-activity-type: troubleshooting
 translation-type: tm+mt
-source-git-commit: 0a165e3cfebd18733b2d339eefa4357b6fdc0b37
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '115'
 ht-degree: 17%
 
 ---
