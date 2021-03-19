@@ -1,18 +1,18 @@
 ---
-title: Présentation de la prise de décision sur le périphérique
-description: La prise de décision Adobe Target sur le périphérique permet une diffusion de contenu de latence proche de zéro.
-topics: implementation
-feature: implementation
-audience: architect
-activity: understand
+title: Qu’est-ce que la prise de décision sur le périphérique ?
+description: La prise de décision Adobe Target sur le périphérique permet une diffusion de contenu de latence proche de zéro. Regardez cette vidéo pour en savoir plus sur la prise de décision sur l’appareil et sur la façon de l’activer.
+role: Architecte
+level: Début
+topic: Architecture, Développement
+feature: Implémentation, implémentation côté serveur, implémentation côté client
 doc-type: feature video
 team: Evangelism
 kt: 6691
 thumbnail: null
 translation-type: tm+mt
-source-git-commit: 3c4e25461527c361a7eb2281504e56ddc2f9ea5b
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '187'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,6 @@ La prise de décision Adobe Target sur le périphérique permet une diffusion de
 * Création d’une activité de compositeur basée sur des formulaires destinée à être utilisée avec la prise de décision sur le périphérique
 * Pour en savoir plus sur la configuration du SDK requise pour la prise de décision sur le périphérique, consultez la [documentation du SDK Adobe Target](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
 * Identifier les expériences des utilisateurs finaux concernant le contenu diffusé à l’aide de la prise de décision sur le périphérique
-
 
 ## Audience prévue
 
