@@ -1,16 +1,18 @@
 ---
-title: Utilisation du compositeur d’expérience visuelle pour les applications d’une seule page (SPA compositeur d’expérience visuelle) dans Adobe Target
-seo-title: Utilisation du compositeur d’expérience visuelle pour les applications d’une seule page (SPA compositeur d’expérience visuelle) dans Adobe Target
-description: Le compositeur d’expérience visuelle SPA permet aux spécialistes du marketing de créer des tests et de personnaliser le contenu SPA de manière autonome, sans dépendances de développement continues. Le compositeur d’expérience visuelle peut être utilisé pour créer des activités de tests A/B et de ciblage d’expérience (XT) dans des applications créées avec des cadres populaires, tels que Réagir et Angular.
-audience: marketer
-difficulty: 1
+title: Utilisation du compositeur d’expérience visuelle pour les applications d’une seule page (SPA compositeur d’expérience visuelle)
+description: Cette vidéo présente les spécialistes du marketing au compositeur d’expérience visuelle Adobe Target pour les applications d’une seule page (SPA compositeur d’expérience visuelle). Regardez cette vidéo pour savoir comment créer des activités à l’aide du compositeur d’expérience visuelle SPA.
+role: Professionnel
+level: Début
+topic: SPA, personnalisation
+feature: Expériences et Offres, compositeur d’expérience visuelle (VEC)
+doc-type: feature video
+thumbnail: null
+kt: null
 author: Daniel Wright
-doc-type: use
-activity-type: feature-video
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '269'
 ht-degree: 1%
 
 ---
@@ -18,9 +20,7 @@ ht-degree: 1%
 
 # Utilisation du [!UICONTROL compositeur d’expérience visuelle] pour les applications d’une seule page (SPA compositeur d’expérience visuelle) dans Adobe Target
 
-Le compositeur d’expérience visuelle SPA permet aux spécialistes du marketing de créer des tests et de personnaliser le contenu SPA de manière autonome, sans dépendances de développement continues. Le compositeur d’expérience visuelle peut être utilisé pour créer des activités de tests A/B et de ciblage d’expérience (XT) dans des applications créées avec des cadres populaires, tels que Réagir et Angular.
-
->[!VIDEO](https://video.tv.adobe.com/v/26249?quality=12)
+Le compositeur d’expérience visuelle SPA permet aux spécialistes du marketing de créer des tests et de personnaliser le contenu SPA de manière autonome, sans dépendances de développement continues. Le compositeur d’expérience visuelle peut être utilisé pour créer des activités de tests A/B et de ciblage d’expérience (XT) dans des applications créées avec des cadres populaires, tels que Réagir et Angular. Regardez la vidéo suivante pour savoir comment créer des activités à l’aide du compositeur d’expérience visuelle SPA.
 
 ## Aperçu
 
@@ -31,6 +31,13 @@ Le compositeur d’expérience visuelle SPA permet aux spécialistes du marketin
 * Les actions du compositeur d’expérience visuelle peuvent être appliquées à une seule vue ou au événement de chargement de page.
 * Différentes modifications peuvent être ajoutées à différentes vues sans avoir à utiliser l&#39;option [!UICONTROL Pages supplémentaires]
 * `at.js 2.0+` et la  `adobe.target.triggerView()` fonction doit être implémentée dans l’application avant de pouvoir utiliser le compositeur d’expérience visuelle SPA
+
+## Audience prévue
+
+* Professionnel
+
+>[!VIDEO](https://video.tv.adobe.com/v/26249?quality=12)
+
 
 ## Ressources supplémentaires
 
