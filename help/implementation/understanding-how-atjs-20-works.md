@@ -1,17 +1,19 @@
 ---
-title: Fonctionnement de Adobe Target avec at.js 2.0
-seo-title: Fonctionnement de Adobe Target avec at.js 2.0
+title: Fonctionnement d’at.js 2.0
 description: at.js 2.0 améliore la prise en charge Adobe Target des applications d’une seule page (SPA) et s’intègre à d’autres solutions Experience Cloud. Cette vidéo et les diagrammes qui l'accompagnent expliquent comment tout se rassemble.
-audience: developer
-difficulty: 3
+role: Développeur
+level: Intermédiaire
+topic: SPA, architecture, développement
+feature: Mise en œuvre
+doc-type: technical video
+kt: null
+thumbnail: null
 author: Daniel Wright
-doc-type: implement
-activity-type: technical-video
 translation-type: tm+mt
-source-git-commit: 37443ae4c1cdda387c8db0053201d520fa1ec224
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 20%
+source-wordcount: '433'
+ht-degree: 21%
 
 ---
 
