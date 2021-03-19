@@ -1,17 +1,19 @@
 ---
-title: Utiliser les fournisseurs de données pour intégrer des données tierces dans Adobe Target
-seo-title: Utiliser les fournisseurs de données pour intégrer des données tierces dans Adobe Target
-description: L’option Fournisseurs de données est une fonctionnalité qui vous permet de transmettre facilement des données provenant de tiers à Target.  Un tiers peut être un service météorologique, une plateforme de gestion des données, ou même votre propre service web. Vous pouvez ensuite utiliser ces données pour créer des audiences, cibler du contenu et enrichir le profil du visiteur.
-audience: marketer
-difficulty: 5
+title: Utilisation des fournisseurs de données pour intégrer des données tierces
+description: Ce didacticiel présente les utilisateurs aux fournisseurs de données. Découvrez comment utiliser la fonctionnalité Fournisseurs de données pour transmettre facilement des données de tiers à Adobe Target.
+role: Professionnel, développeur
+level: Expérience
+topic: Personnalisation, intégrations
+feature: Implémentation, intégrations, API/SDK
+doc-type: feature video
+kt: null
+thumbnail: null
 author: Daniel Wright
-doc-type: use
-activity-type: feature-video
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 40%
+source-wordcount: '220'
+ht-degree: 22%
 
 ---
 
