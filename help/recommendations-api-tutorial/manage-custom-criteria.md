@@ -1,19 +1,18 @@
 ---
-title: Gérer les critères personnalisés
-keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe Target Recommendations comprend un ensemble dédié d'API qui vous permet de gérer votre catalogue de produits et/ou de contenu recommandés ; gérer vos algorithmes et campagnes de recommandations ; et diffuser des recommandations dans des objets JSON, HTML ou XML à afficher dans des canaux Web, mobiles, e-mail, IOT et autres.
-kt: 3815
-audience: developer
+title: Comment gérer les critères personnalisés
+description: Cette partie du didacticiel guide les développeurs à travers les étapes requises pour utiliser les API Adobe Target pour gérer, créer, liste, modifier, obtenir et supprimer des critères Adobe Target.
+role: Développeur
+level: Intermédiaire
+topic: Personnalisation, administration, intégrations, développement
+feature: API/SDK, Recommendations, Administration et configuration
 doc-type: tutorial
-activity: use
-feature: api
-topics: recommendations;adobe recommendations;premium;api;apis
-solution: Target
+kt: 3815
+thumbnail: null
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '952'
 ht-degree: 1%
 
 ---
@@ -72,7 +71,7 @@ Dans ce cas, l&#39;erreur s&#39;est produite car les informations du serveur son
 
 ## Modifier des critères personnalisés
 
-Pour modifier les détails d&#39;une définition de critère personnalisée, utilisez l&#39;[API Modifier les critères personnalisés](https://developers.adobetarget.com/api/recommendations/#operation/updateCriteriaCustom). La syntaxe est la suivante :
+Pour modifier les détails d’une définition de critère personnalisée, utilisez l’[API Modifier les critères personnalisés](https://developers.adobetarget.com/api/recommendations/#operation/updateCriteriaCustom). La syntaxe est la suivante :
 
 `POST https://mc.adobe.io/{{TENANT_ID}}/target/recs/criteria/custom/:criteriaId`
 
