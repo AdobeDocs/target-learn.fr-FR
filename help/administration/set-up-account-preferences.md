@@ -1,20 +1,32 @@
 ---
-title: Configuration des préférences de compte en Adobe Target
-description: valeur nulle
-audience: administrator
-difficulty: 1
-author: Daniel Wright
-doc-type: setup
-activity-type: feature-video
+title: Configuration des préférences de compte
+description: Cette vidéo décrit les préférences du compte Adobe Target. Regardez cette vidéo pour découvrir comment différents paramètres affectent Adobe Target.
+role: Administrateur
+level: Début
+topic: Administration
+feature: Administration & Configuration
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 6ebdda26ef1e210cca495fe9ea73c67eca039d6f
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '12'
-ht-degree: 8%
+source-wordcount: '56'
+ht-degree: 10%
 
 ---
 
 
-# Configuration des préférences de compte
+# Configuration des préférences de compte en Adobe Target
+
+## Description
+
+Dans cette vidéo, vous apprendrez à :
+
+* Décrire les différents paramètres de compte en Adobe Target
+
+## Audience prévue
+
+* Administrateur
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379/?quality=12)
