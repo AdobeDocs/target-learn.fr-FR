@@ -1,21 +1,33 @@
 ---
-title: Présentation des flux dans Recommendations
-seo-title: Présentation des flux dans Adobe Target Recommendations
-audience: marketer
-difficulty: 3
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+title: Qu’est-ce qu’un flux à Recommendations ?
+description: Découvrez ce qu’est un flux Adobe Target Recommendations et comment il est utilisé
+role: Professionnel
+level: Intermédiaire
+topic: Personnalisation
+feature: Recommandations
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 5f1691ce33dc3379d8ae3fb6af2714ee682a68ee
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 18%
+source-wordcount: '80'
+ht-degree: 13%
 
 ---
 
 
 # Présentation des flux dans Recommendations
+
+## Description
+
+Dans cette vidéo, vous apprendrez à :
+
+* Décrire ce qu’est un flux et comprendre comment il est utilisé
+
+## Audience prévue
+
+* Professionnel
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695?quality=12)
 
