@@ -1,19 +1,18 @@
 ---
-title: Présentation de l’API Adobe Recommendations
-keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe Target Recommendations comprend un ensemble dédié d'API qui vous permet de gérer votre catalogue de produits et/ou de contenu recommandés ; gérer vos algorithmes et campagnes de recommandations ; et diffuser des recommandations dans des objets JSON, HTML ou XML à afficher dans des canaux Web, mobiles, e-mail, IOT et autres.
-kt: 3815
-audience: developer
+title: Qu’est-ce que l’API Adobe Recommendations ?
+description: Ce didacticiel guide les développeurs à travers des pratiques pratiques utilisant les API Recommendations d'Adobe Target pour configurer et gérer les catalogues Recommendations et les critères personnalisés, ainsi que l'utilisation de l'API diffusion pour récupérer le contenu des recommandations.
+role: Développeur
+level: Intermédiaire
+topic: Personnalisation, administration, intégrations, développement
+feature: API/SDKs, Recommendations, Administration et configuration, présentation
 doc-type: tutorial
-activity: use
-feature: api
-topics: recommendations;adobe recommendations;premium;api;apis
-solution: Target
+kt: 3815
+thumbnail: null
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '371'
 ht-degree: 1%
 
 ---
@@ -53,6 +52,6 @@ Notez les ressources suivantes, nécessaires pour comprendre ce didacticiel et l
 | Ressource | Détails |
 | --- | --- |
 | Postman | Obtenez l&#39;application [Postman](https://www.postman.com/downloads/) pour votre système d&#39;exploitation. Postman basique est gratuit avec la création de compte. Bien qu&#39;il ne soit pas nécessaire pour utiliser les API Adobe Target en général, Postman facilite les workflows d&#39;API et Adobe Target fournit plusieurs collections Postman pour aider à exécuter ses API et apprendre comment elles fonctionnent. Le reste de ce tutoriel suppose une connaissance pratique de Postman. Pour obtenir de l&#39;aide, veuillez consulter la [documentation de Postman](https://learning.getpostman.com/). |
-| Références | La connaissance des ressources suivantes est assurée tout au long du reste de ce didacticiel :<UL><li>[Adobe I/O Github](https://github.com/adobeio)</li><li>[Documentation de cible Adobe I/O](https://developers.adobetarget.com/api/#introduction)</li><li>[Documentation de l’API Recommendations](https://developers.adobetarget.com/api/recommendations/)</li></ul> |
+| Références | La connaissance des ressources suivantes est assurée tout au long du reste de ce didacticiel :<UL><li>[Adobe I/O Github](https://github.com/adobeio)</li><li>[Documentation sur les Adobes I/O de cible](https://developers.adobetarget.com/api/#introduction)</li><li>[Documentation de l’API Recommendations](https://developers.adobetarget.com/api/recommendations/)</li></ul> |
 
 [Suivant : &quot;Gérer votre catalogue Recommendations&quot; >](manage-catalog.md)
