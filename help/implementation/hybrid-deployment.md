@@ -1,26 +1,24 @@
 ---
-title: Déploiement hybride Adobe Target
-description: Adobe Target offre un modèle de déploiement hybride unique pour la personnalisation, associant les implémentations côté client et côté serveur.
-topics: implementation
-feature: implementation
-audience: developer, architect
-activity: understand
+title: Options de déploiement hybride
+description: Regardez cette vidéo pour en savoir plus sur l'Adobe Target qui  un modèle de déploiement hybride unique pour la personnalisation, associant les implémentations côté client et côté serveur.
+role: Développeur, architecte
+level: Début
+topic: Personnalisation, architecture, développement
+feature: Implémentation, implémentation côté serveur, implémentation côté client
 doc-type: feature video
-team: Evangelism
-kt: 6165
 thumbnail: null
+kt: 6165
+team: Evangelism
 translation-type: tm+mt
-source-git-commit: 3c4e25461527c361a7eb2281504e56ddc2f9ea5b
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '151'
 ht-degree: 2%
 
 ---
 
 
 # Déploiement hybride Adobe Target
-
-## Description
 
 Adobe Target offre un modèle de déploiement hybride unique pour la personnalisation, associant les implémentations côté client et côté serveur. Ce modèle hybride permet aux utilisateurs non techniques de créer une expérience ou une activité de personnalisation à l’aide du compositeur d’expérience visuelle WYSIWYG et de faire exécuter, diffuser et rendre l’expérience par le serveur pour une diffusion hautement performante. 
 
@@ -39,4 +37,7 @@ Adobe Target offre un modèle de déploiement hybride unique pour la personnalis
 
 >[!VIDEO](https://video.tv.adobe.com/v/41698/?quality=12)
 
-<!-- JUDY: add to this once we have documentation. And/or add to this, with links to the on-device decisioning content. For more information, visit the [documentation](https://docs.adobe.com/content/help/en/target/using/implement-target/implementing-target.html). -->
+## Ressources supplémentaires
+
+* [Présentation de la prise de décision sur le périphérique](https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/on-device-decisioning-overview.html?lang=en#implementation)
+* [Documentation du SDK Adobe Target](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
