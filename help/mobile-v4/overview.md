@@ -1,15 +1,17 @@
 ---
 title: Adobe Target avec Adobe Mobile Services SDK v4 pour Android
 description: Adobe Target avec Adobe Mobile Services SDK v4 pour Android est le point de départ idéal pour les développeurs Android qui utilisent déjà Adobe Mobile Services SDK v4 et souhaitent début de la personnalisation des expériences d’application avec Adobe Target.
-feature: mobile
-kt: 3040
-audience: developer
+role: Développeur
+level: Intermédiaire
+topic: Mobile, personnalisation
+feature: Mise en oeuvre de Mobile, présentation
 doc-type: tutorial
-activity-type: implement
+kt: 3040
+thumbnail: null
 translation-type: tm+mt
-source-git-commit: d6cedd55dcc9c08d2d2ca5709e15fe5ea9fab8b8
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '556'
 ht-degree: 2%
 
 ---
@@ -42,7 +44,7 @@ Dans ces leçons, on suppose que vous :
 
 * Disposer d’un ID d’Adobe et d’un accès de niveau approbateur à l’interface Adobe Target (voir les étapes de vérification ci-dessous)
 * Connaissez votre code client Adobe Target afin que vous puissiez envoyer des requêtes à votre propre compte. Le code client s’affiche dans l’interface Adobe Target de la section   Configuration > Implémentation > Écran Modifier les paramètres at.js
-* Ont accès à [l&#39;interface utilisateur de Mobile Services](https://mobilemarketing.adobe.com) et sont familières avec cette &lt;a0/>interface utilisateur
+* Ont accès à [l&#39;interface utilisateur de Mobile Services](https://mobilemarketing.adobe.com) et sont familières avec cette interface utilisateur
 * Disposez d&#39;un IDE pour le développement d&#39;applications mobiles Android. Ce didacticiel présente [Android Studio](https://developer.android.com/studio/install) en différentes étapes et captures d’écran.
 
 Si vous n’avez pas l’accès requis aux solutions Experience Cloud, contactez votre administrateur Experience Cloud.
