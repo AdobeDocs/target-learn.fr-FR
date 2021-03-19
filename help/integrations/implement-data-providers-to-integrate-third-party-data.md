@@ -1,14 +1,16 @@
 ---
-title: Mise en oeuvre des fournisseurs de données pour intégrer des données tierces dans Adobe Target
-seo-title: Mise en oeuvre des fournisseurs de données pour intégrer des données tierces dans Adobe Target
-description: Détails de l’implémentation et exemples d’utilisation de la fonction Fournisseurs de données Adobe Target pour récupérer des données auprès de fournisseurs de données tiers et les transmettre dans la demande de Cible.
-audience: developer
-difficulty: 5
+title: Comment implémenter des fournisseurs de données pour intégrer des données tierces
+description: Ce didacticiel fournit des détails d’implémentation et des exemples d’utilisation de la fonction Fournisseurs de données Adobe Target pour récupérer des données auprès de fournisseurs de données tiers et les transmettre dans la demande de Cible.
+role: Développeur
+level: Expérience
+topic: Personnalisation, intégrations
+feature: Implémentation, intégrations, API/SDK
+doc-type: technical video
+kt: null
+thumbnail: null
 author: Daniel Wright
-doc-type: implement
-activity-type: technical-video
 translation-type: tm+mt
-source-git-commit: 37443ae4c1cdda387c8db0053201d520fa1ec224
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 0%
