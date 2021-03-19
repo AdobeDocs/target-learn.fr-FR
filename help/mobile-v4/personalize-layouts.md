@@ -1,17 +1,18 @@
 ---
 title: Personnaliser les mises en page
-seo-title: Personnaliser les mises en page
-description: 'Dans cette dernière leçon, nous allons construire deux activités de personnalisation en Cible pour nos Audiences. Nous chargerons et afficherons les activités dans l’application et nous vérifierons que le contenu s’affiche au bon moment aux bons emplacements.  '
-seo-description: Dans cette dernière leçon, nous allons construire deux activités de personnalisation en Cible pour nos Audiences. Nous chargerons et afficherons les activités dans l’application et nous vérifierons que le contenu s’affiche au bon moment aux bons emplacements.
-feature: mobile
-kt: 3040
-audience: developer
+description: 'Dans cette dernière leçon, nous construisons deux activités de personnalisation en Cible pour nos Audiences. Découvrez comment charger et afficher les activités dans l’application et vérifier que le contenu s’affiche au bon moment aux bons emplacements.  '
+role: Développeur
+level: Intermédiaire
+topic: Mobile, personnalisation
+feature: Mise en oeuvre de Mobile
 doc-type: tutorial
-activity-type: implement
+kt: 3040
+thumbnail: null
+author: Daniel Wright
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1098'
 ht-degree: 1%
 
 ---
