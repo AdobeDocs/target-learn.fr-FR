@@ -1,19 +1,18 @@
 ---
 title: Configuration de l’authentification pour les API Adobe Target
-keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe Target Recommendations comprend un ensemble dédié d'API qui vous permet de gérer votre catalogue de produits et/ou de contenu recommandés ; gérer vos algorithmes et campagnes de recommandations ; et diffuser des recommandations dans des objets JSON, HTML ou XML à afficher dans des canaux Web, mobiles, e-mail, IOT et autres.
-kt: null
-audience: developer
+description: Ce didacticiel guide les développeurs à travers les étapes requises pour générer les jetons d’authentification nécessaires pour interagir avec les API Adobe Target. Suivez ces étapes pour utiliser la Console développeur Adobe pour générer et tester le jeton d'accès porteur, nécessaire pour utiliser les API de Cible.
+role: Développeur, administrateur, architecte
+level: Intermédiaire
+topic: Personnalisation, administration, intégrations, développement
+feature: API/SDKs, administration et configuration
 doc-type: tutorial
-activity: use
-feature: api
-topics: recommendations;adobe recommendations;premium;api;apis
-solution: Target
+kt: null
+thumbnail: null
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 624172d4bc4bc2431ad8af0956c93d3bcc0b9870
+source-git-commit: 2c371ea17ce38928bcf3655a0d604a69e29963a0
 workflow-type: tm+mt
-source-wordcount: '1885'
+source-wordcount: '1896'
 ht-degree: 2%
 
 ---
@@ -35,9 +34,9 @@ Cette leçon décrit les étapes préliminaires nécessaires à la génération 
 | Ressource | Détails |
 | --- | --- |
 | Postman | Pour réussir ces étapes, obtenez l&#39;[application Postman](https://www.postman.com/downloads/) pour votre système d&#39;exploitation. Postman basique est gratuit avec la création de compte. Bien qu&#39;il ne soit pas nécessaire pour utiliser les API Adobe Target en général, Postman facilite les workflows d&#39;API et Adobe Target fournit plusieurs collections Postman pour aider à exécuter ses API et apprendre comment elles fonctionnent. Le reste de ce tutoriel suppose une connaissance pratique de Postman. Pour obtenir de l&#39;aide, veuillez consulter la [documentation de Postman](https://learning.getpostman.com/). |
-| Références | La connaissance des ressources suivantes est assurée tout au long du reste de ce didacticiel :<UL><li>[Adobe I/O Github](https://github.com/adobeio)</li><li>[Documentation de cible Adobe I/O](https://developers.adobetarget.com/api/#introduction)</li><li>[Documentation de l’API Recommendations](https://developers.adobetarget.com/api/recommendations/)</li></ul> |
+| Références | La connaissance des ressources suivantes est assurée tout au long du reste de ce didacticiel :<UL><li>[Adobe I/O Github](https://github.com/adobeio)</li><li>[Documentation sur les Adobes I/O de cible](https://developers.adobetarget.com/api/#introduction)</li><li>[Documentation de l’API Recommendations](https://developers.adobetarget.com/api/recommendations/)</li></ul> |
 
-## Création d’un projet Adobe I/O
+## Création d’un projet d’Adobe I/O
 
 Dans cette section, vous accéderez à la console de développement des Adobes et créerez un projet pour [!DNL Adobe Target]. Pour plus d&#39;informations, consultez la [documentation relative aux projets](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/projects.md).
 
@@ -59,7 +58,7 @@ Dans cette section, vous accéderez à la console de développement des Adobes e
 
 5. Sélectionnez **[!DNL Adobe Target]** comme service d&#39;Adobe avec lequel vous souhaitez intégrer. Cliquez sur le bouton **[!UICONTROL Suivant]** qui s’affiche.
 
-   ![configure-io-cible-createproject5](assets/configure-io-target-createproject5.png)
+   ![configure-io-cible-create-project5](assets/configure-io-target-createproject5.png)
 
 6. Sélectionnez une option pour associer des clés publiques et privées à l’intégration du compte de service que vous créez pour la Cible. Pour ce didacticiel, sélectionnez **[!UICONTROL Option 1 : Générez une paire de clés]** et cliquez sur **[!UICONTROL Générer la paire de clés]**.
    ![configure-io-cible-create-project6](assets/configure-io-target-createproject6.png)
@@ -91,7 +90,7 @@ Il y a plusieurs façons de préciser les détails de votre projet dans Postman,
 >
 >Pour obtenir des instructions vidéo applicables à toute solution Experience Cloud, y compris [!DNL Target], voir [Utiliser Postman avec les API Experience Platform](https://docs.adobe.com/content/help/en/platform-learn/tutorials/apis/postman.html). Les sections suivantes concernent les API [!DNL Target] :
 >
-> 1. Exporter les détails de l&#39;intégration Adobe I/O vers Postman
+> 1. Exporter les détails de l&#39;intégration des Adobes I/O à Postman
 > 2. Générer un Jeton d&#39;accès avec Postman
 
 >
@@ -139,13 +138,13 @@ Dans cette section, vous générez votre jeton d&#39;accès au porteur, qui est 
 
 1. Accédez à l&#39;exemple d&#39;appel [Adobe Identity Management Service API ](https://github.com/adobe/experience-platform-postman-samples/tree/master/apis/ims).
    ![token1](assets/configure-io-target-generatetoken1.png)
-2. Cliquez sur la **collection Postman de la génération de Jetons d&#39;accès d&#39;Adobe I/O**.
+2. Cliquez sur **Adobe I/O Jeton d&#39;accès Generation Postman collection**.
    ![token2](assets/configure-io-target-generatetoken2.png)
 3. Obtenez le fichier JSON brut pour cette collection en cliquant sur **Brut**, puis en copiant le fichier JSON résultant dans le Presse-papiers. (Vous pouvez également enregistrer le fichier JSON brut dans un fichier .json.)
    ![token3](assets/configure-io-target-generatetoken3.png)
 4. Dans Postman, importez la collection en collant et en envoyant le fichier JSON brut à partir du Presse-papiers. (Vous pouvez également télécharger le fichier .json que vous avez enregistré.) Cliquez sur **Continue** (Continuer).
    ![jeton4](assets/configure-io-target-generatetoken4.png)
-5. Sélectionnez l&#39;IMS **[!UICONTROL IMS : JWT Generate + Auth via User Token]** requête dans la collection Postman Adobe I/O Jeton d&#39;accès Generation, assurez-vous que votre environnement est sélectionné, puis cliquez sur **Envoyer** pour générer le jeton.
+5. Sélectionnez l&#39;IMS **[!UICONTROL IMS : JWT Generate + Auth via User Token]** requête dans la collection Postman de génération de Jetons d&#39;accès d’Adobe I/O, assurez-vous que votre environnement est sélectionné, puis cliquez sur **Envoyer** pour générer le jeton.
 
    ![jeton5](assets/configure-io-target-generatetoken5.png)
 
@@ -160,9 +159,9 @@ Dans cette section, vous générez votre jeton d&#39;accès au porteur, qui est 
 
 >[!NOTE]
 >
->Q : Dois-je utiliser la collection Adobe I/O Jeton d&#39;accès Generation Postman pour générer le JSON Web Token (JWT) et le jeton d&#39;accès porteur ?
+>Q : Dois-je utiliser la collection Postman de la génération de Jetons d&#39;accès d&#39;Adobe I/O pour générer le JSON Web Token (JWT) et le jeton d&#39;accès porteur ?
 >
->A : Non ! La collection Adobe I/O Jeton d&#39;accès Generation Postman est disponible à titre de commodité pour générer plus facilement le jeton d&#39;accès JWT et porteur à Postman. Vous pouvez également utiliser les fonctionnalités de la console de développement Adobe pour générer manuellement le jeton d&#39;accès porteur.
+>A : Non ! La collection Postman de la génération de Jetons d&#39;accès d&#39;Adobe I/O est disponible pour faciliter la génération du jeton d&#39;accès JWT et porteur dans Postman. Vous pouvez également utiliser les fonctionnalités de la console de développement Adobe pour générer manuellement le jeton d&#39;accès porteur.
 
 ## Testez le jeton d&#39;accès porteur
 
@@ -174,11 +173,11 @@ Dans cet exercice, vous utiliserez votre nouveau jeton d&#39;accès au porteur e
    ![testtoken1](assets/configure-io-target-testtoken1.png)
 1. Notez que les variables telles que `{{access_token}}` ne sont pas résolues au départ. Vous pouvez résoudre ce problème de plusieurs manières différentes (par exemple, vous pouvez définir une nouvelle variable de collecte appelée `{{access_token}}`), mais dans ce didacticiel, vous allez plutôt modifier la demande d&#39;API pour tirer parti de l&#39;environnement Postman que vous utilisiez précédemment. Cela permettra à l’environnement de continuer à servir de consolidation unique et cohérente de toutes les variables communes aux API d’Adobe.
    ![testtoken2](assets/configure-io-target-testtoken2.png)
-1. Tapez `{{access_token}}` pour remplacer `{{ACCESS_TOKEN}}` par &lt;a1/>.
+1. Tapez `{{access_token}}` pour remplacer `{{ACCESS_TOKEN}}` par .
    ![testtoken3](assets/configure-io-target-testtoken3.png)
-1. Tapez `{{api_key}}` pour remplacer `{{API_KEY}}` par &lt;a1/>.
+1. Tapez `{{api_key}}` pour remplacer `{{API_KEY}}` par .
    ![testtoken4](assets/configure-io-target-testtoken4.png)
-1. Tapez `{{tenant}}` pour remplacer `{{TENANT_ID}}` par &lt;a1/>. La note `{{TENANT_ID}}` n&#39;est pas encore reconnue.
+1. Tapez `{{tenant}}` pour remplacer `{{TENANT_ID}}` par . La note `{{TENANT_ID}}` n&#39;est pas encore reconnue.
    ![testtoken4](assets/configure-io-target-testtoken4a.png)
 1. Ouvrez le module Gérer les Environnements, puis sélectionnez votre environnement.
    ![JWT11](assets/configure-io-target-jwt11.png)
