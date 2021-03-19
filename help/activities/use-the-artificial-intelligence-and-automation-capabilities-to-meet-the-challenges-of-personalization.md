@@ -1,7 +1,6 @@
 ---
 title: 'Comment utiliser l''intelligence artificielle et l''automatisation pour relever les défis de la personnalisation '
 description: Cette vidéo traite de l'importance de la personnalisation, des défis que représente la personnalisation, de la solution à ces défis (les quatre offres d'IA/Automatisation en Adobe Target) et des éléments clés pour fournir des expériences personnalisées. Il s'agit d'une version éditée de la présentation du Sommet des Adobes 2018 de Jamie Brighton.
-badge: premium
 role: Professionnel
 level: Début
 topic: Personnalisation
@@ -9,8 +8,9 @@ feature: Affectation automatique, Cible automatique, Automated Personalization
 doc-type: value video
 thumbnail: null
 kt: null
+badge: premium
 translation-type: tm+mt
-source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 0%
