@@ -1,17 +1,19 @@
 ---
-title: Utiliser des jetons de réponse et des Événements personnalisés at.js avec Adobe Target
-seo-title: Utiliser des jetons de réponse et des Événements personnalisés at.js avec Adobe Target
-description: Les jetons de réponse et les Événements personnalisés d’at.js vous permettent de partager des informations de profil de Cible vers des systèmes tiers. Tout objet du profil du visiteur de Cible, y compris les attributs de profil personnalisés, les informations géographiques, les détails d’activité et les profils intégrés, peut être ajouté à la réponse de Cible dans laquelle vous pouvez utiliser du code JavaScript personnalisé pour l’intégrer à un tiers.
-audience: developer
-difficulty: 5
+title: Utilisation des jetons de réponse et des Événements personnalisés d’at.js
+description: Découvrez comment utiliser les jetons de réponse et les Événements personnalisés d’at.js pour partager des informations de profil de Cible à des systèmes tiers.
+role: Développeur
+level: Expérience
+topic: Personnalisation, architecture, développement
+feature: Mise en œuvre
+doc-type: technical video
+kt: null
+thumbnail: null
 author: Daniel Wright
-doc-type: implement
-activity-type: technical-video
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 2%
+source-wordcount: '245'
+ht-degree: 4%
 
 ---
 
