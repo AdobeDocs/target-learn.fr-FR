@@ -1,21 +1,33 @@
 ---
-title: Création d’une activité de recommandations
-seo-title: Création d’une Activité Recommendations dans Adobe Target
-audience: marketer
-difficulty: 3
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+title: Comment créer une Activité Recommendations
+description: Découvrez comment créer une activité Adobe Target Recommendations
+role: Professionnel
+level: Intermédiaire
+topic: Personnalisation
+feature: Recommandations
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 86131453514cc9acb67ba0594e260996902c46d3
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 22%
+source-wordcount: '80'
+ht-degree: 13%
 
 ---
 
 
-# Création d’une activité de recommandations
+# Création d’une Activité Recommendations Adobe Target
+
+## Description
+
+Dans cette vidéo, vous apprendrez à :
+
+* Création d’une activité de recommandations
+
+## Audience prévue
+
+* Professionnel
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688?quality=12)
 
