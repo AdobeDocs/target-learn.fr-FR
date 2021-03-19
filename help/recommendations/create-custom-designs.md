@@ -1,21 +1,33 @@
 ---
 title: Création de conceptions personnalisées dans Recommendations
-seo-title: Création de conceptions personnalisées dans Adobe Target Recommendations
-audience: marketer
-difficulty: 3
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+description: Découvrez comment créer des conceptions personnalisées dans Recommendations.
+role: Professionnel
+level: Intermédiaire
+topic: Personnalisation
+feature: Recommandations
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 024678e0569b92da8e470a1299f0f7a585ba2371
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 17%
+source-wordcount: '74'
+ht-degree: 14%
 
 ---
 
 
 # Création de conceptions personnalisées dans Recommendations
+
+## Description
+
+Dans cette vidéo, vous apprendrez à :
+
+* Création de conceptions personnalisées dans Adobe Target Recommendations
+
+## Audience prévue
+
+* Professionnel
 
 >[!VIDEO](https://video.tv.adobe.com/v/27687?quality=12)
 
