@@ -1,14 +1,17 @@
 ---
 title: Découvrez comment utiliser Adobe Target
 description: Découvrez comment utiliser Adobe Target avec cette collection de didacticiels et de vidéos couvrant tous ses composants. Utilisez efficacement la puissance de Adobe Target.
+role: Leader, Architect, Developer, Administrator, Business Practitioner
+level: Beginner, Intermediate, Experienced
+topic: Personnalisation
+exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
 translation-type: tm+mt
-source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
+source-git-commit: 62c9d6328f65945109c96f65d94659b59708ac82
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '253'
 ht-degree: 16%
 
 ---
-
 
 # Apprendre à utiliser Adobe Target
 
@@ -16,15 +19,17 @@ Adobe Target est la solution d’Adobe Experience Cloud qui fournit tout ce do
 
 ## Nouveautés
 
+* **[Configuration des rapports A4T en Analysis Workspace pour les activités à Cible automatique](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)**
+
+   *Pour les professionnels du monde des affaires : Utilisez-vous A4T pour la Cible automatique ? Suivez ces étapes pour configurer les rapports A4T en Analysis Workspace afin d’obtenir les résultats escomptés lors de l’exécution des activités d’Cible automatique.*
 * **[Présentation de la prise de décision sur le périphérique](implementation/on-device-decisioning-overview.md)**
 
    *Pour les architectes : Commencez la prise de décision sur le périphérique pour offrir des expériences de latence quasi nulles à vos clients !*
 * **[Utilisation de l’API Recommendations (didacticiel)](recommendations-api-tutorial/recs-api-overview.md)**
    *Pour les développeurs : Bénéficiez d&#39;une pratique pratique à l&#39;aide des  [!DNL Recommendations] API pour configurer et gérer  [!DNL Recommendations] des catalogues et des critères personnalisés, etc.*
 
-* **[Mise en oeuvre de Adobe Target avec Adobe Mobile Services SDK v4 pour Android (didacticiel)](mobile-v4/overview.md)**
-
-   *Pour les développeurs qui utilisent déjà Adobe Mobile Services SDK v4 : découvrez comment début de la personnalisation des expériences d’application avec Adobe Target. Ces étapes sont fournies en tant que prise en charge des utilisateurs hérités.<!-- Concepts learned here are also applicable to Adobe Experience Platform Mobile SDK (v5).-->*
+<!--* **[Implement Adobe Target with Adobe Mobile Services SDK v4 for Android (Tutorial)](mobile-v4/overview.md)**
+    *For developers who are already using Adobe Mobile Services SDK v4: learn how to start personalizing app experiences with Adobe Target. These steps are provided as legacy user support.*<!-- Concepts learned here are also applicable to Adobe Experience Platform Mobile SDK (v5).-->
 
 <!--* **[Use Recommendations Offers (Video)](recommendations/use-recommendations-offers.md)**
     *For all Target Users: Learn how to use product recommendations in A/B and Experience Targeting Activities.*-->
