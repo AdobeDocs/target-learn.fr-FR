@@ -1,10 +1,10 @@
 ---
 title: Qu’est-ce que l’API Adobe Recommendations ?
 description: Ce didacticiel guide les développeurs à travers des pratiques pratiques utilisant les API Recommendations d'Adobe Target pour configurer et gérer les catalogues Recommendations et les critères personnalisés, ainsi que l'utilisation de l'API diffusion pour récupérer le contenu des recommandations.
-role: Développeur
-level: Intermédiaire
-topic: Personnalisation, administration, intégrations, développement
-feature: API/SDKs, Recommendations, Administration et configuration, présentation
+role: Developer
+level: Intermediate
+topic: Personalization, Administration, Integrations, Development
+feature: APIs/SDKs, Recommendations, Administration & Configuration, Overview
 doc-type: tutorial
 kt: 3815
 thumbnail: null

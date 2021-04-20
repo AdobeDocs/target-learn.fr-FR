@@ -1,10 +1,10 @@
 ---
 title: Qu’est-ce qu’un flux à Recommendations ?
 description: Découvrez ce qu’est un flux Adobe Target Recommendations et comment il est utilisé
-role: Professionnel
-level: Intermédiaire
-topic: Personnalisation
-feature: Recommandations
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
+feature: Recommendations
 doc-type: feature video
 thumbnail: null
 kt: null

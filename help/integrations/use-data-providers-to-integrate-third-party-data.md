@@ -1,10 +1,10 @@
 ---
 title: Utilisation des fournisseurs de données pour intégrer des données tierces
 description: Ce didacticiel présente les utilisateurs aux fournisseurs de données. Découvrez comment utiliser la fonctionnalité Fournisseurs de données pour transmettre facilement des données de tiers à Adobe Target.
-role: Professionnel, développeur
-level: Expérience
-topic: Personnalisation, intégrations
-feature: Implémentation, intégrations, API/SDK
+role: Business Practitioner, Developer
+level: Experienced
+topic: Personalization, Integrations
+feature: Implementation, Integrations, APIs/SDKs
 doc-type: feature video
 kt: null
 thumbnail: null

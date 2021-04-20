@@ -1,10 +1,10 @@
 ---
 title: Qu’est-ce que la prise de décision sur le périphérique ?
 description: La prise de décision Adobe Target sur le périphérique permet une diffusion de contenu de latence proche de zéro. Regardez cette vidéo pour en savoir plus sur la prise de décision sur l’appareil et sur la façon de l’activer.
-role: Architecte
-level: Début
-topic: Architecture, Développement
-feature: Implémentation, implémentation côté serveur, implémentation côté client
+role: Architect
+level: Beginner
+topic: Architecture, Development
+feature: Implementation, Implement Server-side, Implement Client-side
 doc-type: feature video
 team: Evangelism
 kt: 6691

@@ -1,10 +1,10 @@
 ---
 title: Implémentation d’at.js 2.0 dans une application d’une seule page (SPA)
 description: L’Adobe Target at.js 2.0 fournit des ensembles de fonctionnalités riches qui permettent à votre entreprise d’exécuter la personnalisation sur des technologies de nouvelle génération côté client. Pour implémenter at.js 2.0 dans une application d’une seule page (SPA), procédez comme suit.
-role: Développeur
-level: Intermédiaire
-topic: SPA, architecture, développement
-feature: Mise en œuvre
+role: Developer
+level: Intermediate
+topic: SPA, Architecture, Development
+feature: Implementation
 doc-type: technical video
 kt: null
 thumbnail: null

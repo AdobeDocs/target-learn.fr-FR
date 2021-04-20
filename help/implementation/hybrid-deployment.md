@@ -1,10 +1,10 @@
 ---
 title: Options de déploiement hybride
 description: Regardez cette vidéo pour en savoir plus sur l'Adobe Target qui  un modèle de déploiement hybride unique pour la personnalisation, associant les implémentations côté client et côté serveur.
-role: Développeur, architecte
-level: Début
-topic: Personnalisation, architecture, développement
-feature: Implémentation, implémentation côté serveur, implémentation côté client
+role: Developer, Architect
+level: Beginner
+topic: Personalization, Architecture, Development
+feature: Implementation, Implement Server-side, Implement Client-side
 doc-type: feature video
 thumbnail: null
 kt: 6165

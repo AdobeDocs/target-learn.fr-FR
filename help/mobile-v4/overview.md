@@ -1,10 +1,10 @@
 ---
 title: Adobe Target avec Adobe Mobile Services SDK v4 pour Android
 description: Adobe Target avec Adobe Mobile Services SDK v4 pour Android est le point de départ idéal pour les développeurs Android qui utilisent déjà Adobe Mobile Services SDK v4 et souhaitent début de la personnalisation des expériences d’application avec Adobe Target.
-role: Développeur
-level: Intermédiaire
-topic: Mobile, personnalisation
-feature: Mise en oeuvre de Mobile, présentation
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile, Overview
 doc-type: tutorial
 kt: 3040
 thumbnail: null

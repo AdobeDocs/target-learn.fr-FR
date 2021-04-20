@@ -1,10 +1,10 @@
 ---
 title: Utilisation des mesures dans les Activités
 description: Comment mesurez-vous le succès d'une activité Adobe Target ? Dans cette vidéo, découvrez les différents types de mesures d’objectif et comment les utiliser pour mesurer les performances de votre activité.
-role: Professionnel
-level: Intermédiaire
-topic: Personnalisation
-feature: Activités
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
+feature: Activities
 doc-type: feature video
 thumbnail: null
 kt: null

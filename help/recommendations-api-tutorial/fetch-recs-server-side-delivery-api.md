@@ -1,10 +1,10 @@
 ---
 title: Récupération de Recommendations avec l'API de Diffusion
 description: Cette partie du didacticiel guide les développeurs à travers les étapes requises pour récupérer le contenu des recommandations à l’aide de l’API Adobe Target Diffusion.
-role: Développeur
-level: Intermédiaire
-topic: Personnalisation, administration, intégrations, développement
-feature: API/SDK, Recommendations, Administration et configuration
+role: Developer
+level: Intermediate
+topic: Personalization, Administration, Integrations, Development
+feature: APIs/SDKs, Recommendations, Administration & Configuration
 doc-type: tutorial
 kt: 3815
 thumbnail: null

@@ -1,10 +1,10 @@
 ---
 title: Que sont les Audiences et comment les utiliser ?
 description: Cette vidéo montre aux utilisateurs de Adobe Target comment utiliser les audiences pour les activités de cible et les rapports de filtrage.
-role: Professionnel
-level: Début
-topic: Personnalisation
-feature: Audiences, rapports
+role: Business Practitioner
+level: Beginner
+topic: Personalization
+feature: Audiences, Reports
 doc-type: feature video
 thumbnail: null
 kt: null

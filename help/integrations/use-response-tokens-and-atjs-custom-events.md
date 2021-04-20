@@ -1,10 +1,10 @@
 ---
 title: Utilisation des jetons de réponse et des Événements personnalisés d’at.js
 description: Découvrez comment utiliser les jetons de réponse et les Événements personnalisés d’at.js pour partager des informations de profil de Cible à des systèmes tiers.
-role: Développeur
-level: Expérience
-topic: Personnalisation, architecture, développement
-feature: Mise en œuvre
+role: Developer
+level: Experienced
+topic: Personalization, Architecture, Development
+feature: Implementation
 doc-type: technical video
 kt: null
 thumbnail: null

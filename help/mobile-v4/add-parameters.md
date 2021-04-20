@@ -1,10 +1,10 @@
 ---
 title: Ajouter des paramètres aux requêtes
 description: Dans cette leçon, nous allons ajouter des mesures de cycle de vie des Adobes et des paramètres personnalisés aux demandes de Cible ajoutées dans la leçon précédente. Ces mesures et paramètres seront utilisés pour créer des audiences personnalisées plus loin dans le didacticiel.
-role: Développeur
-level: Intermédiaire
-topic: Mobile, personnalisation
-feature: Mise en oeuvre de Mobile
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

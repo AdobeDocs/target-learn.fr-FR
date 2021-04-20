@@ -1,10 +1,10 @@
 ---
 title: Utilisation des paramètres d’Activité
 description: Regardez cette vidéo pour découvrir comment utiliser divers paramètres d'activité en Adobe Target, y compris les objectifs, les niveaux de priorité, les débuts et les heures de fin, et les audiences.
-role: Professionnel
-level: Début
-topic: Personnalisation
-feature: Activités
+role: Business Practitioner
+level: Beginner
+topic: Personalization
+feature: Activities
 doc-type: feature video
 thumbnail: null
 kt: null

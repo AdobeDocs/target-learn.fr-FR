@@ -1,10 +1,10 @@
 ---
 title: Comment implémenter des fournisseurs de données pour intégrer des données tierces
 description: Ce didacticiel fournit des détails d’implémentation et des exemples d’utilisation de la fonction Fournisseurs de données Adobe Target pour récupérer des données auprès de fournisseurs de données tiers et les transmettre dans la demande de Cible.
-role: Développeur
-level: Expérience
-topic: Personnalisation, intégrations
-feature: Implémentation, intégrations, API/SDK
+role: Developer
+level: Experienced
+topic: Personalization, Integrations
+feature: Implementation, Integrations, APIs/SDKs
 doc-type: technical video
 kt: null
 thumbnail: null

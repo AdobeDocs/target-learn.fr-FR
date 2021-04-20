@@ -1,8 +1,8 @@
 ---
 title: Configuration des autorisations d’utilisateur Enterprise
 description: Cette vidéo présente aux administrateurs Adobe Target les autorisations d’utilisateur, les propriétés et les espaces de travail. Regardez cette vidéo pour en savoir plus sur les différents niveaux d’utilisateur et sur l’utilisation des propriétés et des espaces de travail pour contrôler l’accès des utilisateurs.
-role: Administrateur
-level: Début
+role: Administrator
+level: Beginner
 topic: Administration
 feature: Administration & Configuration
 doc-type: feature video

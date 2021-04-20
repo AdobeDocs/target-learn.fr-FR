@@ -1,10 +1,10 @@
 ---
 title: Personnaliser les mises en page
 description: 'Dans cette dernière leçon, nous construisons deux activités de personnalisation en Cible pour nos Audiences. Découvrez comment charger et afficher les activités dans l’application et vérifier que le contenu s’affiche au bon moment aux bons emplacements.  '
-role: Développeur
-level: Intermédiaire
-topic: Mobile, personnalisation
-feature: Mise en oeuvre de Mobile
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

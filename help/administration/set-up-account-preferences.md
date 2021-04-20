@@ -1,8 +1,8 @@
 ---
 title: Configuration des préférences de compte
 description: Cette vidéo décrit les préférences du compte Adobe Target. Regardez cette vidéo pour découvrir comment différents paramètres affectent Adobe Target.
-role: Administrateur
-level: Début
+role: Administrator
+level: Beginner
 topic: Administration
 feature: Administration & Configuration
 doc-type: feature video

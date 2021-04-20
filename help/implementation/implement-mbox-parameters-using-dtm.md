@@ -1,10 +1,10 @@
 ---
 title: Mise en oeuvre des paramètres de mbox à l’aide de la gestion dynamique des balises
 description: Cette vidéo montre aux développeurs comment implémenter des paramètres de mbox à l’aide de l’Activation d’Adobe, anciennement connue sous le nom de gestion dynamique des balises (DTM) Adobe.
-role: Développeur
-level: Intermédiaire
-topic: Personnalisation, architecture, développement
-feature: Mise en œuvre
+role: Developer
+level: Intermediate
+topic: Personalization, Architecture, Development
+feature: Implementation
 doc-type: technical video
 kt: null
 thumbnail: null

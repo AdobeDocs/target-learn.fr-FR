@@ -1,8 +1,8 @@
 ---
 title: Configuration des espaces de travail
 description: Cette vidéo montre aux administrateurs comment créer des espaces de travail en Adobe Target.
-role: Administrateur
-level: Début
+role: Administrator
+level: Beginner
 topic: Administration
 feature: Administration & Configuration
 doc-type: feature video

@@ -1,10 +1,10 @@
 ---
 title: Marquage des fonctionnalités
 description: Adobe Target peut être utilisé pour expérimenter des fonctionnalités UX telles que la couleur, la copie, les boutons, le texte et les images et fournir ces fonctionnalités à des audiences spécifiques.
-role: Développeur
-level: Intermédiaire
-topic: Mobile, personnalisation
-feature: Mise en oeuvre de Mobile
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

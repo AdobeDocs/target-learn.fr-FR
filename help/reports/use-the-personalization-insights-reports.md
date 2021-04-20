@@ -1,10 +1,10 @@
 ---
 title: Utilisation des rapports Custom Insights
 description: Les activités Automated Personalization et Auto-Cible utilisent l’apprentissage automatique avancé pour offrir à chaque visiteur l’expérience la plus adaptée en fonction de son profil client individuel et du comportement des visiteurs précédents ayant des profils similaires. Les rapports Custom Insights fournissent des informations sur la manière dont ces modèles prennent leurs décisions.
-role: Professionnel
-level: Intermédiaire
-topic: Personnalisation
-feature: Rapports, Automated Personalization, Cible automatique
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
+feature: Reports, Automated Personalization, Auto-Target
 doc-type: feature video
 kt: null
 thumbnail: null

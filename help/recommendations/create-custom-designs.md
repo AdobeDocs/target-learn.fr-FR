@@ -1,10 +1,10 @@
 ---
 title: Création de conceptions personnalisées dans Recommendations
 description: Découvrez comment créer des conceptions personnalisées dans Recommendations.
-role: Professionnel
-level: Intermédiaire
-topic: Personnalisation
-feature: Recommandations
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
+feature: Recommendations
 doc-type: feature video
 thumbnail: null
 kt: null

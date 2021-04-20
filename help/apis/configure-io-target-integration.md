@@ -1,10 +1,10 @@
 ---
 title: Configuration de l’authentification pour les API Adobe Target
 description: Ce didacticiel guide les développeurs à travers les étapes requises pour générer les jetons d’authentification nécessaires pour interagir avec les API Adobe Target. Suivez ces étapes pour utiliser la Console développeur Adobe pour générer et tester le jeton d'accès porteur, nécessaire pour utiliser les API de Cible.
-role: Développeur, administrateur, architecte
-level: Intermédiaire
-topic: Personnalisation, administration, intégrations, développement
-feature: API/SDKs, administration et configuration
+role: Developer, Administrator, Architect
+level: Intermediate
+topic: Personalization, Administration, Integrations, Development
+feature: APIs/SDKs, Administration & Configuration
 doc-type: tutorial
 kt: null
 thumbnail: null

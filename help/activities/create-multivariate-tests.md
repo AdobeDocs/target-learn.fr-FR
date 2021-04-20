@@ -1,10 +1,10 @@
 ---
 title: Création de tests multivariés
 description: Cette vidéo guide les utilisateurs tout au long du processus clé de création d’un test multivarié (MVT) en Adobe Target. Découvrez les étapes de création et d’interprétation des tests multivariés.
-role: Professionnel
-level: Début
-topic: Personnalisation
-feature: Tests multivariés, Activités, compositeur d’expérience visuelle (VEC)
+role: Business Practitioner
+level: Beginner
+topic: Personalization
+feature: Multivariate Tests, Activities, Visual Experience Composer (VEC)
 doc-type: feature video
 thumbnail: null
 kt: null

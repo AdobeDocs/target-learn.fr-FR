@@ -1,10 +1,10 @@
 ---
 title: Comment créer des Activités de ciblage d’expérience
 description: Les activités de ciblage d’expérience permettent aux spécialistes du marketing de cible du contenu spécifique à une audience spécifique. Découvrez les avantages des activités XT et comment les créer et les utiliser.
-role: Professionnel
-level: Début
-topic: Personnalisation
-feature: Ciblage d’expérience, Activités, compositeur d’expérience visuelle (VEC)
+role: Business Practitioner
+level: Beginner
+topic: Personalization
+feature: Experience Targeting, Activities, Visual Experience Composer (VEC)
 doc-type: feature video
 thumbnail: null
 kt: null
