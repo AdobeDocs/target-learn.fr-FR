@@ -1,27 +1,26 @@
 ---
-title: Utilisation des rapports Custom Insights
-description: Les activités Automated Personalization et Auto-Cible utilisent l’apprentissage automatique avancé pour offrir à chaque visiteur l’expérience la plus adaptée en fonction de son profil client individuel et du comportement des visiteurs précédents ayant des profils similaires. Les rapports Custom Insights fournissent des informations sur la manière dont ces modèles prennent leurs décisions.
-role: Business Practitioner
+title: Utilisation des rapports Informations sur la personnalisation
+description: Les activités Automated Personalization et de ciblage automatique utilisent l’apprentissage automatique avancé pour offrir à chaque visiteur l’expérience la plus personnalisée en fonction de son profil client et du comportement des visiteurs précédents dotés de profils similaires. Les rapports Informations sur la personnalisation fournissent des informations sur la manière dont ces modèles prennent leurs décisions.
+role: User
 level: Intermediate
-topic: Personalization
-feature: Reports, Automated Personalization, Auto-Target
+topic: Personnalisation
+feature: Rapports, Automated Personalization, ciblage automatique
 doc-type: feature video
 kt: null
 thumbnail: null
 author: Daniel Wright
 badge: premium
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 821c37e4-aae1-40bf-b64b-42d22bc1ad29
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '131'
 ht-degree: 2%
 
 ---
 
+# Utilisation des rapports Informations sur la personnalisation
 
-# Utilisation des rapports Custom Insights
-
-Les activités Automated Personalization et Auto-Cible utilisent l’apprentissage automatique avancé pour offrir à chaque visiteur l’expérience la plus adaptée en fonction de son profil client individuel et du comportement des visiteurs précédents ayant des profils similaires. Les rapports Custom Insights fournissent des informations sur la manière dont ces modèles prennent leurs décisions.
+Les activités Automated Personalization et de ciblage automatique utilisent l’apprentissage automatique avancé pour offrir à chaque visiteur l’expérience la plus personnalisée en fonction de son profil client et du comportement des visiteurs précédents dotés de profils similaires. Les rapports Informations sur la personnalisation fournissent des informations sur la manière dont ces modèles prennent leurs décisions.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/?quality=12)
 
