@@ -1,21 +1,20 @@
 ---
 title: Création de conceptions personnalisées dans Recommendations
-description: Découvrez comment créer des conceptions personnalisées dans Recommendations.
-role: Business Practitioner
+description: Découvrez comment créer des conceptions personnalisées dans Adobe Target Recommendations.
+role: User
 level: Intermediate
-topic: Personalization
+topic: Personnalisation
 feature: Recommendations
 doc-type: feature video
 thumbnail: null
 kt: null
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 19be02da-f5b8-4950-9bb5-7a0effec419c
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 14%
+source-wordcount: '71'
+ht-degree: 15%
 
 ---
-
 
 # Création de conceptions personnalisées dans Recommendations
 
@@ -33,9 +32,9 @@ Dans cette vidéo, vous apprendrez à :
 
 ## Ressources supplémentaires
 
-* [Créer des collections et des exclusions](create-collections-and-exclusions.md)
+* [Création de collections et d’exclusions](create-collections-and-exclusions.md)
 * [Création d’une activité de recommandations](create-a-recommendations-activity.md)
 * [Présentation des flux](understanding-feeds.md)
 * [Création d’un flux](create-a-feed.md)
 * [Création de critères](create-criteria.md)
-* [Documentation de Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Documentation Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
