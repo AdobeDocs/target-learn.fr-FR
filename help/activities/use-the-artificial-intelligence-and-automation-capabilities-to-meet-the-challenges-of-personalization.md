@@ -1,25 +1,24 @@
 ---
 title: 'Comment utiliser l''intelligence artificielle et l''automatisation pour relever les défis de la personnalisation '
-description: Cette vidéo traite de l'importance de la personnalisation, des défis que représente la personnalisation, de la solution à ces défis (les quatre offres d'IA/Automatisation en Adobe Target) et des éléments clés pour fournir des expériences personnalisées. Il s'agit d'une version éditée de la présentation du Sommet des Adobes 2018 de Jamie Brighton.
-role: Business Practitioner
+description: Cette vidéo traite de l’importance de la personnalisation, des défis liés à la personnalisation, de la solution à ces défis (les quatre offres d’IA/automatisation d’Adobe Target) et des éléments essentiels à la diffusion d’expériences personnalisées. C'est une version éditée de la présentation de l'Adobe Summit de Jamie Brighton en 2018.
+role: User
 level: Beginner
-topic: Personalization
-feature: Auto-Allocate, Auto-Target, Automated Personalization
+topic: Personnalisation
+feature: Affectation automatique, Ciblage automatique, Automated Personalization
 doc-type: value video
 thumbnail: null
 kt: null
 badge: premium
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 6379a49c-e978-4ccb-84c6-811d68d68028
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
 
-
 # Utiliser l&#39;intelligence artificielle et l&#39;automatisation pour relever les défis de la personnalisation
 
-Cette vidéo traite de l&#39;importance de la personnalisation, des défis que représente la personnalisation, de la solution à ces défis (les quatre offres d&#39;IA/Automatisation en Adobe Target) et des éléments clés pour fournir des expériences personnalisées. Il s&#39;agit d&#39;une version éditée de la présentation du Sommet des Adobes 2018 de Jamie Brighton.
+Cette vidéo traite de l’importance de la personnalisation, des défis liés à la personnalisation, de la solution à ces défis (les quatre offres d’IA/automatisation d’Adobe Target) et des éléments essentiels à la diffusion d’expériences personnalisées. C&#39;est une version éditée de la présentation de l&#39;Adobe Summit de Jamie Brighton en 2018.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25440/?quality=12)
