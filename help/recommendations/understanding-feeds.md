@@ -1,21 +1,20 @@
 ---
-title: Qu’est-ce qu’un flux à Recommendations ?
-description: Découvrez ce qu’est un flux Adobe Target Recommendations et comment il est utilisé
-role: Business Practitioner
+title: Qu’est-ce qu’un flux dans Recommendations ?
+description: Découvrez ce qu’est un flux Recommendations Adobe Target et comment il est utilisé
+role: User
 level: Intermediate
-topic: Personalization
+topic: Personnalisation
 feature: Recommendations
 doc-type: feature video
 thumbnail: null
 kt: null
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: f9de86e7-1967-4ab7-a600-00e86220f209
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 13%
+source-wordcount: '77'
+ht-degree: 14%
 
 ---
-
 
 # Présentation des flux dans Recommendations
 
@@ -35,7 +34,7 @@ Dans cette vidéo, vous apprendrez à :
 
 * [Création d’un flux](create-a-feed.md)
 * [Création de critères](create-criteria.md)
-* [Créer des conceptions personnalisées](create-custom-designs.md)
-* [Créer des collections et des exclusions](create-collections-and-exclusions.md)
+* [Création de conceptions personnalisées](create-custom-designs.md)
+* [Création de collections et d’exclusions](create-collections-and-exclusions.md)
 * [Création d’une activité de recommandations](create-a-recommendations-activity.md)
-* [Documentation de Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Documentation Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
