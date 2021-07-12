@@ -1,21 +1,20 @@
 ---
 title: Création d’un flux dans Recommendations
-description: Découvrez comment créer un flux de données dans Recommendations
-role: Business Practitioner
+description: Découvrez comment créer un flux de données dans Adobe Target Recommendations
+role: User
 level: Intermediate
-topic: Personalization
+topic: Personnalisation
 feature: Recommendations
 doc-type: feature video
 thumbnail: null
 kt: null
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: d09f01aa-4b24-4f5c-93ef-03bc0d28d85c
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '75'
 ht-degree: 14%
 
 ---
-
 
 # Création d’un flux dans Adobe Target Recommendations
 
@@ -36,6 +35,6 @@ Dans cette vidéo, vous apprendrez à :
 * [Présentation des flux](understanding-feeds.md)
 * [Création d’une activité de recommandations](create-a-recommendations-activity.md)
 * [Création de critères](create-criteria.md)
-* [Créer des conceptions personnalisées](create-custom-designs.md)
-* [Créer des collections et des exclusions](create-collections-and-exclusions.md)
-* [Documentation de Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Création de conceptions personnalisées](create-custom-designs.md)
+* [Création de collections et d’exclusions](create-collections-and-exclusions.md)
+* [Documentation Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
