@@ -1,21 +1,20 @@
 ---
-title: Comment créer des collections et des exclusions dans Recommendations
+title: Création de collections et d’exclusions dans Recommendations
 description: Découvrez ce qu’est une collection Recommendations et comment l’utiliser. Découvrez ce qu’est une exclusion Recommendations et comment l’utiliser.
-role: Business Practitioner
+role: User
 level: Intermediate
-topic: Personalization
+topic: Personnalisation
 feature: Recommendations
 doc-type: feature video
 thumbnail: null
 kt: null
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 10448c36-44b8-4a2f-a3c5-9e0130593a17
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '81'
 ht-degree: 13%
 
 ---
-
 
 # Création de collections et d’exclusions dans Recommendations
 
@@ -24,7 +23,7 @@ ht-degree: 13%
 Dans cette vidéo, vous apprendrez à :
 
 * Création de collections
-* Créer des exclusions
+* Création d’exclusions
 
 ## Audience prévue
 
@@ -38,5 +37,5 @@ Dans cette vidéo, vous apprendrez à :
 * [Présentation des flux](understanding-feeds.md)
 * [Création d’un flux](create-a-feed.md)
 * [Création de critères](create-criteria.md)
-* [Créer des conceptions personnalisées](create-custom-designs.md)
-* [Documentation de Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Création de conceptions personnalisées](create-custom-designs.md)
+* [Documentation Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
