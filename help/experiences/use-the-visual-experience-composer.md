@@ -1,33 +1,32 @@
 ---
 title: Utilisation du compositeur d’expérience visuelle
-description: Ces deux vidéos présentent les marketeurs au compositeur d’expérience visuelle Adobe Target (VEC). Regardez ces vidéos pour savoir comment créer des activités à l’aide du compositeur d’expérience visuelle.
-role: Business Practitioner
+description: Ces deux vidéos présentent aux spécialistes du marketing un aperçu du compositeur dʼexpérience visuelle (VEC) dʼAdobe Target. Regardez ces vidéos pour apprendre comment créer des activités à lʼaide du compositeur dʼexpérience visuelle.
+role: User
 level: Beginner
-topic: Personalization
-feature: Visual Experience Composer (VEC), Experiences and Offers
+topic: Personnalisation
+feature: Compositeur d’expérience visuelle (VEC), expériences et offres
 doc-type: feature video
 thumbnail: null
 kt: null
-translation-type: tm+mt
-source-git-commit: 2c371ea17ce38928bcf3655a0d604a69e29963a0
+exl-id: 3c3985c8-f033-40a1-a39e-8c2f41208d17
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 1%
+source-wordcount: '122'
+ht-degree: 22%
 
 ---
 
-
-# Utilisation du [!UICONTROL compositeur d’expérience visuelle] en Adobe Target
+# Utilisation du [!UICONTROL compositeur d’expérience visuelle] dans Adobe Target
 
 ## Description
 
-Dans la première vidéo, vous apprendrez à :
+Dans la première vidéo, vous apprenez à :
 
-* Utilisez le compositeur d’expérience visuelle (VEC) pour exécuter sa fonction clé, ce qui vous permet de modifier visuellement et intuitivement la disposition et le contenu d’une page dans une activité Adobe Target.
+* Utilisez le compositeur d’expérience visuelle (VEC) pour effectuer sa fonction clé, en fournissant un moyen intuitif et visuel de modifier la mise en page et le contenu d’une page dans une activité Adobe Target.
 
-Dans la seconde vidéo, vous apprendrez à :
+Dans la seconde vidéo, vous apprenez à :
 
-* Utilisez les fonctionnalités supplémentaires du compositeur d’expérience visuelle, notamment la création d’expériences de redirection et d’activités de plusieurs pages, ainsi que l’utilisation des fenêtres d’affichage mobiles.
+* Utilisez des fonctionnalités supplémentaires du VEC, notamment la création d’expériences de redirection et d’activités multi-page, ainsi que la manière d’utiliser les fenêtres d’affichage mobiles.
 
 ## Audience prévue
 
