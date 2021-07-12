@@ -1,33 +1,32 @@
 ---
-title: Utilisation de la comparaison des Profils pour créer des Audiences
-description: Cette vidéo montre aux utilisateurs de Adobe Target comment utiliser la fonction Comparaison des Profils pour comparer deux valeurs de profil numériques les unes par rapport aux autres lors de la création d’une audience.
-role: Business Practitioner
+title: Utilisation de la comparaison de profils pour créer des audiences
+description: Cette vidéo montre aux utilisateurs d’Adobe Target comment utiliser la fonction de comparaison de profils pour comparer deux valeurs de profil numériques les unes par rapport aux autres lors de la création d’une audience.
+role: User
 level: Experienced
-topic: Personalization
+topic: Personnalisation
 feature: Audiences
 doc-type: feature video
 thumbnail: null
 kt: null
 author: Daniel Wright
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 66764a66-ba47-4ab4-8a36-137a7cca525b
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '176'
 ht-degree: 6%
 
 ---
 
+# Utilisation de la comparaison de profils pour créer des audiences dans Adobe Target
 
-# Utiliser la comparaison des Profils pour créer des Audiences dans Adobe Target
-
-La fonction [!UICONTROL Comparaison des Profils] de Adobe Target vous permet de comparer deux valeurs de profil numériques les unes par rapport aux autres lors de la création d’une audience. Cela s’avère extrêmement utile si vous transmettez, par exemple, des scores de propension personnalisés dans [!DNL Target] et souhaitez personnaliser le contenu en fonction du produit ayant le score de propension le plus élevé.
+La fonction [!UICONTROL Comparaison de profil] d’Adobe Target vous permet de comparer deux valeurs de profil numériques l’une par rapport à l’autre lors de la création d’une audience. Cela s’avère extrêmement utile si, par exemple, vous transmettez des scores de propension personnalisés dans [!DNL Target] et souhaitez personnaliser le contenu en fonction du produit avec le score de propension le plus élevé.
 
 ## Description
 
 Dans cette vidéo, vous apprendrez à :
 
-* Comparer les valeurs (scores) de profil numérique transmises à Adobe Target
-* Utiliser ces comparaisons de notes pour définir des audiences
+* Comparaison des valeurs de profil numériques (scores) transmises à Adobe Target
+* Utiliser ces comparaisons de scores pour définir des audiences
 
 ## Audience prévue
 
@@ -38,6 +37,6 @@ Dans cette vidéo, vous apprendrez à :
 ## Ressources supplémentaires
 
 * [Création d’une audience de comparaison d’attributs de profil](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html)
-* [Méthodes d’obtention de données dans Adobe Target](https://docs.adobe.com/content/help/en/target/using/implement-target/before-implement/methods/methods-to-get-data-into-target.html)
-* [Création d&#39;Audiences](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/create-audience.html)
-* [Vidéo sur la création d’Activités de ciblage d’expérience](../activities/create-experience-targeting-activities.md)
+* [Méthodes de transfert de données dans Adobe Target](https://docs.adobe.com/content/help/en/target/using/implement-target/before-implement/methods/methods-to-get-data-into-target.html)
+* [Création d’audiences](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/create-audience.html)
+* [Vidéo Créer des activités de ciblage d’expérience](../activities/create-experience-targeting-activities.md)
