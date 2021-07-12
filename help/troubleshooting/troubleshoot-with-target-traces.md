@@ -1,24 +1,23 @@
 ---
-title: Résolution des problèmes liés aux traces de Cible
-description: Le débogueur Adobe Experience Cloud vous permet de comprendre rapidement et facilement votre implémentation Target. Apprenez à vous authentifier dans l'Experience Cloud et à utiliser l'outil puissant Traces de Cible pour vérifier vos compétences en activité et en audience ainsi que votre profil visiteur.
-role: Business Practitioner
+title: Résolution des problèmes liés aux traces de Target
+description: Le débogueur Adobe Experience Cloud vous permet de comprendre rapidement et facilement votre implémentation Target. Découvrez comment vous authentifier dans l’Experience Cloud et utiliser le puissant outil Target Traces pour examiner les qualifications de votre activité et de votre audience, ainsi que votre profil de visiteur.
+role: User
 level: Intermediate
-topic: Personalization, Performance
-feature: Troubleshooting
+topic: Personnalisation, performance
+feature: Résolution des problèmes
 doc-type: feature video
 kt: null
 thumbnail: null
 author: Daniel Wright
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 5a38ac7f-a75a-43a8-8034-5735676b6be2
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '112'
 ht-degree: 17%
 
 ---
 
-
-# Résolution des problèmes liés aux traces de Cible
+# Résolution des problèmes liés aux traces de Target
 
 ## Mbox Trace
 
@@ -27,6 +26,6 @@ ht-degree: 17%
 ## Ressources supplémentaires
 
 * [Débogueur Adobe Experience Cloud dans Chrome Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)
-* [Documentation de l’aide de la Cible de dépannage](https://docs.adobe.com/content/help/en/target/using/troubleshoot/troubleshooting-target.html)
-* [Dépannage de la Cible de la vidéo Experience Cloud Debugger](troubleshoot-with-the-experience-cloud-debugger.md)
+* [Documentation d’aide sur le dépannage de Target](https://docs.adobe.com/content/help/en/target/using/troubleshoot/troubleshooting-target.html)
+* [Vidéo Résolution des problèmes liés à Target avec l’Experience Cloud Debugger](troubleshoot-with-the-experience-cloud-debugger.md)
 * [Utilisation de la vidéo Experience Cloud Debugger](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/debugger/use-the-experience-cloud-debugger.html)
