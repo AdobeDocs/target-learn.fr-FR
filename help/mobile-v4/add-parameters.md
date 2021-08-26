@@ -1,6 +1,6 @@
 ---
 title: Ajouter des paramètres aux requêtes
-description: Dans cette leçon, nous allons ajouter des mesures de cycle de vie des Adobes et des paramètres personnalisés aux demandes de Cible ajoutées dans la leçon précédente. Ces mesures et paramètres seront utilisés pour créer des audiences personnalisées plus loin dans le didacticiel.
+description: Dans cette leçon, nous allons ajouter des mesures de cycle de vie d’Adobe et des paramètres personnalisés aux requêtes Target ajoutées dans la leçon précédente. Ces mesures et paramètres seront utilisés ultérieurement dans le tutoriel pour créer des audiences personnalisées.
 role: Developer
 level: Intermediate
 topic: Mobile, Personalization
@@ -8,58 +8,57 @@ feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 0250e55f-a233-4060-84e1-86d1f88a6106
+source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
 
-
 # Ajouter des paramètres aux requêtes
 
-Dans cette leçon, nous allons ajouter des mesures de cycle de vie d&#39;Adobe et des paramètres personnalisés aux demandes [!DNL Target] ajoutées dans la leçon précédente. Ces mesures et paramètres seront utilisés pour créer des audiences personnalisées plus loin dans le didacticiel.
+Dans cette leçon, nous allons ajouter des mesures de cycle de vie d’Adobe et des paramètres personnalisés aux requêtes [!DNL Target] ajoutées dans la leçon précédente. Ces mesures et paramètres seront utilisés ultérieurement dans le tutoriel pour créer des audiences personnalisées.
 
-## Objectifs d&#39;apprentissage
+## Objectifs d’apprentissage
 
-À la fin de cette leçon, vous pourrez :
+À la fin de cette leçon, vous serez en mesure de :
 
-* Ajouter les mesures de cycle de vie des dispositifs portables Adobe
-* Ajouter des paramètres à une requête de prérécupération
-* Ajouter des paramètres à un emplacement de production
-* Valider les paramètres des deux requêtes
+* Ajout des mesures de cycle de vie mobile Adobe
+* Ajout de paramètres à une requête de prérécupération
+* Ajout de paramètres à un emplacement dynamique
+* Validation des paramètres des deux requêtes
 
-## Ajouter les paramètres de cycle de vie
+## Ajout des paramètres de cycle de vie
 
-Activez les [mesures de cycle de vie des dispositifs portables ](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html) Adobe. Ceci ajoute des paramètres aux requêtes d’emplacement contenant des informations riches sur l’appareil de l’utilisateur et son engagement dans l’application. Nous créerons des audiences dans la leçon suivante en utilisant les données fournies par la demande de cycle de vie.
+Activez les [mesures de cycle de vie mobile d’Adobe](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html). Cela permet d’ajouter des paramètres aux requêtes d’emplacement contenant des informations riches sur l’appareil de l’utilisateur et l’engagement avec l’application. Nous allons créer des audiences dans la leçon suivante en utilisant les données fournies par la requête de cycle de vie.
 
-Pour activer les mesures de cycle de vie, ouvrez de nouveau le contrôleur HomeActivity et ajoutez `Config.collectLifecycleData(this);` à la fonction onResume() :
+Pour activer les mesures de cycle de vie, ouvrez à nouveau le contrôleur HomeActivity et ajoutez `Config.collectLifecycleData(this);` à la fonction onResume() :
 
-![Demande de cycle de vie](assets/lifecycle_code.jpg)
+![Requête Lifecycle](assets/lifecycle_code.jpg)
 
-### Validation des paramètres de cycle de vie pour la demande de prérécupération
+### Validation des paramètres de cycle de vie de la requête de prérécupération
 
-Exécutez l&#39;émulateur et utilisez Logcat pour valider les paramètres de cycle de vie. Filtrer pour &quot;prérécupérer&quot; pour rechercher la réponse de prérécupération et rechercher les nouveaux paramètres :
+Exécutez l’émulateur et utilisez Logcat pour valider les paramètres de cycle de vie. Filtrez pour &quot;prérécupération&quot; afin de trouver la réponse de prérécupération et de rechercher les nouveaux paramètres :
 ![Validation du cycle de vie](assets/lifecycle_validation.jpg)
 
-Bien que nous ayons seulement ajouté `Config.collectLifecycleData()` au contrôleur HomeActivity, vous devriez également voir les mesures de cycle de vie envoyées avec la demande de Cible sur votre écran de remerciement.
+Bien que nous ayons uniquement ajouté `Config.collectLifecycleData()` au contrôleur HomeActivity, les mesures de cycle de vie envoyées avec la demande Target doivent également s’afficher sur votre écran de remerciement.
 
-## Ajouter le paramètre at_property à la demande de prérécupération
+## Ajout du paramètre at_property à la requête de prérécupération
 
-Les propriétés Adobe Target sont définies dans l&#39;interface [!DNL Target] et servent à définir des limites pour la personnalisation des applications et des sites Web. Le paramètre at_property identifie la propriété spécifique dans laquelle vos offres et activités sont consultées et conservées. Nous allons ajouter une propriété aux demandes d&#39;emplacement prérécupéré et actif.
+Les propriétés Adobe Target sont définies dans l’interface [!DNL Target] et sont utilisées pour établir des limites pour la personnalisation des applications et des sites web. Le paramètre at_property identifie la propriété spécifique sur laquelle vos offres et activités sont accessibles et gérées. Nous allons ajouter une propriété aux requêtes de prérécupération et d’emplacement actif.
 
 >[!NOTE]
 >
->Selon votre licence, vous pouvez voir ou non les options Propriétés dans l&#39;interface [!DNL Target]. Si vous n&#39;avez pas ces options, ou si vous n&#39;utilisez pas Propriétés dans votre société, passez directement à la section suivante de cette leçon.
+>Selon votre licence, les options Propriétés peuvent s’afficher ou non dans l’interface [!DNL Target]. Si vous ne disposez pas de ces options, ou si vous n’utilisez pas Propriétés dans votre entreprise, passez directement à la section suivante de cette leçon.
 
-Vous pouvez récupérer votre valeur at_property dans l&#39;interface [!DNL Target] sous [!UICONTROL Configuration] > [!UICONTROL Propriétés].  Passez la souris sur la propriété, sélectionnez l’icône de fragment de code et copiez la valeur `at_property` :
+Vous pouvez récupérer votre valeur at_property dans l’interface [!DNL Target] sous [!UICONTROL Configuration] > [!UICONTROL Propriétés].  Pointez sur la propriété , sélectionnez l’icône de fragment de code et copiez la valeur `at_property` :
 
 ![Copier at_property](assets/at_property_interface.jpg)
 
-Ajoutez-le en tant que paramètre pour chaque emplacement dans la requête de prérécupération comme suit :
+Ajoutez-le en tant que paramètre pour chaque emplacement de la requête de prérécupération, comme suit :
 ![Ajouter le paramètre at_property](assets/params_at_property.jpg)
-Voici le code mis à jour pour la fonction `targetPrefetchContent()` (veillez à mettre à jour la valeur _[!UICONTROL de votre propriété at_property ici]_ texte d&#39;espace réservé !) :
+Voici le code mis à jour pour la fonction `targetPrefetchContent()` (veillez à mettre à jour la _[!UICONTROL valeur at_property , en cliquant ici]_ texte d’espace réservé!) :
 
 ```java
 public void targetPrefetchContent() {
@@ -89,29 +88,29 @@ public void targetPrefetchContent() {
     }
 ```
 
-### Remarque concernant les paramètres
+### Remarque À Propos Des Paramètres
 
-Pour les futurs projets, vous pouvez implémenter des paramètres supplémentaires. La méthode `createTargetPrefetchObject()` permet trois types de paramètres : `locationParams`, `orderParams` et `productParams`. Consultez la documentation [pour plus d&#39;informations sur l&#39;ajout de ces paramètres à la requête de prérécupération](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-mob-target-prefetch-android.html).
+Pour les futurs projets, vous souhaiterez peut-être implémenter des paramètres supplémentaires. La méthode `createTargetPrefetchObject()` permet trois types de paramètres : `locationParams`, `orderParams` et `productParams`. Pour [plus d’informations sur l’ajout de ces paramètres à la requête de prérécupération](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en), consultez la documentation.
 
-Notez également que différents paramètres d’emplacement peuvent être ajoutés à chaque emplacement dans la demande de prérécupération. Par exemple, vous pouvez créer un autre mappage appelé param2, y placer un nouveau paramètre, puis définir param2 à un emplacement et param1 à un autre emplacement. Voici un exemple :
+Notez également que différents paramètres d’emplacement peuvent être ajoutés à chaque emplacement dans la requête de prérécupération. Par exemple, vous pouvez créer une autre carte appelée param2, y placer un nouveau paramètre, puis définir param2 à un emplacement et param1 à l’autre emplacement. Voici un exemple :
 
 ```java
 prefetchList.add(Target.createTargetPrefetchObject(location1_name, params1);
 prefetchList.add(Target.createTargetPrefetchObject(location2_name, params2);
 ```
 
-## Validez le paramètre at_property dans la demande de prérécupération.
+## Validation du paramètre at_property dans la requête de prérécupération
 
-Exécutez maintenant l&#39;émulateur et utilisez Logcat pour vérifier que la propriété at_property s&#39;affiche sur la requête et la réponse de prérécupération pour les deux emplacements :
-![Valider le paramètre at_property](assets/parameters_at_property_validation.jpg)
+Exécutez maintenant l’émulateur et utilisez Logcat pour vérifier que la propriété at_property s’affiche sur la requête et la réponse de prérécupération pour les deux emplacements :
+![Validez le paramètre at_property](assets/parameters_at_property_validation.jpg)
 
-## Ajouter des paramètres personnalisés à la demande d’emplacement dynamique
+## Ajout de paramètres personnalisés à la requête d’emplacement dynamique
 
-La demande d&#39;emplacement en direct (wetravel_context_dest) a été ajoutée à la leçon précédente afin que nous puissions afficher une promotion pertinente sur l&#39;écran de confirmation finale du processus de réservation. Nous aimerions personnaliser la promotion en fonction de la destination de l&#39;utilisateur et pour ce faire, nous ajouterons cela comme paramètre à la demande. Nous ajouterons également un paramètre pour l&#39;origine trop et la valeur at_property.
+La demande d’emplacement réel (wetravel_context_dest) a été ajoutée à la leçon précédente afin que nous puissions afficher une promotion appropriée sur l’écran de confirmation final du processus de réservation. Nous souhaitons personnaliser la promotion en fonction de la destination de l’utilisateur. Pour ce faire, nous l’ajouterons en tant que paramètre à la requête. Nous ajouterons également un paramètre pour l’origine trop et la valeur at_property.
 
-Ajoutez les paramètres suivants à la fonction targetLoadRequest() dans le contrôleur ThankYouActivity :
-![Ajouter les paramètres à la demande d’emplacement dynamique](assets/parameters_live_location.jpg)
-Voici le code mis à jour pour la fonction targetLoadRequest() (veillez à mettre à jour le texte d’espace réservé &quot;ajouter votre valeur at_property ici&quot;) :
+Ajoutez les paramètres suivants à la fonction targetLoadRequest() du contrôleur ThankYouActivity :
+![Ajouter des paramètres à la requête d’emplacement dynamique](assets/parameters_live_location.jpg)
+Voici le code mis à jour pour la fonction targetLoadRequest() (veillez à mettre à jour le texte de l’espace réservé &quot;ajouter votre valeur at_property ici&quot;) :
 
 ```java
 public void targetLoadRequest(final ArrayList<Recommandation> recommandations) {
@@ -141,19 +140,19 @@ public void targetLoadRequest(final ArrayList<Recommandation> recommandations) {
 }
 ```
 
-### Validation des paramètres personnalisés dans la demande d’emplacement dynamique
+### Validation des paramètres personnalisés dans la requête d’emplacement dynamique
 
-Exécutez l&#39;émulateur et ouvrez Logcat. Filtrez l’un des paramètres pour vérifier que la requête contient les paramètres nécessaires :
-![Valider les paramètres personnalisés dans la demande d’emplacement dynamique](assets/parameters_live_location_validation.jpg)
-
->[!NOTE]
->
->Demandes et paramètres de confirmation de commande : Bien qu&#39;elle ne soit pas utilisée dans ce projet de démonstration, les détails de la commande sont généralement capturés dans une implémentation réelle. [!DNL Target] peut donc utiliser les détails de la commande comme mesures/dimensions. Consultez la documentation pour savoir comment [mettre en oeuvre la demande de confirmation de commande et les paramètres](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-target-methods.html).
+Exécutez l’émulateur et ouvrez Logcat. Filtrez l’un des paramètres pour vérifier que la requête contient les paramètres nécessaires :
+![Validation des paramètres personnalisés dans la demande d’emplacement dynamique](assets/parameters_live_location_validation.jpg)
 
 >[!NOTE]
 >
->Analytics pour la Cible (A4T) : Adobe Analytics peut être configuré comme source de rapports pour [!DNL Target]. Cela permet à toutes les mesures/dimensions collectées par le SDK de Cible d’être consultées dans Adobe Analytics. Pour plus d’informations, consultez la section [Présentation d’A4T](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html).
+>Requêtes et paramètres de confirmation de commande : Bien qu’il ne soit pas utilisé dans ce projet de démonstration, les détails de la commande sont généralement capturés dans une mise en oeuvre réelle. [!DNL Target] peut donc utiliser les détails de la commande comme mesures/dimensions. Reportez-vous à la documentation pour obtenir des instructions sur la [mise en oeuvre de la requête de confirmation de commande et des paramètres](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=en).
 
-Bon travail ! Maintenant que les paramètres sont en place, nous sommes prêts à utiliser ces paramètres pour créer des audiences et des offres dans Adobe Target.
+>[!NOTE]
+>
+>Analytics for Target (A4T) : Adobe Analytics peut être configuré comme source de création de rapports pour [!DNL Target]. Cela permet de visualiser toutes les mesures/dimensions collectées par le SDK Target dans Adobe Analytics. Pour plus d’informations, consultez la [Présentation d’A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en) .
 
-**[SUIVANT : &quot;Créer des Audiences et des Offres&quot; >](create-audiences-and-offers.md)**
+Beau travail ! Maintenant que les paramètres sont en place, nous sommes prêts à les utiliser pour créer des audiences et des offres dans Adobe Target.
+
+**[SUIVANT : &quot;Créer des audiences et des offres&quot; >](create-audiences-and-offers.md)**
