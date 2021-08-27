@@ -3,15 +3,15 @@ title: Utilisation des offres Recommendations dans les activités de test A/B et
 description: Découvrez comment utiliser les offres Recommendations dans les activités de test A/B et de ciblage d’expérience dans Adobe Target.
 role: User
 level: Intermediate
-topic: Personnalisation
-feature: Recommendations, ciblage automatique, affectation automatique
+topic: Personalization
+feature: Recommendations, Auto-Target, Auto-Allocate
 doc-type: feature video
 thumbnail: null
 kt: 3451
 exl-id: 16908f07-cda4-4a34-9e11-42b419e3917b
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '131'
 ht-degree: 30%
 
 ---
@@ -29,5 +29,5 @@ Les offres Recommendations peuvent être utilisées avec les activités de test 
 
 ## Ressources supplémentaires
 
-* [Recommendations en tant que documentation d’offre](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-as-an-offer.html)
+* [Recommendations en tant que documentation d’offre](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-as-an-offer.html?lang=en)
 * [Vidéo Créer une activité Recommendations](create-a-recommendations-activity.md)

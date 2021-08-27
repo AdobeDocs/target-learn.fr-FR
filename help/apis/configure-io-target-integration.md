@@ -10,9 +10,9 @@ kt: null
 thumbnail: null
 author: Judy Kim
 exl-id: 8a1e93e4-67b2-4942-a8da-fc0f2cbb2df2
-source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '1884'
+source-wordcount: '1883'
 ht-degree: 2%
 
 ---
@@ -87,7 +87,7 @@ Il existe de nombreuses façons de spécifier les détails de votre projet dans 
 
 >[!NOTE]
 >
->Pour obtenir des instructions vidéo applicables à toute solution Experience Cloud, y compris [!DNL Target], voir [Utilisation de Postman avec les API Experience Platform](https://docs.adobe.com/content/help/en/platform-learn/tutorials/apis/postman.html). Les sections suivantes concernent les API [!DNL Target] :
+>Pour obtenir des instructions vidéo applicables à toute solution Experience Cloud, y compris [!DNL Target], voir [Utilisation de Postman avec les API Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/platform-api-authentication.html?lang=en). Les sections suivantes concernent les API [!DNL Target] :
 >
 > 1. Exportation des détails de l’intégration d’Adobe I/O vers Postman
 > 2. Génération d’un jeton d’accès avec Postman

@@ -1,6 +1,6 @@
 ---
-title: Utilisation des jetons de réponse et des Événements personnalisés d’at.js
-description: Découvrez comment utiliser les jetons de réponse et les Événements personnalisés d’at.js pour partager des informations de profil de Cible à des systèmes tiers.
+title: Utilisation des jetons de réponse et des événements personnalisés at.js
+description: Découvrez comment utiliser les jetons de réponse et les événements personnalisés at.js pour partager des informations de profil de Target avec des systèmes tiers.
 role: Developer
 level: Experienced
 topic: Personalization, Architecture, Development
@@ -9,33 +9,32 @@ doc-type: technical video
 kt: null
 thumbnail: null
 author: Daniel Wright
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: d6ce5367-a453-4e6c-8545-9fa676977f04
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 4%
+source-wordcount: '241'
+ht-degree: 3%
 
 ---
 
+# Utilisation des jetons de réponse et des événements personnalisés at.js avec Adobe Target
 
-# Utiliser des jetons de réponse et des Événements personnalisés at.js avec Adobe Target
-
-Les jetons de réponse et les Événements personnalisés `at.js` vous permettent de partager des informations de profil de [!DNL Target] vers des systèmes tiers. Tout objet du profil de visiteur [!DNL Target], y compris les attributs de profil personnalisés, les informations géographiques, les détails d&#39;activité et les profils intégrés, peut être ajouté à la réponse [!DNL Target] dans laquelle vous pouvez utiliser du code JavaScript personnalisé pour l&#39;intégrer à un tiers.
+Les jetons de réponse et les `at.js` événements personnalisés vous permettent de partager des informations de profil de [!DNL Target] vers des systèmes tiers. Tout objet du profil du visiteur [!DNL Target], y compris les attributs de profil personnalisés, les informations géographiques, les détails de l’activité et les profils intégrés, peut être ajouté à la réponse [!DNL Target] dans laquelle vous pouvez utiliser du code JavaScript personnalisé pour l’intégration à un tiers.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/?quality=12)
 
-## Utilisation des jetons de réponse et des Événements personnalisés d’at.js
+## Utilisation des jetons de réponse et des événements personnalisés at.js
 
 1. Déterminer les données dont vous avez besoin à partir de [!DNL Target]
-1. Activez les jetons de réponse pour les données dont vous avez besoin en activant la bascule sur l&#39;écran Configuration->Jetons de réponse.
-1. Déterminer l&#39;écouteur de événement à utiliser
-1. Ecrivez le code JavaScript nécessaire pour écouter le événement Adobe Target, lire les jetons de réponse et faire ce dont vous avez besoin pour votre intégration.
-1. Déployez le code JavaScript de votre écouteur de événement à l’aide d’une action de code personnalisé dans Lancer après l’action &quot;Charger la Cible&quot; ou ajoutez-le à la section Pied de page de la bibliothèque d’at.js sur l’écran Configuration->Implémentation et enregistrez un nouveau fichier at.js.
-1. AQ et publier votre intégration
+1. Activez les jetons de réponse pour les données dont vous avez besoin en activant le bouton d’activation/désactivation sur l’écran Configuration ->Jetons de réponse .
+1. Déterminer quel écouteur d’événement vous devez utiliser
+1. Ecrivez le code JavaScript nécessaire pour écouter l’événement Adobe Target, lire les jetons de réponse et faire ce dont vous avez besoin pour votre intégration.
+1. Déployez le code JavaScript de votre écouteur d’événements à l’aide d’une action de code personnalisé dans Launch après l’action &quot;Charger Target&quot; ou ajoutez-le à la section Pied de page de bibliothèque d’at.js sur l’écran Configuration ->Mise en oeuvre et enregistrez un nouveau fichier at.js.
+1. AQ et publication de votre intégration
 
 ## Ressources supplémentaires
 
-* [Utiliser l&#39;Experience Cloud Debugger avec Adobe Target](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
-* [Documentation du jeton de réponse](https://docs.adobe.com/help/en/target/using/administer/response-tokens.html)
-* [Documentation du Événement personnalisé d’at.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/functions-overview/atjs-custom-events.html)
+* [Utilisation de l’Experience Cloud Debugger avec Adobe Target](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
+* [Documentation sur les jetons de réponse](https://experienceleague.adobe.com/docs/target/using/administer/response-tokens.html?lang=en)
+* [Documentation sur les événements personnalisés at.js](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=en)
 * [Utilisation des fournisseurs de données dans Adobe Target](use-data-providers-to-integrate-third-party-data.md)

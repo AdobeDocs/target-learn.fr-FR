@@ -3,16 +3,16 @@ title: Création de collections et d’exclusions dans Recommendations
 description: Découvrez ce qu’est une collection Recommendations et comment l’utiliser. Découvrez ce qu’est une exclusion Recommendations et comment l’utiliser.
 role: User
 level: Intermediate
-topic: Personnalisation
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null
 kt: null
 exl-id: 10448c36-44b8-4a2f-a3c5-9e0130593a17
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 13%
+source-wordcount: '79'
+ht-degree: 11%
 
 ---
 
@@ -38,4 +38,4 @@ Dans cette vidéo, vous apprendrez à :
 * [Création d’un flux](create-a-feed.md)
 * [Création de critères](create-criteria.md)
 * [Création de conceptions personnalisées](create-custom-designs.md)
-* [Documentation Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Documentation Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

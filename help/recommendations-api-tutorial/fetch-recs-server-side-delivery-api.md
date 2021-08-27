@@ -10,7 +10,7 @@ kt: 3815
 thumbnail: null
 author: Judy Kim
 exl-id: 553d1208-647f-479d-acc7-d7760469d642
-source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
 source-wordcount: '1418'
 ht-degree: 2%
@@ -47,9 +47,9 @@ Pour utiliser l’API de diffusion pour diffuser des [!DNL Target] expériences,
 
 ## Création d’une recommandation à l’aide du compositeur d’expérience d’après les formulaires
 
-Pour créer des recommandations qui peuvent être utilisées avec l’API de diffusion, utilisez le [compositeur d’après les formulaires](https://docs.adobe.com/content/help/en/target/using/experiences/form-experience-composer.html).
+Pour créer des recommandations qui peuvent être utilisées avec l’API de diffusion, utilisez le [compositeur d’après les formulaires](https://experienceleague.adobe.com/docs/target/using/experiences/form-experience-composer.html?lang=en).
 
-1. Tout d’abord, créez et enregistrez une conception basée sur JSON à utiliser dans votre recommandation. Pour obtenir un exemple de code JSON, ainsi que des informations d’arrière-plan sur la manière dont les réponses JSON peuvent être renvoyées lors de la configuration d’une activité basée sur les formulaires, consultez la documentation sur la [création de conceptions de recommandations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-design/create-design.html). Dans cet exemple, la conception est nommée *JSON simple.*
+1. Tout d’abord, créez et enregistrez une conception basée sur JSON à utiliser dans votre recommandation. Pour obtenir un exemple de code JSON, ainsi que des informations d’arrière-plan sur la manière dont les réponses JSON peuvent être renvoyées lors de la configuration d’une activité basée sur les formulaires, consultez la documentation sur la [création de conceptions de recommandations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-design/create-design.html?lang=en). Dans cet exemple, la conception est nommée *JSON simple.*
 
    ![côté serveur-create-recs-json-design.png](assets/server-side-create-recs-json-design.png)
 
@@ -60,7 +60,7 @@ Pour créer des recommandations qui peuvent être utilisées avec l’API de dif
 3. Sélectionnez une propriété, puis cliquez sur **[!UICONTROL Suivant]**.
 4. Définissez l’emplacement où vous souhaitez que les utilisateurs reçoivent la réponse de la recommandation. L’exemple ci-dessous utilise un emplacement nommé *api_charter*. Sélectionnez votre conception basée sur JSON, créée précédemment, nommée *JSON simple.*
    ![côté serveur-create-recs-form.png](assets/server-side-create-recs-form1.png)
-5. Enregistrez et activez la recommandation. Cela produira des résultats. [Une fois les résultats prêts](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-activity/previewing-and-launching-your-recommendations-activity.html), vous pouvez utiliser l’API de diffusion pour les récupérer.
+5. Enregistrez et activez la recommandation. Cela produira des résultats. [Une fois les résultats prêts](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-activity/previewing-and-launching-your-recommendations-activity.html?lang=en), vous pouvez utiliser l’API de diffusion pour les récupérer.
 
 ## Utilisation de l’API de diffusion
 
@@ -95,38 +95,38 @@ Les ressources suivantes fournissent des exemples de différentes mises en oeuvr
 | --- | --- |
 | [Adobe Target partout : implémentation côté serveur ou dans IoT](https://expleague.azureedge.net/labs/L733/index.html) | Adobe Summit 2019 Lab qui offre une expérience pratique pour une application React qui tire parti des API côté serveur Adobe Target. |
 | [Adobe Target dans une application mobile sans SDK Adobe](https://community.tealiumiq.com/t5/Universal-Data-Hub/Adobe-Target-in-a-Mobile-App-Without-the-Adobe-SDK/ta-p/26753) | Ce guide explique comment configurer Adobe Target dans votre application mobile sans installer le SDK Adobe. Cette solution utilise l’affichage web du SDK Tealium et le module Commandes distantes pour envoyer et recevoir des requêtes à l’API visiteur Adobe (Experience Cloud) et à l’API Adobe Target. |
-| [Fonctionnement d’Adobe Target dans les applications mobiles](https://docs.adobe.com/content/help/en/target/using/implement-target/mobile-apps/mobile-how-target-works-mobile-apps.html) | Fonctionnement de [!DNL Target] avec le SDK Mobile |
+| [Fonctionnement d’Adobe Target dans les applications mobiles](https://experienceleague.adobe.com/docs/target/using/implement-target/mobile-apps/mobile-how-target-works-mobile-apps.html?lang=en) | Fonctionnement de [!DNL Target] avec le SDK Mobile |
 | [Configuration  [!DNL Target] extension in Experience Platform Launch and Implementing [!DNL Target] des API](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target) | Étapes de configuration de l’extension [!DNL Target] dans Experience Platform Launch, ajout de l’extension [!DNL Target] à votre application et implémentation des API [!DNL Target] pour demander des activités, prérécupérer des offres et passer en mode aperçu visuel. |
 | [Client de noeud Adobe Target](https://www.npmjs.com/package/@adobe/target-nodejs-sdk) | SDK Open Source [!DNL Target] Node.js v1.0 |
-| [Présentation côté serveur](https://docs.adobe.com/content/help/en/target/using/implement-target/server-side/api-and-sdk-overview.html) | Informations sur les API de diffusion côté serveur Adobe Target, les API de diffusion par lots côté serveur, le SDK Node.js et les API [!DNL Recommendations] Adobe Target. |
+| [Présentation côté serveur](https://experienceleague.adobe.com/docs/target/using/implement-target/server-side/api-and-sdk-overview.html?lang=en) | Informations sur les API de diffusion côté serveur Adobe Target, les API de diffusion par lots côté serveur, le SDK Node.js et les API [!DNL Recommendations] Adobe Target. |
 | [Recommendations de contenu Adobe Campaign dans Email](https://medium.com/adobetech/adobe-campaign-content-recommendations-in-email-b51ced771d7f) | Blog qui décrit comment exploiter les recommandations de contenu dans les emails via Adobe Target et Adobe I/O Runtime dans Adobe Campaign. |
 
 ## Gestion de la configuration [!DNL Recommendations] avec les API
 
 La plupart du temps, les recommandations sont configurées dans l’interface utilisateur d’Adobe Target, puis utilisées ou accessibles via les API [!DNL Target], pour des raisons telles que celles mentionnées dans les sections ci-dessus. Cette coordination entre l’interface utilisateur et l’API est courante. Cependant, il arrive parfois que les utilisateurs souhaitent effectuer toutes les actions via les API (configuration, ainsi que l’utilisation des résultats). Bien que beaucoup moins courant, les utilisateurs peuvent absolument configurer, exécuter, *et* exploiter les résultats des recommandations entièrement à l’aide des API.
 
-Nous avons appris dans une [section précédente](manage-catalog.md) comment gérer les entités Recommendations Adobe Target et les diffuser côté serveur. De même, Adobe I/O vous permet de gérer les critères, les promotions, les collections et les modèles de conception sans avoir à vous connecter à Adobe Target. Une liste complète de toutes les [!DNL Recommendations] API se trouve [ici](http://developers.adobetarget.com/api/recommendations/), mais voici un résumé à titre de référence.
+Nous avons appris dans une [section précédente](manage-catalog.md) comment gérer les entités Recommendations Adobe Target et les diffuser côté serveur. De même, Adobe I/O vous permet de gérer les critères, les promotions, les collections et les modèles de conception sans avoir à vous connecter à Adobe Target. Une liste complète de toutes les [!DNL Recommendations] API se trouve [ici](https://developers.adobetarget.com/api/recommendations/), mais voici un résumé à titre de référence.
 
 | Ressource | Détails |
 | --- | --- |
-| [Collections](http://developers.adobetarget.com/api/recommendations/#tag/Collections) | Répertorier, créer, obtenir, modifier et supprimer des collections |
-| [Critères](http://developers.adobetarget.com/api/recommendations/#tag/Criteria) | Listez et obtenez des critères. |
-| [Conceptions](http://developers.adobetarget.com/api/recommendations/#tag/Designs) | Répertorier, créer, obtenir, modifier, supprimer et valider des conceptions. |
-| [Entités](http://developers.adobetarget.com/api/recommendations/#tag/Entities) | Enregistrez, supprimez et obtenez des entités. |
-| [Promotions](http://developers.adobetarget.com/api/recommendations/#tag/Promotions) | Répertorier, créer, obtenir, modifier et supprimer des promotions. |
-| [Critères de catégorie](http://developers.adobetarget.com/api/recommendations/#tag/Category-Criteria) | Répertorier, créer, obtenir, modifier et supprimer des critères de catégorie. |
-| [Critères personnalisés](http://developers.adobetarget.com/api/recommendations/#tag/Custom-Criteria) | Répertorier, créer, obtenir, modifier et supprimer des critères personnalisés. |
-| [Critères d’élément](http://developers.adobetarget.com/api/recommendations/#tag/Item-Criteria) | Répertorier, créer, obtenir, modifier et supprimer des critères d’élément. |
-| [Critères de popularité](http://developers.adobetarget.com/api/recommendations/#tag/Popularity-Criteria) | Répertorier, créer, obtenir, modifier et supprimer des critères de popularité. |
-| [Critères d’attribut de profil](http://developers.adobetarget.com/api/recommendations/#tag/Profile-Attribute-Criteria) | Répertorier, créer, obtenir, modifier et supprimer des critères d’attribut de profil. |
-| [Critères récents](http://developers.adobetarget.com/api/recommendations/#tag/Recent-Criteria) | Répertorier, créer, obtenir, modifier et supprimer des critères récents. |
-| [Critères de séquence](http://developers.adobetarget.com/api/recommendations/#tag/Sequence-Criteria) | Lister, créer, obtenir, modifier et supprimer des critères de séquence. |
+| [Collections](https://developers.adobetarget.com/api/recommendations/#tag/Collections) | Répertorier, créer, obtenir, modifier et supprimer des collections |
+| [Critères](https://developers.adobetarget.com/api/recommendations/#tag/Criteria) | Listez et obtenez des critères. |
+| [Conceptions](https://developers.adobetarget.com/api/recommendations/#tag/Designs) | Répertorier, créer, obtenir, modifier, supprimer et valider des conceptions. |
+| [Entités](https://developers.adobetarget.com/api/recommendations/#tag/Entities) | Enregistrez, supprimez et obtenez des entités. |
+| [Promotions](https://developers.adobetarget.com/api/recommendations/#tag/Promotions) | Répertorier, créer, obtenir, modifier et supprimer des promotions. |
+| [Critères de catégorie](https://developers.adobetarget.com/api/recommendations/#tag/Category-Criteria) | Répertorier, créer, obtenir, modifier et supprimer des critères de catégorie. |
+| [Critères personnalisés](https://developers.adobetarget.com/api/recommendations/#tag/Custom-Criteria) | Répertorier, créer, obtenir, modifier et supprimer des critères personnalisés. |
+| [Critères d’élément](https://developers.adobetarget.com/api/recommendations/#tag/Item-Criteria) | Répertorier, créer, obtenir, modifier et supprimer des critères d’élément. |
+| [Critères de popularité](https://developers.adobetarget.com/api/recommendations/#tag/Popularity-Criteria) | Répertorier, créer, obtenir, modifier et supprimer des critères de popularité. |
+| [Critères d’attribut de profil](https://developers.adobetarget.com/api/recommendations/#tag/Profile-Attribute-Criteria) | Répertorier, créer, obtenir, modifier et supprimer des critères d’attribut de profil. |
+| [Critères récents](https://developers.adobetarget.com/api/recommendations/#tag/Recent-Criteria) | Répertorier, créer, obtenir, modifier et supprimer des critères récents. |
+| [Critères de séquence](https://developers.adobetarget.com/api/recommendations/#tag/Sequence-Criteria) | Lister, créer, obtenir, modifier et supprimer des critères de séquence. |
 
 ## Documentation de référence
 
 * [Documentation de l’API Adobe Target](https://developers.adobetarget.com/api/#getting-started)
 * [API de diffusion Adobe Target](https://developers.adobetarget.com/api/delivery-api/)
-* [ [!DNL Recommendations] Intégration avec le courrier électronique](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-faq/integrating-recs-email.html)
+* [ [!DNL Recommendations] Intégration avec le courrier électronique](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-faq/integrating-recs-email.html?lang=en)
 
 ## Résumé et révision
 

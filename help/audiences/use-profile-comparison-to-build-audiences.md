@@ -3,17 +3,17 @@ title: Utilisation de la comparaison de profils pour créer des audiences
 description: Cette vidéo montre aux utilisateurs d’Adobe Target comment utiliser la fonction de comparaison de profils pour comparer deux valeurs de profil numériques les unes par rapport aux autres lors de la création d’une audience.
 role: User
 level: Experienced
-topic: Personnalisation
+topic: Personalization
 feature: Audiences
 doc-type: feature video
 thumbnail: null
 kt: null
 author: Daniel Wright
 exl-id: 66764a66-ba47-4ab4-8a36-137a7cca525b
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 6%
+source-wordcount: '174'
+ht-degree: 5%
 
 ---
 
@@ -36,7 +36,7 @@ Dans cette vidéo, vous apprendrez à :
 
 ## Ressources supplémentaires
 
-* [Création d’une audience de comparaison d’attributs de profil](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html)
-* [Méthodes de transfert de données dans Adobe Target](https://docs.adobe.com/content/help/en/target/using/implement-target/before-implement/methods/methods-to-get-data-into-target.html)
-* [Création d’audiences](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/create-audience.html)
+* [Création d’une audience de comparaison d’attributs de profil](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=en)
+* [Méthodes de transfert de données dans Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/methods/methods-to-get-data-into-target.html?lang=en)
+* [Création d’audiences](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=en)
 * [Vidéo Créer des activités de ciblage d’expérience](../activities/create-experience-targeting-activities.md)
