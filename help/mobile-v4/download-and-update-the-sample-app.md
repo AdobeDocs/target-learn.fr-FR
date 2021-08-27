@@ -9,7 +9,7 @@ doc-type: tutorial
 kt: 3040
 thumbnail: null
 exl-id: 244bcf7a-b59b-4dd1-bd05-0a55ce7a7132
-source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
+source-git-commit: ee58c7c85708722cf040cd9b039a2855dd390a16
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Le SDK Adobe Mobile Services a été préinstallé dans l’application We.Trave
 
 Tout d’abord, créez une application dans l’interface utilisateur de Mobile Services :
 
-1. Connectez-vous à l’[interface Adobe Mobile Services](https://mobilemarketing.adobe.com).
+1. Connectez-vous à l’[interface Adobe Mobile Services](https://mobilemarketing.adobe.com/).
 1. Accédez à [!UICONTROL Gérer les applications], puis cliquez sur **[!UICONTROL Ajouter]** pour ajouter une nouvelle application à utiliser avec ce tutoriel (**[!UICONTROL Gérer les applications]** > **[!UICONTROL Ajouter]**).
 1. Choisissez une suite de rapports Analytics avec des données hors production, attribuez un nom à l’application, sélectionnez le type **[!UICONTROL Standard]** et cliquez sur **[!UICONTROL Enregistrer]**.
 1. Une fois l’application ajoutée, ajoutez votre [!DNL Target] code client sur l’écran suivant de la section [!UICONTROL Options Target du SDK] (vous trouverez votre code client dans l’interface [!DNL Target] sous **[!UICONTROL Configuration]** > **[!UICONTROL Implémentation]** **[!UICONTROL Modifier les paramètres]**, en regard de Télécharger `at.js`).

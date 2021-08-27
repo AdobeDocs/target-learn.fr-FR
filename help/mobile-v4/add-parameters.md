@@ -9,7 +9,7 @@ doc-type: tutorial
 kt: 3040
 thumbnail: null
 exl-id: 0250e55f-a233-4060-84e1-86d1f88a6106
-source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
+source-git-commit: ee58c7c85708722cf040cd9b039a2855dd390a16
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Dans cette leçon, nous allons ajouter des mesures de cycle de vie d’Adobe et 
 
 ## Ajout des paramètres de cycle de vie
 
-Activez les [mesures de cycle de vie mobile d’Adobe](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html). Cela permet d’ajouter des paramètres aux requêtes d’emplacement contenant des informations riches sur l’appareil de l’utilisateur et l’engagement avec l’application. Nous allons créer des audiences dans la leçon suivante en utilisant les données fournies par la requête de cycle de vie.
+Activez les [mesures de cycle de vie mobile d’Adobe](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=en). Cela permet d’ajouter des paramètres aux requêtes d’emplacement contenant des informations riches sur l’appareil de l’utilisateur et l’engagement avec l’application. Nous allons créer des audiences dans la leçon suivante en utilisant les données fournies par la requête de cycle de vie.
 
 Pour activer les mesures de cycle de vie, ouvrez à nouveau le contrôleur HomeActivity et ajoutez `Config.collectLifecycleData(this);` à la fonction onResume() :
 
