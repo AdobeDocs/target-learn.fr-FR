@@ -7,10 +7,9 @@ topic: Personalization, Administration, Integrations, Development
 feature: APIs/SDKs, Recommendations, Administration & Configuration
 doc-type: tutorial
 kt: 3815
-thumbnail: null
 author: Judy Kim
 exl-id: 8060b69b-e8e5-4fe7-895f-742410d8ed45
-source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 2%
@@ -125,7 +124,7 @@ L’objet JSON peut être mis à l’échelle pour envoyer plusieurs produits. P
 
 1. Maintenant c&#39;est ton tour ! Utilisez l’API **Enregistrer les entités** pour ajouter les éléments suivants à votre catalogue. Utilisez l’exemple JSON ci-dessus comme point de départ. (Vous devez étendre le fichier JSON pour inclure d’autres entités.)
 
-   ![SaveEntities5.png](assets/SaveEntities06.png)
+   ![SaveEntities6.png](assets/SaveEntities06.png)
 
 Oups, on dirait que ces deux derniers éléments n&#39;ont pas leur place. Examinons-les à l’aide de l’API **Get Entity** et, si nécessaire, supprimez-les à l’aide de l’API **Delete Entities**.
 

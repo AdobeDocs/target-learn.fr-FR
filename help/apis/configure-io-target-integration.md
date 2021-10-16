@@ -7,10 +7,9 @@ topic: Personalization, Administration, Integrations, Development
 feature: APIs/SDKs, Administration & Configuration
 doc-type: tutorial
 kt: null
-thumbnail: null
 author: Judy Kim
 exl-id: 8a1e93e4-67b2-4942-a8da-fc0f2cbb2df2
-source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
 source-wordcount: '1883'
 ht-degree: 2%
@@ -55,7 +54,7 @@ Dans cette section, vous accédez à Adobe Developer Console et créez un projet
 
    ![Ajout d’une API](assets/configure-io-target-createproject4.png)
 
-5. Sélectionnez **[!DNL Adobe Target]** comme service d’Adobe avec lequel vous souhaitez intégrer. Cliquez sur le bouton **[!UICONTROL Suivant]** qui s’affiche.
+5. Sélectionnez **[!DNL Adobe Target]** comme service Adobe à intégrer. Cliquez sur le bouton **[!UICONTROL Suivant]** qui s’affiche.
 
    ![configure-io-target-create project5](assets/configure-io-target-createproject5.png)
 

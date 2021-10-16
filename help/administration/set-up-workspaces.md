@@ -4,15 +4,14 @@ description: Cette vidéo montre aux administrateurs comment créer des espaces 
 role: Admin
 level: Beginner
 topic: Administration
-feature: Administration et configuration
+feature: Administration & Configuration
 doc-type: feature video
-thumbnail: null
 kt: null
 exl-id: 9f147770-4b78-4982-ad52-c219bb451cc1
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 7%
+source-wordcount: '38'
+ht-degree: 5%
 
 ---
 

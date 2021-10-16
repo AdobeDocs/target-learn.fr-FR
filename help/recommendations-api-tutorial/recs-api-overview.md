@@ -7,13 +7,12 @@ topic: Personalization, Administration, Integrations, Development
 feature: APIs/SDKs, Recommendations, Administration & Configuration, Overview
 doc-type: tutorial
 kt: 3815
-thumbnail: null
 author: Judy Kim
 exl-id: 10f80056-fb71-4362-86bc-d161f596cb91
-source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
 source-wordcount: '359'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -34,7 +33,7 @@ Ce tutoriel guide les développeurs à travers la pratique pratique à l’aide 
 
 * Configuration et gestion des entités à l’aide de l’API Recommendations
 * Configuration et gestion de critères personnalisés à l’aide de l’API Recommendations
-* Comprendre comment utiliser Recommendations avec l’API de diffusion pour utiliser les résultats de recommandations sur les appareils non HTML
+* Comprendre comment utiliser Recommendations avec l’API de diffusion pour utiliser les résultats de recommandations sur les périphériques non HTMLS
 
 ## Public
 

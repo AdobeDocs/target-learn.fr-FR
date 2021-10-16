@@ -4,16 +4,15 @@ description: Ces deux vidéos présentent aux spécialistes du marketing un aper
 landing-page-description: Regardez ces vidéos pour savoir comment créer des activités à l’aide du compositeur d’expérience visuelle (VEC).
 role: User
 level: Beginner
-topic: Personnalisation
-feature: Compositeur d’expérience visuelle (VEC), expériences et offres
+topic: Personalization
+feature: Visual Experience Composer (VEC), Experiences and Offers
 doc-type: feature video
-thumbnail: null
 kt: null
 exl-id: 3c3985c8-f033-40a1-a39e-8c2f41208d17
-source-git-commit: 5e3fdcb2f86e4811a0cbcfde66c3d6a6c8270355
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 19%
+source-wordcount: '129'
+ht-degree: 20%
 
 ---
 

@@ -1,31 +1,29 @@
 ---
-title: Mise en oeuvre des paramètres de mbox à l’aide de la gestion dynamique des balises
-description: Cette vidéo montre aux développeurs comment implémenter des paramètres de mbox à l’aide de l’Activation d’Adobe, anciennement connue sous le nom de gestion dynamique des balises (DTM) Adobe.
+title: Comment implémenter des paramètres de mbox à l’aide de DTM
+description: Cette vidéo montre aux développeurs comment implémenter des paramètres de mbox à l’aide de l’activation Adobe, anciennement connue sous le nom de Dynamic Tag Management (DTM) Adobe.
 role: Developer
 level: Intermediate
 topic: Personalization, Architecture, Development
 feature: Implementation
 doc-type: technical video
 kt: null
-thumbnail: null
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 4%
+source-wordcount: '89'
+ht-degree: 2%
 
 ---
 
 
-# Mise en oeuvre des paramètres de mbox pour Adobe Target à l’aide de la gestion dynamique des balises (DTM)
+# Mise en oeuvre des paramètres de mbox pour Adobe Target à l’aide de Dynamic Tag Management (DTM)
 
 ## Objectifs
 
-À la fin de cette vidéo, vous pourrez :
+D’ici la fin de cette vidéo, vous pourrez :
 
-* Faites correspondre une paire nom/valeur statique à un paramètre ou un paramètre de profil dans cible-global-mbox
-* Comprendre les bases d’un élément de données
-* Mappage d’une valeur d’élément de données dynamique à un paramètre ou un paramètre de profil dans une mbox cible-globale
+* Mappage d’une paire nom/valeur statique à un paramètre ou un paramètre de profil dans target-global-mbox
+* Présentation des bases d’un élément de données
+* Mappage d’une valeur d’élément de données dynamique à un paramètre ou un paramètre de profil dans une mbox target-global
 
 ## Audience prévue
 

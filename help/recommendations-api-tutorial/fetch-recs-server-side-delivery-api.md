@@ -7,10 +7,9 @@ topic: Personalization, Administration, Integrations, Development
 feature: APIs/SDKs, Recommendations, Administration & Configuration
 doc-type: tutorial
 kt: 3815
-thumbnail: null
 author: Judy Kim
 exl-id: 553d1208-647f-479d-acc7-d7760469d642
-source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
 source-wordcount: '1418'
 ht-degree: 2%
@@ -19,7 +18,7 @@ ht-degree: 2%
 
 # Récupération de [!DNL Recommendations] avec l’API de diffusion
 
-Les API Adobe Target et Adobe Target [!DNL Recommendations] peuvent être utilisées pour envoyer des réponses aux pages web, mais aussi dans des expériences non-HTML, notamment des applications, des écrans, des consoles, des emails, des kiosques et d’autres dispositifs d’affichage. En d’autres termes, lorsque les bibliothèques [!DNL Target] et JavaScript ne peuvent pas être utilisés, l’ **[!DNL Target]API de diffusion** nous permet toujours d’accéder à l’ensemble des fonctionnalités [!DNL Target] pour offrir des expériences personnalisées.
+Les API Adobe Target et Adobe Target [!DNL Recommendations] peuvent être utilisées pour envoyer des réponses aux pages web, mais également dans des expériences non HTMLS, y compris les applications, écrans, consoles, emails, kiosques et autres périphériques d’affichage. En d’autres termes, lorsque les bibliothèques [!DNL Target] et JavaScript ne peuvent pas être utilisés, l’ **[!DNL Target]API de diffusion** nous permet toujours d’accéder à l’ensemble des fonctionnalités [!DNL Target] pour offrir des expériences personnalisées.
 
 >[!NOTE]
 >
@@ -71,7 +70,7 @@ La syntaxe de l’[API de diffusion](https://developers.adobetarget.com/api/deli
 1. Notez que le code client est requis. Pour rappel, votre code client se trouve dans Adobe Target en accédant à **[!UICONTROL Recommendations] > [!UICONTROL Paramètres]**. Notez la valeur **[!UICONTROL Code client]** dans la section **[!UICONTROL Jeton API de recommandation]** .
    ![client-code.png](assets/client-code.png)
 1. Une fois que vous disposez de votre code client, créez votre appel API de diffusion. L’exemple ci-dessous commence par l’**[!UICONTROL appel de l’API de remise des mbox Web mise en cache]** fourni dans la [collection Postman de l’API de diffusion](https://developers.adobetarget.com/api/delivery-api/#section/Getting-Started/Postman-Collection), en apportant des modifications pertinentes. Par exemple :
-   * les objets **browser** et **address** ont été supprimés de **Body**, car ils ne sont pas nécessaires pour les cas d’utilisation non-HTML.
+   * les objets **browser** et **address** ont été supprimés du **Body**, car ils ne sont pas nécessaires pour les cas d’utilisation non HTMLS.
    * *api_* charteris est répertorié comme nom de l’emplacement dans cet exemple
    * entity.id est spécifié, car cette recommandation est basée sur la similarité de contenu, ce qui nécessite qu’une clé d’élément actif soit transmise à [!DNL Target].
       ![server-side-Delivery-API-call.](assets/server-side-delivery-api-call2.png)
@@ -83,13 +82,13 @@ pngN’oubliez pas de configurer correctement vos paramètres de requête. Par e
    ![server-side-create-recs-json-response2.](assets/server-side-create-recs-json-response2.png)
 pngLa réponse inclut l’identifiant de clé, ainsi que les identifiants d’entité des entités recommandées.
 
-L’utilisation de l’API de diffusion avec [!DNL Recommendations] vous permet ainsi d’effectuer des étapes supplémentaires avant d’afficher des recommandations au visiteur sur un périphérique non HTML. Par exemple, vous pouvez utiliser la réponse de l’API de diffusion pour effectuer une recherche supplémentaire en temps réel des détails d’attribut d’entité (inventaire, prix, évaluation, etc.) à partir d’un autre système (tel qu’une plateforme CMS, PIM ou eCommerce), avant d’afficher les résultats finaux.
+L’utilisation de l’API de diffusion avec [!DNL Recommendations] permet ainsi d’effectuer des étapes supplémentaires avant d’afficher des recommandations au visiteur sur un périphérique autre que le périphérique HTML. Par exemple, vous pouvez utiliser la réponse de l’API de diffusion pour effectuer une recherche supplémentaire en temps réel des détails d’attribut d’entité (inventaire, prix, évaluation, etc.) à partir d’un autre système (tel qu’une plateforme CMS, PIM ou eCommerce), avant d’afficher les résultats finaux.
 
 Grâce à l’approche décrite dans ce tutoriel, vous pouvez obtenir n’importe quelle application pour exploiter la réponse de [!DNL Target] afin de fournir des recommandations personnalisées.
 
 ## Exemple de mises en œuvre
 
-Les ressources suivantes fournissent des exemples de différentes mises en oeuvre non axées sur HTML. Gardez à l’esprit que chaque mise en oeuvre sera unique en raison du système et des périphériques impliqués.
+Les ressources suivantes fournissent des exemples de différentes mises en oeuvre non axées sur les HTMLS. Gardez à l’esprit que chaque mise en oeuvre sera unique en raison du système et des périphériques impliqués.
 
 | Ressource | Détails |
 | --- | --- |
@@ -126,7 +125,7 @@ Nous avons appris dans une [section précédente](manage-catalog.md) comment gé
 
 * [Documentation de l’API Adobe Target](https://developers.adobetarget.com/api/#getting-started)
 * [API de diffusion Adobe Target](https://developers.adobetarget.com/api/delivery-api/)
-* [ [!DNL Recommendations] Intégration avec le courrier électronique](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-faq/integrating-recs-email.html?lang=en)
+* [ [!DNL Recommendations] Intégration avec email](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-faq/integrating-recs-email.html?lang=en)
 
 ## Résumé et révision
 

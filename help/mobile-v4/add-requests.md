@@ -7,9 +7,8 @@ topic: Mobile, Personalization
 feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
-thumbnail: null
 exl-id: 88a5be3f-d61f-43e7-997a-574ef56122ed
-source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
 source-wordcount: '1804'
 ht-degree: 0%
@@ -46,7 +45,7 @@ Vous trouverez ci-dessous quelques-uns des termes clés de Target que nous utili
 * **Requête par lots :**  une seule requête qui comprend plusieurs emplacements
 * **Requête de prérécupération :**  requête unique qui récupère les offres et les met en cache en mémoire pour une utilisation ultérieure dans l’application.
 * **Requête de prérécupération par lots :**  une requête unique qui prérécupère les offres pour plusieurs emplacements
-* **Audience :**  groupe de visiteurs défini dans l’ [!DNL Target] interface ou partagé avec  [!DNL Target] depuis d’autres applications Adobe (par exemple, &quot;Visiteurs de l’iPhone X&quot;, &quot;Visiteurs en Californie&quot;, &quot;Premier lancement d’application&quot;)
+* **Audience :**  groupe de visiteurs défini dans l’ [!DNL Target] interface ou partagé avec  [!DNL Target] depuis d’autres applications Adobe (par exemple, &quot;Visiteurs iPhone X&quot;, &quot;Visiteurs en Californie&quot;, &quot;Première ouverture d’application&quot;)
 * **Activité :**   [!DNL Target] construction, définie dans l’interface  [!DNL Target] utilisateur (ou avec l’API) qui lie les emplacements, les offres et les audiences pour créer une expérience personnalisée.
 
 ## Ajout d’une requête de prérécupération par lots
