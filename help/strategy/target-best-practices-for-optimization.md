@@ -1,10 +1,11 @@
 ---
 title: Bonnes pratiques pour l’optimisation
-description: 'Découvrez les six éléments essentiels de l’optimisation de l’Adobe et comment les appliquer. '
+description: Découvrez les six éléments essentiels de l’optimisation de l’Adobe et comment les appliquer.
 solution: Target
-source-git-commit: fd679d3fc2c72b9852d8129adf8c1187bf22b25f
+exl-id: dd29faea-bb67-4128-b261-fa407ba7158c
+source-git-commit: 46f61d8f503f230a79b4072ea0d75edd41403708
 workflow-type: tm+mt
-source-wordcount: '1228'
+source-wordcount: '1246'
 ht-degree: 0%
 
 ---
@@ -115,3 +116,5 @@ La personnalisation comprend également le type d’activité de test de ciblage
 Compte tenu de ce qui précède, Adobe vous recommande d’optimiser avant de personnaliser et d’avancer la personnalisation de manière générale à granulaire. Pour parfaire les activités de personnalisation de manière générale à granulaire, vous commencerez à utiliser un style de personnalisation &quot;un à plusieurs&quot; (large) (à l’aide du test A/B), puis passerez à un style de personnalisation &quot;un à un&quot; (granulaire) (à l’aide des activités de personnalisation automatisée).
 
 Pour plus d’informations, veuillez écouter [webinaire sur la compréhension et l’optimisation de la mise en oeuvre d’Adobe Target](https://adobecustomersuccess.adobeconnect.com/pkfafpzd9yarmp4/), avec la conseillère en affaires Katie Cozby.
+
+Pour en savoir plus sur la stratégie et le leadership de la pensée, voir [Succès des clients](https://experienceleague.corp.adobe.com/docs/customer-success/customer-success/overview.html) hub.

@@ -1,10 +1,11 @@
 ---
 title: Optimisation de la mise en oeuvre Adobe Target
-description: 'Obtenez un aperçu de la mise en oeuvre et de la structure d’Adobe Target. Découvrez comment comprendre et contrôler la configuration de votre organisation. Découvrez les techniques de dépannage courantes et des conseils sur la création d’un référentiel de connaissances pour votre équipe. '
+description: Obtenez un aperçu de la mise en oeuvre et de la structure d’Adobe Target. Découvrez comment comprendre et contrôler la configuration de votre organisation. Découvrez les techniques de dépannage courantes et des conseils sur la création d’un référentiel de connaissances pour votre équipe.
 solution: Target
-source-git-commit: fd679d3fc2c72b9852d8129adf8c1187bf22b25f
+exl-id: 49b69f41-0993-437c-bb69-84392be427df
+source-git-commit: 46f61d8f503f230a79b4072ea0d75edd41403708
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1148'
 ht-degree: 0%
 
 ---
@@ -162,3 +163,5 @@ Les documents standard d’un référentiel de connaissances sont les suivants :
 * **Tableau de bord du programme** : document utilisé pour effectuer le suivi des performances, de la cadence et des recettes du programme au fil du temps.
 
 Pour plus d’informations, consultez notre [webinaire](https://adobecustomersuccess.adobeconnect.com/p4p7xlp7dh42mp4/) avec Wilder Freed, consultant principal.
+
+Pour en savoir plus sur la stratégie et le leadership de la pensée, voir [Succès des clients](https://experienceleague.corp.adobe.com/docs/customer-success/customer-success/overview.html) hub.

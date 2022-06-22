@@ -1,10 +1,11 @@
 ---
 title: QuickStart pour les tests de personnalisation et la création de feuilles de route
-description: 'Découvrez une structure que vous pouvez utiliser pour commencer à valider des activités de personnalisation et créer une feuille de route de personnalisation à exécuter via Adobe Target et Adobe Analytics.  '
+description: Découvrez une structure que vous pouvez utiliser pour commencer à valider des activités de personnalisation et créer une feuille de route de personnalisation à exécuter via Adobe Target et Adobe Analytics.
 solution: Target,Analytics
-source-git-commit: fd679d3fc2c72b9852d8129adf8c1187bf22b25f
+exl-id: c0b6f9a0-7074-4e25-81e6-9781a54e2156
+source-git-commit: 46f61d8f503f230a79b4072ea0d75edd41403708
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: '1420'
 ht-degree: 0%
 
 ---
@@ -86,3 +87,5 @@ Une fois que votre activité de personnalisation a mobilisé un échantillon rep
 ### Informations supplémentaires
 
 Nous vous recommandons de regarder cette vidéo qui présente chacune des étapes suivantes : [https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/](https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/)
+
+Pour en savoir plus sur la stratégie et le leadership de la pensée, voir [Succès des clients](https://experienceleague.corp.adobe.com/docs/customer-success/customer-success/overview.html) hub.
