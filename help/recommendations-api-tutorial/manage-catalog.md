@@ -9,7 +9,7 @@ doc-type: tutorial
 kt: 3815
 author: Judy Kim
 exl-id: 8060b69b-e8e5-4fe7-895f-742410d8ed45
-source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
+source-git-commit: cee2618bb92284da1f82d108a0aff0d39340a15b
 workflow-type: tm+mt
 source-wordcount: '918'
 ht-degree: 2%
@@ -24,7 +24,7 @@ Vous pouvez utiliser la variable [API Recommendations](https://developers.adobet
 
 >[!TIP]
 >
->Envoyez la variable **[!UICONTROL IMS : JWT Generate + Auth via User Token]** à chaque fois que vous devez actualiser votre jeton d’accès pour authentification, puisqu’il expire au bout de 24 heures. Voir [Configuration de l’authentification de l’API d’Adobe](https://developer.adobe.com/target/before-administer/configure-authentication/){target=_blank} pour obtenir des instructions.
+>Envoyez la variable **[!UICONTROL IMS : JWT Generate + Auth via User Token]** à chaque fois que vous devez actualiser votre jeton d’accès pour authentification, puisqu’il expire au bout de 24 heures. Voir [Configuration de l’authentification de l’API d’Adobe](https://developer.adobe.com/target/before-administer/configure-authentication/){target=&quot;_blank&quot;} pour obtenir des instructions.
 
 ![JWT3ff](assets/configure-io-target-jwt3ff.png)
 
@@ -204,4 +204,4 @@ Si aucun identifiant d’entité n’est fourni, toutes les entités de l’envi
 
 Félicitations ! Vous pouvez désormais utiliser la variable [!DNL Recommendations] API pour créer, mettre à jour, supprimer et obtenir des détails sur les entités de votre catalogue. Dans la section suivante, vous apprendrez à gérer les critères personnalisés.
 
-[Suite : &quot;Gestion des critères personnalisés&quot; >](https://developer.adobe.com/target/before-administer/recs-api/manage-custom-criteria/){target=_blank}
+[Suite : &quot;Gestion des critères personnalisés&quot; >](https://developer.adobe.com/target/before-administer/recs-api/manage-custom-criteria/){target=&quot;_blank&quot;}

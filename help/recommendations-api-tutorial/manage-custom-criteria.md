@@ -9,7 +9,7 @@ doc-type: tutorial
 kt: 3815
 author: Judy Kim
 exl-id: ee63bd3e-200a-4c08-b364-9f17a479033b
-source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
+source-git-commit: cee2618bb92284da1f82d108a0aff0d39340a15b
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 1%
@@ -118,4 +118,4 @@ Dans ce cas, l’erreur 404 attendue indique que les critères supprimés sont i
 
 Félicitations ! Vous pouvez désormais créer, répertorier, modifier, supprimer et obtenir des détails sur les critères personnalisés, à l’aide de la variable [!DNL Recommendations] API. Dans la section suivante, vous allez utiliser la variable [!DNL Target] API de diffusion pour récupérer les recommandations.
 
-[Suite : &quot;Récupération de Recommendations avec l’API de diffusion côté serveur&quot; >](https://developer.adobe.com/target/before-administer/recs-api/fetch-recs-server-side-delivery-api/){target=_blank}
+[Suite : &quot;Récupération de Recommendations avec l’API de diffusion côté serveur&quot; >](https://developer.adobe.com/target/before-administer/recs-api/fetch-recs-server-side-delivery-api/){target=&quot;_blank&quot;}

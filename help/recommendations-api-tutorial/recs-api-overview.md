@@ -9,7 +9,7 @@ doc-type: tutorial
 kt: 3815
 author: Judy Kim
 exl-id: 10f80056-fb71-4362-86bc-d161f596cb91
-source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
+source-git-commit: cee2618bb92284da1f82d108a0aff0d39340a15b
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 3%
@@ -41,7 +41,7 @@ Ce tutoriel est destiné aux développeurs qui découvrent les API Target ou les
 
 ## Conditions requises
 
-L’utilisation des API d’administration de Target nécessite [Configuration de l’authentification des Adobes](https://developer.adobe.com/target/before-administer/configure-authentication/){target=_blank}. Assurez-vous d’avoir configuré cette option avant de commencer ce tutoriel.
+L’utilisation des API d’administration de Target nécessite [Configuration de l’authentification des Adobes](https://developer.adobe.com/target/before-administer/configure-authentication/){target=&quot;_blank&quot;}. Assurez-vous d’avoir configuré cette option avant de commencer ce tutoriel.
 
 ## Ressources
 
@@ -52,4 +52,4 @@ Notez les ressources suivantes, qui sont nécessaires pour comprendre ce tutorie
 | Postman | Obtenez la variable [application Postman](https://www.postman.com/downloads/) pour votre système d’exploitation. Postman basic est gratuit avec la création de compte. Bien qu’elles ne soient pas requises pour utiliser les API Adobe Target en général, Postman facilite les processus d’API et Adobe Target fournit plusieurs collections Postman pour aider à exécuter ses API et apprendre à les utiliser. Le reste de ce tutoriel suppose des connaissances opérationnelles de Postman. Pour obtenir de l’aide, reportez-vous à la section [Documentation Postman](https://learning.getpostman.com/). |
 | Références | Toute la suite de ce tutoriel vous familiarisera avec les ressources suivantes :<UL><li>[Adobe I/O Github](https://github.com/adobeio)</li><li>[Documentation sur Target Adobe I/O](https://developers.adobetarget.com/api/#introduction)</li><li>[Documentation de l’API Recommendations](https://developers.adobetarget.com/api/recommendations/)</li></ul> |
 
-[Suite : &quot;Gestion de votre catalogue Recommendations&quot; >](https://developer.adobe.com/target/before-administer/recs-api/manage-catalog/){target=_blank}
+[Suite : &quot;Gestion de votre catalogue Recommendations&quot; >](https://developer.adobe.com/target/before-administer/recs-api/manage-catalog/){target=&quot;_blank&quot;}

@@ -9,7 +9,7 @@ doc-type: tutorial
 kt: null
 author: Judy Kim
 exl-id: 8a1e93e4-67b2-4942-a8da-fc0f2cbb2df2
-source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
+source-git-commit: cee2618bb92284da1f82d108a0aff0d39340a15b
 workflow-type: tm+mt
 source-wordcount: '1882'
 ht-degree: 3%
@@ -195,4 +195,4 @@ Dans cet exercice, vous utiliserez votre nouveau jeton d’accès au porteur en 
 1. Envoyez votre requête, après avoir vérifié que vous avez sélectionné l’environnement approprié. Vous devriez recevoir une réponse contenant votre liste d’activités.
    ![testtoken6](assets/configure-io-target-testtoken6.png)
 
-Félicitations ! Maintenant que vous avez vérifié votre authentification d’Adobe, vous pouvez l’utiliser pour interagir avec les API Adobe Target (ainsi qu’avec d’autres API d’Adobe). Par exemple, vous pouvez [Utilisation des API Recommendations](https://developer.adobe.com/target/before-administer/recs-api/){target=_blank} pour créer ou gérer des recommandations.
+Félicitations ! Maintenant que vous avez vérifié votre authentification d’Adobe, vous pouvez l’utiliser pour interagir avec les API Adobe Target (ainsi qu’avec d’autres API d’Adobe). Par exemple, vous pouvez [Utilisation des API Recommendations](https://developer.adobe.com/target/before-administer/recs-api/){target=&quot;_blank&quot;} pour créer ou gérer des recommandations.
