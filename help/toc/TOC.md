@@ -1,9 +1,9 @@
 ---
 user-guide-title: 'Tutoriels Adobe Target '
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
-source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
+source-git-commit: 66635392b30ee5fecc15438736ef829894da53bc
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '397'
 ht-degree: 8%
 
 ---
@@ -63,6 +63,7 @@ ht-degree: 8%
    + [Utilisation des mesures dans les activités](../activities/use-metrics-in-activities.md)
 + Audiences{#audiences}
    + [Utilisation des audiences](../audiences/use-audiences.md)
+   + [Création d’audiences](../audiences/create-audiences.md)
    + [Création de scripts de profil](../audiences/create-profile-scripts.md)
    + [Utilisation de la comparaison de profils pour créer des audiences](../audiences/use-profile-comparison-to-build-audiences.md)
 + Expériences{#experiences}
