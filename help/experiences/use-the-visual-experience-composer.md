@@ -1,7 +1,7 @@
 ---
 title: Utilisation du compositeur d’expérience visuelle
 description: Ces deux vidéos présentent aux spécialistes du marketing un aperçu du compositeur dʼexpérience visuelle (VEC) dʼAdobe Target. Regardez ces vidéos pour apprendre comment créer des activités à lʼaide du compositeur dʼexpérience visuelle.
-landing-page-description: Regardez ces vidéos pour savoir comment créer des activités à l’aide du compositeur d’expérience visuelle (VEC).
+landing-page-description: Regardez ces vidéos pour apprendre comment créer des activités à lʼaide du compositeur dʼexpérience visuelle (VEC).
 role: User
 level: Beginner
 topic: Personalization
@@ -11,12 +11,12 @@ kt: null
 exl-id: 3c3985c8-f033-40a1-a39e-8c2f41208d17
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 20%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Utilisation du [!UICONTROL compositeur d’expérience visuelle] dans Adobe Target
+# Utilisez la variable [!UICONTROL Compositeur d’expérience visuelle] dans Adobe Target
 
 ## Description
 
