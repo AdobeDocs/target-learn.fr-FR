@@ -1,10 +1,10 @@
 ---
-user-guide-title: 'Tutoriels Adobe Target '
+user-guide-title: Tutoriels Adobe Target
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
 source-git-commit: 66635392b30ee5fecc15438736ef829894da53bc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '397'
+ht-degree: 8%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
    + [Configuration des espaces de travail](../administration/set-up-workspaces.md)
    + [Présentation de la configuration de l’administration](../dev101/1.3-intro-to-admin-setup.md)
    + [Configuration des propriétés](../administration/set-up-properties.md)
-+ Mise en œuvre{#implementation}
++ Implémentation de {#implementation}
    + [Présentation de la mise en oeuvre de Target](../dev101/2.1-intro-to-target-implementation.md)
    + [Intégration de Target à Launch](../dev101/3.1-target-launch.md)
    + [Mise en oeuvre dans les sites web avec Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en)
