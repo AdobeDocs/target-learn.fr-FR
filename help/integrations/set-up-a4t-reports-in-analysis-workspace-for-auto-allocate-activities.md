@@ -7,8 +7,7 @@ topic: Personalization, Integrations
 feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
-exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: 47ddfc9eeb5d4c1f5adf4f7d1fdb9fd031878e78
+source-git-commit: dfe191fe7dbe6fa1910fc0fdfd5b17a10ee175c1
 workflow-type: tm+mt
 source-wordcount: '1087'
 ht-degree: 0%
