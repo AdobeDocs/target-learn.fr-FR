@@ -8,7 +8,7 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: 1c09ae58070d9f55aab555531f9a03dacbb26f03
+source-git-commit: e1acb84970b967625e0b6c7495067ed6456a6aa3
 workflow-type: tm+mt
 source-wordcount: '2653'
 ht-degree: 1%
@@ -86,6 +86,7 @@ Comparons les rapports au niveau des visiteurs et des visites :
 | Une | 1 | 1 | - | 0% | 0 % |
 | B | 2 | 3 | 1 | 50 % | 33,3 % |
 | Totaux | 2 | 4 | 1 | 50 % | 25 % |
+
 *Tableau 1 : Exemple de comparaison des rapports normalisés par les visiteurs et normalisés par les visites pour un scénario dans lequel les décisions sont liées à une visite (et non aux visiteurs, comme avec les tests A/B standard). Dans ce scénario, les mesures normalisées par les visiteurs sont déroutantes.*
 
 Comme le montre le tableau, les nombres au niveau du visiteur présentent une incongruité évidente. Bien qu’il existe deux visiteurs uniques au total, il ne s’agit pas de la somme des visiteurs uniques individuels pour chaque expérience. Bien que le taux de conversion au niveau du visiteur ne soit pas nécessairement incorrect, lorsqu’on compare des expériences individuelles, les taux de conversion au niveau du visiteur ont sans doute beaucoup plus de sens. Officiellement, l’unité d’analyse (&quot;visites&quot;) est identique à l’unité d’attractivité de décision, ce qui signifie que des ventilations de mesures au niveau de l’expérience peuvent être ajoutées et comparées.
