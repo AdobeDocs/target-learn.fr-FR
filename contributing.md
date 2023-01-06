@@ -1,9 +1,8 @@
 ---
-source-git-commit: ef3c016c2e7fdf12cefd340ec8ff988ad8e6c567
+source-git-commit: e3e1cf48415af1e54976fb8543927e093aca7194
 workflow-type: tm+mt
-translation-type: tm+mt
-source-wordcount: '296'
-ht-degree: 88%
+source-wordcount: '294'
+ht-degree: 89%
 
 ---
 # Contribution
@@ -18,9 +17,9 @@ Ce projet respecte [le code de conduite Adobe](code-of-conduct.md). En participa
 vous devez respecter ce code. Veuillez signaler tout comportement inacceptable à
 [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
-## Documentation du Guide du contributeur
+## Documentation du guide du contributeur
 
-See the [Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html).
+Voir [Guide du contributeur](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
 
 ## Vous avez une question ?
 
@@ -32,7 +31,7 @@ de publication (le cas échéant).
 
 Toutes les contributions tierces à ce projet doivent être accompagnées d’un 
 contrat de licence de contributeur signé. Cela donne à Adobe l’autorisation de redistribuer vos contributions
-dans le cadre du projet. [Signez notre CLA](http://opensource.adobe.com/cla.html). Vous 
+dans le cadre du projet. [Signez notre contrat de licence du contributeur](http://opensource.adobe.com/cla.html). Vous 
 n’avez besoin d’envoyer un CLA Adobe qu’une seule fois. Par conséquent, si vous l’avez déjà soumis,
 vous êtes opérationnel !
 
@@ -57,4 +56,4 @@ n’hésitez pas à contacter les committers existants pour discuter de ce sujet
 
 ## Problèmes de sécurité
 
-Les problèmes de sécurité ne doivent pas être signalés dans ce suivi d’incidents. Au lieu de cela, [déposez un problème à nos experts en sécurité.](https://helpx.adobe.com/security/alertus.html)
+Les problèmes de sécurité ne doivent pas être signalés dans ce suivi d’incidents. Au lieu de cela, [soumettre un problème à nos experts en sécurité ;](https://helpx.adobe.com/security/alertus.html)
