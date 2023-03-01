@@ -1,6 +1,8 @@
 ---
-title: Configuration des rapports A4T dans Analysis Workspace pour les activités de ciblage automatique
-description: Une fois que vous avez mis en place votre intégration Analytics for Target (A4T) et que vous exécutez des activités de ciblage automatique, comment pouvez-vous vous assurer que vous interprétez correctement les résultats ? Suivez ces étapes pour configurer des rapports A4T dans Analysis Workspace afin d’obtenir les résultats escomptés lors de l’exécution d’activités de ciblage automatique.
+title: Configuration des rapports A4T dans [!DNL Analysis Workspace] pour [!DNL Auto-Target] Activités
+description: Comment configurer des rapports A4T dans [!DNL Analysis Workspace] pour obtenir les résultats attendus lors de l’exécution [!UICONTROL Ciblage automatique] activités ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium" tooltip="See what's included in Target Premium."
+badgeBeta: label="Beta" type="Informative"
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -8,14 +10,18 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: 2571964b557f696d8e0377b922d96e90611f2327
+source-git-commit: 12dc82a96a8df234d02dc56e9e5904571f2152ba
 workflow-type: tm+mt
-source-wordcount: '2639'
+source-wordcount: '2636'
 ht-degree: 1%
 
 ---
 
 # Configuration de rapports A4T dans [!DNL Analysis Workspace] pour [!DNL Auto-Target] activités
+
+>[!NOTE]
+>
+>Cette fonctionnalité est actuellement en version bêta et sera disponible pour tous les [Target Premium](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium){target=_blank} clients dans une prochaine version.
 
 >[!IMPORTANT]
 >
@@ -88,8 +94,8 @@ Comparons les rapports au niveau des visiteurs et des visites :
 
 | Expérience | Visiteurs uniques | Visites | Conversions | Norme du visiteur. Conv. clics publicitaires | Standard des visites. Conv. clics publicitaires |
 | --- | --- | --- | --- | --- | --- |
-| Une | 1 | 1 | - | 0% | 0 % |
-| B | 2 | 3 | 1 | 50 % | 33,3 % |
+| Une | 1 | 1 | - | 0% | 0% |
+| B | 2 | 3 | 1 | 50 % | 33.3% |
 | Totaux | 2 | 4 | 1 | 50 % | 25 % |
 
 *Tableau 1 : Exemple de comparaison des rapports normalisés par les visiteurs et normalisés par les visites pour un scénario dans lequel les décisions sont liées à une visite (et non aux visiteurs, comme avec les tests A/B standard). Dans ce scénario, les mesures normalisées par les visiteurs sont déroutantes.*
