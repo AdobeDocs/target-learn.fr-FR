@@ -11,9 +11,9 @@ doc-type: tutorial
 thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: dd0c3ed5cd44d6b70b7c69bfcfbca5940900772b
+source-git-commit: ba33152906afda02ebf65365d9783ba8a4ea3c83
 workflow-type: tm+mt
-source-wordcount: '2278'
+source-wordcount: '2282'
 ht-degree: 1%
 
 ---
@@ -203,6 +203,8 @@ La définition de mesure calculée complète s’affiche ici.
 ## Résumé : Exemple final [!DNL Analysis Workspace] pour [!UICONTROL Ciblage automatique] rapports
 
 En combinant toutes les étapes ci-dessus dans un seul panneau, la figure ci-dessous présente une vue complète du rapport recommandé pour [!UICONTROL Ciblage automatique] Activités d’A4T. Ce rapport est identique à celui utilisé par la variable [!DNL Target] Modèles ML pour optimiser votre mesure d’objectif. Le rapport intègre toutes les nuances et recommandations abordées dans ce tutoriel. Ce rapport se rapproche également des méthodologies de comptage utilisées dans les [!DNL Target]-reporting piloté [!UICONTROL Ciblage automatique] activités.
+
+Cliquez sur pour développer l’image.
 
 ![Rapport final A4T dans [!DNL Analysis Workspace]](assets/Figure8.png "Rapport A4T dans Analysis Workspace"){width="600" zoomable="yes"}
 
