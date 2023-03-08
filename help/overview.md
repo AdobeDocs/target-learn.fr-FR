@@ -1,31 +1,37 @@
 ---
 title: Découvrez comment utiliser Adobe Target
-description: Découvrez comment utiliser Adobe Target avec cette collection de tutoriels et de vidéos couvrant tous ses composants. Utilisez efficacement la puissance d’Adobe Target.
+description: Découvrez comment utiliser [!DNL Adobe Target] avec cette collection de tutoriels et de vidéos couvrant tous ses composants.
 role: Leader, Architect, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
 topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
-source-git-commit: da8f839931f4c68d3ee8ef9e1c8ca377d79a4cb0
+source-git-commit: ca57cc6fae9bb68b9ad432afe64ffea726cd6872
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 17%
+source-wordcount: '249'
+ht-degree: 15%
 
 ---
 
 # Découvrez comment utiliser Adobe Target
 
-Adobe Target est la solution d’Adobe Experience Cloud qui fournit tout ce dont vous avez besoin pour personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et d’autres canaux numériques. Utilisez ces vidéos et tutoriels pour découvrir les nombreux composants d’Adobe Target.
+[!DNL Adobe Target] est la solution d’[!DNL Adobe Experience Cloud] qui fournit tout ce dont vous avez besoin pour personnaliser l’expérience de votre clientèle afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux digitaux. Utilisez ces vidéos et tutoriels pour découvrir les nombreux composants de [!DNL Adobe Target].
 
 <div id="whats-new-section">
 
 ## Nouveautés
 
-* **[Configuration de rapports A4T dans Analysis Workspace pour les activités de ciblage automatique](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)**
+* **[Configuration de rapports A4T dans [!DNL Analysis Workspace] pour [!DNL Auto-Allocate] activités](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.md)**
 
-   *Pour les professionnels : Utilisez-vous A4T pour le ciblage automatique ? Pour configurer des rapports A4T dans Analysis Workspace afin d’obtenir les résultats escomptés lors de l’exécution d’activités de ciblage automatique, procédez comme suit.*
-* **[Présentation de la prise de décision sur les périphériques](implementation/on-device-decisioning-overview.md)**
+   Pour les professionnels : Le [!UICONTROL Analytics pour Target] Intégration (A4T) pour [!UICONTROL Affectation automatique] vous permet d’afficher vos données de création de rapports dans [!DNL Adobe Analytics]et vous pouvez même optimiser les événements personnalisés ou les mesures définies dans [!DNL Analytics].
 
-   *Pour les architectes : Commencez par la prise de décision sur l’appareil pour offrir des expériences de latence proches de zéro à vos clients !*
+* **[Configuration de rapports A4T dans [!DNL Analysis Workspace] pour [!UICONTROL Ciblage automatique] activités](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)**
+
+   Pour les professionnels : Utilisez-vous A4T pour [!UICONTROL Ciblage automatique]? Pour configurer des rapports A4T dans , procédez comme suit : [!DNL Analysis Workspace] pour vous assurer d’obtenir les résultats attendus lors de l’exécution [!UICONTROL Ciblage automatique] activités.
+
+* **[Présentation de la prise de décision sur l’appareil](implementation/on-device-decisioning-overview.md)**
+
+   Pour les architectes : Prise en main d’ [!UICONTROL prise de décision sur appareil] pour offrir des expériences de latence proches de zéro à vos clients.
+
 <!-- * **[Use the Recommendations API (Tutorial)](recommendations-api-tutorial/recs-api-overview.md)**
     *For developers: Get hands-on practice using the [!DNL Recommendations] APIs to configure and manage [!DNL Recommendations] catalogs and custom criteria, and more.*-->
 
@@ -39,7 +45,6 @@ Adobe Target est la solution d’Adobe Experience Cloud qui fournit tout ce do
 * **[Create a Recommendations Activity (Video)](recommendations/create-a-recommendations-activity.md)**
     <br>
     *Recommend products to your customers at scale with this Premium feature.* -->
-
 
 </div>
 
