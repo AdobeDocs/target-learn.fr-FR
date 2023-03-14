@@ -2,6 +2,7 @@
 title: Configuration des rapports A4T dans [!DNL Analysis Workspace] pour [!DNL Auto-Target] Activités
 description: Comment configurer des rapports A4T dans [!DNL Analysis Workspace] pour obtenir les résultats attendus lors de l’exécution [!UICONTROL Ciblage automatique] activités ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#beta newtab=true" tooltip="What are Target Beta release features?"
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -10,7 +11,7 @@ doc-type: tutorial
 thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: 14a362214dce9d698c78438c3a47424b59aa4632
+source-git-commit: 0ab5bc8b2ad4b5b32069b022d95d0862ec84e868
 workflow-type: tm+mt
 source-wordcount: '2253'
 ht-degree: 1%
@@ -51,7 +52,7 @@ Pour créer A4T pour [!UICONTROL Ciblage automatique] , commencez par la variabl
 
 ## Utilisez la variable [!UICONTROL Contrôles et cibles] dimension à comparer [!DNL Target] modèle ML d’ensemble à votre contrôle
 
-Le panneau A4T par défaut est conçu pour les écrans classiques (manuels). [!UICONTROL Test A/B] ou [!UICONTROL Affectation automatique] activités dont l’objectif est de comparer les performances d’expériences individuelles à l’expérience de contrôle. Dans [!UICONTROL Ciblage automatique] toutefois, la première comparaison d’ordre doit être entre les activités de contrôle *stratégie* et le *stratégie*. En d’autres termes, déterminer l’effet élévateur de la performance globale de la variable [!UICONTROL Ciblage automatique] modèle ML d’ensemble sur la stratégie de contrôle).
+Le panneau A4T par défaut est conçu pour les écrans classiques (manuels). [!UICONTROL Test A/B] ou [!UICONTROL Affectation automatique] activités dont l’objectif est de comparer les performances d’expériences individuelles à l’expérience de contrôle. Dans [!UICONTROL Ciblage automatique] toutefois, la première comparaison d’ordre doit être entre les activités de contrôle *stratégie* et le *stratégie*. En d’autres termes, déterminer l’effet élévateur de la performance globale de la variable [!UICONTROL Ciblage automatique] modèle ML d’ensemble sur la stratégie de contrôle.
 
 Pour effectuer cette comparaison, utilisez le **[!UICONTROL Comparaison du contrôle et du ciblage (Analytics pour Target)]** dimension. Effectuez un glisser-déposer pour remplacer le **[!UICONTROL Expériences Target]** dans le rapport A4T par défaut.
 

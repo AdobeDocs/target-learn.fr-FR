@@ -2,15 +2,16 @@
 title: Configuration des rapports A4T dans [!DNL Analysis Workspace] pour [!UICONTROL Affectation automatique] Activités
 description: Comment configurer des rapports A4T dans [!DNL Analysis Workspace] pour obtenir les résultats attendus lors de l’exécution [!UICONTROL Affectation automatique] activités.
 role: User
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#beta newtab=true" tooltip="What are Target Beta release features?"
 level: Intermediate
 topic: Personalization, Integrations
 feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 14a362214dce9d698c78438c3a47424b59aa4632
+source-git-commit: 0ab5bc8b2ad4b5b32069b022d95d0862ec84e868
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
@@ -28,7 +29,7 @@ Ce tutoriel décrit les modifications recommandées pour l’analyse [!DNL Auto-
    * Le critère d’optimisation du &quot;taux de conversion de visiteur unique maximal&quot; comporte un taux de conversion dont le numérateur est un nombre de visiteurs uniques avec une valeur positive de la mesure.
    * La &quot;valeur de mesure maximale par visiteur* a un taux de conversion dont le numérateur est la valeur de mesure régulière dans [!DNL Adobe Analytics]. Elle est fournie par défaut dans la variable **[!UICONTROL Analytics pour Target]** dans [!DNL Analysis Workspace].
 * Lorsque votre mesure d’optimisation est une [!DNL Target] mesure de conversion définie, la mesure par défaut **[!UICONTROL Analytics pour Target]** dans [!DNL Analysis Workspace] gère la configuration du panneau.
-* Le [!UICONTROL Confiance] nombres vus dans [!DNL Analysis Workspace] ne reflètent pas la variable [statistiques plus conservatives utilisées par [!UICONTROL Affectation automatique]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=en#section_98388996F0584E15BF3A99C57EEB7629), et doivent donc être supprimés.
+* Le [!UICONTROL Confiance] nombres vus dans [!DNL Analysis Workspace] ne reflètent pas la variable [statistiques plus conservatives utilisées par [!UICONTROL Affectation automatique]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=en#section_98388996F0584E15BF3A99C57EEB7629), et il ne faut donc pas en tenir compte. À la place, référencez ces valeurs dans [!DNL Target] création de rapports.
 
 ## Création d’A4T pour [!DNL Auto-Allocate] dans [!DNL Analysis Workspace]
 
