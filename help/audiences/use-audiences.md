@@ -2,6 +2,7 @@
 title: Que sont les audiences et comment les utiliser ?
 description: Cette vidéo explique aux utilisateurs Adobe Target comment utiliser les audiences pour cibler des activités et filtrer des rapports.
 landing-page-description: Découvrez comment définir des audiences, rechercher des audiences, cibler des activités et filtrer des rapports.
+short-description: Learn to define audiences, find audiences, and target activities and filter reports.
 role: User
 level: Beginner
 topic: Personalization
@@ -10,7 +11,7 @@ doc-type: feature video
 kt: null
 author: Daniel Wright
 exl-id: c164eba0-d548-4ace-b9e7-746bdafa844d
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: 72f7cfcc95bbfbe1bb054f98246305f25ce5cc0f
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 38%
