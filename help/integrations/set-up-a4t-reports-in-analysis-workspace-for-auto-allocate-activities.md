@@ -9,9 +9,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 0ab5bc8b2ad4b5b32069b022d95d0862ec84e868
+source-git-commit: 952348fa8e8bdba04d543774ba365063ae63eb43
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1042'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Ce tutoriel décrit les modifications recommandées pour l’analyse [!DNL Auto-
    * Le critère d’optimisation du &quot;taux de conversion de visiteur unique maximal&quot; comporte un taux de conversion dont le numérateur est un nombre de visiteurs uniques avec une valeur positive de la mesure.
    * La &quot;valeur de mesure maximale par visiteur* a un taux de conversion dont le numérateur est la valeur de mesure régulière dans [!DNL Adobe Analytics]. Elle est fournie par défaut dans la variable **[!UICONTROL Analytics pour Target]** dans [!DNL Analysis Workspace].
 * Lorsque votre mesure d’optimisation est une [!DNL Target] mesure de conversion définie, la mesure par défaut **[!UICONTROL Analytics pour Target]** dans [!DNL Analysis Workspace] gère la configuration du panneau.
-* Le [!UICONTROL Confiance] nombres vus dans [!DNL Analysis Workspace] ne reflètent pas la variable [statistiques plus conservatives utilisées par [!UICONTROL Affectation automatique]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=en#section_98388996F0584E15BF3A99C57EEB7629), et il ne faut donc pas en tenir compte. À la place, référencez ces valeurs dans [!DNL Target] création de rapports.
+* Le [!UICONTROL Confiance] nombres vus dans [!DNL Analysis Workspace] ne reflètent pas la variable [statistiques plus conservatives utilisées par [!UICONTROL Affectation automatique]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=en#section_98388996F0584E15BF3A99C57EEB7629), et doivent donc être supprimés du panneau A4T. À la place, référencez ces valeurs dans [!DNL Target] création de rapports.
 
 ## Création d’A4T pour [!DNL Auto-Allocate] dans [!DNL Analysis Workspace]
 
@@ -51,7 +51,7 @@ Pour créer A4T pour [!DNL Auto-Allocate] le rapport commence par **[!UICONTROL 
 
 Le panneau A4T par défaut gère les [!DNL Auto-Allocate] activités dans lesquelles la mesure d’objectif est soit une [!DNL Target] conversion ou [!DNL Analytics] avec le critère d’optimisation &quot;Maximiser la valeur de mesure par visiteur&quot;.
 
-Un exemple de ce panneau s’affiche pour la fonction [!UICONTROL Recettes] où &quot;Maximiser la valeur de mesure par visiteur&quot; a été sélectionnée comme critère d’optimisation au moment de la création de l’activité. Comme mentionné précédemment, [!DNL Auto-Allocate] utilise des calculs de confiance plus conservateurs que ceux utilisés dans la variable **[!UICONTROL Analytics pour Target]** du panneau. Adobe recommande de supprimer la mesure de confiance, ainsi que les mesures d’effet élévateur inférieur et supérieur associées.
+Un exemple de ce panneau s’affiche pour la fonction [!UICONTROL Recettes] où &quot;Maximiser la valeur de mesure par visiteur&quot; a été sélectionnée comme critère d’optimisation au moment de la création de l’activité. Comme mentionné précédemment, [!DNL Auto-Allocate] utilise des calculs de confiance plus conservateurs que ceux utilisés dans la variable **[!UICONTROL Analytics pour Target]** du panneau. Adobe recommande de supprimer la mesure de confiance du panneau A4T, ainsi que les mesures d’effet élévateur inférieur et supérieur associées. À la place, référencez ces valeurs dans [!DNL Target] création de rapports.
 
 ![[!UICONTROL Analytics for Target - Rapport d’affectation automatique] panel](assets/AAFigure2.png)
 

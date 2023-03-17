@@ -11,9 +11,9 @@ doc-type: tutorial
 thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: 0c15c9f448556ba4f5746de62f0673c16202d65f
+source-git-commit: 952348fa8e8bdba04d543774ba365063ae63eb43
 workflow-type: tm+mt
-source-wordcount: '2253'
+source-wordcount: '2647'
 ht-degree: 1%
 
 ---
@@ -138,7 +138,7 @@ Le panneau final s’affiche comme suit :
 
 *Tableau 6 : Panneau de création de rapports avec le segment &quot;Accès avec activité de ciblage automatique spécifique&quot; appliqué au [!UICONTROL Visites] mesure. Ce segment garantit que seules les visites au cours desquelles un utilisateur a réellement interagi avec la variable [!DNL Target] Les activités en question sont incluses dans le rapport.*
 
-## Aligner l’attribution entre la formation de modèle ML et la génération de mesure d’objectif
+## Assurez-vous que la mesure et l’attribution de l’objectif sont alignées sur votre critère d’optimisation.
 
 L’intégration A4T permet à la variable [!UICONTROL Ciblage automatique] Modèle ML à utiliser *formé* en utilisant les mêmes données d’événement de conversion que [!DNL Adobe Analytics] utilise pour *génération de rapports de performances*. Cependant, certaines hypothèses doivent être utilisées pour interpréter ces données lors de la formation des modèles ML, qui diffèrent des hypothèses par défaut faites lors de la phase de création de rapports dans [!DNL Adobe Analytics].
 
@@ -148,7 +148,13 @@ Ainsi, la différence entre l’attribution utilisée par la variable [!DNL Targ
 
 >[!TIP]
 >
->Si les modèles ML optimisent une mesure qui est attribuée différemment des mesures que vous affichez dans un rapport, les modèles peuvent ne pas fonctionner comme prévu. Pour éviter cette situation, assurez-vous que les mesures d’objectif de votre rapport utilisent la même attribution que celle utilisée par la variable [!DNL Target] Modèles ML.
+>Si les modèles ML optimisent une mesure qui est attribuée différemment des mesures que vous affichez dans un rapport, les modèles peuvent ne pas fonctionner comme prévu. Pour éviter cela, assurez-vous que les mesures d’objectif de votre rapport utilisent la même définition de mesure et la même attribution utilisées par [!DNL Target] Modèles ML.
+
+La définition de mesure exacte et les paramètres d’attribution dépendent de [critère d’optimisation](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#supported) vous avez spécifié lors de la création de l’activité.
+
+### Conversions définies par Target, ou [!DNL Analytics] mesures avec *Maximiser la valeur de mesure par visite*
+
+Lorsque la mesure est une [!DNL Target] une conversion ou une [!DNL Analytics] mesures avec **Maximiser la valeur de mesure par visite**, la définition de mesure d’objectif permet à plusieurs événements de conversion de se produire au cours d’une même visite.
 
 Pour afficher les mesures d’objectif qui ont la même méthodologie d’attribution utilisée par la variable [!DNL Target] Modèles ML, procédez comme suit :
 
@@ -170,9 +176,43 @@ Pour afficher les mesures d’objectif qui ont la même méthodologie d’attrib
 
 Ces étapes garantissent que votre rapport attribue la mesure d’objectif à l’affichage de l’expérience, si l’événement de mesure d’objectif s’est produit. *à tout moment* (&quot;participation&quot;) lors de la même visite que celle où une expérience a été affichée.
 
+### [!DNL Analytics] mesures avec *Taux de conversion de visites uniques*
+
+**Définition de la visite avec un segment de mesure positif**
+
+Dans le scénario où vous avez sélectionné *Maximiser le taux de conversion des visites uniques* comme critère d’optimisation, la définition correcte du taux de conversion correspond à la fraction des visites pour lesquelles la valeur de mesure est positive. Pour ce faire, vous pouvez créer un segment en filtrant les visites par rapport aux visites avec une valeur positive de la mesure, puis en filtrant la mesure Visites.
+
+1. Comme avant, sélectionnez la variable **[!UICONTROL Composants > Créer un segment]** dans le [!DNL Analysis Workspace] de la barre d’outils.
+2. Spécifiez un **[!UICONTROL Titre]** pour votre segment.
+
+   Dans l’exemple ci-dessous, le segment est nommé [!DNL "Visits with an order"].
+
+3. Faites glisser la mesure de base que vous avez utilisée dans votre objectif d’optimisation dans le segment.
+
+   Dans l’exemple ci-dessous, nous utilisons la méthode **commandes** afin que le taux de conversion mesure la fraction des visites pour lesquelles une commande est enregistrée.
+
+4. En haut à gauche du conteneur de définitions de segment, sélectionnez **[!UICONTROL Inclure]** **Visite**.
+5. Utilisez la variable **[!UICONTROL est supérieur à]** et définissez la valeur sur 0.
+
+   Si vous définissez la valeur sur 0, cela signifie que ce segment inclut les visites pour lesquelles la mesure des commandes est positive.
+
+6. Cliquez sur **[!UICONTROL Enregistrer]**.
+
+![Figure7.png](assets/Figure7.png)
+
+*Figure 7 : Filtrage de la définition de segment pour les visites avec un ordre positif. Selon la mesure d’optimisation de votre activité, vous devez remplacer les commandes par une mesure appropriée.*
+
+**Appliquez-le aux visites dans la mesure filtrée de l’activité.**
+
+Ce segment peut désormais être utilisé pour filtrer les visites avec un nombre positif de commandes, et lorsqu’un accès a eu lieu pour le [!DNL Auto-Target] activité. La procédure de filtrage d’une mesure est similaire à la procédure précédente. Après avoir appliqué le nouveau segment à la mesure de visite déjà filtrée, le panneau du rapport doit ressembler à la figure 8.
+
+![Figure8.png](assets/Figure8.png)
+
+*Figure 8 : Panneau de rapport avec la mesure de conversion de visites uniques correcte : le nombre de visites au cours desquelles un accès de l’activité a été enregistré et où la mesure de conversion (commandes dans cet exemple) était non nulle.*
+
 ## Étape finale : Créer un taux de conversion qui capture la magie ci-dessus
 
-Avec les modifications apportées au [!UICONTROL Visite] et les mesures d’objectif dans les sections précédentes, la dernière modification que vous devez apporter à votre A4T par défaut pour [!UICONTROL Ciblage automatique] le panneau de création de rapports doit créer des taux de conversion qui sont le ratio correct (celui d’une mesure d’objectif avec la bonne attribution), à un filtre approprié. [!UICONTROL Visites] mesure.
+Avec les modifications apportées au [!UICONTROL Visite] et les mesures d’objectif dans les sections précédentes, la modification finale que vous devez apporter à votre A4T par défaut pour [!DNL Auto-Target] le panneau de création de rapports permet de créer des taux de conversion correspondant au bon ratio (celui de la mesure d’objectif corrigée), par rapport à une mesure &quot;Visites&quot; correctement filtrée.
 
 Pour ce faire, créez une [!UICONTROL Mesure calculée] en procédant comme suit :
 
@@ -186,9 +226,13 @@ Pour ce faire, créez une [!UICONTROL Mesure calculée] en procédant comme suit
 1. Faites glisser le **[!UICONTROL Visites]** dans le conteneur de segments.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
+>[!TIP]
+>
+> Vous pouvez également créer cette mesure à l’aide de la variable [fonctionnalité de mesure calculée rapide](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html).
+
 La définition de mesure calculée complète s’affiche ici.
 
-![Figure7.png](assets/Figure7.png)
+![Figure9.png](assets/Figure9.png)
 
 *Figure 7 : Définition de la mesure de taux de conversion du modèle corrigée pour les visites et corrigée pour l’attribution. (Notez que cette mesure dépend de votre mesure d’objectif et de votre activité. En d’autres termes, cette définition de mesure n’est pas réutilisable entre les activités.)*
 
@@ -202,6 +246,6 @@ En combinant toutes les étapes ci-dessus dans un seul panneau, la figure ci-des
 
 Cliquez sur pour développer l’image.
 
-![Rapport final A4T dans [!DNL Analysis Workspace]](assets/Figure8.png "Rapport A4T dans Analysis Workspace"){width="600" zoomable="yes"}
+![Rapport final A4T dans [!DNL Analysis Workspace]](assets/Figure10.png "Rapport A4T dans Analysis Workspace"){width="600" zoomable="yes"}
 
-*Figure 8 : A4T final [!UICONTROL Ciblage automatique] rapport dans [!DNL Adobe Analytics] [!DNL Workspace], qui combine tous les ajustements aux définitions de mesures décrits dans les sections précédentes de ce tutoriel.*
+*Figure 10 : A4T final [!UICONTROL Ciblage automatique] rapport dans [!DNL Adobe Analytics] [!DNL Workspace], qui combine tous les ajustements aux définitions de mesures décrits dans les sections précédentes de ce tutoriel.*
