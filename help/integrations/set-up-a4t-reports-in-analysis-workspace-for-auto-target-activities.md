@@ -1,8 +1,8 @@
 ---
 title: Configuration des rapports A4T dans [!DNL Analysis Workspace] pour [!DNL Auto-Target] Activités
 description: Comment configurer des rapports A4T dans [!DNL Analysis Workspace] pour obtenir les résultats attendus lors de l’exécution [!UICONTROL Ciblage automatique] activités ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#beta newtab=true" tooltip="What are Target Beta release features?"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#premium newtab=true" tooltip="See what's included in Target Premium."
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -11,9 +11,9 @@ doc-type: tutorial
 thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: 952348fa8e8bdba04d543774ba365063ae63eb43
+source-git-commit: 538dfe6a26b4f62c52b24d54a189738677e63bf3
 workflow-type: tm+mt
-source-wordcount: '2647'
+source-wordcount: '2641'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ Bien que des fonctionnalités d’analyse complètes soient disponibles dans [!D
 Ce tutoriel décrit les modifications recommandées pour l’analyse [!UICONTROL Ciblage automatique] activités dans [!DNL Analysis Workspace], qui reposent sur les concepts clés suivants :
 
 * Le **[!UICONTROL Comparaison du contrôle et du ciblage]** peut être utilisée pour distinguer les [!UICONTROL Contrôle] expériences par rapport à celles diffusées par la fonction [!UICONTROL Ciblage automatique] algorithme ML d’ensemble.
-* Les visites doivent être utilisées comme mesure de normalisation lors de l’affichage des ventilations de performances au niveau de l’expérience. En outre, [La méthodologie de comptage par défaut d’Adobe Analytics peut inclure les visites pour lesquelles l’utilisateur ne voit pas réellement le contenu de l’activité.](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html?lang=en#metrics), mais ce comportement par défaut peut être modifié à l’aide d’un segment à portée appropriée (détails ci-dessous).
+* Les visites doivent être utilisées comme mesure de normalisation lors de l’affichage des ventilations de performances au niveau de l’expérience. En outre, [La méthodologie de comptage par défaut d’Adobe Analytics peut inclure les visites pour lesquelles l’utilisateur ne voit pas réellement le contenu de l’activité.](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html#metrics){target=_blank}, mais ce comportement par défaut peut être modifié à l’aide d’un segment à portée appropriée (détails ci-dessous).
 * L’attribution à portée de recherche en amont des visites, également appelée &quot;intervalle de recherche en amont des visites&quot; sur le modèle d’attribution prescrit, est utilisée par la fonction [!DNL Adobe Target] Les modèles ML pendant leurs phases de formation, et le même modèle d’attribution (autre que celui par défaut), doivent être utilisés lors de la ventilation de la mesure d’objectif.
 
 ## Création d’A4T pour [!UICONTROL Ciblage automatique] dans [!DNL Analysis Workspace]
@@ -64,7 +64,7 @@ Notez que ce remplacement invalide la valeur par défaut [!UICONTROL Effet élé
 
 >[!NOTE]
 >
->Actuellement, [!UICONTROL Effet élévateur et degré de confiance] les nombres ne sont pas disponibles pour [!UICONTROL Comparaison du contrôle et du ciblage] dimensions des rapports A4T pour [!UICONTROL Ciblage automatique]. Jusqu’à ce que la prise en charge soit ajoutée, [!UICONTROL Effet élévateur et degré de confiance] peut être calculé manuellement en téléchargeant la variable [calculateur de confiance](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en).
+>Actuellement, [!UICONTROL Effet élévateur et degré de confiance] les nombres ne sont pas disponibles pour [!UICONTROL Comparaison du contrôle et du ciblage] dimensions des rapports A4T pour [!UICONTROL Ciblage automatique]. Jusqu’à ce que la prise en charge soit ajoutée, [!UICONTROL Effet élévateur et degré de confiance] peut être calculé manuellement en téléchargeant la variable [calculateur de confiance](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx).
 
 ## Ajout de ventilations de mesures au niveau de l’expérience
 
@@ -150,7 +150,7 @@ Ainsi, la différence entre l’attribution utilisée par la variable [!DNL Targ
 >
 >Si les modèles ML optimisent une mesure qui est attribuée différemment des mesures que vous affichez dans un rapport, les modèles peuvent ne pas fonctionner comme prévu. Pour éviter cela, assurez-vous que les mesures d’objectif de votre rapport utilisent la même définition de mesure et la même attribution utilisées par [!DNL Target] Modèles ML.
 
-La définition de mesure exacte et les paramètres d’attribution dépendent de [critère d’optimisation](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#supported) vous avez spécifié lors de la création de l’activité.
+La définition de mesure exacte et les paramètres d’attribution dépendent de [critère d’optimisation](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank} vous avez spécifié lors de la création de l’activité.
 
 ### Conversions définies par Target, ou [!DNL Analytics] mesures avec *Maximiser la valeur de mesure par visite*
 
