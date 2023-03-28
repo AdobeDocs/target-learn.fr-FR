@@ -9,7 +9,7 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 1dc33affb1e9782f1b9c1d01402124dd40dac436
+source-git-commit: b29362ea45196d09dcbfbceeaaed5bc20467ea16
 workflow-type: tm+mt
 source-wordcount: '1083'
 ht-degree: 0%
@@ -29,9 +29,9 @@ Ce tutoriel décrit les modifications recommandées pour l’analyse [!DNL Auto-
    * Le critère d’optimisation du &quot;taux de conversion de visiteur unique maximal&quot; comporte un taux de conversion dont le numérateur est un nombre de visiteurs uniques avec une valeur positive de la mesure.
    * La &quot;valeur de mesure maximale par visiteur&quot; présente un taux de conversion dont le numérateur est la valeur de mesure régulière dans la variable [!DNL Adobe Analytics]. Elle est fournie par défaut dans la variable **[!UICONTROL Analytics pour Target]** dans [!DNL Analysis Workspace].
 * Lorsque votre mesure d’optimisation est une [!DNL Target] mesure de conversion définie, la mesure par défaut **[!UICONTROL Analytics pour Target]** dans [!DNL Analysis Workspace] gère la configuration du panneau.
-* Pour tous [!UICONTROL Affectation automatique] activités créées avant la [!DNL Target Standard/Premium] Version 23.3.1 (28 mars 2023) [!DNL Analytics Workspace] et [!DNL Target] afficher la même valeur pour [!UICONTROL Confiance].
+* Pour tous [!UICONTROL Affectation automatique] activités créées avant la [!DNL Target Standard/Premium] Version 23.3.1 (30 mars 2023) [!DNL Analytics Workspace] et [!DNL Target] afficher la même valeur pour [!UICONTROL Confiance].
 
-   Pour tous [!UICONTROL Affectation automatique] activités créées après le 28 mars 2023, valeurs de l’intervalle de confiance affichées dans [!DNL Analysis Workspace] ne reflètent pas la variable [statistiques plus conservatives utilisées par [!UICONTROL Affectation automatique]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html#section_98388996F0584E15BF3A99C57EEB7629){target=_blank} si ces activités comportent des *both* des conditions suivantes :
+   Pour tous [!UICONTROL Affectation automatique] activités créées après le 30 mars 2023, valeurs de l’intervalle de confiance affichées dans [!DNL Analysis Workspace] ne reflètent pas la variable [statistiques plus conservatives utilisées par [!UICONTROL Affectation automatique]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html#section_98388996F0584E15BF3A99C57EEB7629){target=_blank} si ces activités comportent des *both* des conditions suivantes :
 
    * [!DNL Analytics] comme source des rapports (A4T)
    * [!DNL Analytics] mesures d’optimisation
