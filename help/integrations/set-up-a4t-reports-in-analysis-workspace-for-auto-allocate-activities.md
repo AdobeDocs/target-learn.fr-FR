@@ -2,14 +2,13 @@
 title: Configuration des rapports A4T dans [!DNL Analysis Workspace] pour [!UICONTROL Affectation automatique] Activités
 description: Comment configurer des rapports A4T dans [!DNL Analysis Workspace] pour obtenir les résultats attendus lors de l’exécution [!UICONTROL Affectation automatique] activités.
 role: User
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 level: Intermediate
 topic: Personalization, Integrations
 feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: b29362ea45196d09dcbfbceeaaed5bc20467ea16
+source-git-commit: bd8283d3c0e5fa9e690e377bc4dfbf6a147dd577
 workflow-type: tm+mt
 source-wordcount: '1083'
 ht-degree: 0%
