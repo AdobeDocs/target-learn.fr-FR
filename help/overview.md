@@ -5,10 +5,10 @@ role: Leader, Architect, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
 topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
-source-git-commit: 0b160a9c72c922d184383c699cea463df46a5ecd
+source-git-commit: cc9f5d26ff0b2fdce1209e777838738e3b03bd47
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 10%
+source-wordcount: '474'
+ht-degree: 11%
 
 ---
 
@@ -41,6 +41,10 @@ Pour les professionnels : Utilisez-vous A4T pour [!UICONTROL Ciblage automatique
 
 Pour les architectes : Prise en main d’ [!UICONTROL prise de décision sur appareil] pour offrir des expériences de latence proches de zéro à vos clients. Voir [Présentation de la prise de décision sur appareil](implementation/on-device-decisioning-overview.md).
 
+### Migrer [!DNL Target] depuis at.js 2.*x* to [!DNL Adobe Experience Platform Web SDK]
+
+Découvrez comment migrer une [!DNL Target] Implémentation d’at.js vers [!DNL Adobe Experience Platform Web SDK]. Voir [Migrer [!DNL Target] d’at.js 2.x à [!DNL Platform Web SDK]](https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html?lang=fr){target=_blank} dans le *Guide des Tutorials Adobe Experience Platform*.
+
 ## Vidéos les plus populaires
 
 Les vidéos suivantes sont les plus consultées par les clients Target :
@@ -67,20 +71,14 @@ Le [!DNL Adobe Target] Le personnel recommande les ressources suivantes :
 
 ### Mise en oeuvre de Target avec des balises Adobe Experience Platform
 
-Découvrez comment mettre en oeuvre l’extension Adobe Target avec une requête de chargement de page et des paramètres personnalisés.
-
-Pour plus d’informations, voir [Ajouter Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html){target=_blank} dans le *Tutoriel sur la mise en oeuvre dans les sites web avec des balises*.
+Découvrez comment mettre en oeuvre l’extension Adobe Target avec une requête de chargement de page et des paramètres personnalisés. Pour plus d’informations, voir [Ajouter Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html){target=_blank} dans le *Tutoriel sur la mise en oeuvre dans les sites web avec des balises*.
 
 ### Implémentation d’at.js 2.0 dans une application d’une seule page (SPA)
 
-Découvrez comment implémenter at.js 2.0 (et versions ultérieures) dans SPA.
-
-Pour plus d’informations, voir [Implémentation d’Adobe Target at.js 2.0 dans une application d’une seule page (SPA)](implementation/implement-atjs-20-in-a-single-page-application.md).
+Découvrez comment implémenter at.js 2.0 (et versions ultérieures) dans SPA. Pour plus d’informations, voir [Implémentation d’Adobe Target at.js 2.0 dans une application d’une seule page (SPA)](implementation/implement-atjs-20-in-a-single-page-application.md).
 
 ### Résolution des problèmes liés à Target avec l’Experience Cloud Debugger
 
-Découvrez comment utiliser Adobe Experience Cloud Debugger pour comprendre votre [!DNL Target] implémentation. Découvrez comment afficher rapidement la configuration de votre bibliothèque, examiner les demandes pour vous assurer que vos paramètres personnalisés sont transmis correctement, activer la journalisation de la console et désactiver toutes les [!DNL Target] et utilisez l’outil de suivi de mbox.
-
-Pour plus d’informations, voir [Résolution des problèmes [!DNL Target] avec le [!DNL Experience Cloud Debugger]](troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md).
+Découvrez comment utiliser Adobe Experience Cloud Debugger pour comprendre votre [!DNL Target] implémentation. Découvrez comment afficher rapidement la configuration de votre bibliothèque, examiner les demandes pour vous assurer que vos paramètres personnalisés sont transmis correctement, activer la journalisation de la console et désactiver toutes les [!DNL Target] et utilisez l’outil de suivi de mbox. Pour plus d’informations, voir [Résolution des problèmes [!DNL Target] avec le [!DNL Experience Cloud Debugger]](troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md).
 
 
