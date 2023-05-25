@@ -3,7 +3,7 @@ title: Bonnes pratiques pour l’optimisation
 description: Découvrez les six éléments essentiels de l’optimisation de l’Adobe et comment les appliquer.
 solution: Target
 exl-id: dd29faea-bb67-4128-b261-fa407ba7158c
-source-git-commit: 46f61d8f503f230a79b4072ea0d75edd41403708
+source-git-commit: 389f754ff909752d89f74a2d6c698fc9f5d8c354
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 0%
@@ -117,4 +117,4 @@ Compte tenu de ce qui précède, Adobe vous recommande d’optimiser avant de pe
 
 Pour plus d’informations, veuillez écouter [webinaire sur la compréhension et l’optimisation de la mise en oeuvre d’Adobe Target](https://adobecustomersuccess.adobeconnect.com/pkfafpzd9yarmp4/), avec la conseillère en affaires Katie Cozby.
 
-Pour en savoir plus sur la stratégie et le leadership de la pensée, voir [Succès des clients](https://experienceleague.corp.adobe.com/docs/customer-success/customer-success/overview.html) hub.
+Pour en savoir plus sur la stratégie et le leadership de la pensée, voir [Succès des clients](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html) hub.
