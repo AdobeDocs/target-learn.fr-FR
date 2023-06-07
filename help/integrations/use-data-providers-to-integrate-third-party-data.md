@@ -9,10 +9,10 @@ doc-type: feature video
 kt: null
 author: Daniel Wright
 exl-id: 1892136e-14e3-4e52-8b1f-aee806d2f83a
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: 80208b3ecbc0d627d2afe72f882e91c9800d2726
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 23%
+source-wordcount: '195'
+ht-degree: 25%
 
 ---
 
@@ -26,14 +26,13 @@ ht-degree: 23%
 
 1. L’expert en implémentation ajoute du code avant at.js (ou dans la section En-tête de bibliothèque d’at.js) qui effectue l’appel API à un tiers, analyse la réponse et spécifie avec des paires nom/valeur de la réponse à envoyer à [!DNL Target].
 1. at.js gère le scintillement et inclut les paires nom/valeur en tant que paramètres personnalisés dans la requête Target globale.
-1. Marketer crée des audiences dans l’interface [!DNL Target] en fonction de ces paramètres personnalisés.
+1. Le marketeur crée des audiences dans le [!DNL Target] en fonction de ces paramètres personnalisés.
 1. Le marketeur utilise ces audiences pour cibler des expériences, des activités et des mesures, ainsi que pour les audiences avec création de rapports.
 
 >[!NOTE]
 >
->[!UICONTROL Les ] fournisseurs de données requièrent at.js 1.3 ou version ultérieure.
+>[!UICONTROL Fournisseurs de données] nécessite at.js 1.3 ou version ultérieure
 
 ## Supports
 
 * [Implémentation des fournisseurs de données dans at.js et Adobe Target](implement-data-providers-to-integrate-third-party-data.md)
-* [Documentation sur les fournisseurs de données](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/functions-overview/targetgobalsettings.html?lang=en#data-providers)
