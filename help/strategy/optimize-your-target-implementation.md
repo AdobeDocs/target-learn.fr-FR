@@ -2,8 +2,10 @@
 title: Optimisation de la mise en oeuvre Adobe Target
 description: Obtenez un aperçu de la mise en oeuvre et de la structure d’Adobe Target. Découvrez comment comprendre et contrôler la configuration de votre organisation. Découvrez les techniques de dépannage courantes et des conseils sur la création d’un référentiel de connaissances pour votre équipe.
 solution: Target
+feature: Overview
+role: Leader, User
 exl-id: 49b69f41-0993-437c-bb69-84392be427df
-source-git-commit: 389f754ff909752d89f74a2d6c698fc9f5d8c354
+source-git-commit: 20bd1eb17ef6e287f7b76e14f727456e12d6f115
 workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 0%
@@ -118,7 +120,7 @@ Adobe recommande d’effectuer des audits manuels mensuels pour :
 
 >[!NOTE]
 >
->Adobe recommande d’installer le débogueur Adobe Experience Platform.
+>Adobe recommande d’installer l’Adobe Experience Platform Debugger.
 
 Vous trouverez ci-dessous des conseils généraux de dépannage lors de la saisie de l’expérience :
 
