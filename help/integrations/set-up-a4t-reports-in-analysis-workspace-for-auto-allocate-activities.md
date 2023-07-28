@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 99d49995ec7e3dd502a149376693e2770f3e2a9d
+source-git-commit: 8ef61ac0abf008039561bebe7d8d20b84f447487
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1302'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,13 @@ Ce tutoriel décrit les modifications recommandées pour l’analyse [!DNL Auto-
 
 * [!UICONTROL Visiteurs] doit toujours être utilisé comme mesure de normalisation dans [!DNL Auto-Allocate] activités.
 * Lorsque la mesure est une [!DNL Adobe Analytics] , le calcul du taux de conversion varie, selon le type de critère d’optimisation défini lors de la configuration de l’activité.
-   * Le numérateur de taux de conversion &quot;maximiser le taux de conversion des visiteurs uniques&quot; est un nombre de visiteurs uniques. *avec une valeur positive de la mesure*.
-   * Cette méthode ne nécessite pas de segment supplémentaire pour correspondre au taux de conversion affiché dans la variable [!DNL Target] Interface utilisateur.
-* Le numérateur de taux de conversion &quot;valeur de mesure maximale par visiteur&quot; est la valeur de mesure régulière dans la variable [!DNL Adobe Analytics]. Cette mesure est fournie par défaut dans la variable [!DNL Analytics for Target] dans [!DNL Analysis Workspace].
-   * Ce que cela signifie : optimise le nombre de visiteurs qui convertissent (&quot;count once per visitor&quot;).
-   * Cette méthode nécessite la création d’un segment supplémentaire dans les rapports afin de correspondre au taux de conversion affiché dans la variable [!DNL Target] Interface utilisateur.
+   * Taux de conversion &quot;valeur de mesure maximale par visiteur&quot; : le numérateur est la valeur de mesure régulière dans [!DNL Adobe Analytics] (fourni par défaut dans la variable [!UICONTROL Analytics pour Target] dans [!DNL Analysis Workspace]).
+      * Ce que cela signifie : optimise le nombre de conversions par visiteur (&quot;compter chaque visiteur&quot;).
+      * Cette méthode ne nécessite pas de segment supplémentaire pour correspondre au taux de conversion affiché dans la variable [!DNL Target] Interface utilisateur.
+   * Le taux de conversion &quot;taux de conversion de visiteur unique maximal&quot; : le numérateur est le nombre de visiteurs uniques avec une valeur positive de la mesure.
+      * Ce que cela signifie : optimise le nombre de visiteurs qui convertissent (&quot;comptage une fois par visiteur&quot;).
+      * Cette méthode *DOES* nécessite la création d’un segment supplémentaire dans les rapports pour correspondre au taux de conversion affiché dans la variable [!DNL Target] Interface utilisateur.
+
 * Lorsque votre mesure d’optimisation est une [!DNL Target] mesure de conversion définie, la mesure par défaut **[!UICONTROL Analytics pour Target]** dans [!DNL Analysis Workspace] gère la configuration du panneau.
 * Pour tous [!UICONTROL Affectation automatique] activités créées avant la [!DNL Target Standard/Premium] Version 23.3.1 (30 mars 2023) [!DNL Analytics Workspace] et [!DNL Target] afficher la même valeur pour [!UICONTROL Confiance].
 
@@ -45,7 +47,7 @@ Ce tutoriel décrit les modifications recommandées pour l’analyse [!DNL Auto-
 Pour créer un panneau A4T pour une [!DNL Auto-Allocate] le rapport commence par **[!UICONTROL Analytics pour Target]** dans [!DNL Analysis Workspace], comme illustré ci-dessous. Effectuez ensuite les sélections suivantes :
 
 1. **[!UICONTROL Expérience de contrôle]**: vous pouvez choisir n’importe quelle expérience.
-1. **[!UICONTROL Mesure de normalisation]**: sélectionnez Visiteurs (par défaut, ils sont inclus dans le panneau A4T). [!DNL Auto-Allocate] normalise toujours les taux de conversion par visiteurs uniques.
+1. **[!UICONTROL Mesure de normalisation]**: sélectionnez Visiteurs (les visiteurs sont inclus par défaut dans le panneau A4T). [!DNL Auto-Allocate] normalise toujours les taux de conversion par visiteurs uniques.
 1. **[!UICONTROL Mesures de succès]**: sélectionnez la même mesure que celle utilisée lors de la création de l’activité. S’il s’agissait d’une [!DNL Target] mesure de conversion définie, sélectionnez **Conversion des activités**. Sinon, sélectionnez la variable [!DNL Adobe Analytics] mesure que vous avez utilisée.
 
 ![[!UICONTROL Analytics pour Target] configuration du panneau pour [!DNL Auto-Allocate] activités.](assets/AAFigure1.png)
@@ -74,9 +76,9 @@ Un exemple de ce panneau s’affiche pour la fonction [!UICONTROL Recettes] où 
 
 *Figure 2 : Rapport recommandé pour [!DNL Auto-Allocate] d’une [!DNL Analytics] mesure &quot;Maximiser la valeur de mesure par optimisation du visiteur&quot;. Pour ces types de mesures, ainsi que [!DNL Target] mesures de conversion définies, la valeur par défaut **[!UICONTROL Analytics pour Target]**dans [!DNL Analysis Workspace] peut être utilisé.*
 
-## [!DNL Analytics] mesures avec les critères d’optimisation &quot;Maximiser les visiteurs uniques&quot;
+## [!DNL Analytics] mesures avec les critères d’optimisation &quot;Maximiser le taux de conversion des visiteurs uniques&quot;
 
-Le critère d’optimisation &quot;Maximiser le visiteur unique avec le taux de conversion&quot; fait référence au nombre de visiteurs pour lesquels la valeur de mesure est positive. Si, par exemple, le taux de conversion est défini comme des recettes, le critère &quot;Maximiser le taux de conversion des visiteurs uniques avec le taux de conversion&quot; est optimisé en fonction du nombre de visiteurs uniques pour lesquels le chiffre d’affaires est supérieur à 0. En d’autres termes, ce critère optimise le nombre de visiteurs qui génèrent des recettes, plutôt que la valeur des recettes elles-mêmes.
+Le critère d’optimisation &quot;Maximiser le taux de conversion des visiteurs uniques&quot; fait référence au nombre de visiteurs pour lesquels la valeur de mesure est positive. Si, par exemple, le taux de conversion est défini comme recettes, le critère &quot;Maximiser le taux de conversion du visiteur unique&quot; est optimisé en fonction du nombre de visiteurs uniques pour lesquels le chiffre d’affaires est supérieur à 0. En d’autres termes, ce critère optimise le nombre de visiteurs qui génèrent des recettes, plutôt que la valeur des recettes elles-mêmes.
 
 >[!NOTE]
 >
