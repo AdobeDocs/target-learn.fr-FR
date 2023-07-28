@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 8ef61ac0abf008039561bebe7d8d20b84f447487
+source-git-commit: dddb90e66d127782d4fe1347bd43553cd8c04d58
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
@@ -25,10 +25,10 @@ Ce tutoriel décrit les modifications recommandées pour l’analyse [!DNL Auto-
 
 * [!UICONTROL Visiteurs] doit toujours être utilisé comme mesure de normalisation dans [!DNL Auto-Allocate] activités.
 * Lorsque la mesure est une [!DNL Adobe Analytics] , le calcul du taux de conversion varie, selon le type de critère d’optimisation défini lors de la configuration de l’activité.
-   * Taux de conversion &quot;valeur de mesure maximale par visiteur&quot; : le numérateur est la valeur de mesure régulière dans [!DNL Adobe Analytics] (fourni par défaut dans la variable [!UICONTROL Analytics pour Target] dans [!DNL Analysis Workspace]).
+   * &quot;valeur de mesure maximale par visiteur&quot; : le numérateur de taux de conversion est la valeur de mesure régulière dans [!DNL Adobe Analytics] (fourni par défaut dans la variable [!UICONTROL Analytics pour Target] dans A[!DNL nalysis Workspace]).
       * Ce que cela signifie : optimise le nombre de conversions par visiteur (&quot;compter chaque visiteur&quot;).
       * Cette méthode ne nécessite pas de segment supplémentaire pour correspondre au taux de conversion affiché dans la variable [!DNL Target] Interface utilisateur.
-   * Le taux de conversion &quot;taux de conversion de visiteur unique maximal&quot; : le numérateur est le nombre de visiteurs uniques avec une valeur positive de la mesure.
+   * Le &quot;taux de conversion de visiteur unique maximal&quot; : le numérateur de taux de conversion est un nombre de visiteurs uniques avec une valeur positive de la mesure.
       * Ce que cela signifie : optimise le nombre de visiteurs qui convertissent (&quot;comptage une fois par visiteur&quot;).
       * Cette méthode *DOES* nécessite la création d’un segment supplémentaire dans les rapports pour correspondre au taux de conversion affiché dans la variable [!DNL Target] Interface utilisateur.
 
@@ -74,7 +74,7 @@ Un exemple de ce panneau s’affiche pour la fonction [!UICONTROL Recettes] où 
 
 ![[!UICONTROL Analytics for Target - Rapport d’affectation automatique] panel](assets/AAFigure2.png)
 
-*Figure 2 : Rapport recommandé pour [!DNL Auto-Allocate] d’une [!DNL Analytics] mesure &quot;Maximiser la valeur de mesure par optimisation du visiteur&quot;. Pour ces types de mesures, ainsi que [!DNL Target] mesures de conversion définies, la valeur par défaut **[!UICONTROL Analytics pour Target]**dans [!DNL Analysis Workspace] peut être utilisé.*
+*Figure 2 : Rapport recommandé pour [!DNL Auto-Allocate] d’une [!DNL Analytics] critère d’optimisation de la mesure &quot;Maximiser la valeur de mesure par visiteur&quot;. Pour ces types de mesures, ainsi que [!DNL Target] mesures de conversion définies, la valeur par défaut **[!UICONTROL Analytics pour Target]**dans [!DNL Analysis Workspace] peut être utilisé.*
 
 ## [!DNL Analytics] mesures avec les critères d’optimisation &quot;Maximiser le taux de conversion des visiteurs uniques&quot;
 
