@@ -9,7 +9,7 @@ doc-type: feature video
 kt: 6165
 team: Evangelism
 exl-id: e669d773-494f-4eb7-82da-6b3f23508d9f
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: 17d2bc2929eed3c029705c3842c902141c639f02
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 6%
@@ -18,7 +18,7 @@ ht-degree: 6%
 
 # Déploiement hybride Adobe Target
 
-Adobe Target offre un modèle de déploiement hybride unique pour la personnalisation, mélange des implémentations côté client et côté serveur. Ce modèle hybride permet aux utilisateurs non techniques de créer une expérience ou une activité de personnalisation à l’aide du compositeur d’expérience visuelle WYSIWYG et de faire en sorte que l’expérience soit exécutée, diffusée et rendue par le serveur pour une diffusion hautement performante. 
+Adobe Target offre un modèle de déploiement hybride unique pour la personnalisation, mélange des implémentations côté client et côté serveur. Ce modèle hybride permet aux utilisateurs non techniques de créer une expérience ou une activité de personnalisation à l’aide du compositeur d’expérience visuelle WYSIWYG et de faire en sorte que l’expérience soit exécutée, diffusée et rendue par le serveur pour une diffusion hautement performante.
 
 ## Objectifs
 
@@ -30,7 +30,7 @@ Adobe Target offre un modèle de déploiement hybride unique pour la personnalis
 
 ## Audience prévue
 
-* Développeurs
+* Développeurs et développeuses
 * Architectes
 
 >[!VIDEO](https://video.tv.adobe.com/v/41698/?quality=12)
