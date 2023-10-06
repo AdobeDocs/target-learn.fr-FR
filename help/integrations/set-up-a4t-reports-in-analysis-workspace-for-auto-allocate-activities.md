@@ -1,6 +1,6 @@
 ---
 title: Configuration des rapports A4T dans [!DNL Analysis Workspace] pour [!UICONTROL Affectation automatique] Activités
-description: Comment configurer des rapports A4T dans [!DNL Analysis Workspace] pour obtenir les résultats attendus lors de l’exécution [!UICONTROL Affectation automatique] activités.
+description: Comment configurer [!UICONTROL Analytics pour Target] (A4T) dans [!DNL Adobe] [!DNL Analysis Workspace] en cours d’exécution [!UICONTROL Affectation automatique] activités.
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -8,122 +8,179 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: dddb90e66d127782d4fe1347bd43553cd8c04d58
+source-git-commit: 194579db80fdac60e204e36ab769975be2795eee
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1575'
 ht-degree: 0%
 
 ---
 
 # Configuration de rapports A4T dans [!DNL Analysis Workspace] pour [!DNL Auto-Allocate] activités
 
-Un [!DNL Auto-Allocate] activité identifie un gagnant parmi plusieurs expériences et réaffecte automatiquement le trafic vers le gagnant pendant que le test continue à s’exécuter et à apprendre. La variable [!UICONTROL Analytics pour Target] Intégration (A4T) pour [!UICONTROL Affectation automatique] vous permet d’afficher vos données de création de rapports dans [!DNL Adobe Analytics]et vous pouvez même optimiser les événements personnalisés ou les mesures définies dans [!DNL Analytics].
+Un [!UICONTROL Affectation automatique] activité dans [!DNL Adobe Target] identifie un gagnant parmi plusieurs expériences et réaffecte automatiquement le trafic du visiteur vers le gagnant pendant que le test se poursuit et apprend. La variable [!UICONTROL Analytics pour Target] Intégration (A4T) pour [!UICONTROL Affectation automatique] permet d’afficher les données de reporting dans [!DNL Adobe Analytics]et vous pouvez optimiser les événements personnalisés ou les mesures définies dans [!DNL Analytics].
 
-Bien que des fonctionnalités d’analyse complètes soient disponibles dans [!DNL Adobe Analytics] [!DNL Analysis Workspace], quelques modifications apportées à la valeur par défaut **[!UICONTROL Analytics pour Target]** peut être nécessaire pour interpréter correctement [!DNL Auto-Allocate] les activités, en raison des nuances de [critères de mesure d’optimisation](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank}.
+Bien que des fonctionnalités d’analyse complètes soient disponibles dans [!DNL Adobe Analytics] [!DNL Analysis Workspace], quelques modifications apportées à la valeur par défaut [!UICONTROL Analytics pour Target] peut être nécessaire pour interpréter correctement [!UICONTROL Affectation automatique] activités. Ces modifications sont nécessaires en raison des nuances de la section [critères de mesure d’optimisation](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank}.
 
-Ce tutoriel décrit les modifications recommandées pour l’analyse [!DNL Auto-Allocate] activités dans [!DNL Analysis Workspace]. Les concepts clés sont les suivants :
+Chaque type de mesure d’optimisation nécessite une configuration de rapport différente dans A4T, comme suit :
 
-* [!UICONTROL Visiteurs] doit toujours être utilisé comme mesure de normalisation dans [!DNL Auto-Allocate] activités.
-* Lorsque la mesure est une [!DNL Adobe Analytics] , le calcul du taux de conversion varie, selon le type de critère d’optimisation défini lors de la configuration de l’activité.
-   * &quot;valeur de mesure maximale par visiteur&quot; : le numérateur de taux de conversion est la valeur de mesure régulière dans [!DNL Adobe Analytics] (fourni par défaut dans la variable [!UICONTROL Analytics pour Target] dans A[!DNL nalysis Workspace]).
-      * Ce que cela signifie : optimise le nombre de conversions par visiteur (&quot;compter chaque visiteur&quot;).
-      * Cette méthode ne nécessite pas de segment supplémentaire pour correspondre au taux de conversion affiché dans la variable [!DNL Target] Interface utilisateur.
-   * Le &quot;taux de conversion de visiteur unique maximal&quot; : le numérateur de taux de conversion est un nombre de visiteurs uniques avec une valeur positive de la mesure.
-      * Ce que cela signifie : optimise le nombre de visiteurs qui convertissent (&quot;comptage une fois par visiteur&quot;).
-      * Cette méthode *DOES* nécessite la création d’un segment supplémentaire dans les rapports pour correspondre au taux de conversion affiché dans la variable [!DNL Target] Interface utilisateur.
+* Utilisation d’une [!DNL Analytics] metric
 
-* Lorsque votre mesure d’optimisation est une [!DNL Target] mesure de conversion définie, la mesure par défaut **[!UICONTROL Analytics pour Target]** dans [!DNL Analysis Workspace] gère la configuration du panneau.
-* Pour tous [!UICONTROL Affectation automatique] activités créées avant la [!DNL Target Standard/Premium] Version 23.3.1 (30 mars 2023) [!DNL Analytics Workspace] et [!DNL Target] afficher la même valeur pour [!UICONTROL Confiance].
+   * [!UICONTROL Maximiser la valeur de mesure par visiteur]
+   * [!UICONTROL Maximiser le taux de conversion des visiteurs uniques]
 
-  Pour tous [!UICONTROL Affectation automatique] les activités créées après le 30 mars 2023, les valeurs de l’intervalle de confiance affichées dans [!DNL Analysis Workspace] ne reflètent pas la variable [statistiques plus conservatives utilisées par [!UICONTROL Affectation automatique]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html#section_98388996F0584E15BF3A99C57EEB7629){target=_blank} dans si ces activités ont des *both* des conditions suivantes :
+* Utilisation d’une [!DNL Target]Mesure de conversion définie
 
-   * [!DNL Analytics] comme source des rapports (A4T)
-   * [!DNL Analytics] mesures d’optimisation
+Ce tutoriel couvre les instructions générales d’A4T et les étapes de configuration de rapports spécifiques aux critères.
 
-  Les mesures de confiance doivent être supprimées du panneau A4T. Vous pouvez référencer ces valeurs dans [!DNL Target] création de rapports.
+## Directives générales pour [!UICONTROL Analytics pour Target] (A4T) {#guidance}
 
-## Création d’A4T pour [!DNL Auto-Allocate] dans [!DNL Analysis Workspace]
+Vous pouvez accéder à une [!UICONTROL Analytics pour Target] en cliquant sur le lien de l’écran de rapport dans [!UICONTROL Adobe Target] (désigné ultérieurement dans ce guide sous le nom de &quot;[!DNL Target]Rapport déclenché&quot;). Vous pouvez également créer le panneau A4T dans [!DNL Analytics] (détails plus loin dans cette section).
 
-Pour créer un panneau A4T pour une [!DNL Auto-Allocate] le rapport commence par **[!UICONTROL Analytics pour Target]** dans [!DNL Analysis Workspace], comme illustré ci-dessous. Effectuez ensuite les sélections suivantes :
+Les sections suivantes spécifient les configurations requises, selon la méthode choisie :
 
-1. **[!UICONTROL Expérience de contrôle]**: vous pouvez choisir n’importe quelle expérience.
-1. **[!UICONTROL Mesure de normalisation]**: sélectionnez Visiteurs (les visiteurs sont inclus par défaut dans le panneau A4T). [!DNL Auto-Allocate] normalise toujours les taux de conversion par visiteurs uniques.
-1. **[!UICONTROL Mesures de succès]**: sélectionnez la même mesure que celle utilisée lors de la création de l’activité. S’il s’agissait d’une [!DNL Target] mesure de conversion définie, sélectionnez **Conversion des activités**. Sinon, sélectionnez la variable [!DNL Adobe Analytics] mesure que vous avez utilisée.
+* Les mesures de confiance doivent être supprimées du panneau A4T, quelle que soit la méthode de création du panneau (les deux sont présentées ci-dessous). Vous pouvez référencer ces valeurs dans [!DNL Target] création de rapports. En outre, les gagnants d’activité peuvent être identifiés dans la variable [!DNL Target] création de rapports. Vous trouverez des informations détaillées sur l’identification des gagnants d’activité dans la section [Identification du gagnant de l’activité](#winner) ci-dessous.
+>>
+* Pour éviter toute confusion, désélectionnez le[!UICONTROL Pourcentage]&quot; présentation de la [!UICONTROL Taux de conversion] mesure. Pour plus d’informations, voir [Masquer le pourcentage de la variable [!UICONTROL Taux de conversion] column](#hide-percentage) ci-dessous
+>>
+* Si vous créez un panneau A4T, assurez-vous que les plages de dates et d’heures correspondent à celles de votre [!DNL Target] rapport. Pour plus d’informations, voir [Alignement de la date et de l’heure dans le panneau A4T](#aligning-date-and-time) ci-dessous
 
-![[!UICONTROL Analytics pour Target] configuration du panneau pour [!DNL Auto-Allocate] activités.](assets/AAFigure1.png)
+### Masquer le pourcentage de la variable [!UICONTROL Taux de conversion] column {#hide-percentage}
 
-*Figure 1 : [!UICONTROL Analytics pour Target] configuration du panneau pour [!DNL Auto-Allocate] activités.*
+1. Cliquez sur le bouton **engrenage** en regard du titre de la propriété [!UICONTROL Taux de conversion] colonne .
 
-Vous pouvez également obtenir une **[!UICONTROL Analytics pour Target]** si vous cliquez sur le lien de l’écran de rapport dans [!DNL Adobe Target].
+   ![Icône d’engrenage dans la colonne Taux de conversion](/help/integrations/assets/coversion-rate-gear-icon.png)
 
-## [!DNL Target] [!UICONTROL Conversion] mesures ou [!DNL Analytics] mesures avec les critères d’optimisation &quot;Maximiser la valeur de mesure par visiteur&quot;
+   La variable [!UICONTROL Colonne] la boîte de dialogue settings s’affiche :
 
-Lorsque la mesure d’objectif est :
+   ![Boîte de dialogue Paramètres de colonne](/help/integrations/assets/column-settings-dialog-box.png)
 
-* Une mesure de conversion Target
-* Mesure Analytics avec le critère d’optimisation &quot;Maximiser la valeur de mesure par visiteur&quot;
+1. Désélectionnez l’option **[!UICONTROL Pourcentage]** .
 
-Le panneau A4T par défaut configure automatiquement le rapport.
+Votre panneau A4T n’inclut désormais pas les pourcentages comme taux de conversion et ne correspond plus à [!DNL Target], comme illustré ci-dessous :
 
-Un exemple de ce panneau s’affiche pour la fonction [!UICONTROL Recettes] où &quot;Maximiser la valeur de mesure par visiteur&quot; a été sélectionnée comme critère d’optimisation au moment de la création de l’activité. Comme mentionné précédemment, [!DNL Auto-Allocate] utilise des calculs de confiance plus conservateurs que ceux utilisés dans la variable **[!UICONTROL Analytics pour Target]** du panneau. Adobe recommande de supprimer la mesure de confiance du panneau A4T, ainsi que les mesures d’effet élévateur inférieur et supérieur associées. référencez plutôt les valeurs de confiance dans [!DNL Target] création de rapports.
+![Colonne Taux de conversion n’affichant aucun pourcentage](/help/integrations/assets/no-percentages.png)
 
->[!NOTE]
->
->Les valeurs de confiance dans les rapports A4T sont moins conservatrices que [!DNL Target] création de rapports et peut indiquer de manière prématurée un gagnant pour une [!UICONTROL Affectation automatique] activité.
+### Alignement de la date et de l’heure dans le panneau A4T {#aligning-date-and-time}
 
+1. Au-dessus de chaque panneau, vérifiez la période référencée par le panneau pour vous assurer que la période correspond à celle de l’événement [!DNL Target] rapport.
 
-![[!UICONTROL Analytics for Target - Rapport d’affectation automatique] panel](assets/AAFigure2.png)
+   ![Période dans le panneau A4T](/help/integrations/assets/date-range.png)
 
-*Figure 2 : Rapport recommandé pour [!DNL Auto-Allocate] d’une [!DNL Analytics] critère d’optimisation de la mesure &quot;Maximiser la valeur de mesure par visiteur&quot;. Pour ces types de mesures, ainsi que [!DNL Target] mesures de conversion définies, la valeur par défaut **[!UICONTROL Analytics pour Target]**dans [!DNL Analysis Workspace] peut être utilisé.*
+1. Dans [!DNL Analytics], définissez la période sur 00:00 - 23:59.
 
-## [!DNL Analytics] mesures avec les critères d’optimisation &quot;Maximiser le taux de conversion des visiteurs uniques&quot;
+### Identification de l’activité gagnante {#winner}
 
-Le critère d’optimisation &quot;Maximiser le taux de conversion des visiteurs uniques&quot; fait référence au nombre de visiteurs pour lesquels la valeur de mesure est positive. Si, par exemple, le taux de conversion est défini comme recettes, le critère &quot;Maximiser le taux de conversion du visiteur unique&quot; est optimisé en fonction du nombre de visiteurs uniques pour lesquels le chiffre d’affaires est supérieur à 0. En d’autres termes, ce critère optimise le nombre de visiteurs qui génèrent des recettes, plutôt que la valeur des recettes elles-mêmes.
+[!DNL Auto-Allocate] les gagnants d’activité sont sélectionnés lorsqu’un taux de conversion gagnant est associé à des valeurs de confiance supérieures ou égales à 95 %. Ces valeurs doivent être référencées dans la variable [!DNL Target] , car les calculs de confiance reflètent les méthodes les plus conservatrices [!DNL Target] recommande pour [!UICONTROL Affectation automatique] activités. Pour plus d’informations, voir [Garanties statistiques de l’affectation automatique](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/determine-winner.html#section_7AF3B93E90BA4B80BC9FC4783B6A389C){target=_blank} dans le *[!UICONTROL Guide du professionnel d’Adobe Target]*.
 
 >[!NOTE]
 >
->Le taux de conversion comme référencé ici peut faire référence à des actions en dehors des commandes, telles que des clics, des impressions, etc. Dans ce cas, le critère maximise toujours le nombre de visiteurs qui cliquent ou affichent la page, respectivement.
+Les badges &quot;Pas encore de gagnant&quot; et &quot;Gagnant&quot; ne sont pas disponibles dans le panneau A4T dans [!DNL Analysis Workspace] et non disponible dans le [!DNL Target] rapport. Pour plus d’informations, voir [Affectation automatique](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} in *Prise en charge d’A4T pour les activités d’affectation automatique et de ciblage automatique* dans le *[!UICONTROL Guide du professionnel d’Adobe Target]*.
 
-La variable [!DNL Analytics for Target] dans [!DNL Analysis Workspace] doit être modifié si ce critère d’optimisation est utilisé avec un [!DNL Adobe Analytics] mesure.
+## Création d’A4T pour [!UICONTROL Affectation automatique] dans [!DNL Analysis Workspace]
 
-Lorsque ce critère d’optimisation est utilisé, la mesure de succès est le nombre de visiteurs uniques pour lesquels la mesure de conversion était positive. Par conséquent, pour afficher cette valeur, un nouveau segment doit être créé pour filtrer les accès avec une valeur positive pour la mesure.
+1. Pour créer un panneau A4T pour une [!UICONTROL Affectation automatique] rapport d’activité, commencez par [!UICONTROL Analytics pour Target] dans [!DNL Analysis Workspace], comme illustré ci-dessous.
 
-Créez ce segment comme suit :
+   ![Analytics for Target - Rapport d’affectation automatique](/help/integrations/assets/a4t-auto-allocate-report.png)
 
-1. Sélectionnez la variable **[!UICONTROL Composants]** > **[!UICONTROL Créer un segment]** dans le [!DNL Analysis Workspace] barre d’outils.
-1. Faites glisser la mesure utilisée au moment de la création de l’activité du panneau de gauche vers le **[!UICONTROL Définition]** de la zone du segment.
-1. Sélectionnez les valeurs de la mesure qui sont **supérieur à** une valeur numérique de 0.
-1. Dans la **[!UICONTROL Inclure]** , sélectionnez **[!UICONTROL Visiteurs]**.
-1. Attribuez un nom approprié à votre segment.
+1. Effectuez les sélections suivantes :
 
-Un exemple de création de segment est illustré dans la figure ci-dessous, où la mesure de succès est [!UICONTROL Visiteurs avec des recettes positives].
+   * **[!UICONTROL Expérience de contrôle]**: sélectionnez une expérience.
+   * **[!UICONTROL Mesure de normalisation]**: sélectionnez **[!UICONTROL Visiteurs]** (inclus dans le panneau A4T par défaut). [!UICONTROL Affectation automatique] normalise toujours les taux de conversion par visiteurs uniques.
+   * **Mesures de succès**: sélectionnez la même mesure (optimisation) que celle utilisée lors de la création de l’activité. S’il s’agissait d’une [!DNL Target]mesure de conversion définie, sélectionnez **[!UICONTROL Conversion des activités]**. Sinon, sélectionnez la variable [!DNL Adobe Analytics] mesure que vous avez utilisée.
 
-![[!UICONTROL Visiteurs avec des recettes positives] segment dans [!DNL Analysis Workspace]](assets/AAFigure3.png)
+## Mesures Analytics avec &quot;[!UICONTROL Maximiser la valeur de mesure par visiteur]&quot;critères d’optimisation
 
-*Figure 3 : Création de segments pour [!DNL Adobe Analytics] mesures dont les critères d’optimisation sont égaux à &quot;[!UICONTROL Maximiser le taux de conversion des visiteurs uniques].&quot; Dans cet exemple, la mesure est [!UICONTROL Recettes]et l’objectif d’optimisation est d’optimiser le nombre de visiteurs avec des recettes positives.*
+**Définition**: (valeur de mesure globale) / ( nombre de visiteurs)
 
-Une fois le segment approprié créé, vous pouvez modifier le segment par défaut.  **[!UICONTROL Analytics pour Target]** dans [!DNL Analysis Workspace] pour afficher les valeurs des critères d’optimisation. Pour ce faire, procédez comme suit :
+Pour configurer le rapport, apportez les modifications suivantes au rapport A4T :
 
-1. Ajouter une seconde **Visiteurs uniques** à côté de la mesure existante [!UICONTROL Visiteurs] colonne des mesures.
-2. Faites glisser le segment nouvellement créé sous la première colonne pour produire un panneau qui ressemble à l’illustration 4. Notez la différence de valeurs des colonnes : le nombre de visiteurs uniques avec des recettes positives doit être une fraction du nombre total de visiteurs uniques affectés à chaque expérience (comme illustré ci-dessous).
+![Maximiser la valeur de mesure pour les recettes](/help/integrations/assets/maximize-metric-value-revenue.png)
 
-   ![Figure4.png](assets/AAFigure4.png)
+| Modifications requises | [!DNL Target]Rapport déclenché | Rapport Panneau A4T |
+| --- | --- | --- |
+| Maximiser la valeur de mesure pour une [!DNL Analytics] metric | <ul><li>[!UICONTROL Confiance] Les mesures doivent être supprimées.</li><li>[!UICONTROL Effet élévateur (faible)] et [!UICONTROL Effet élévateur (élevé)] doit être supprimé.</li><li>La mesure Taux de conversion doit être renommée &quot;Mesure / Visiteur&quot;.</li><li>Décochez la présentation en pourcentage de la [!UICONTROL Taux de conversion] pour éviter toute confusion. Pour plus d’informations, voir [Guide général](#guidance) ci-dessus.</li></ul> | <ul><li>[!UICONTROL Confiance] Les mesures doivent être supprimées.</li><li>[!UICONTROL Effet élévateur (faible)] et [!UICONTROL Effet élévateur (élevé)] doit être supprimé.</li><li>La mesure Taux de conversion doit être renommée &quot;Mesure / Visiteur&quot;.</li><li>Décochez la présentation en pourcentage de la [!UICONTROL Taux de conversion] pour éviter toute confusion. Pour plus d’informations, voir [Guide général](#guidance) ci-dessus.</li><li>Assurez-vous que les plages de dates et d’heures correspondent aux valeurs affichées dans la variable [!DNL Target] rapport. Pour plus d’informations, voir [Guide général](#guidance) ci-dessus.</li></ul> |
 
-   *Figure 4 : Filtrage [!UICONTROL Visiteurs uniques] par le segment nouvellement créé*
+## [!DNL Analytics] mesures avec &quot;[!UICONTROL Taux de conversion des visiteurs uniques]&quot;critères d’optimisation
 
-3. Un taux de conversion peut être [calculé rapidement](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html) en mettant en surbrillance la première et la deuxième colonne, en cliquant avec le bouton droit de la souris, en sélectionnant **[!UICONTROL Créer une mesure d’après la sélection]** > **[!UICONTROL Diviser]**.
+**Définition**: (nombre de visiteurs uniques avec une valeur positive de la mesure) / (nombre total de visiteurs uniques)
 
-   Le taux de conversion par défaut doit être supprimé et remplacé par cette nouvelle mesure calculée, comme illustré dans l’image ci-dessous. Vous devrez peut-être modifier la mesure calculée nouvellement créée pour l’afficher sous la forme d’une **[!UICONTROL Format]** > **[!UICONTROL Pourcentage]** jusqu’à deux décimales, comme indiqué.
+Exemple : supposons que votre mesure d’optimisation soit [!UICONTROL Recettes]. L’activité comporte cinq visiteurs uniques et trois d’entre eux effectuent un achat. Dans cet exemple, cette valeur = (3 visiteurs pour lesquels [!UICONTROL Recettes] est positif) / (5 visiteurs uniques au total) = 0,6 = 60 %.
 
-   ![Figure5.png](assets/AAFigure5.png)
+>[!NOTE]
+>
+Le taux de conversion comme référencé ici peut faire référence à des actions en dehors des commandes, telles que des clics, des impressions, etc. Dans ce cas, le critère maximise toujours le nombre de visiteurs qui cliquent ou affichent la page, respectivement.
 
-   *Figure 5 : Le tableau final [!UICONTROL Affectation automatique] panneau affichant les taux de conversion d’une mesure de conversion de recettes binaire*
+Pour configurer le rapport, apportez les modifications suivantes au rapport A4T :
 
-## Résumé
+| Modifications requises | Rapport déclenché par Target | Rapport Panneau A4T |
+| --- | --- | --- |
+| Maximiser les conversions pour une [!DNL Analytics] metric | <ul><li>[!UICONTROL Confiance] Les mesures doivent être supprimées.</li><li>Tous [!UICONTROL Effet élévateur] Les mesures doivent être supprimées.</li><li>Décochez la présentation en pourcentage de la [!UICONTROL Taux de conversion] pour éviter toute confusion. (Pour plus d’informations, voir [Guide général](#guidance) ci-dessus.</li></ul> | <ul><li>[!UICONTROL Confiance] Les mesures doivent être supprimées.</li><li>Tous [!UICONTROL Effet élévateur] Les mesures doivent être supprimées.</li><li>Créez un segment pour filtrer les visiteurs avec une valeur de mesure positive qui ont consulté l’activité analysée. Pour plus d’informations, voir [Création d’un segment](#segment) ci-dessous</li><li>Remplacez la valeur auto-renseignée [!UICONTROL Taux de conversion] de sorte que représente la division entre [!UICONTROL Visiteurs uniques] avec une valeur de mesure positive et des visiteurs uniques. Pour plus d’informations, voir [Mise à jour de la mesure Taux de conversion](#update-conversion-metric) ci-dessous</li><li>Décochez la présentation en pourcentage de la [!UICONTROL Taux de conversion] pour éviter toute confusion. Pour plus d’informations, voir [Guide général](#guidance) ci-dessus.</li><li>Assurez-vous que les plages de dates et d’heures correspondent aux valeurs affichées dans la variable [!DNL Target] rapport. Pour plus d’informations, voir [Guide général](#guidance) ci-dessus.</li></ul> |
 
-Les étapes de ce tutoriel ont démontré comment configurer correctement [!DNL Analysis Workspace] pour afficher [!UICONTROL Affectation automatique] données de reporting.
+### Rapport Panneau A4T par défaut - Conseils supplémentaires
 
-En résumé :
+Les sections suivantes contiennent des informations supplémentaires sur les conseils supplémentaires à suivre lors de la configuration du rapport Panneau A4T par défaut.
 
-* Lorsque la mesure est une [!DNL Target] mesure de conversion définie ou [!DNL Adobe Analytics] avec le critère d’optimisation &quot;Maximiser la valeur de mesure par visiteur&quot;, le panneau de l’espace de travail par défaut configuré avec les visiteurs comme mesure de normalisation doit être utilisé.
-* Lorsque la mesure est une [!DNL Adobe Analytics] avec le critère d’optimisation &quot;Maximiser le taux de conversion des visiteurs uniques&quot;, vous devez déterminer la fraction de visiteurs avec une valeur de mesure positive par rapport au nombre total de visiteurs. Pour ce faire, créez un segment correspondant qui filtre la variable [!UICONTROL Visiteur unique] sur cette mesure.
+#### Création d’un segment {#segment}
+
+1. Cliquez sur le bouton **signe &quot;+&quot;** en regard de **[!UICONTROL Segments]** dans le rail de gauche.
+
+   ![Signe plus en regard des segments dans le rail de gauche.](/help/integrations/assets/plus-sign.png)
+
+1. Titre du segment &quot;Visiteurs avec une valeur de mesure positive&quot;.
+1. Sous **[!UICONTROL Définition]**, en regard de **[!UICONTROL Inclure]**, sélectionnez **[!UICONTROL Visiteur]**.
+1. Sous **[!UICONTROL Définition]**, sélectionnez la mesure d’optimisation dans votre activité.
+
+   Dans cet exemple, supposons que [!UICONTROL Recettes] comme mesure d’optimisation.
+
+1. Sélectionnez le[!UICONTROL est supérieur à]&quot;, puis spécifiez &quot;0&quot;.
+
+   Ces paramètres filtrent tous les visiteurs avec une valeur de mesure positive.
+
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
+
+   ![Valeur de mesure positive](/help/integrations/assets/positive-metric-value.png)
+
+1. Ajoutez le segment nouvellement créé nommé &quot;Visiteurs avec une valeur de mesure positive&quot; au panneau A4T.
+1. Faites glisser et déposez le [!UICONTROL Visiteurs uniques] dans la même colonne que &quot;Visiteurs avec une valeur de mesure positive&quot;.
+
+   Cette configuration crée un segment de tous les visiteurs uniques pour lesquels la valeur de mesure est positive. Dans cet exemple, tous les visiteurs uniques dont les recettes sont supérieures à zéro.
+
+#### Mettez à jour le [!UICONTROL Taux de conversion] metric {#update-conversion-metric}
+
+1. Si vous ne l’avez pas déjà fait, supprimez la [!UICONTROL Taux de conversion] dans le panneau, comme expliqué ci-dessus.
+1. Ajoutez une mesure en cliquant sur le signe &quot;+&quot; en regard de l’événement **[!UICONTROL Mesures]** dans le rail de gauche.
+1. Nommez la mesure &quot;Taux de conversion&quot; et définissez-la comme &quot;([!UICONTROL Visiteurs uniques] avec la valeur de mesure positive) divisée par &quot;Visiteurs uniques&quot;, comme illustré ci-dessous.
+
+   Ajoutez le segment nouvellement créé (étapes définies ci-dessus) de &quot;Visiteurs avec une valeur de mesure positive&quot;, l’opérateur de division, la mesure &quot;Visiteurs uniques&quot; dans le numérateur et &quot;Visiteurs uniques&quot; comme dénominateur.
+
+   ![Taux de conversion dans le panneau A4T.](/help/integrations/assets/conversion-rate.png)
+
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
+
+1. Placez la mesure &quot;Taux de conversion&quot; que vous venez de créer dans le panneau existant.
+1. Cliquez sur l’icône d’engrenage, puis désélectionnez la **[!UICONTROL Pourcentage]** , car cette valeur peut prêter à confusion.
+
+La configuration correcte du rapport doit générer un résultat qui ressemble à l’illustration suivante :
+
+![Taux de conversion des visites uniques dans le rapport Panneau A4T](/help/integrations/assets/a4t-aa-maximize-metric-value-revenue.png)
+
+## [!DNL Target]taux de conversion défini
+
+Pour configurer le rapport, apportez les modifications suivantes au rapport A4T :
+
+| Modifications requises | Rapport déclenché par Target | Rapport Panneau A4T |
+| --- | --- | --- |
+| [!DNL Analytics] création de rapports avec [!DNL Target] mesure de conversion | <ul><li>[!UICONTROL Confiance] Les mesures doivent être supprimées.</li><li>[!UICONTROL Effet élévateur (faible)] et [!UICONTROL Effet élévateur (élevé)] doit être supprimé.</li><li>Décochez la présentation en pourcentage de la [!UICONTROL Taux de conversion] pour éviter toute confusion. Pour plus d’informations, voir [Guide général](#guidance) ci-dessus.</li></ul> | <ul><li>[!UICONTROL Confiance] Les mesures doivent être supprimées.</li><li>[!UICONTROL Effet élévateur (faible)] et [!UICONTROL Effet élévateur (élevé)] doit être supprimé.</li><li>Décochez la présentation en pourcentage de la [!UICONTROL Taux de conversion] pour éviter toute confusion. Pour plus d’informations, voir [Guide général](#guidance) ci-dessus.</li><li>Assurez-vous que les plages de dates et d’heures correspondent aux valeurs affichées dans la variable [!DNL Target] rapport. Pour plus d’informations, voir [Guide général](#guidance) ci-dessus.</li></ul> |
+
+La configuration correcte du rapport doit générer un résultat qui ressemble à l’illustration suivante :
+
+![Conversions des activités](/help/integrations/assets/optimized-table.png)
+
+
+
+
+
+
+
+
+
