@@ -8,7 +8,7 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 194579db80fdac60e204e36ab769975be2795eee
+source-git-commit: d85e6510bf5243a4a37edff5d0ce9342af3162e2
 workflow-type: tm+mt
 source-wordcount: '1575'
 ht-degree: 0%
@@ -52,13 +52,13 @@ Les sections suivantes spécifient les configurations requises, selon la méthod
 
    La variable [!UICONTROL Colonne] la boîte de dialogue settings s’affiche :
 
-   ![Boîte de dialogue Paramètres de colonne](/help/integrations/assets/column-settings-dialog-box.png)
+   ![Boîte de dialogue Paramètres de colonne](/help/integrations/assets/column-settings-dialog-box.png){width="200"}
 
 1. Désélectionnez l’option **[!UICONTROL Pourcentage]** .
 
-Votre panneau A4T n’inclut désormais pas les pourcentages comme taux de conversion et ne correspond plus à [!DNL Target], comme illustré ci-dessous :
+   Votre panneau A4T n’inclut désormais pas les pourcentages comme taux de conversion et ne correspond plus à [!DNL Target], comme illustré ci-dessous :
 
-![Colonne Taux de conversion n’affichant aucun pourcentage](/help/integrations/assets/no-percentages.png)
+   ![Colonne Taux de conversion n’affichant aucun pourcentage](/help/integrations/assets/no-percentages.png)
 
 ### Alignement de la date et de l’heure dans le panneau A4T {#aligning-date-and-time}
 
@@ -160,9 +160,9 @@ Les sections suivantes contiennent des informations supplémentaires sur les con
 1. Placez la mesure &quot;Taux de conversion&quot; que vous venez de créer dans le panneau existant.
 1. Cliquez sur l’icône d’engrenage, puis désélectionnez la **[!UICONTROL Pourcentage]** , car cette valeur peut prêter à confusion.
 
-La configuration correcte du rapport doit générer un résultat qui ressemble à l’illustration suivante :
+   La configuration correcte du rapport doit générer un résultat qui ressemble à l’illustration suivante :
 
-![Taux de conversion des visites uniques dans le rapport Panneau A4T](/help/integrations/assets/a4t-aa-maximize-metric-value-revenue.png)
+   ![Taux de conversion des visites uniques dans le rapport Panneau A4T](/help/integrations/assets/a4t-aa-maximize-metric-value-revenue.png)
 
 ## [!DNL Target]taux de conversion défini
 
