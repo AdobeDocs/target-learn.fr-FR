@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: d85e6510bf5243a4a37edff5d0ce9342af3162e2
+source-git-commit: 3afbb97e2276ed98ea05e254026c8943acc6fee0
 workflow-type: tm+mt
-source-wordcount: '1575'
+source-wordcount: '1582'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Les sections suivantes spécifient les configurations requises, selon la méthod
 
 >[!NOTE]
 >
-Les badges &quot;Pas encore de gagnant&quot; et &quot;Gagnant&quot; ne sont pas disponibles dans le panneau A4T dans [!DNL Analysis Workspace] et non disponible dans le [!DNL Target] rapport. Pour plus d’informations, voir [Affectation automatique](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} in *Prise en charge d’A4T pour les activités d’affectation automatique et de ciblage automatique* dans le *[!UICONTROL Guide du professionnel d’Adobe Target]*.
+Les badges &quot;Pas encore de gagnant&quot; et &quot;Gagnant&quot; ne sont pas disponibles dans le panneau A4T dans [!DNL Analysis Workspace]. En outre, le badge &quot;étoile&quot; gagnante s’affiche dans [!DNL Target] rapports pour [!UICONTROL Affectation automatique] Les activités doivent être ignorées. Pour plus d’informations, voir [Affectation automatique](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} in *Prise en charge d’A4T pour les activités d’affectation automatique et de ciblage automatique* dans le *[!UICONTROL Guide du professionnel d’Adobe Target]*.
 
 ## Création d’A4T pour [!UICONTROL Affectation automatique] dans [!DNL Analysis Workspace]
 
