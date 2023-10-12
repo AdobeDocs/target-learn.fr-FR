@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 3afbb97e2276ed98ea05e254026c8943acc6fee0
+source-git-commit: 9761412ba2f60e91152a6fd5ad9e50ec0df0adba
 workflow-type: tm+mt
-source-wordcount: '1582'
+source-wordcount: '1590'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Ce tutoriel couvre les instructions générales d’A4T et les étapes de config
 
 Vous pouvez accéder à une [!UICONTROL Analytics pour Target] en cliquant sur le lien de l’écran de rapport dans [!UICONTROL Adobe Target] (désigné ultérieurement dans ce guide sous le nom de &quot;[!DNL Target]Rapport déclenché&quot;). Vous pouvez également créer le panneau A4T dans [!DNL Analytics] (détails plus loin dans cette section).
 
-Les sections suivantes spécifient les configurations requises, selon la méthode choisie :
+Les sections suivantes indiquent les configurations requises, selon l’une de ces méthodes. Toutefois, les étapes suivantes constituent des conseils généraux :
 
 * Les mesures de confiance doivent être supprimées du panneau A4T, quelle que soit la méthode de création du panneau (les deux sont présentées ci-dessous). Vous pouvez référencer ces valeurs dans [!DNL Target] création de rapports. En outre, les gagnants d’activité peuvent être identifiés dans la variable [!DNL Target] création de rapports. Vous trouverez des informations détaillées sur l’identification des gagnants d’activité dans la section [Identification du gagnant de l’activité](#winner) ci-dessous.
 >>
@@ -76,7 +76,7 @@ Les sections suivantes spécifient les configurations requises, selon la méthod
 >
 Les badges &quot;Pas encore de gagnant&quot; et &quot;Gagnant&quot; ne sont pas disponibles dans le panneau A4T dans [!DNL Analysis Workspace]. En outre, le badge &quot;étoile&quot; gagnante s’affiche dans [!DNL Target] rapports pour [!UICONTROL Affectation automatique] Les activités doivent être ignorées. Pour plus d’informations, voir [Affectation automatique](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} in *Prise en charge d’A4T pour les activités d’affectation automatique et de ciblage automatique* dans le *[!UICONTROL Guide du professionnel d’Adobe Target]*.
 
-## Création d’A4T pour [!UICONTROL Affectation automatique] dans [!DNL Analysis Workspace]
+### Création d’A4T pour [!UICONTROL Affectation automatique] dans [!DNL Analysis Workspace]
 
 1. Pour créer un panneau A4T pour une [!UICONTROL Affectation automatique] rapport d’activité, commencez par [!UICONTROL Analytics pour Target] dans [!DNL Analysis Workspace], comme illustré ci-dessous.
 
@@ -94,11 +94,11 @@ Les badges &quot;Pas encore de gagnant&quot; et &quot;Gagnant&quot; ne sont pas 
 
 Pour configurer le rapport, apportez les modifications suivantes au rapport A4T :
 
-![Maximiser la valeur de mesure pour les recettes](/help/integrations/assets/maximize-metric-value-revenue.png)
-
 | Modifications requises | [!DNL Target]Rapport déclenché | Rapport Panneau A4T |
 | --- | --- | --- |
 | Maximiser la valeur de mesure pour une [!DNL Analytics] metric | <ul><li>[!UICONTROL Confiance] Les mesures doivent être supprimées.</li><li>[!UICONTROL Effet élévateur (faible)] et [!UICONTROL Effet élévateur (élevé)] doit être supprimé.</li><li>La mesure Taux de conversion doit être renommée &quot;Mesure / Visiteur&quot;.</li><li>Décochez la présentation en pourcentage de la [!UICONTROL Taux de conversion] pour éviter toute confusion. Pour plus d’informations, voir [Guide général](#guidance) ci-dessus.</li></ul> | <ul><li>[!UICONTROL Confiance] Les mesures doivent être supprimées.</li><li>[!UICONTROL Effet élévateur (faible)] et [!UICONTROL Effet élévateur (élevé)] doit être supprimé.</li><li>La mesure Taux de conversion doit être renommée &quot;Mesure / Visiteur&quot;.</li><li>Décochez la présentation en pourcentage de la [!UICONTROL Taux de conversion] pour éviter toute confusion. Pour plus d’informations, voir [Guide général](#guidance) ci-dessus.</li><li>Assurez-vous que les plages de dates et d’heures correspondent aux valeurs affichées dans la variable [!DNL Target] rapport. Pour plus d’informations, voir [Guide général](#guidance) ci-dessus.</li></ul> |
+
+![Maximiser la valeur de mesure pour les recettes](/help/integrations/assets/maximize-metric-value-revenue.png)
 
 ## [!DNL Analytics] mesures avec &quot;[!UICONTROL Taux de conversion des visiteurs uniques]&quot;critères d’optimisation
 
