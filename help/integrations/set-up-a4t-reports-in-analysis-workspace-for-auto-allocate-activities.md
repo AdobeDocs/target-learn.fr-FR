@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 78e5b5f7fa8f4c1a08c06c6d2b0e1a5242cd464c
+source-git-commit: b820a3f8a964d88027de5c27b45a76fcc878042d
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1552'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Pour configurer le rapport, apportez les modifications suivantes au rapport A4T 
 
 | Modifications requises | Rapport déclenché par Target | Rapport Panneau A4T |
 | --- | --- | --- |
-| Maximiser les conversions pour une [!DNL Analytics] metric | <ul><li>[!UICONTROL Confiance] Les mesures doivent être supprimées.</li><li>Tout supprimer [!UICONTROL Effet élévateur] mesures.</li><li>Décochez la présentation en pourcentage de la [!UICONTROL Taux de conversion] pour éviter toute confusion. Voir [Conseils généraux pour A4T](#guidance) ci-dessous</li></ul> | <ul><li>Supprimer [!UICONTROL Confiance] mesures.</li><li>Tout supprimer [!UICONTROL Effet élévateur] mesures.</li><li>Créez un segment pour filtrer les visiteurs avec une valeur de mesure positive qui a consulté l’activité analysée. Voir [Création d’un segment](#segment) ci-dessous</li><li>Remplacez la valeur auto-renseignée [!UICONTROL Taux de conversion] de sorte que représente la division entre [!UICONTROL Visiteurs uniques] avec une valeur de mesure positive et des visiteurs uniques. Voir [Mise à jour de la mesure Taux de conversion](#update-conversion-metric) ci-dessous</li><li>Décochez la présentation en pourcentage de la [!UICONTROL Taux de conversion] pour éviter toute confusion. Voir [Conseils généraux pour A4T](#guidance) ci-dessous</li><li>Assurez-vous que les plages de dates et d’heures correspondent aux valeurs affichées dans la variable [!DNL Target] rapport. Voir [Conseils généraux pour A4T](#guidance) ci-dessous</li></ul> |
+| Maximiser les conversions pour une [!DNL Analytics] metric | <ul><li>Supprimer [!UICONTROL Confiance] mesures.</li><li>Tout supprimer [!UICONTROL Effet élévateur] mesures.</li><li>Décochez la présentation en pourcentage de la [!UICONTROL Taux de conversion] pour éviter toute confusion. Voir [Conseils généraux pour A4T](#guidance) ci-dessous</li></ul> | <ul><li>Supprimer [!UICONTROL Confiance] mesures.</li><li>Tout supprimer [!UICONTROL Effet élévateur] mesures.</li><li>Créez un segment pour filtrer les visiteurs avec une valeur de mesure positive qui a consulté l’activité analysée. Voir [Création d’un segment](#segment) ci-dessous</li><li>Remplacez la valeur auto-renseignée [!UICONTROL Taux de conversion] de sorte que représente la division entre [!UICONTROL Visiteurs uniques] avec une valeur de mesure positive et des visiteurs uniques. Voir [Mise à jour de la mesure Taux de conversion](#update-conversion-metric) ci-dessous</li><li>Décochez la présentation en pourcentage de la [!UICONTROL Taux de conversion] pour éviter toute confusion. Voir [Conseils généraux pour A4T](#guidance) ci-dessous</li><li>Assurez-vous que les plages de dates et d’heures correspondent aux valeurs affichées dans la variable [!DNL Target] rapport. Voir [Conseils généraux pour A4T](#guidance) ci-dessous</li></ul> |
 
 ### Rapport Panneau A4T par défaut - Conseils supplémentaires
 
