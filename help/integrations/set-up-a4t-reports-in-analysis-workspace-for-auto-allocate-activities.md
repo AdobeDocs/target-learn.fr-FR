@@ -8,16 +8,16 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 352f334e2ca8c1d0be3ff0f89482b97500685174
+source-git-commit: 78e5b5f7fa8f4c1a08c06c6d2b0e1a5242cd464c
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1554'
 ht-degree: 0%
 
 ---
 
-# Configuration de rapports A4T dans [!DNL Analysis Workspace] pour [!DNL Auto-Allocate] activités
+# Configuration des rapports A4T dans [!DNL Analysis Workspace] pour [!DNL Auto-Allocate] activités
 
-Un [!UICONTROL Affectation automatique] activité dans [!DNL Adobe Target] identifie un gagnant parmi plusieurs expériences et réaffecte automatiquement le trafic du visiteur vers le gagnant pendant que le test se poursuit et apprend. La variable [!UICONTROL Analytics pour Target] Intégration (A4T) pour [!UICONTROL Affectation automatique] permet d’afficher les données de reporting dans [!DNL Adobe Analytics]et vous pouvez optimiser les événements personnalisés ou les mesures définies dans [!DNL Analytics].
+Un [[!UICONTROL Affectation automatique] activité](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html){target=_blank} in [!DNL Adobe Target] identifie un gagnant parmi plusieurs expériences et réaffecte automatiquement le trafic du visiteur vers le gagnant pendant que le test se poursuit et apprend. La variable [!UICONTROL Analytics pour Target] Intégration (A4T) pour [!UICONTROL Affectation automatique] permet d’afficher les données de reporting dans [!DNL Adobe Analytics]et vous pouvez optimiser les événements personnalisés ou les mesures définies dans [!DNL Analytics].
 
 Bien que des fonctionnalités d’analyse complètes soient disponibles dans [!DNL Adobe Analytics] [!DNL Analysis Workspace], quelques modifications apportées à la valeur par défaut [!UICONTROL Analytics pour Target] peut être nécessaire pour interpréter correctement [!UICONTROL Affectation automatique] activités. Ces modifications sont nécessaires en raison des nuances de la section [critères de mesure d’optimisation](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank}.
 
@@ -40,7 +40,7 @@ Pour configurer le rapport, apportez les modifications suivantes au rapport A4T 
 
 | Modifications requises | [!DNL Target]Rapport déclenché | Rapport Panneau A4T |
 | --- | --- | --- |
-| Maximiser la valeur de mesure pour une [!DNL Analytics] metric | <ul><li>[!UICONTROL Confiance] Les mesures doivent être supprimées.</li><li>[!UICONTROL Effet élévateur (faible)] et [!UICONTROL Effet élévateur (élevé)] doit être supprimé.</li><li>Décochez la présentation en pourcentage de la [!UICONTROL Taux de conversion] pour éviter toute confusion. Voir [Guide général](#guidance) ci-dessous</li><li>La mesure Taux de conversion doit être renommée &quot;Mesure / Visiteur&quot;.</li></ul> | <ul><li>[!UICONTROL Confiance] Les mesures doivent être supprimées.</li><li>[!UICONTROL Effet élévateur (faible)] et [!UICONTROL Effet élévateur (élevé)] doit être supprimé.</li><li>Décochez la présentation en pourcentage de la [!UICONTROL Taux de conversion] pour éviter toute confusion. Voir [Guide général](#guidance) ci-dessous</li><li>La mesure Taux de conversion doit être renommée &quot;Mesure / Visiteur&quot;.</li><li>Assurez-vous que les plages de dates et d’heures correspondent aux valeurs affichées dans la variable [!DNL Target] rapport. Voir [Guide général](#guidance) ci-dessous</li></ul> |
+| Maximiser la valeur de mesure pour une [!DNL Analytics] metric | <ul><li>Supprimer [!UICONTROL Confiance] mesures.</li><li>Supprimer [!UICONTROL Effet élévateur (faible)] et [!UICONTROL Effet élévateur (élevé)].</li><li>Décochez la présentation en pourcentage de la [!UICONTROL Taux de conversion] pour éviter toute confusion. Voir [Conseils généraux pour A4T](#guidance) ci-dessous</li><li>Renommez la variable [!UICONTROL Conversion] mesure de taux sur &quot;Mesure / Visiteur&quot;.</li></ul> | <ul><li>Supprimer [!UICONTROL Confiance] mesures.</li><li>Supprimer [!UICONTROL Effet élévateur (faible)] et [!UICONTROL Effet élévateur (élevé)].</li><li>Décochez la présentation en pourcentage de la [!UICONTROL Taux de conversion] pour éviter toute confusion. Voir [Conseils généraux pour A4T](#guidance) ci-dessous</li><li>Renommez la variable [!UICONTROL Conversion] mesure de taux sur &quot;Mesure / Visiteur&quot;.</li><li>Assurez-vous que les plages de dates et d’heures correspondent aux valeurs affichées dans la variable [!DNL Target] rapport. Voir [Conseils généraux pour A4T](#guidance) ci-dessous</li></ul> |
 
 ![Maximiser la valeur de mesure pour les recettes](/help/integrations/assets/maximize-metric-value-revenue.png)
 
@@ -58,7 +58,7 @@ Pour configurer le rapport, apportez les modifications suivantes au rapport A4T 
 
 | Modifications requises | Rapport déclenché par Target | Rapport Panneau A4T |
 | --- | --- | --- |
-| Maximiser les conversions pour une [!DNL Analytics] metric | <ul><li>[!UICONTROL Confiance] Les mesures doivent être supprimées.</li><li>Tous [!UICONTROL Effet élévateur] Les mesures doivent être supprimées.</li><li>Décochez la présentation en pourcentage de la [!UICONTROL Taux de conversion] pour éviter toute confusion. Voir [Guide général](#guidance) ci-dessous</li></ul> | <ul><li>[!UICONTROL Confiance] Les mesures doivent être supprimées.</li><li>Tous [!UICONTROL Effet élévateur] Les mesures doivent être supprimées.</li><li>Créez un segment pour filtrer les visiteurs avec une valeur de mesure positive qui ont consulté l’activité analysée. Voir [Création d’un segment](#segment) ci-dessous</li><li>Remplacez la valeur auto-renseignée [!UICONTROL Taux de conversion] de sorte que représente la division entre [!UICONTROL Visiteurs uniques] avec une valeur de mesure positive et des visiteurs uniques. Voir [Mise à jour de la mesure Taux de conversion](#update-conversion-metric) ci-dessous</li><li>Décochez la présentation en pourcentage de la [!UICONTROL Taux de conversion] pour éviter toute confusion. Voir [Guide général](#guidance) ci-dessous</li><li>Assurez-vous que les plages de dates et d’heures correspondent aux valeurs affichées dans la variable [!DNL Target] rapport. Voir [Guide général](#guidance) ci-dessous</li></ul> |
+| Maximiser les conversions pour une [!DNL Analytics] metric | <ul><li>[!UICONTROL Confiance] Les mesures doivent être supprimées.</li><li>Tout supprimer [!UICONTROL Effet élévateur] mesures.</li><li>Décochez la présentation en pourcentage de la [!UICONTROL Taux de conversion] pour éviter toute confusion. Voir [Conseils généraux pour A4T](#guidance) ci-dessous</li></ul> | <ul><li>Supprimer [!UICONTROL Confiance] mesures.</li><li>Tout supprimer [!UICONTROL Effet élévateur] mesures.</li><li>Créez un segment pour filtrer les visiteurs avec une valeur de mesure positive qui a consulté l’activité analysée. Voir [Création d’un segment](#segment) ci-dessous</li><li>Remplacez la valeur auto-renseignée [!UICONTROL Taux de conversion] de sorte que représente la division entre [!UICONTROL Visiteurs uniques] avec une valeur de mesure positive et des visiteurs uniques. Voir [Mise à jour de la mesure Taux de conversion](#update-conversion-metric) ci-dessous</li><li>Décochez la présentation en pourcentage de la [!UICONTROL Taux de conversion] pour éviter toute confusion. Voir [Conseils généraux pour A4T](#guidance) ci-dessous</li><li>Assurez-vous que les plages de dates et d’heures correspondent aux valeurs affichées dans la variable [!DNL Target] rapport. Voir [Conseils généraux pour A4T](#guidance) ci-dessous</li></ul> |
 
 ### Rapport Panneau A4T par défaut - Conseils supplémentaires
 
@@ -114,19 +114,19 @@ Pour configurer le rapport, apportez les modifications suivantes au rapport A4T 
 
 | Modifications requises | Rapport déclenché par Target | Rapport Panneau A4T |
 | --- | --- | --- |
-| [!DNL Analytics] création de rapports avec [!DNL Target] mesure de conversion | <ul><li>[!UICONTROL Confiance] Les mesures doivent être supprimées.</li><li>[!UICONTROL Effet élévateur (faible)] et [!UICONTROL Effet élévateur (élevé)] doit être supprimé.</li><li>Décochez la présentation en pourcentage de la [!UICONTROL Taux de conversion] pour éviter toute confusion. Voir [Guide général](#guidance) ci-dessous</li></ul> | <ul><li>[!UICONTROL Confiance] Les mesures doivent être supprimées.</li><li>[!UICONTROL Effet élévateur (faible)] et [!UICONTROL Effet élévateur (élevé)] doit être supprimé.</li><li>Décochez la présentation en pourcentage de la [!UICONTROL Taux de conversion] pour éviter toute confusion. Voir [Guide général](#guidance) ci-dessous</li><li>Assurez-vous que les plages de dates et d’heures correspondent aux valeurs affichées dans la variable [!DNL Target] rapport. Voir [Guide général](#guidance) ci-dessous</li></ul> |
+| [!DNL Analytics] création de rapports avec [!DNL Target] mesure de conversion | <ul><li>Supprimer [!UICONTROL Confiance] mesures.</li><li>Supprimer [!UICONTROL Effet élévateur (faible)] et [!UICONTROL Effet élévateur (élevé)].</li><li>Décochez la présentation en pourcentage de la [!UICONTROL Taux de conversion] pour éviter toute confusion. Voir [Conseils généraux pour A4T](#guidance) ci-dessous</li></ul> | <ul><li>Supprimer [!UICONTROL Confiance] mesures.</li><li>Supprimer [!UICONTROL Effet élévateur (faible)] et [!UICONTROL Effet élévateur (élevé)].</li><li>Décochez la présentation en pourcentage de la [!UICONTROL Taux de conversion] pour éviter toute confusion. Voir [Conseils généraux pour A4T](#guidance) ci-dessous</li><li>Assurez-vous que les plages de dates et d’heures correspondent aux valeurs affichées dans la variable [!DNL Target] rapport. Voir [Conseils généraux pour A4T](#guidance) ci-dessous</li></ul> |
 
 La configuration correcte du rapport doit générer un résultat qui ressemble à l’illustration suivante :
 
 ![Conversions des activités](/help/integrations/assets/optimized-table.png)
 
-## Directives générales pour [!UICONTROL Analytics pour Target] (A4T) {#guidance}
+## Conseils généraux pour A4T {#guidance}
 
-Vous pouvez accéder à une [!UICONTROL Analytics pour Target] en cliquant sur le lien de l’écran de rapport dans [!UICONTROL Adobe Target] (désigné ultérieurement dans ce guide sous le nom de &quot;[!DNL Target]Rapport déclenché&quot;). Vous pouvez également créer le panneau A4T dans [!DNL Analytics] (détails plus loin dans cette section).
+Vous pouvez accéder à une [!UICONTROL Analytics pour Target] en cliquant sur le lien de l’écran de rapport dans [!UICONTROL Cible] (désigné ultérieurement dans ce guide sous le nom de &quot;[!DNL Target]Rapport déclenché&quot;). Vous pouvez également créer le panneau A4T dans [!DNL Analytics] (détails plus loin dans cette section).
 
-Les sections suivantes indiquent les configurations requises, selon l’une de ces méthodes. Toutefois, les étapes suivantes constituent des conseils généraux :
+Les sections suivantes indiquent les configurations requises, selon l’une de ces méthodes. Toutefois, les étapes suivantes constituent des conseils généraux pour A4T :
 
-* Les mesures de confiance doivent être supprimées du panneau A4T, quelle que soit la méthode de création du panneau (les deux sont présentées ci-dessous). Vous pouvez référencer ces valeurs dans [!DNL Target] création de rapports. En outre, les gagnants d’activité peuvent être identifiés dans la variable [!DNL Target] création de rapports. Vous trouverez des informations détaillées sur l’identification des gagnants d’activité dans la section [Identification du gagnant de l’activité](#winner) ci-dessous.
+* Supprimez les mesures de confiance du panneau A4T, quelle que soit la méthode de création du panneau (les deux sont présentées ci-dessous). Vous pouvez référencer ces valeurs dans [!DNL Target] création de rapports. En outre, les gagnants d’activité peuvent être identifiés dans la variable [!DNL Target] création de rapports. Vous trouverez des informations détaillées sur l’identification des gagnants d’activité dans la section [Identification de l’activité gagnante](#winner) ci-dessous.
 >>
 * Pour éviter toute confusion, désélectionnez le[!UICONTROL Pourcentage]&quot; présentation de la [!UICONTROL Taux de conversion] mesure. Voir [Masquer le pourcentage de la variable [!UICONTROL Taux de conversion] column](#hide-percentage) ci-dessous
 >>
@@ -144,13 +144,13 @@ Les sections suivantes indiquent les configurations requises, selon l’une de c
 
 1. Désélectionnez l’option **[!UICONTROL Pourcentage]** .
 
-   Votre panneau A4T n’inclut désormais pas les pourcentages comme taux de conversion et ne correspond plus à [!DNL Target], comme illustré ci-dessous :
+   Votre panneau A4T n’inclut désormais pas les pourcentages comme [!UICONTROL Taux de conversion] et correspond à [!DNL Target], comme illustré ci-dessous :
 
    ![Colonne Taux de conversion n’affichant aucun pourcentage](/help/integrations/assets/no-percentages.png)
 
 ### Alignement de la date et de l’heure dans le panneau A4T {#aligning-date-and-time}
 
-1. sous chaque panneau, vérifiez la plage de dates à laquelle le panneau fait référence pour vous assurer que la plage de dates correspond à celle de [!DNL Target] rapport.
+1. Sous chaque panneau, vérifiez la période à laquelle le panneau fait référence pour vous assurer que la période correspond à celle de l’événement [!DNL Target] rapport.
 
    ![Période dans le panneau A4T](/help/integrations/assets/date-range.png)
 
