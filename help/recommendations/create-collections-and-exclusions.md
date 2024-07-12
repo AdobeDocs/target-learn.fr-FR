@@ -10,8 +10,8 @@ kt: null
 exl-id: 10448c36-44b8-4a2f-a3c5-9e0130593a17
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 11%
+source-wordcount: '71'
+ht-degree: 9%
 
 ---
 

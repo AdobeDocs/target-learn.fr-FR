@@ -7,12 +7,12 @@ topic: Administration
 feature: Administration & Configuration
 doc-type: feature video
 kt: null
-badge: premium
+badge: Premium
 exl-id: bb8d691b-4cf5-468d-8f47-bd3d7a713124
 source-git-commit: 0e2f4824fcef96841ace2460f68033530f384c93
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 3%
+source-wordcount: '67'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 Dans cette vidéo, vous apprendrez à :
 
-* Décrire les trois niveaux d’utilisateur d’Adobe Target
+* Décrire les trois niveaux d’utilisateur Adobe Target
 * Présentation des propriétés et des espaces de travail
 
 ## Audience prévue

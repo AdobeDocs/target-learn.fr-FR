@@ -12,12 +12,12 @@ kt: null
 exl-id: 3c3985c8-f033-40a1-a39e-8c2f41208d17
 source-git-commit: 72f7cfcc95bbfbe1bb054f98246305f25ce5cc0f
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 38%
+source-wordcount: '141'
+ht-degree: 39%
 
 ---
 
-# Utilisez la variable [!UICONTROL Compositeur d’expérience visuelle] dans Adobe Target
+# Utilisation de [!UICONTROL Visual Experience Composer] dans Adobe Target
 
 ## Description
 

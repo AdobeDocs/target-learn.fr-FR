@@ -10,7 +10,7 @@ kt: 3040
 exl-id: 034d13f2-63b1-44b0-b3dc-867efe37672f
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '733'
 ht-degree: 1%
 
 ---
@@ -110,7 +110,7 @@ Une fois le code ajouté, exécutez l’émulateur sur l’activité d’accueil
 
 ## Création d’une offre JSON d’indicateur de fonctionnalité
 
-Nous allons maintenant créer une offre JSON simple qui servira d’indicateur ou de déclencheur pour une audience spécifique : l’audience qui recevra le déploiement de la fonctionnalité dans son application. Dans l&#39;interface [!DNL Target], créez une offre :
+Nous allons maintenant créer une offre JSON simple qui servira d’indicateur ou de déclencheur pour une audience spécifique : l’audience qui recevra le déploiement de la fonctionnalité dans son application. Dans l’interface [!DNL Target], créez une offre :
 
 ![Créer une offre JSON d’indicateur de fonctionnalité](assets/feature_flag_json_offer.jpg)
 
@@ -128,20 +128,20 @@ Créons maintenant une activité de test A/B avec cette offre. Pour obtenir des 
 
    ![Feature Flag Activity Config](assets/feature_flag_activity.jpg)
 
-1. Cliquez sur **[!UICONTROL Ajouter une expérience]** pour ajouter l’expérience B.
+1. Cliquez sur **[!UICONTROL Add Experience]** pour ajouter l’expérience B.
 1. Laissez l’emplacement &quot;wetravel_feature_flag_recs&quot;
-1. Laissez **[!UICONTROL Contenu par défaut]** pour le contenu.
-1. Cliquez sur **[!UICONTROL Suivant]** pour accéder à l’écran [!UICONTROL Ciblage].
+1. Laissez **[!UICONTROL Default Content]** pour le contenu
+1. Cliquez sur **[!UICONTROL Next]** pour accéder à l’écran [!UICONTROL Targeting].
 
    ![Feature Flag Activity Config](assets/feature_flag_activity_2.jpg)
 
-1. Sur l’écran [!UICONTROL Ciblage], vérifiez que la méthode [!UICONTROL Affectation du trafic] est définie sur le paramètre par défaut (Manuel) et que chaque expérience dispose de l’affectation par défaut de 50 %. Sélectionnez **[!UICONTROL Suivant]** pour passer à **[!UICONTROL Objectifs et paramètres]**.
+1. Sur l’écran [!UICONTROL Targeting], vérifiez que la méthode [!UICONTROL Traffic Allocation] est définie sur le paramètre par défaut (Manuel) et que chaque expérience possède l’allocation de 50 % par défaut. Sélectionnez **[!UICONTROL Next]** pour passer à **[!UICONTROL Goals & Settings]**.
 
    ![Feature Flag Activity Config](assets/feature_flag_activity_3.jpg)
 
-1. Définissez l’ **[!UICONTROL objectif Principal]** sur **[!UICONTROL Conversion]**.
-1. Définissez l’action sur **[!UICONTROL A affiché une mbox]**. Nous utiliserons l’emplacement &quot;wetravel_context_dest&quot; (puisque cet emplacement se trouve sur l’écran de confirmation, nous pouvons l’utiliser pour voir si la nouvelle fonctionnalité génère plus de conversions).
-1. Cliquez sur **[!UICONTROL Enregistrer et fermer]**.
+1. Définissez le **[!UICONTROL Primary Goal]** sur **[!UICONTROL Conversion]**.
+1. Définissez l’action sur **[!UICONTROL Viewed an Mbox]**. Nous utiliserons l’emplacement &quot;wetravel_context_dest&quot; (puisque cet emplacement se trouve sur l’écran de confirmation, nous pouvons l’utiliser pour voir si la nouvelle fonctionnalité génère plus de conversions).
+1. Cliquez sur **[!UICONTROL Save & Close]**.
 
    ![Feature Flag Activity Config](assets/feature_flag_activity_4.jpg)
 
@@ -149,9 +149,9 @@ activer l’activité ;
 
 ## Validation de l’activité d’indicateur de fonctionnalité
 
-Maintenant, utilisez l’émulateur pour vérifier la requête. Puisque nous définissons le ciblage sur 50 % des utilisateurs, 50 % des utilisateurs verront la réponse de l’indicateur de fonctionnalité contenir la valeur `{enable:1}`.
+Maintenant, utilisez l’émulateur pour vérifier la requête. Puisque nous définissons le ciblage à 50 % des utilisateurs, 50 % des utilisateurs verront la réponse de l’indicateur de fonctionnalité contenir la valeur `{enable:1}`.
 
-![Validation des indicateurs de fonctionnalités](assets/feature_flag_validation.jpg)
+![Validation de l’indicateur de fonctionnalité](assets/feature_flag_validation.jpg)
 
 Si vous ne voyez pas la valeur `{enable:1}`, cela signifie que vous n’avez pas été ciblé pour l’expérience. En tant que test temporaire, pour forcer l’affichage de l’offre, vous pouvez :
 
@@ -161,8 +161,8 @@ Si vous ne voyez pas la valeur `{enable:1}`, cela signifie que vous n’avez pas
 1. Effacez les données de votre émulateur, puis redémarrez l’application.
 1. L’offre doit maintenant renvoyer la valeur `{enable:1}`.
 
-Dans un scénario en direct, la réponse `{enable:1}` peut être utilisée pour activer une logique plus personnalisée dans votre application afin d’afficher le jeu de fonctionnalités spécifique que vous souhaitez afficher pour votre audience cible.
+Dans un scénario en direct, la réponse `{enable:1}` peut être utilisée pour activer une logique plus personnalisée dans votre application afin d’afficher l’ensemble de fonctionnalités spécifique que vous souhaitez afficher pour votre audience cible.
 
 ## Conclusion
 
-Beau travail ! Vous disposez désormais des compétences nécessaires pour déployer des fonctionnalités vers des audiences d’utilisateurs spécifiques.
+Beau travail ! Vous disposez désormais des compétences nécessaires pour déployer des fonctionnalités vers des audiences d’utilisateurs spécifiques.

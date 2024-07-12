@@ -11,8 +11,8 @@ team: Evangelism
 exl-id: e669d773-494f-4eb7-82da-6b3f23508d9f
 source-git-commit: 17d2bc2929eed3c029705c3842c902141c639f02
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 6%
+source-wordcount: '127'
+ht-degree: 3%
 
 ---
 
@@ -37,5 +37,5 @@ Adobe Target offre un modèle de déploiement hybride unique pour la personnalis
 
 ## Ressources supplémentaires
 
-* [Présentation de la prise de décision sur les périphériques](https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/on-device-decisioning-overview.html?lang=en#implementation)
+* [Présentation de la prise de décision sur appareil](https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/on-device-decisioning-overview.html?lang=en#implementation)
 * [Documentation du SDK Adobe Target](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)

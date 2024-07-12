@@ -30,7 +30,7 @@ Dans cette vidéo, vous apprendrez à :
 
 >[!VIDEO](https://video.tv.adobe.com/v/35145/?quality=12)
 
-Pour plus d’informations, consultez la [tutoriel sur les balises](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en).
+Pour plus d’informations, consultez le [tutoriel sur les balises](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en).
 
 >[!NOTE]
 >

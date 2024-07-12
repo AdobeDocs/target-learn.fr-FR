@@ -11,14 +11,14 @@ author: Daniel Wright
 exl-id: 66764a66-ba47-4ab4-8a36-137a7cca525b
 source-git-commit: 80208b3ecbc0d627d2afe72f882e91c9800d2726
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 5%
+source-wordcount: '136'
+ht-degree: 2%
 
 ---
 
 # Utilisation de la comparaison de profils pour créer des audiences dans Adobe Target
 
-Le [!UICONTROL Comparaison de profils] dans Adobe Target, vous permet de comparer deux valeurs de profil numériques l’une par rapport à l’autre lors de la création d’une audience. Cela s’avère extrêmement utile si vous transférez, par exemple, des scores de propension personnalisés dans [!DNL Target] et souhaitez personnaliser le contenu en fonction du produit ayant le score de propension le plus élevé.
+La fonction [!UICONTROL Profile Comparison] d’Adobe Target vous permet de comparer deux valeurs de profil numériques l’une par rapport à l’autre lors de la création d’une audience. Cela s’avère extrêmement utile si, par exemple, vous transmettez des scores de propension personnalisés dans [!DNL Target] et souhaitez personnaliser le contenu en fonction du produit avec le score de propension le plus élevé.
 
 ## Description
 

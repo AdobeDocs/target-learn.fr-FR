@@ -10,8 +10,8 @@ kt: null
 exl-id: 997d0902-ff30-4944-b08c-fe6d9f7bcc35
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 20%
+source-wordcount: '165'
+ht-degree: 26%
 
 ---
 
@@ -33,7 +33,7 @@ Dans cette vidéo, vous apprendrez à :
 
 ## Ressources supplémentaires
 
-* [Téléchargement du manuel pour la personnalisation de l’expérience](https://guided.adobe.com/?promoid=K42KVXHD&amp;mv=other&amp;search=personalization+playbook#recommended/solutions/target)
+* [Téléchargement du manuel pour Experience Personalization](https://guided.adobe.com/?promoid=K42KVXHD&amp;mv=other&amp;search=personalization+playbook#recommended/solutions/target)
 * [Documentation sur le ciblage d’expérience](https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/experience-target.html?lang=en)
 
 ## Autres fonctionnalités utilisées dans cette vidéo

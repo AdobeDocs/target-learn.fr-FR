@@ -10,8 +10,8 @@ kt: 3451
 exl-id: 16908f07-cda4-4a34-9e11-42b419e3917b
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 30%
+source-wordcount: '123'
+ht-degree: 1%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 30%
 
 Les offres Recommendations peuvent être utilisées avec les activités de test A/B et de ciblage d’expérience. Cette fonctionnalité offre de nombreuses fonctionnalités, qui vous permettent d’effectuer les opérations suivantes :
 
-* Combiner le contenu des recommandations et des non-recommandations au sein d’une même activité
-* Testez facilement l’emplacement des recommandations sur la page, y compris l’ordre de plusieurs recommandations
-* Dirigez automatiquement le trafic vers les recommandations les plus performantes à l’aide de l’affectation automatique
-* À l’aide du ciblage automatique, affectez de manière dynamique les visiteurs à des expériences de recommandations personnalisées en fonction de leur profil
+* Combiner le contenu des recommandations et des non-recommandations dans la même activité
+* Testez facilement le placement des recommandations sur la page, y compris l’ordre de plusieurs recommandations.
+* Orienter automatiquement le trafic vers l’expérience de recommandations la plus performante à l’aide de l’affectation automatique
+* À l’aide du ciblage automatique, affectez de manière dynamique les visiteurs à des expériences de recommandations personnalisées en fonction de leur profil.
 
 >[!VIDEO](https://video.tv.adobe.com/v/28878?quality=12)
 

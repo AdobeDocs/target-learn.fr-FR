@@ -13,7 +13,7 @@ ht-degree: 6%
 
 + [Présentation des Tutorials Adobe Target](../overview.md)
 + Administration{#administration}
-   + Responsable de la stratégie et de la pensée{#strategy}
+   + Leadership en matière de stratégie et de pensée{#strategy}
       + [Démarrage rapide pour les tests de personnalisation et la création de feuilles de route](../strategy/create-personalization-roadmap-testing-plan.md)
       + [Stratégie de mise en oeuvre et gouvernance du système](../dev101/1-1-implementation-strategy-sys-governance.md)
       + [Bonnes pratiques relatives à l’optimisation avec Adobe Target](../strategy/target-best-practices-for-optimization.md)
@@ -27,7 +27,7 @@ ht-degree: 6%
 + Implémentation{#implementation}
    + [Présentation de la mise en oeuvre de Target](../dev101/2-1-intro-to-target-implementation.md)
    + [Intégration de Target à Launch](../dev101/3-1-target-launch.md)
-   + [Mise en oeuvre dans les sites web avec Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en)
+   + [Implémentation dans les sites web avec Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en)
    + [Avantages de l’utilisation des emplacements](../dev101/2-2-benefits-of-locations.md)
    + [Présentation des requêtes Target](../dev101/2-3-intro-to-target-requests.md)
    + [Présentation des paramètres de Target](../dev101/2-4-intro-to-target-params.md)
@@ -41,13 +41,13 @@ ht-degree: 6%
    + [Modèles de mise en oeuvre d’Adobe Target](../implementation/implementation-patterns-for-adobe-target.md)
 + Intégrations{#integrations}
    + [Intégration de Target à Analytics](../dev101/3-2-target-analytics.md)
-   + [Utilisation d’Analytics comme source de données pour Target (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
+   + [Utilisation d’Analytics as a Data Source pour Target (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
    + [Configuration de rapports A4T dans Analysis Workspace pour les activités d’affectation automatique](../integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.md)
    + [Configuration de rapports A4T dans Analysis Workspace pour les activités de ciblage automatique](../integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)
    + [Intégration de Target à Audience Manager](../dev101/3-3-target-dmp.md)
    + [Intégration de Target avec les audiences Experience Cloud](../dev101/3-4-target-exc-audiences.md)
    + [Intégration de Target à Campaign](../dev101/3-6-target-campaign.md)
-   + [Intégration de Target à la console Adobe Developer](../dev101/3-7-target-io.md)
+   + [Intégration de Target à Adobe Developer Console](../dev101/3-7-target-io.md)
    + Intégration de Target à Real-Time CDP{#rtcdp}
       + [Personnalisation de l’accès suivant avec Adobe Target](../integrations/rtcdp/next-hit-personalization.md)
       + [Configuration de la destination Adobe Target](../integrations/rtcdp/configure-the-target-destination.md)
@@ -62,7 +62,7 @@ ht-degree: 6%
    + [Données en sortie : utilisation de jetons de réponse et d’événements personnalisés at.js](../integrations/use-response-tokens-and-atjs-custom-events.md)
 + Activités {#activities}
    + [Présentation des types d’activités](../activities/understanding-the-types-of-activities.md)
-   + [Utiliser les capacités d’intelligence artificielle et d’automatisation pour relever les défis de la personnalisation](../activities/use-the-artificial-intelligence-and-automation-capabilities-to-meet-the-challenges-of-personalization.md)
+   + [Utiliser les capacités d&#39;intelligence artificielle et d&#39;automatisation pour relever les défis de Personalization](../activities/use-the-artificial-intelligence-and-automation-capabilities-to-meet-the-challenges-of-personalization.md)
    + [Création de tests A/B](../activities/create-ab-tests.md)
    + [Création d’activités de ciblage d’expérience](../activities/create-experience-targeting-activities.md)
    + [Création de tests multivariés](../activities/create-multivariate-tests.md)
@@ -80,7 +80,7 @@ ht-degree: 6%
    + [Utilisation du compositeur d’expérience d’après les formulaires](../experiences/use-the-form-based-experience-composer.md)
    + [Utilisation de fragments d’expérience AEM dans Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
 + Rapports{#reports}
-   + [Utilisation des rapports Informations sur la personnalisation](../reports/use-the-personalization-insights-reports.md)
+   + [Utilisation des rapports Personalization Insights](../reports/use-the-personalization-insights-reports.md)
 + Recommandations{#recommendations}
    + [Création d’une activité de recommandations](../recommendations/create-a-recommendations-activity.md)
    + [Utilisation d’offres Recommendations](../recommendations/use-recommendations-offers.md)
@@ -96,4 +96,4 @@ ht-degree: 6%
    + [Dépannage des erreurs d’activité](../dev101/4-2-troubleshoot-activity-errors.md)
    + [Dépannage des erreurs d’intégration A4T](../dev101/4-3-troubleshoot-integration-errors.md)
 + Mobile{#mobile}
-   + [Mise en oeuvre d’Adobe Target avec le SDK Mobile Services Adobe v4 pour Android](../mobile-v4/overview.md)
+   + [Mise en oeuvre d’Adobe Target avec Adobe Mobile Services SDK v4 pour Android](../mobile-v4/overview.md)

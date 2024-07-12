@@ -11,12 +11,12 @@ author: Daniel Wright
 exl-id: 3e32d869-a94a-4253-93d7-58b615921067
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '240'
 ht-degree: 1%
 
 ---
 
-# Utilisation du [!UICONTROL compositeur d’expérience visuelle] pour les applications d’une seule page (SPA VEC) dans Adobe Target
+# Utilisation de [!UICONTROL Visual Experience Composer] pour les applications d’une seule page (SPA VEC) dans Adobe Target
 
 Le compositeur d’expérience visuelle SPA permet aux marketeurs de créer des tests et de personnaliser le contenu SPA à votre propre manière, sans dépendances de développement continu. Le compositeur d’expérience visuelle peut être utilisé pour créer des activités de tests A/B et de ciblage d’expérience (XT) dans des applications conçues avec des structures populaires, telles que React et Angular. Regardez la vidéo suivante pour savoir comment créer des activités à l’aide du SPA VEC.
 
@@ -24,11 +24,11 @@ Le compositeur d’expérience visuelle SPA permet aux marketeurs de créer des 
 
 * Le SPA VEC peut être utilisé pour créer des tests A/B et d’affectation automatique ainsi que des activités de ciblage d’expérience (XT).
 * Le compositeur d’expérience visuelle SPA ne prend pas en charge les activités de ciblage automatique, Automated Personalization ou Recommendations.
-* Le compositeur d’expérience visuelle SPA prend en charge A4T, [!UICONTROL Audiences Experience Cloud] et les intégrations [!UICONTROL Attributs du client].
+* Le SPA VEC prend en charge les intégrations A4T, [!UICONTROL Experience Cloud Audiences] et [!UICONTROL Customer Attributes].
 * Toutes les actions du VEC sont prises en charge dans les applications d’une seule page, y compris le code personnalisé.
 * Les actions du compositeur d’expérience visuelle peuvent être appliquées à une seule vue ou à l’événement de chargement de page.
-* Différentes modifications peuvent être ajoutées à différentes vues sans avoir à utiliser l’option [!UICONTROL Pages supplémentaires]
-* `at.js 2.0+` et la  `adobe.target.triggerView()` fonction doit être implémentée dans l’application avant de pouvoir utiliser le SPA VEC
+* Différentes modifications peuvent être ajoutées à différentes vues sans avoir à utiliser l’option [!UICONTROL Additional Pages]
+* `at.js 2.0+` et la fonction `adobe.target.triggerView()` doivent être implémentées dans l’application avant de pouvoir utiliser le VEC SPA
 
 ## Audience prévue
 

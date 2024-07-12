@@ -1,6 +1,6 @@
 ---
 title: Ajout de requêtes Adobe Target
-description: 'Le SDK Mobile Services Adobe (v4) fournit des méthodes et fonctionnalités Adobe Target qui vous permettent de personnaliser votre application avec différentes expériences pour différents utilisateurs.   '
+description: Le SDK Mobile Services Adobe (v4) fournit des méthodes et fonctionnalités Adobe Target qui vous permettent de personnaliser votre application avec différentes expériences pour différents utilisateurs.
 role: Developer
 level: Intermediate
 topic: Mobile, Personalization
@@ -10,7 +10,7 @@ kt: 3040
 exl-id: 88a5be3f-d61f-43e7-997a-574ef56122ed
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '1804'
+source-wordcount: '1785'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Le SDK Mobile Services Adobe (v4) fournit des méthodes et fonctionnalités Adobe Target qui vous permettent de personnaliser votre application avec différentes expériences pour différents utilisateurs. En règle générale, une ou plusieurs demandes sont envoyées de l’application à Adobe Target pour récupérer le contenu personnalisé et mesurer l’impact de ce contenu.
 
-Dans cette leçon, vous allez préparer l’application We.Travel à la personnalisation en implémentant des requêtes [!DNL Target].
+Dans cette leçon, vous préparerez l’application We.Travel pour la personnalisation en implémentant des requêtes [!DNL Target].
 
 ## Conditions préalables
 
@@ -29,9 +29,9 @@ Veillez à [télécharger et mettre à jour l’exemple d’application](downloa
 
 À la fin de cette leçon, vous serez en mesure de :
 
-* Mettre en cache plusieurs [!DNL Target] offres (c’est-à-dire du contenu personnalisé) à l’aide d’une requête de prérécupération par lots
+* Mettre en cache plusieurs offres [!DNL Target] (c’est-à-dire du contenu personnalisé) à l’aide d’une requête de prérécupération par lots
 * Charger les emplacements [!DNL Target] prérécupérés
-* Chargement d’un emplacement [!DNL Target] en temps réel (non prérécupéré)
+* Charger un emplacement [!DNL Target] en temps réel (non prérécupéré)
 * Effacer les emplacements prérécupérés du cache
 * Validation des requêtes prérécupérées et en temps réel
 
@@ -39,20 +39,20 @@ Veillez à [télécharger et mettre à jour l’exemple d’application](downloa
 
 Vous trouverez ci-dessous quelques-uns des termes clés de Target que nous utiliserons dans le reste de ce tutoriel.
 
-* **Requête :**  demande réseau aux serveurs Adobe Target
-* **Offre :**  fragment de code ou autre contenu texte, défini dans l’interface  [!DNL Target] utilisateur (ou avec l’API), qui est fourni dans la réponse. Généralement, JSON lorsque [!DNL Target] est utilisé dans les applications mobiles natives.
-* **Emplacement :**  nom défini par l’utilisateur donné à une requête, utilisé dans l’ [!DNL Target] interface pour associer des offres à des requêtes spécifiques.
-* **Requête par lots :**  une seule requête qui comprend plusieurs emplacements
-* **Requête de prérécupération :**  requête unique qui récupère les offres et les met en cache en mémoire pour une utilisation ultérieure dans l’application.
-* **Requête de prérécupération par lots :**  une requête unique qui prérécupère les offres pour plusieurs emplacements
-* **Audience :**  groupe de visiteurs défini dans l’ [!DNL Target] interface ou partagé avec  [!DNL Target] depuis d’autres applications Adobe (par exemple, &quot;Visiteurs iPhone X&quot;, &quot;Visiteurs en Californie&quot;, &quot;Première ouverture d’application&quot;)
-* **Activité :**   [!DNL Target] construction, définie dans l’interface  [!DNL Target] utilisateur (ou avec l’API) qui lie les emplacements, les offres et les audiences pour créer une expérience personnalisée.
+* **Demander :** une requête réseau aux serveurs Adobe Target
+* **Offre :** : fragment de code ou autre contenu textuel, défini dans l’interface utilisateur de [!DNL Target] (ou avec l’API), qui est fourni dans la réponse. Généralement, JSON est utilisé dans les applications mobiles natives lorsque [!DNL Target] est utilisé.
+* **Emplacement :** nom défini par l’utilisateur donné à une requête, utilisé dans l’interface [!DNL Target] pour associer des offres à des requêtes spécifiques
+* **Requête par lot :** une requête unique qui comprend plusieurs emplacements
+* **Requête de prérécupération :** requête unique qui récupère les offres et les met en cache en mémoire pour une utilisation ultérieure dans l’application.
+* **Requête de prérécupération par lots :** demande unique qui prérécupère les offres pour plusieurs emplacements
+* **Audience :** groupe de visiteurs défini dans l’interface [!DNL Target] ou partagé avec [!DNL Target] à partir d’autres applications d’Adobe (par exemple, &quot;Visiteurs iPhone X&quot;, &quot;Visiteurs en Californie&quot;, &quot;Première ouverture d’application&quot;)
+* **Activité :** un concept [!DNL Target], défini dans l’interface utilisateur de [!DNL Target] (ou avec l’API) qui relie des emplacements, des offres et des audiences pour créer une expérience personnalisée.
 
 ## Ajout d’une requête de prérécupération par lots
 
 La première requête que nous allons implémenter dans We.Travel est une requête de prérécupération par lots avec deux emplacements [!DNL Target] sur l’écran d’accueil. Dans une leçon ultérieure, nous configurerons des offres pour ces emplacements qui affichent des messages afin de guider les nouveaux utilisateurs tout au long du processus de réservation.
 
-Une requête de prérécupération récupère le contenu [!DNL Target] aussi minimalement que possible en mettant en cache la réponse du serveur Adobe Target (offre). Une requête de prérécupération par lots récupère et met en cache plusieurs offres, chacune étant associée à un emplacement différent. Tous les emplacements prérécupérés sont mis en cache sur le périphérique en vue d’une utilisation ultérieure dans la session utilisateur. En prérécupérant plusieurs emplacements sur l’écran d’accueil, nous pouvons récupérer les offres à utiliser ultérieurement lorsque le visiteur parcourt l’application. Pour plus d’informations sur les méthodes de prérécupération, reportez-vous à la [documentation sur la prérécupération](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en) .
+Une requête de prérécupération récupère le contenu [!DNL Target] aussi minimalement que possible en mettant en cache la réponse du serveur Adobe Target (offre). Une requête de prérécupération par lots récupère et met en cache plusieurs offres, chacune étant associée à un emplacement différent. Tous les emplacements prérécupérés sont mis en cache sur le périphérique en vue d’une utilisation ultérieure dans la session utilisateur. En prérécupérant plusieurs emplacements sur l’écran d’accueil, nous pouvons récupérer les offres à utiliser ultérieurement lorsque le visiteur parcourt l’application. Pour plus d’informations sur les méthodes de prérécupération, reportez-vous à la [documentation de prérécupération](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en) .
 
 ### Ajout de la requête de prérécupération par lots
 
@@ -110,17 +110,17 @@ public static final String wetravel_engage_home = "wetravel_engage_home";
 public static final String wetravel_engage_search = "wetravel_engage_search";
 ```
 
-![Ajoutez les noms des emplacements au fichier Constant.java .](assets/constants.jpg)
+![Ajoutez les noms des emplacements au fichier Constant.java](assets/constants.jpg)
 
 ### Explication du code de requête de prérécupération par lots
 
 | Code | Description |
 |--- |--- |
 | `targetPrefetchContent()` | Fonction définie par l’utilisateur (ne faisant pas partie du SDK) qui utilise des méthodes [!DNL Target] pour récupérer et mettre en cache deux emplacements [!DNL Target]. |
-| `prefetchContent()` | Méthode du SDK [!DNL Target] qui envoie la requête de prérécupération. |
+| `prefetchContent()` | Méthode du SDK [!DNL Target] qui envoie la requête de prérécupération |
 | `Constant.wetravel_engage_home` | Nom de l’emplacement [!DNL Target] prérécupéré qui affiche le contenu de son offre sur l’écran d’accueil |
 | `Constant.wetravel_engage_search` | Nom de l’emplacement [!DNL Target] prérécupéré qui affichera le contenu de son offre dans l’écran Résultats de la recherche. Puisqu’il s’agit d’un second emplacement dans la prérécupération, cette requête de prérécupération est appelée &quot;requête de prérécupération par lots&quot;. |
-| setUp() | Fonction définie par l’utilisateur qui effectue le rendu de l’écran d’accueil de l’application après la prérécupération des offres [!DNL Target] |
+| setUp() | Fonction définie par l’utilisateur qui effectue le rendu de l’écran d’accueil de l’application après la prérécupération des offres [!DNL Target]. |
 
 ### À propos de l’asynchrone ou du synchrone
 
@@ -132,19 +132,19 @@ Recréez l’application et ouvrez l’émulateur Android. (Les captures d’éc
 
 Lors du rendu de l’écran d’accueil, la requête de prérécupération doit être chargée. Avec Logcat, filtrez pour [!DNL "Target"] afin d’afficher la requête et la réponse :
 
-![Validation des requêtes sur l’écran d’accueil](assets/prefetch_validation.jpg)
+![Validez les requêtes sur l’écran d’accueil](assets/prefetch_validation.jpg)
 
 Si vous ne voyez pas de réponse réussie, vérifiez les paramètres du fichier `ADBMobileConfig.json` et la syntaxe du code dans le fichier HomeActivity.
 
-Deux emplacements sont désormais mis en cache sur l’appareil. Les noms des emplacements seront bientôt chargés en différé dans l’interface [!DNL Target], où ils peuvent être sélectionnés dans divers menus déroulants lorsque vous les utilisez dans une activité.
+Deux emplacements sont désormais mis en cache sur l’appareil. Les noms des emplacements seront bientôt chargés de manière différée dans l’interface [!DNL Target], où ils peuvent être sélectionnés dans divers menus déroulants lorsque vous les utilisez dans une activité.
 
 ### Ajout de requêtes de chargement pour chaque emplacement mis en cache
 
-Maintenant que les emplacements sont prérécupérés et que leurs réponses sont mises en cache sur l’appareil, ajoutons la méthode `Target.loadRequest()` qui récupère le contenu de l’offre du cache afin que vous puissiez l’utiliser pour mettre à jour votre application. Nous allons ajouter une nouvelle méthode personnalisée appelée `engageMessage()` qui s’exécutera avec la requête de prérécupération. `engageMessage()` appellera  `Target.loadRequest()`. `engageMessage()` s’exécute avant  `setUp()` pour s’assurer que la requête de chargement est appelée avant la configuration de l’écran.
+Maintenant que les emplacements sont prérécupérés et que leurs réponses sont mises en cache sur l’appareil, ajoutons la méthode `Target.loadRequest()` qui récupère le contenu de l’offre du cache afin que vous puissiez l’utiliser pour mettre à jour votre application. Nous allons ajouter une nouvelle méthode personnalisée appelée `engageMessage()` qui s’exécutera avec la requête de prérécupération. `engageMessage()` appellera `Target.loadRequest()`. `engageMessage()` s’exécute avant `setUp()` pour s’assurer que la requête de chargement est appelée avant la configuration de l’écran.
 
-Tout d’abord, ajoutez la méthode `engageMessage()` call &amp; pour l’emplacement wetravel_engage_home dans HomeActivity :
+Tout d’abord, ajoutez l’appel `engageMessage()` et la méthode pour l’emplacement wetravel_engage_home dans HomeActivity :
 
-![Ajout d’une première requête de chargement](assets/wetravel_engage_home_loadRequest.jpg)
+![Ajouter la première requête de chargement](assets/wetravel_engage_home_loadRequest.jpg)
 
 Voici le code mis à jour :
 
@@ -188,9 +188,9 @@ Voici le code mis à jour :
     }
 ```
 
-Ajoutez maintenant la méthode `engageMessage()` call &amp; pour l’emplacement wetravel_engage_search dans SearchBusActivity. Notez que l’appel `engageMessage()` est défini dans la méthode `onResume()` avant l’appel à `setUpSearch()`. Il s’exécute donc avant la configuration de l’écran :
+Ajoutez maintenant la méthode `engageMessage()` call &amp; pour l’emplacement wetravel_engage_search dans SearchBusActivity. Notez que l’appel `engageMessage()` est défini dans la méthode `onResume()` avant l’appel à `setUpSearch()`, il s’exécute donc avant la configuration de l’écran :
 
-![Ajout d’une seconde requête de chargement](assets/wetravel_engage_search_loadRequest.jpg)
+![Ajouter une seconde requête de chargement](assets/wetravel_engage_search_loadRequest.jpg)
 
 Voici le code mis à jour :
 
@@ -232,7 +232,7 @@ La prochaine requête que nous allons ajouter à l’application sera une requê
 Ajoutons donc une requête en temps réel sur l’écran de remerciement. Dans le fichier ThankYouActivity , les modifications affichées en rouge sont :
 ![Ajouter un emplacement en temps réel sur l’écran de remerciement](assets/thankyou.jpg)
 
-Faites défiler l’écran jusqu’à la fin du fichier ThankYouActivity . Mettre en commentaire les trois lignes de la fonction `getRecommandations()` et ajouter l&#39;appel de la fonction `targetLoadRequest()` :
+Faites défiler l’écran jusqu’à la fin du fichier ThankYouActivity . Mettez en commentaire les trois lignes de la fonction `getRecommandations()` et ajoutez l’appel de la fonction `targetLoadRequest()` :
 
 ```java
 // AppDialogs.dialogLoaderHide();
@@ -247,7 +247,7 @@ targetLoadRequest(recommandation.recommandations);
 ```
 
 Maintenant, nous devons définir la fonction `targetLoadRequest()` :
-![Ajouter un emplacement en temps réel sur l’écran de remerciement](assets/thankyou2.jpg)
+![ Ajout d’un emplacement en temps réel sur l’écran de remerciement](assets/thankyou2.jpg)
 
 Ajoutez ce bloc de code après la fonction `filterRecommendationBasedOnOffer()` :
 
@@ -286,9 +286,9 @@ import com.adobe.mobile.TargetPrefetchObject;
 |--- |--- |
 | `targetLoadRequest()` | Fonction définie par l’utilisateur (ne faisant pas partie du SDK) qui déclenche `Target.loadRequest()` qui charge et affiche l’emplacement wetravel_context_dest |
 | `Target.loadRequest()` | Méthode du SDK qui émet la requête au serveur Target |
-| Constant.wetravel_context_dest | Nom de l’emplacement affecté à la requête que nous utiliserons ultérieurement lorsque nous créerons l’activité dans l’interface [!DNL Target] |
+| Constant.wetravel_context_dest | Nom de l’emplacement affecté à la requête que nous utiliserons ultérieurement lorsque nous créerons l’activité dans l’interface [!DNL Target]. |
 | `filterRecommendationBasedOnOffer()` | Fonction définie par l’utilisateur dans l’application qui extrait l’offre de l’emplacement de la réponse Target et décide de la manière dont l’application doit changer en fonction du contenu de l’offre. |
-| `recommandations.addAll()` | Fonction définie par l’utilisateur dans l’application qui s’exécutait par défaut lors du chargement de l’écran de remerciement, mais qui s’exécute maintenant une fois que la réponse Target a été reçue et analysée par `filterRecommendationBasedOnOffer()` |
+| `recommandations.addAll()` | Fonction définie par l’utilisateur dans l’application qui s’exécutait par défaut lors du chargement de l’écran de remerciement, mais qui s’exécute maintenant après réception et analyse de la réponse Target par `filterRecommendationBasedOnOffer()`. |
 
 Il s’agit d’une mise à jour plus sophistiquée que nous avons faite à l’application, puis avec la demande que nous avons ajoutée à l’écran d’accueil. Prenons quelques instants pour examiner ce que nous avons fait :
 
@@ -297,15 +297,15 @@ Il s’agit d’une mise à jour plus sophistiquée que nous avons faite à l’
 1. Nous avons défini la fonction `targetLoadRequest` pour envoyer une requête à Target à l’aide de la méthode Target.loadRequest et exécuter immédiatement la fonction `filterRecommendationBasedOnOffer()` lorsque la réponse de l’offre [!DNL Target] est reçue.
 1. La fonction `filterRecommendationBasedOnOffer()` interprète la réponse et décide quelles promotions doivent être appliquées à l’écran.
 
-Il s’agit d’un modèle d’utilisation très courant lors de l’utilisation de [!DNL Target] dans les applications mobiles.  Il est à la fois très puissant, dans la mesure où vous pouvez personnaliser presque tous les aspects de votre application mobile. Cela nécessite également une coordination entre le code de l’application et les offres que nous définirons ultérieurement dans l’interface [!DNL Target]. En raison de cette coordination, certains cas d’utilisation de la personnalisation peuvent nécessiter que vous mettiez à jour votre application dans la boutique d’applications afin de lancer l’activité.
+Il s’agit d’un modèle d’utilisation très courant lors de l’utilisation de [!DNL Target] dans des applications mobiles.  Il est à la fois très puissant, dans la mesure où vous pouvez personnaliser presque tous les aspects de votre application mobile. Cela nécessite également une coordination entre le code de l’application et les offres que nous définirons ultérieurement dans l’interface [!DNL Target]. En raison de cette coordination, certains cas d’utilisation de la personnalisation peuvent nécessiter que vous mettiez à jour votre application dans la boutique d’applications afin de lancer l’activité.
 
 ### Validation de la requête en temps réel
 
-Ouvrez l’émulateur Android et suivez toutes les étapes pour réserver un voyage : Accueil > Résultats de recherche de bus > Sélection de sièges, options de paiement (toute option de paiement avec des données vides fonctionnera).
+Ouvrez l’émulateur Android et suivez toutes les étapes pour réserver un voyage : Accueil > Résultats de recherche de bus > Sélection de siège, options de paiement (toute option de paiement avec des données vides fonctionnera).
 
 Sur l’écran de remerciement final, regardez Logcat pour la réponse. La réponse doit se lire &quot;Le contenu par défaut a été renvoyé pour &quot;wetravel_context_dest&quot; :
 
-![Ajout d’un emplacement en temps réel sur l’écran de remerciement](assets/thankyou_validation.jpg)
+![Ajouter un emplacement en temps réel sur l’écran de remerciement](assets/thankyou_validation.jpg)
 
 ## Effacement des emplacements prérécupérés du cache
 
@@ -319,6 +319,6 @@ Target.clearPrefetchCache()
 
 ![Effacer les emplacements prérécupérés du cache](assets/clearPrefetch.jpg)
 
-Félicitations ! Votre application dispose désormais de la structure pour la personnalisation. Dans la leçon suivante, nous améliorerons nos capacités de personnalisation en ajoutant des paramètres à ces emplacements.
+Félicitations ! Votre application dispose désormais de la structure pour la personnalisation. Dans la leçon suivante, nous améliorerons nos capacités de personnalisation en ajoutant des paramètres à ces emplacements.
 
-**[SUIVANT : &quot;Ajouter des paramètres&quot; >](add-parameters.md)**
+**[NEXT : &quot;Ajouter des paramètres&quot; >](add-parameters.md)**

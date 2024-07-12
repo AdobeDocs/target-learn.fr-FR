@@ -1,5 +1,5 @@
 ---
-title: Utilisation d’Analytics comme source de données pour Target (A4T)
+title: Utilisation d’Analytics as a Data Source pour Target (A4T)
 description: Cette vidéo présente aux marketeurs Analytics for Target (A4T).
 role: User
 level: Beginner
@@ -10,12 +10,12 @@ kt: null
 exl-id: 6ea8e127-ada7-4a13-8160-ac83cdb20d03
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '56'
 ht-degree: 1%
 
 ---
 
-# Utilisation d’Adobe Analytics comme source de données pour Adobe Target (A4T)
+# Utilisation d’Adobe Analytics as a Data Source pour Adobe Target (A4T)
 
 ## Description
 

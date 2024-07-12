@@ -23,8 +23,8 @@ ht-degree: 56%
 
 Dans cette vidéo, vous apprendrez à :
 
-* Décrivez les activités A/B, les tests multivariés (MVT), le ciblage d’expérience (XT), Recommendations et les activités Automated Personalization (AP) dans Adobe Target.
-* Choisissez le meilleur type d’activité pour atteindre vos objectifs commerciaux
+* Décrire les activités A/B, les tests multivariés (MVT), le ciblage d’expérience (XT), Recommendations et les activités Automated Personalization (AP) dans Adobe Target
+* Choisissez le meilleur type d’activité pour atteindre vos objectifs commerciaux.
 * Décrire le workflow de base commun à tous les types d’activité
 
 ## Audience prévue

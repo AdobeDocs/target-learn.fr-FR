@@ -7,13 +7,13 @@ topic: Personalization
 feature: Audiences, Administration & Configuration
 doc-type: feature video
 kt: null
-badge: premium
+badge: Premium
 author: Daniel Wright
 exl-id: b5c44d8b-20a2-4842-a879-91d1ee68a3ec
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 7%
+source-wordcount: '68'
+ht-degree: 8%
 
 ---
 

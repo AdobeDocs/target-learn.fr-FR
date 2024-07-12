@@ -1,6 +1,6 @@
 ---
 title: Découvrez comment utiliser Adobe Target
-description: Découvrez comment utiliser [!DNL Adobe Target] avec cette collection de tutoriels et de vidéos couvrant tous ses composants.
+description: Découvrez comment utiliser  [!DNL Adobe Target] avec cette collection de tutoriels et de vidéos couvrant tous ses composants.
 role: Leader, Architect, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
 feature: Overview
@@ -8,22 +8,22 @@ topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
 source-git-commit: 20bd1eb17ef6e287f7b76e14f727456e12d6f115
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 29%
+source-wordcount: '186'
+ht-degree: 10%
 
 ---
 
 # Tutoriels Adobe Target
 
-[!DNL Adobe Target] est la valeur [!DNL Adobe Experience Cloud] solution qui fournit tout ce dont vous avez besoin pour personnaliser l’expérience de vos clients. [!DNL Target] vous aide à maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux numériques. Utilisez ces vidéos et tutoriels pour découvrir les nombreux composants de [!DNL Adobe Target].
+[!DNL Adobe Target] est la solution [!DNL Adobe Experience Cloud] qui fournit tout ce dont vous avez besoin pour personnaliser l’expérience de vos clients. [!DNL Target] vous aide à maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et d’autres canaux numériques. Utilisez ces vidéos et tutoriels pour découvrir les nombreux composants de [!DNL Adobe Target].
 
 >[!NOTE]
 >
 >En plus de ce guide, les guides [!DNL Adobe Target] suivants sont également disponibles :
 >
->* *[Guide du spécialiste d’Adobe Target](https://experienceleague.adobe.com/docs/target/using/target-home.html?lang=fr){target=_blank}*
+>* *[Guide du praticien Adobe Target Business ](https://experienceleague.adobe.com/docs/target/using/target-home.html?lang=fr){target=_blank}*
 >
->* *[Guide du développeur d’Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}*
+>* *[Guide du développeur d’Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=fr){target=_blank}*
 
 <div id="recs-overview-body-1"></div>
 <div id="recs-overview-body-2"></div>
@@ -46,7 +46,7 @@ ht-degree: 29%
     </a>
     </div>
     <p>
-    <em>Découvrez comment migrer votre implémentation d’at.js vers le SDK Web de Adobe Experience Platform.</em>
+    <em>Découvrez comment migrer votre implémentation d’at.js vers le SDK Web Adobe Experience Platform.</em>
     <p>
   </td>
   <td>
@@ -68,7 +68,7 @@ ht-degree: 29%
     </a>
     <div>
     <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html">
-    <strong>Implémentation d'at.js 2.0 dans une application d’une seule page</strong>
+    <strong>Implémentation d’at.js 2.0 dans un SPA</strong>
     </a>
     </div>
     <p>

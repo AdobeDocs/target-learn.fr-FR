@@ -1,6 +1,6 @@
 ---
 title: Administration et implémentation des paramètres
-description: Cette vidéo montre aux architectes et aux développeurs Adobe Target comment différencier les paramètres de requête et les paramètres de profil, configurer et déclencher des requêtes à l’aide de systèmes de gestion des balises et JavaScript, et comprendre les exigences d’implémentation pour le ciblage mobile, par e-mail et les API.
+description: Cette vidéo montre aux architectes et aux développeurs Adobe Target comment différencier les paramètres de requête et les paramètres de profil, configurer et déclencher des requêtes à l’aide de JavaScript et des systèmes de gestion des balises, et comprendre les exigences d’implémentation pour le ciblage mobile, par e-mail et les API.
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development
@@ -23,7 +23,7 @@ ht-degree: 2%
 Dans cette vidéo, vous apprendrez à :
 
 * Différence entre les paramètres de requête et les paramètres de profil
-* Configuration et déclenchement de requêtes à l’aide de systèmes de gestion des balises et JavaScript
+* Configuration et déclenchement de requêtes à l’aide de JavaScript et des systèmes de gestion des balises
 * Liste des exigences d’implémentation pour les API, le ciblage des emails et les appareils mobiles
 
 ## Audience prévue
