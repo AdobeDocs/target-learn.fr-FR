@@ -9,10 +9,10 @@ doc-type: feature video
 team: Evangelism
 kt: 6691
 exl-id: 3b24efd3-a5b3-41a6-92f4-15433ddb2a26
-source-git-commit: f86096ee7fac47854220e805859b54d8c0be3cd7
+source-git-commit: 134db9531c4a279f9d1f27eeb6fcc03bd798660c
 workflow-type: tm+mt
 source-wordcount: '174'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -35,7 +35,7 @@ D’ici la fin de cette vidéo, vous serez en mesure de :
 * Décrire la prise de décision sur appareil et ses avantages
 * Activation de la prise de décision sur l’appareil dans Target
 * Création d’une activité de compositeur d’après les formulaires destinée à être utilisée avec la prise de décision sur l’appareil
-* Pour en savoir plus sur la configuration du SDK requise pour la prise de décision sur l’appareil, consultez la [documentation du SDK Adobe Target](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
+* Pour en savoir plus sur la configuration du SDK requise pour la prise de décision sur l’appareil, consultez la [documentation du SDK Adobe Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/on-device-decisioning/overview)
 * Comprendre ce que les utilisateurs finaux vont ressentir pour le contenu diffusé à l’aide de la prise de décision sur l’appareil
 
 ## Audience prévue
