@@ -1,6 +1,6 @@
 ---
-title: Comment utiliser l'intelligence artificielle et l'automatisation pour relever les défis de Personalization
-description: Cette vidéo traite de l’importance de la personnalisation, des défis liés à la personnalisation, de la solution à ces défis (les quatre offres d’IA/automatisation d’Adobe Target) et des éléments essentiels à la diffusion d’expériences personnalisées. C'est une version éditée de la présentation de l'Adobe Summit de Jamie Brighton en 2018.
+title: Utilisation de l’intelligence artificielle et de l’automatisation pour Personalization
+description: Découvrez l’importance de la personnalisation, les défis d’une personnalisation efficace et la solution à ces défis (les quatre offres IA/automatisation d’Adobe Target).
 role: User
 level: Beginner
 topic: Personalization
@@ -9,15 +9,15 @@ doc-type: value video
 kt: null
 badge: Premium
 exl-id: 6379a49c-e978-4ccb-84c6-811d68d68028
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: e9974542cd5bbfcc729eb74905147f3ceb06430d
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 0%
+source-wordcount: '86'
+ht-degree: 1%
 
 ---
 
-# Utiliser l&#39;intelligence artificielle et l&#39;automatisation pour relever les défis de Personalization
+# Utiliser l’intelligence artificielle et l’automatisation pour la personnalisation
 
-Cette vidéo traite de l’importance de la personnalisation, des défis liés à la personnalisation, de la solution à ces défis (les quatre offres d’IA/automatisation d’Adobe Target) et des éléments essentiels à la diffusion d’expériences personnalisées. C&#39;est une version éditée de la présentation de l&#39;Adobe Summit de Jamie Brighton en 2018.
+Cette vidéo aborde l’importance de la personnalisation, les défis liés à une bonne personnalisation, la solution à ces défis (les quatre offres d’IA/d’automatisation dans Adobe Target) et les éléments essentiels pour offrir des expériences personnalisées. Il s’agit d’une version modifiée de la présentation Adobe Summit 2018 de Jamie Brighton.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25440/?quality=12)

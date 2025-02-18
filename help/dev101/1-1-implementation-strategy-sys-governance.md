@@ -1,6 +1,6 @@
 ---
-title: Approche de la stratégie de mise en oeuvre et de la gouvernance du système
-description: Cette vidéo destinée aux administrateurs et architectes explique en détail les concepts clés de lʼadministration et de la mise en œuvre dʼAdobe Target. Regardez cette vidéo pour découvrir comment identifier et appliquer les bonnes pratiques de gouvernance et répertorier les exigences en matière de mise en œuvre de Target.
+title: Approche de la stratégie de mise en œuvre et de la gouvernance du système
+description: Découvrez comment identifier et appliquer les bonnes pratiques de gouvernance et répertorier les exigences en matière d’implémentation de Target.
 landing-page-description: Regardez cette vidéo pour découvrir comment identifier et appliquer les bonnes pratiques de gouvernance et répertorier les exigences en matière de mise en œuvre de Target.
 short-description: Regardez cette vidéo pour découvrir comment identifier et appliquer les bonnes pratiques de gouvernance et répertorier les exigences en matière de mise en œuvre de Target.
 role: Admin, Developer, Architect
@@ -11,22 +11,20 @@ doc-type: technical video
 kt: 5063
 thumbnail: 33753.jpg
 exl-id: 750fc1a2-ed15-45e8-9ad3-32049ca36ba8
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 61%
+source-wordcount: '98'
+ht-degree: 38%
 
 ---
 
-# Stratégie de mise en oeuvre et gouvernance du système
-
-## Description
+# Stratégie de mise en œuvre et gouvernance du système
 
 Dans cette vidéo, vous apprendrez à :
 
-* Explication des concepts clés dans l’administration de Target
-* Identifier et appliquer les bonnes pratiques de gouvernance
-* Liste des exigences d’implémentation de Target
+* Explication des concepts clés relatifs à l’administration de Target
+* Identification et application des bonnes pratiques de gouvernance
+* Liste des exigences en matière d’implémentation de Target
 
 ## Audience prévue
 
@@ -36,4 +34,4 @@ Dans cette vidéo, vous apprendrez à :
 
 >[!VIDEO](https://video.tv.adobe.com/v/33753/?quality=12)
 
-Pour plus d’informations, consultez la [documentation](https://experienceleague.adobe.com/docs/target/using/administer/administrating-target.html?lang=en).
+Pour plus d’informations, consultez la [ documentation ](https://experienceleague.adobe.com/docs/target/using/administer/administrating-target.html?lang=en).

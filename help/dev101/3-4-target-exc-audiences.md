@@ -1,6 +1,6 @@
 ---
-title: Intégration de Target à des audiences Experience Cloud
-description: Cette vidéo destinée aux développeurs Adobe Target présente la création d’audiences à l’aide d’Analytics et d’Audience Manager. Les développeurs qui regardent cette vidéo pourront importer des audiences à partir d’autres produits Adobe, se familiariser avec le panneau d’administration de Adobe Experience Cloud (AEC) et répertorier les exigences relatives à l’identifiant Experience Cloud (ECID).
+title: Intégration de Target aux audiences Experience Cloud
+description: Découvrez comment importer des audiences d’autres produits Adobe. Familiarisez-vous avec Experience Cloud Admin Console et les exigences relatives à l’Experience Cloud ID (ECID).
 role: Developer
 level: Intermediate
 topic: Personalization, Integrations
@@ -9,23 +9,21 @@ doc-type: technical video
 kt: 5392
 thumbnail: 35152.jpg
 exl-id: 00e50e90-29cf-4dc5-8bfc-e938f1d596a4
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '88'
 ht-degree: 1%
 
 ---
 
-# Intégration de Target avec les audiences Experience Cloud
-
-## Description
+# Intégration de [!DNL Target] à Experience Cloud Audiences
 
 Dans cette vidéo, vous apprendrez à :
 
-* Description de la création et de l’utilisation des audiences avec Analytics et Audience Manager
-* Décrire comment importer des audiences à partir d’autres produits Adobe
-* Exploration du panneau d’administration de Adobe Experience Cloud (AEC)
-* Liste des exigences relatives à l’identifiant Experience Cloud (ECID)
+* Décrire la création et l’utilisation d’audiences avec Analytics et Audience Manager
+* Décrire comment importer des audiences d’autres produits Adobe
+* Explorer Experience Cloud Admin Console
+* Liste des exigences relatives à l’Experience Cloud ID (ECID)
 
 ## Audience prévue
 
@@ -33,4 +31,4 @@ Dans cette vidéo, vous apprendrez à :
 
 >[!VIDEO](https://video.tv.adobe.com/v/35152/?quality=12)
 
-Pour plus d’informations, consultez la [documentation](https://experienceleague.adobe.com/docs/target/using/integrate/mmp.html?lang=en).
+Pour plus d’informations, consultez la [ documentation ](https://experienceleague.adobe.com/docs/target/using/integrate/mmp.html?lang=en).

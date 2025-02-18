@@ -8,21 +8,21 @@ feature: Recommendations
 doc-type: feature video
 kt: null
 exl-id: 10448c36-44b8-4a2f-a3c5-9e0130593a17
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 9%
+source-wordcount: '74'
+ht-degree: 16%
 
 ---
 
 # Création de collections et d’exclusions dans Recommendations
 
-## Description
+## Ce que vous apprendrez
 
 Dans cette vidéo, vous apprendrez à :
 
-* Création de collections
-* Création d’exclusions
+* Créer des collections
+* Créer des exclusions
 
 ## Audience prévue
 
@@ -33,8 +33,8 @@ Dans cette vidéo, vous apprendrez à :
 ## Ressources supplémentaires
 
 * [Création d’une activité de recommandations](create-a-recommendations-activity.md)
-* [Présentation des flux](understanding-feeds.md)
-* [Création d’un flux](create-a-feed.md)
-* [Création de critères](create-criteria.md)
+* [Comprendre les flux](understanding-feeds.md)
+* [Créer un flux](create-a-feed.md)
+* [Créer des critères](create-criteria.md)
 * [Création de conceptions personnalisées](create-custom-designs.md)
 * [Documentation Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

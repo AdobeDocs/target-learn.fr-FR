@@ -1,8 +1,7 @@
 ---
-title: Comment mettre en oeuvre Target
-description: Cette vidéo destinée aux développeurs et architectes Adobe Target explique en détail la mise en œuvre de Target. Regardez cette vidéo pour découvrir les différentes technologies et utiliser les bonnes pratiques pour l’implémentation de Target.
-landing-page-description: Regardez cette vidéo pour découvrir les différentes technologies et utiliser les bonnes pratiques pour l’implémentation de Target.
-short-description: Regardez cette vidéo pour découvrir les différentes technologies et utiliser les bonnes pratiques pour l’implémentation de Target.
+title: Mise en œuvre de Target
+description: Découvrez les différentes technologies d’implémentation d’Adobe Target et appliquez les bonnes pratiques d’implémentation de Target.
+landing-page-description: Découvrez les différentes technologies d’implémentation d’Adobe Target et appliquez les bonnes pratiques d’implémentation de Target.
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development
@@ -11,22 +10,20 @@ doc-type: technical video
 kt: 5379
 thumbnail: 35139.jpg
 exl-id: ce615020-6775-486a-b0e0-f4298adbae39
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 57%
+source-wordcount: '73'
+ht-degree: 2%
 
 ---
 
-# Présentation de la mise en oeuvre d’Adobe Target
-
-## Description
+# Présentation de la mise en œuvre d’Adobe Target
 
 Dans cette vidéo, vous apprendrez à :
 
-* Explication de l’implémentation de Target
-* Explication des technologies de mise en oeuvre de Target
-* Bonnes pratiques de mise en oeuvre de Target
+* Explication de ce qu’implique l’implémentation de Target
+* Explication des technologies d’implémentation de Target
+* Utilisation des bonnes pratiques de mise en œuvre de Target
 
 ## Audience prévue
 
@@ -35,5 +32,5 @@ Dans cette vidéo, vous apprendrez à :
 
 >[!VIDEO](https://video.tv.adobe.com/v/35139/?quality=12)
 
-Pour plus d’informations, voir [Mise en oeuvre côté client](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank} ou [Mise en oeuvre côté serveur](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=fr){target=_blank} dans *[!UICONTROL Adobe Target Developer Guide]*.
+Pour plus d’informations, consultez [Implémentation côté client](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank} ou [Implémentation côté serveur](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=fr){target=_blank} dans la *[!UICONTROL Adobe Target Developer Guide]*.
 

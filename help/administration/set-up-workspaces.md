@@ -1,6 +1,6 @@
 ---
 title: Configuration des espaces de travail
-description: Cette vidéo montre aux administrateurs comment créer des espaces de travail dans Adobe Target.
+description: Découvrez comment créer des espaces de travail dans Adobe Target.
 role: Admin
 level: Beginner
 topic: Administration
@@ -8,16 +8,14 @@ feature: Administration & Configuration
 doc-type: feature video
 kt: null
 exl-id: 9f147770-4b78-4982-ad52-c219bb451cc1
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 5%
+source-wordcount: '34'
+ht-degree: 2%
 
 ---
 
 # Configuration des espaces de travail dans Adobe Target
-
-## Description
 
 Dans cette vidéo, vous apprendrez à :
 

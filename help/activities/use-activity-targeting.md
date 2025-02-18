@@ -1,6 +1,6 @@
 ---
-title: Utilisation du ciblage des activités
-description: Adobe Target fournit différents leviers pour contrôler les expériences affichées pour différentes audiences lorsqu’une activité est activée. Découvrez comment contrôler qui voit quoi en utilisant les audiences et l’affectation du trafic.
+title: Utilisation du ciblage d’activité
+description: Découvrez les différents leviers permettant de contrôler les expériences présentées à différentes audiences lors de la mise en ligne d’une activité.
 role: User
 level: Intermediate
 topic: Personalization
@@ -8,16 +8,14 @@ feature: Activities, Audiences
 doc-type: feature video
 kt: null
 exl-id: fa330c1d-4a67-4927-bd4c-adb57c10c769
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 30%
+source-wordcount: '58'
+ht-degree: 36%
 
 ---
 
-# Utilisation du ciblage des activités
-
-## Description
+# Utiliser le ciblage d’activité
 
 Dans cette vidéo, vous apprendrez à :
 

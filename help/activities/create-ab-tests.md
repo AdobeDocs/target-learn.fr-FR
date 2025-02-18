@@ -1,6 +1,6 @@
 ---
 title: Création d’un test A/B
-description: Cette vidéo explique aux utilisateurs le processus clé de création des activités A/B dans Adobe Target. Regardez cette vidéo pour savoir comment créer une activité A/B de base à l’aide du compositeur d’expérience visuelle (VEC).
+description: Découvrez le processus clé de création des activités A/B dans  [!DNL Adobe Target]. Créez une activité A/B de base à l’aide du compositeur d’expérience visuelle (VEC).
 role: User
 level: Beginner
 topic: Personalization
@@ -8,24 +8,20 @@ feature: A/B Tests, Activities, Visual Experience Composer (VEC)
 doc-type: feature video
 kt: null
 exl-id: 752f77db-d17b-4255-ae71-cb7b4a215922
-source-git-commit: 6970ec7a821a7ea93e35da8b20f9ac1d719e9c51
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 5%
+source-wordcount: '79'
+ht-degree: 6%
 
 ---
 
 # Création d’un test A/B
 
-Découvrez le processus clé de création des activités A/B dans [!DNL Adobe Target]. Créez une activité A/B de base à l’aide du compositeur d’expérience visuelle (VEC).
-
-## Description
-
 Dans cette vidéo, vous apprendrez à :
 
 * Utilisez le compositeur d’expérience visuelle (VEC) d’Adobe Target pour créer une activité A/B de base
 
-## Audience ciblée
+## Audience prévue
 
 * Professionnel
 

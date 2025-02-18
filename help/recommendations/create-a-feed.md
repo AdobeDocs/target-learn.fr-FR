@@ -8,16 +8,16 @@ feature: Recommendations
 doc-type: feature video
 kt: null
 exl-id: d09f01aa-4b24-4f5c-93ef-03bc0d28d85c
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 10%
+source-wordcount: '68'
+ht-degree: 14%
 
 ---
 
 # Création d’un flux dans Adobe Target Recommendations
 
-## Description
+## Ce que vous apprendrez
 
 Dans cette vidéo, vous apprendrez à :
 
@@ -31,9 +31,9 @@ Dans cette vidéo, vous apprendrez à :
 
 ## Ressources supplémentaires
 
-* [Présentation des flux](understanding-feeds.md)
+* [Comprendre les flux](understanding-feeds.md)
 * [Création d’une activité de recommandations](create-a-recommendations-activity.md)
-* [Création de critères](create-criteria.md)
+* [Créer des critères](create-criteria.md)
 * [Création de conceptions personnalisées](create-custom-designs.md)
 * [Création de collections et d’exclusions](create-collections-and-exclusions.md)
 * [Documentation Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

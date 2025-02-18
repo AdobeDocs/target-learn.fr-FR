@@ -1,6 +1,6 @@
 ---
 title: Création de scripts de profil
-description: Cette vidéo présente les utilisateurs d’Adobe Target aux scripts de profil. Regardez cette vidéo si vous connaissez Adobe Target et souhaitez découvrir les bases de l’utilisation des scripts de profil pour effectuer un ciblage plus spécialisé ou la création d’audiences.
+description: Découvrez les principes de base de l’utilisation de scripts de profil pour effectuer un ciblage plus spécialisé ou une création d’audience.
 role: User, Developer
 level: Experienced
 topic: Personalization
@@ -10,16 +10,14 @@ kt: null
 badge: Premium
 author: Daniel Wright
 exl-id: b5c44d8b-20a2-4842-a879-91d1ee68a3ec
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 8%
+source-wordcount: '45'
+ht-degree: 11%
 
 ---
 
 # Création de scripts de profil dans Adobe Target
-
-## Description
 
 Dans cette vidéo, vous apprendrez à :
 
