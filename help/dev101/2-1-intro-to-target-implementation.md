@@ -1,7 +1,7 @@
 ---
 title: Mise en œuvre de Target
-description: Découvrez les différentes technologies d’implémentation d’Adobe Target et appliquez les bonnes pratiques d’implémentation de Target.
-landing-page-description: Découvrez les différentes technologies d’implémentation d’Adobe Target et appliquez les bonnes pratiques d’implémentation de Target.
+description: Découvrez les différentes technologies d’implémentation d’Adobe Target et appliquez les bonnes pratiques en matière d’implémentation de Target.
+landing-page-description: Découvrez les différentes technologies d’implémentation d’Adobe Target et appliquez les bonnes pratiques en matière d’implémentation de Target.
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development
@@ -13,7 +13,7 @@ exl-id: ce615020-6775-486a-b0e0-f4298adbae39
 source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
 source-wordcount: '73'
-ht-degree: 2%
+ht-degree: 38%
 
 ---
 
