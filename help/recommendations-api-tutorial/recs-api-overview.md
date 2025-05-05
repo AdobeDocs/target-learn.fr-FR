@@ -41,7 +41,7 @@ Ce tutoriel est destiné aux développeurs qui découvrent les API Target ou les
 
 ## Conditions requises
 
-L’utilisation des API d’administration Target nécessite [ ](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html){target="_blank"} de la configuration de l’authentification par Adobe. Assurez-vous d’avoir configuré cette option avant de commencer ce tutoriel.
+L’utilisation des API d’administration Target nécessite [&#128279;](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html){target="_blank"} de la configuration de l’authentification par Adobe. Assurez-vous d’avoir configuré cette option avant de commencer ce tutoriel.
 
 ## Ressources
 

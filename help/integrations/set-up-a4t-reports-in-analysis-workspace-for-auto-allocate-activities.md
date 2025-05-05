@@ -127,9 +127,9 @@ Vous pouvez accéder à un panneau [!UICONTROL Analytics for Target] prédéfini
 Les sections suivantes indiquent les configurations requises, selon l’une de ces méthodes. Toutefois, les étapes suivantes constituent des conseils généraux pour A4T :
 
 * Supprimez les mesures de confiance du panneau A4T, quelle que soit la méthode de création du panneau (les deux sont présentées ci-dessous). À la place, référencez ces valeurs dans les rapports [!DNL Target]. En outre, les gagnants d’activité peuvent être identifiés dans les rapports [!DNL Target]. Vous trouverez des informations détaillées sur l’identification des gagnants d’activité dans la section [Identification de l’gagnant de l’activité](#winner) ci-dessous.
->>
+&#x200B;>>
 * Pour éviter toute confusion, désélectionnez la présentation &quot;[!UICONTROL Percent]&quot; de la mesure [!UICONTROL Conversion Rate]. Voir [Masquer le pourcentage de la colonne [!UICONTROL Conversion Rate]](#hide-percentage) ci-dessous.
->>
+&#x200B;>>
 * Si vous créez un panneau A4T, assurez-vous que les plages de dates et d’heures correspondent à celles de votre rapport [!DNL Target]. Voir [Aligner la date et l’heure dans le panneau A4T](#aligning-date-and-time) ci-dessous.
 
 ### Masquer le pourcentage de la colonne [!UICONTROL Conversion Rate] {#hide-percentage}
@@ -162,7 +162,7 @@ Les gagnants de l’activité [!DNL Auto-Allocate] sont sélectionnés en cas de
 
 >[!NOTE]
 >
-Les badges &quot;Pas encore de gagnant&quot; et &quot;Gagnant&quot; ne sont pas disponibles dans le panneau A4T dans [!DNL Analysis Workspace]. En outre, le badge &quot;étoile&quot; gagnante affiché dans les rapports [!DNL Target] pour les activités [!UICONTROL Auto-Allocate] doit être ignoré. Voir [Affectation automatique](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} dans la *Prise en charge d’A4T pour les activités d’affectation automatique et de ciblage automatique* dans le *[!UICONTROL Adobe Target Business Practitioner Guide]*.
+>Les badges &quot;Pas encore de gagnant&quot; et &quot;Gagnant&quot; ne sont pas disponibles dans le panneau A4T dans [!DNL Analysis Workspace]. En outre, le badge &quot;étoile&quot; gagnante affiché dans les rapports [!DNL Target] pour les activités [!UICONTROL Auto-Allocate] doit être ignoré. Voir [Affectation automatique](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} dans la *Prise en charge d’A4T pour les activités d’affectation automatique et de ciblage automatique* dans le *[!UICONTROL Adobe Target Business Practitioner Guide]*.
 
 ### Créez le panneau A4T pour [!UICONTROL Auto-Allocate] dans [!DNL Analysis Workspace]
 
