@@ -33,7 +33,7 @@ D’ici la fin de cette vidéo, vous pourrez :
 * Développeurs et développeuses
 * Architectes
 
->[!VIDEO](https://video.tv.adobe.com/v/41698/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329468/?quality=12&captions=fre_fr)
 
 ## Ressources supplémentaires
 

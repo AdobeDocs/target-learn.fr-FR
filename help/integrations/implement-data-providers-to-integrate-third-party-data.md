@@ -26,7 +26,7 @@ Détails de mise en oeuvre et exemples d’utilisation de la fonctionnalité Ado
 
 ## Mise en oeuvre des composants de base des fournisseurs de données
 
->[!VIDEO](https://video.tv.adobe.com/v/22348/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/33871/?quality=12&captions=fre_fr)
 
 Aperçu rapide des composants de base d’un `dataProvider` et comment obtenir votre code dans le bon ordre.\
 Vous trouverez ici un exemple pratique avec le code utilisé dans la vidéo :
@@ -34,7 +34,7 @@ Vous trouverez ici un exemple pratique avec le code utilisé dans la vidéo :
 
 ## Intégration à une API tierce
 
->[!VIDEO](https://video.tv.adobe.com/v/22345/)
+>[!VIDEO](https://video.tv.adobe.com/v/33857?captions=fre_fr)
 
 Exemple plus réaliste, l’intégration d’une API météorologique.\
 Vous trouverez ici un exemple pratique avec le code utilisé dans la vidéo :
@@ -42,7 +42,7 @@ Vous trouverez ici un exemple pratique avec le code utilisé dans la vidéo :
 
 ## Intégration à plusieurs fournisseurs
 
->[!VIDEO](https://video.tv.adobe.com/v/22346/)
+>[!VIDEO](https://video.tv.adobe.com/v/36722?captions=fre_fr)
 
 Comment incorporer des données de plusieurs fournisseurs dans votre requête [!DNL Target] globale.\
 Vous trouverez ici un exemple pratique avec le code utilisé dans la vidéo :
@@ -50,7 +50,7 @@ Vous trouverez ici un exemple pratique avec le code utilisé dans la vidéo :
 
 ## Minimisation de l’impact de chargement de page
 
->[!VIDEO](https://video.tv.adobe.com/v/22347/)
+>[!VIDEO](https://video.tv.adobe.com/v/36723?captions=fre_fr)
 
 Réduisez l’impact sur le délai de chargement des pages en stockant les données dans un objet de stockage de session. Vous pouvez également transmettre les valeurs en tant que paramètres de profil à l’aide du préfixe `profile.` et simplement les transmettre dans la première requête [!DNL Target] de la session. Cependant, vous êtes limité à la transmission de cinquante paramètres de profil par requête.
 

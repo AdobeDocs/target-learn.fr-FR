@@ -32,7 +32,7 @@ Le compositeur d’expérience visuelle (VEC) de SPA permet aux marketeurs de cr
 
 * Professionnel
 
->[!VIDEO](https://video.tv.adobe.com/v/26249?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/34769?quality=12&captions=fre_fr)
 
 
 ## Ressources supplémentaires
