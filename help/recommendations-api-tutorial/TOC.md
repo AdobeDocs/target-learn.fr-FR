@@ -12,9 +12,9 @@ ht-degree: 0%
 # Utilisation des API Recommendations d’Adobe Target{#recommendations-api-tutorial}
 
 + [Présentation de l’API Recs](recs-api-overview.md)
-+ [Gestion de votre catalogue avec les API](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/manage-catalog.html){target="_blank"}
-+ [Gérer les critères personnalisés](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/manage-custom-criteria.html){target="_blank"}
-+ [Utilisation de l’API de diffusion avec Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/fetch-recs-server-side-delivery-api.html){target="_blank"}
++ [Gestion de votre catalogue avec les API](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/manage-catalog.html?lang=fr){target="_blank"}
++ [Gérer les critères personnalisés](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/manage-custom-criteria.html?lang=fr){target="_blank"}
++ [Utilisation de l’API de diffusion avec Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/fetch-recs-server-side-delivery-api.html?lang=fr){target="_blank"}
 
 <!--+ [Debug API calls](6debug.md)
 + [Download the Calculated Recommendations CSV](7download-calc-recs-csv.md)-->

@@ -28,6 +28,6 @@ Dans cette vidéo, vous apprendrez à :
 
 ## Remarque
 
-Cette vidéo présente les concepts d’intégration à l’aide de [Adobe Developer Console](https://developer.adobe.com/developer-console/). Pour obtenir des instructions pratiques sur l’utilisation de Adobe Developer Console pour l’intégration à Adobe Target, consultez ce [guide sur la configuration de l’authentification Adobe](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html){target="_blank"} dans le *Guide du développeur d’Adobe Target*.
+Cette vidéo présente les concepts d’intégration à l’aide de [Adobe Developer Console](https://developer.adobe.com/developer-console/). Pour obtenir des instructions pratiques sur l’utilisation de Adobe Developer Console pour l’intégration à Adobe Target, consultez ce [guide sur la configuration de l’authentification Adobe](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html?lang=fr){target="_blank"} dans le *Guide du développeur d’Adobe Target*.
 
 >[!VIDEO](https://video.tv.adobe.com/v/35150/?quality=12)

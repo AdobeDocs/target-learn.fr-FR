@@ -39,4 +39,4 @@ Le compositeur d’expérience visuelle (VEC) de SPA permet aux marketeurs de cr
 
 * [Mise en œuvre d’at.js 2.0 dans une application d’une seule page](../implementation/implement-atjs-20-in-a-single-page-application.md)
 * [Fonctionnement d’at.js 2.0 (diagrammes d’architecture)](../implementation/understanding-how-atjs-20-works.md)
-* [Documentation du compositeur d’expérience visuelle pour application d’une seule page (SPA)](https://experienceleague.adobe.com/docs/target/using/experiences/spa-visual-experience-composer.html?lang=en)
+* [Documentation du compositeur d’expérience visuelle pour application d’une seule page (SPA)](https://experienceleague.adobe.com/docs/target/using/experiences/spa-visual-experience-composer.html?lang=fr)

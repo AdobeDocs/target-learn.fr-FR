@@ -26,6 +26,6 @@ Le débogueur Adobe Experience Cloud vous permet de comprendre rapidement et fac
 
 * [Vidéo Dépannage de Target Traces](troubleshoot-with-target-traces.md)
 * [Débogueur Adobe Experience Cloud dans le Chrome Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) 
-* [Vidéo Ajouter l’extension Debugger](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-cloud-debugger/add-the-extension.html?lang=en)
-* [Documentation d’aide sur le dépannage de Target](https://experienceleague.adobe.com/docs/target/using/troubleshoot/troubleshooting-target.html?lang=en)
-* [Vidéo sur l’utilisation d’Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-cloud-debugger/use-the-experience-cloud-debugger.html?lang=en)
+* [Vidéo Ajouter l’extension Debugger](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-cloud-debugger/add-the-extension.html?lang=fr)
+* [Documentation d’aide sur le dépannage de Target](https://experienceleague.adobe.com/docs/target/using/troubleshoot/troubleshooting-target.html?lang=fr)
+* [Vidéo sur l’utilisation d’Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-cloud-debugger/use-the-experience-cloud-debugger.html?lang=fr)

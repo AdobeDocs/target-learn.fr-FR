@@ -120,4 +120,4 @@ Compte tenu de ce qui précède, Adobe vous recommande de procéder à l’optim
 
 Pour plus d’informations, veuillez écouter le [webinaire sur la compréhension et l’optimisation de votre mise en oeuvre Adobe Target](https://adobecustomersuccess.adobeconnect.com/pkfafpzd9yarmp4/), avec la conseillère en affaires Katie Cozby.
 
-Pour en savoir plus sur la stratégie et le leadership de la pensée, rendez-vous sur le [hub Customer Success](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html).
+Pour en savoir plus sur la stratégie et le leadership de la pensée, rendez-vous sur le [hub Customer Success](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=fr).

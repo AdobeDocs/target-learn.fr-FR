@@ -30,7 +30,7 @@ Dans cette leçon, nous allons ajouter des mesures de cycle de vie d’Adobe et 
 
 ## Ajout des paramètres de cycle de vie
 
-Activez les [mesures de cycle de vie mobile d’Adobe](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=en). Cela permet d’ajouter des paramètres aux requêtes d’emplacement contenant des informations riches sur l’appareil de l’utilisateur et l’engagement avec l’application. Nous allons créer des audiences dans la leçon suivante en utilisant les données fournies par la requête de cycle de vie.
+Activez les [mesures de cycle de vie mobile d’Adobe](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=fr). Cela permet d’ajouter des paramètres aux requêtes d’emplacement contenant des informations riches sur l’appareil de l’utilisateur et l’engagement avec l’application. Nous allons créer des audiences dans la leçon suivante en utilisant les données fournies par la requête de cycle de vie.
 
 Pour activer les mesures de cycle de vie, ouvrez à nouveau le contrôleur HomeActivity et ajoutez `Config.collectLifecycleData(this);` à la fonction onResume() :
 
@@ -89,7 +89,7 @@ public void targetPrefetchContent() {
 
 ### Remarque À Propos Des Paramètres
 
-Pour les futurs projets, vous souhaiterez peut-être implémenter des paramètres supplémentaires. La méthode `createTargetPrefetchObject()` accepte trois types de paramètres : `locationParams`, `orderParams` et `productParams`. Pour [ plus d’informations sur l’ajout de ces paramètres à la requête de prérécupération ](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en), consultez la documentation.
+Pour les futurs projets, vous souhaiterez peut-être implémenter des paramètres supplémentaires. La méthode `createTargetPrefetchObject()` accepte trois types de paramètres : `locationParams`, `orderParams` et `productParams`. Pour [ plus d’informations sur l’ajout de ces paramètres à la requête de prérécupération ](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=fr), consultez la documentation.
 
 Notez également que différents paramètres d’emplacement peuvent être ajoutés à chaque emplacement dans la requête de prérécupération. Par exemple, vous pouvez créer une autre carte appelée param2, y placer un nouveau paramètre, puis définir param2 à un emplacement et param1 à l’autre emplacement. Voici un exemple :
 
@@ -146,11 +146,11 @@ Exécutez l’émulateur et ouvrez Logcat. Filtrez l’un des paramètres pour v
 
 >[!NOTE]
 >
->Requêtes et paramètres de confirmation de commande : bien qu’ils ne soient pas utilisés dans ce projet de démonstration, les détails de commande sont généralement capturés dans une mise en oeuvre réelle. [!DNL Target] peut donc utiliser les détails de commande comme mesures/dimensions. Reportez-vous à la documentation pour obtenir des instructions sur la [mise en oeuvre de la requête de confirmation de commande et des paramètres](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=en).
+>Requêtes et paramètres de confirmation de commande : bien qu’ils ne soient pas utilisés dans ce projet de démonstration, les détails de commande sont généralement capturés dans une mise en oeuvre réelle. [!DNL Target] peut donc utiliser les détails de commande comme mesures/dimensions. Reportez-vous à la documentation pour obtenir des instructions sur la [mise en oeuvre de la requête de confirmation de commande et des paramètres](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=fr).
 
 >[!NOTE]
 >
->Analytics for Target (A4T) : Adobe Analytics peut être configuré en tant que source des rapports pour [!DNL Target]. Cela permet de visualiser toutes les mesures/dimensions collectées par le SDK Target dans Adobe Analytics. Pour plus d’informations, consultez la [Présentation d’A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en) .
+>Analytics for Target (A4T) : Adobe Analytics peut être configuré en tant que source des rapports pour [!DNL Target]. Cela permet de visualiser toutes les mesures/dimensions collectées par le SDK Target dans Adobe Analytics. Pour plus d’informations, consultez la [Présentation d’A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=fr) .
 
 Beau travail ! Maintenant que les paramètres sont en place, nous sommes prêts à les utiliser pour créer des audiences et des offres dans Adobe Target.
 

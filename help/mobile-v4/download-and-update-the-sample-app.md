@@ -38,7 +38,7 @@ L’exemple d’application We.Travel est préimplémenté avec le SDK Mobile Se
 
 ## Vérification et mise à jour des paramètres du SDK Mobile Services pour [!DNL Target]
 
-Le SDK Mobile Services Adobe a été préinstallé dans l’application We.Travel [, conformément à la documentation ](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=en). Vous allez maintenant mettre à jour l&#39;installation pour pointer vers votre propre compte [!DNL Target].
+Le SDK Mobile Services Adobe a été préinstallé dans l’application We.Travel [, conformément à la documentation ](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=fr). Vous allez maintenant mettre à jour l&#39;installation pour pointer vers votre propre compte [!DNL Target].
 
 Tout d’abord, créez une application dans l’interface utilisateur de Mobile Services :
 
