@@ -127,9 +127,9 @@ Vous pouvez accéder à un panneau de [!UICONTROL Analytics for Target] préconf
 Les sections suivantes indiquent les configurations requises, en fonction de la méthode choisie. Toutefois, les étapes suivantes servent de guide général pour A4T :
 
 * Supprimez les mesures de confiance du panneau A4T, quelle que soit la méthode de création du panneau (les deux sont détaillés ci-dessous). Au lieu de cela, référencez ces valeurs dans les rapports [!DNL Target]. De plus, les gagnants des activités peuvent être identifiés dans les rapports [!DNL Target]. Vous trouverez des détails sur l’identification de l’activité gagnante dans la section [Identifier l’activité gagnante](#winner) ci-dessous.
->>
+&#x200B;>>
 * Pour éviter toute confusion, désélectionnez la présentation « [!UICONTROL Percent] » de la mesure [!UICONTROL Conversion Rate]. Voir [Masquer le pourcentage de la colonne [!UICONTROL Conversion Rate]](#hide-percentage) ci-dessous.
->>
+&#x200B;>>
 * Si vous créez un panneau A4T, assurez-vous que les périodes et les heures correspondent à celles de votre rapport [!DNL Target]. Voir [Aligner la date et l’heure dans le panneau A4T](#aligning-date-and-time) ci-dessous.
 
 ### Masquer le pourcentage dans la colonne [!UICONTROL Conversion Rate] {#hide-percentage}
