@@ -31,7 +31,7 @@ Dans cette vidéo, vous apprendrez à :
 
 * Professionnel
 
->[!VIDEO](https://video.tv.adobe.com/v/23218/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/328089/?quality=12&captions=fre_fr)
 
 ## Ressources supplémentaires
 

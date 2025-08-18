@@ -20,7 +20,7 @@ ht-degree: 3%
 
 Les jetons de réponse et `at.js` événements personnalisés vous permettent de partager des informations de profil de [!DNL Target] vers des systèmes tiers. Tout objet dans le profil du visiteur [!DNL Target], y compris les attributs de profil personnalisés, les informations géographiques, les détails d’activité et les profils intégrés, peut être ajouté à la réponse [!DNL Target] où vous pouvez utiliser le JavaScript personnalisé pour l’intégration à un tiers.
 
->[!VIDEO](https://video.tv.adobe.com/v/23253/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/33875/?quality=12&captions=fre_fr)
 
 ## Utilisation des jetons de réponse et des événements personnalisés at.js
 

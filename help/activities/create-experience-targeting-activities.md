@@ -29,7 +29,7 @@ Dans cette vidéo, vous apprendrez à :
 
 * Professionnels
 
->[!VIDEO](https://video.tv.adobe.com/v/22418?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/38301?quality=12&captions=fre_fr)
 
 ## Ressources supplémentaires
 
