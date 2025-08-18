@@ -18,6 +18,6 @@ ht-degree: 5%
 
 # Activer les segments et les attributs de profil
 
-Découvrez comment activer les segments et les attributs de profil d’Adobe Real-Time Customer Data Platform vers Adobe Target pour afficher du contenu personnalisé en temps réel sur vos sites web, applications mobiles et autres propriétés numériques. Pour plus d’informations, consultez la documentation [ Activer les données d’audience vers les destinations de requête de profil ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html).
+Découvrez comment activer les segments et les attributs de profil d’Adobe Real-Time Customer Data Platform vers Adobe Target pour afficher du contenu personnalisé en temps réel sur vos sites web, applications mobiles et autres propriétés numériques. Pour plus d’informations, consultez la documentation [ Activer les données d’audience vers les destinations de requête de profil ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=fr).
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419036/?learn=on)

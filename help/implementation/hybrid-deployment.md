@@ -37,5 +37,5 @@ D’ici la fin de cette vidéo, vous pourrez :
 
 ## Ressources supplémentaires
 
-* [Présentation De La Prise De Décision Sur L’Appareil](https://experienceleague.adobe.com/en/docs/target-learn/tutorials/implementation/on-device-decisioning-overview#implementation)
-* [Documentation Adobe Target SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/on-device-decisioning/overview)
+* [Présentation De La Prise De Décision Sur L’Appareil](https://experienceleague.adobe.com/fr/docs/target-learn/tutorials/implementation/on-device-decisioning-overview#implementation)
+* [Documentation Adobe Target SDK](https://experienceleague.adobe.com/fr/docs/target-dev/developer/server-side/on-device-decisioning/overview)

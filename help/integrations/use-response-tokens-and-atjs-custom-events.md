@@ -34,5 +34,5 @@ Les jetons de réponse et `at.js` événements personnalisés vous permettent de
 ## Ressources supplémentaires
 
 * [Utilisation d’Experience Cloud Debugger avec Adobe Target](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
-* [Documentation sur le jeton de réponse](https://experienceleague.adobe.com/docs/target/using/administer/response-tokens.html?lang=en)
+* [Documentation sur le jeton de réponse](https://experienceleague.adobe.com/docs/target/using/administer/response-tokens.html?lang=fr)
 * [Utilisation des fournisseurs de données dans Adobe Target](use-data-providers-to-integrate-third-party-data.md)

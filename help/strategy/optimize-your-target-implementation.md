@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Si vous êtes nouveau dans votre organisation et que vous souhaitez vous familiariser avec ce qui est en place grâce à une pratique de test et d’optimisation, cet article vous aidera à commencer. Nous allons commencer par un aperçu de la mise en œuvre et de la structure d’Adobe Target. Vous apprendrez à comprendre et à auditer la configuration de votre organisation. Enfin, nous discuterons des techniques de dépannage courantes et des conseils sur la création d’un référentiel de connaissances pour votre équipe.
 
-Adobe Target est un outil qui permet de tester et de cibler du contenu unique pour différents visiteurs. Pour obtenir un aperçu des fonctionnalités disponibles, [consultez ce guide](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en).
+Adobe Target est un outil qui permet de tester et de cibler du contenu unique pour différents visiteurs. Pour obtenir un aperçu des fonctionnalités disponibles, [consultez ce guide](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr).
 
 ## Implémentation et structure de Target
 
@@ -166,4 +166,4 @@ Les documents standard d’un référentiel de connaissances sont les suivants :
 
 Pour plus d’informations, consultez notre [webinaire](https://adobecustomersuccess.adobeconnect.com/p4p7xlp7dh42mp4/) avec Wilder Freed, consultant senior.
 
-Pour en savoir plus sur la stratégie et le leadership, consultez le hub [Succès client](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html).
+Pour en savoir plus sur la stratégie et le leadership, consultez le hub [Succès client](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=fr).

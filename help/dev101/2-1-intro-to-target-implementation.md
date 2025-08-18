@@ -32,5 +32,5 @@ Dans cette vidéo, vous apprendrez à :
 
 >[!VIDEO](https://video.tv.adobe.com/v/35139/?quality=12)
 
-Pour plus d’informations, consultez [Implémentation côté client](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank} ou [Implémentation côté serveur](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=fr){target=_blank} dans la *[!UICONTROL Adobe Target Developer Guide]*.
+Pour plus d’informations, consultez [Implémentation côté client](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=fr){target=_blank} ou [Implémentation côté serveur](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=fr){target=_blank} dans la *[!UICONTROL Adobe Target Developer Guide]*.
 

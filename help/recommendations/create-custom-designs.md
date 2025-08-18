@@ -36,4 +36,4 @@ Dans cette vidéo, vous apprendrez à :
 * [Comprendre les flux](understanding-feeds.md)
 * [Créer un flux](create-a-feed.md)
 * [Créer des critères](create-criteria.md)
-* [Documentation Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [Documentation Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=fr)

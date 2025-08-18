@@ -34,10 +34,10 @@ Dans cette vidéo, vous apprendrez à :
 ## Ressources supplémentaires
 
 * [Télécharger le manuel d’Experience Personalization](https://guided.adobe.com/?promoid=K42KVXHD&mv=other&search=personalization+playbook#recommended/solutions/target)
-* [Documentation sur le ciblage d’expérience](https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/experience-target.html?lang=en)
+* [Documentation sur le ciblage d’expérience](https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/experience-target.html?lang=fr)
 
 ## Autres fonctionnalités utilisées dans cette vidéo
 
-* [Documentation sur les audiences pour la création de rapports](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
-* [Documentation sur la création d’audiences](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
-* [Création d’expériences avec la documentation du compositeur d’expérience visuelle](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=en)
+* [Documentation sur les audiences pour la création de rapports](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=fr)
+* [Documentation sur la création d’audiences](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=fr)
+* [Création d’expériences avec la documentation du compositeur d’expérience visuelle](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=fr)

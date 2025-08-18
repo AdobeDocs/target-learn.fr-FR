@@ -120,4 +120,4 @@ Compte tenu de ce qui précède, Adobe vous recommande d’effectuer l’optimis
 
 Pour plus d’informations, consultez le [webinaire sur la compréhension et l’optimisation de votre implémentation d’Adobe Target](https://adobecustomersuccess.adobeconnect.com/pkfafpzd9yarmp4/) avec Katie Cozby, consultante commerciale.
 
-Pour en savoir plus sur la stratégie et le leadership, consultez le hub [Succès client](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html).
+Pour en savoir plus sur la stratégie et le leadership, consultez le hub [Succès client](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=fr).

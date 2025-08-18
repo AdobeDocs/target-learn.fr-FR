@@ -36,4 +36,4 @@ Dans cette vidéo, vous apprendrez à :
 * [Création d’une activité de recommandations](create-a-recommendations-activity.md)
 * [Comprendre les flux](understanding-feeds.md)
 * [Créer un flux](create-a-feed.md)
-* [Documentation Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [Documentation Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=fr)
