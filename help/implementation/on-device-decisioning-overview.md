@@ -33,7 +33,7 @@ La prise de décision sur l’appareil d’Adobe Target permet une diffusion de 
 * Décrire la prise de décision sur l’appareil et ses avantages
 * Activation de la prise de décision sur l’appareil dans Target
 * Créez une activité de compositeur basée sur des formulaires destinée à être utilisée avec la prise de décision sur l’appareil
-* Pour en savoir plus sur la configuration SDK requise pour la prise de décision sur l’appareil, consultez la [documentation d’Adobe Target SDK](https://experienceleague.adobe.com/fr/docs/target-dev/developer/server-side/on-device-decisioning/overview)
+* Pour en savoir plus sur la configuration SDK requise pour la prise de décision sur l’appareil, consultez la [documentation d’Adobe Target SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/on-device-decisioning/overview)
 * Comprendre ce que les utilisateurs finaux feront pour le contenu diffusé à l’aide de la prise de décision sur l’appareil
 
 ## Audience prévue

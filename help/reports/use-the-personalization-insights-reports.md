@@ -1,6 +1,6 @@
 ---
 title: Utilisation des rapports Personalization Insights
-description: Les activités Automated Personalization et de ciblage automatique utilisent l’apprentissage automatique avancé pour offrir à chaque visiteur l’expérience la plus personnalisée en fonction de son profil client et du comportement des visiteurs précédents dotés de profils similaires. Les rapports Personalization Insights fournissent des informations sur la manière dont ces modèles prennent leurs décisions.
+description: Les activités Automated Personalization et de ciblage automatique s’appuient sur un machine learning avancé pour offrir à chaque visiteur l’expérience la plus adaptée en fonction de son profil client individuel et du comportement des visiteurs précédents dotés de profils similaires. Les rapports Personalization Insights fournissent des informations sur la manière dont ces modèles prennent leurs décisions.
 role: User
 level: Intermediate
 topic: Personalization
@@ -19,10 +19,10 @@ ht-degree: 2%
 
 # Utilisation des rapports Personalization Insights
 
-Les activités Automated Personalization et de ciblage automatique utilisent l’apprentissage automatique avancé pour offrir à chaque visiteur l’expérience la plus personnalisée en fonction de son profil client et du comportement des visiteurs précédents dotés de profils similaires. Les rapports Personalization Insights fournissent des informations sur la manière dont ces modèles prennent leurs décisions.
+Les activités Automated Personalization et de ciblage automatique s’appuient sur un machine learning avancé pour offrir à chaque visiteur l’expérience la plus adaptée en fonction de son profil client individuel et du comportement des visiteurs précédents dotés de profils similaires. Les rapports Personalization Insights fournissent des informations sur la manière dont ces modèles prennent leurs décisions.
 
->[!VIDEO](https://video.tv.adobe.com/v/328088/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/25601/?quality=12)
 
 ## Informations supplémentaires
 
-* [Personalization Insights dans la documentation d’aide](https://experienceleague.adobe.com/docs/target/using/reports/insights/personalization-insights-reports.html?lang=fr)
+* [Personalization Insights dans la documentation d&#39;aide](https://experienceleague.adobe.com/docs/target/using/reports/insights/personalization-insights-reports.html?lang=en)

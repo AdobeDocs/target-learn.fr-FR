@@ -29,6 +29,6 @@ Dans cette vidéo, vous apprendrez à :
 
 * Développeurs et développeuses
 
->[!VIDEO](https://video.tv.adobe.com/v/3421749/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/35152/?quality=12)
 
-Pour plus d’informations, consultez la [ documentation ](https://experienceleague.adobe.com/docs/target/using/integrate/mmp.html?lang=fr).
+Pour plus d’informations, consultez la [ documentation ](https://experienceleague.adobe.com/docs/target/using/integrate/mmp.html?lang=en).

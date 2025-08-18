@@ -1,6 +1,6 @@
 ---
-title: Présentation des modèles d’implémentation
-description: Présentation des différents modèles de mise en oeuvre disponibles pour Adobe Target
+title: Modèles d’implémentation - Aperçu
+description: Présentation des différents modèles d’implémentation disponibles pour Adobe Target
 role: Developer, Architect
 level: Intermediate, Experienced
 feature: Implementation
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 ---
 
-# Présentation des modèles d’implémentation
+# Modèles d’implémentation - Aperçu
 
-Cette page contient un aperçu de tous les modèles disponibles.
+Cette page présente un aperçu de tous les modèles disponibles.

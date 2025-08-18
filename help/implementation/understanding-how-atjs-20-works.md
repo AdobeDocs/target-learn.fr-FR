@@ -51,7 +51,7 @@ ht-degree: 0%
 
 1. Le contenu ciblé est révélé le plus rapidement possible sans scintillement du contenu par défaut
 
-1. Une demande de notification est envoyée au [!UICONTROL Profile Store] [!DNL Target] pour comptabiliser le visiteur dans l’activité et incrémenter les mesures
+1. Une demande de notification est envoyée au [!DNL Target] [!UICONTROL Profile Store] pour comptabiliser le visiteur dans l’activité et incrémenter les mesures
 1. [!DNL Analytics] données sont envoyées de la SPA vers les serveurs [!UICONTROL Data Collection]
 
 1. [!DNL Target] données sont envoyées du serveur principal [!DNL Target] aux serveurs [!UICONTROL Data Collection]. [!DNL Target] données sont mises en correspondance avec les données [!DNL Analytics] via le SDID et sont traitées dans le stockage de rapports [!DNL Analytics]. [!DNL Analytics] données peuvent ensuite être affichées dans [!DNL Analytics] et [!DNL Target] via les rapports A4T.

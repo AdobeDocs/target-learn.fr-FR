@@ -27,7 +27,7 @@ Dans cette vidéo, vous apprendrez à :
 
 * Professionnel
 
->[!VIDEO](https://video.tv.adobe.com/v/33897?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27696?quality=12)
 
 ## Ressources supplémentaires
 
@@ -36,4 +36,4 @@ Dans cette vidéo, vous apprendrez à :
 * [Créer des critères](create-criteria.md)
 * [Création de conceptions personnalisées](create-custom-designs.md)
 * [Création de collections et d’exclusions](create-collections-and-exclusions.md)
-* [Documentation Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=fr)
+* [Documentation Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

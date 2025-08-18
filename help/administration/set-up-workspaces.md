@@ -25,4 +25,4 @@ Dans cette vidéo, vous apprendrez à :
 
 * Administrateur
 
->[!VIDEO](https://video.tv.adobe.com/v/3421731/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/19463/?quality=12)

@@ -27,7 +27,7 @@ Dans cette vidéo, vous apprendrez à :
 
 * Professionnel
 
->[!VIDEO](https://video.tv.adobe.com/v/29401?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)
 
 ## Ressources supplémentaires
 
@@ -36,4 +36,4 @@ Dans cette vidéo, vous apprendrez à :
 * [Création d’une activité de recommandations](create-a-recommendations-activity.md)
 * [Comprendre les flux](understanding-feeds.md)
 * [Créer un flux](create-a-feed.md)
-* [Documentation Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=fr)
+* [Documentation Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

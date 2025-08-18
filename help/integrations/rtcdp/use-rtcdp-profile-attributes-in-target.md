@@ -19,10 +19,10 @@ ht-degree: 0%
 
 # Utilisation des attributs de profil Real-Time CDP dans Adobe Target
 
-Découvrez comment utiliser les attributs de profil Adobe Real-Time Customer Data Platform dans Adobe Target pour offrir des expériences personnalisées sur votre site web et vos applications mobiles. Pour plus d’informations, voir [la documentation](https://experienceleague.adobe.com/docs/target/using/integrate/integrating-with-rtcdp.html?lang=fr).
+Découvrez comment utiliser les attributs de profil Adobe Real-Time Customer Data Platform dans Adobe Target pour offrir des expériences personnalisées sur votre site web et vos applications mobiles. Pour plus d’informations, voir [la documentation](https://experienceleague.adobe.com/docs/target/using/integrate/integrating-with-rtcdp.html).
 
->[!VIDEO](https://video.tv.adobe.com/v/3451895/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3419318/?learn=on)
 
 >[!CAUTION]
 >
->Les attributs de profil de plateforme peuvent être utilisés dans les conceptions Recommendations pour générer des valeurs d’attribut, mais ne peuvent pas être utilisés dans la logique ou les opérations Velocity.
+>Les attributs de profil Platform peuvent être utilisés dans les conceptions Recommendations pour générer des valeurs d’attribut, mais ne peuvent pas être utilisés dans la logique ou les opérations Velocity.

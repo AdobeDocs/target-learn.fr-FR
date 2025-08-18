@@ -28,7 +28,7 @@ Dans cette vidéo, vous apprendrez à :
 
 * Professionnel
 
->[!VIDEO](https://video.tv.adobe.com/v/29332?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27689?quality=12)
 
 ## Ressources supplémentaires
 
@@ -37,4 +37,4 @@ Dans cette vidéo, vous apprendrez à :
 * [Créer un flux](create-a-feed.md)
 * [Créer des critères](create-criteria.md)
 * [Création de conceptions personnalisées](create-custom-designs.md)
-* [Documentation Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=fr)
+* [Documentation Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

@@ -14,7 +14,7 @@ exl-id: 750fc1a2-ed15-45e8-9ad3-32049ca36ba8
 source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
 source-wordcount: '98'
-ht-degree: 38%
+ht-degree: 53%
 
 ---
 
@@ -34,4 +34,4 @@ Dans cette vidéo, vous apprendrez à :
 
 >[!VIDEO](https://video.tv.adobe.com/v/33753/?quality=12)
 
-Pour plus d’informations, consultez la [ documentation ](https://experienceleague.adobe.com/docs/target/using/administer/administrating-target.html?lang=fr).
+Pour plus d’informations, consultez la [ documentation ](https://experienceleague.adobe.com/docs/target/using/administer/administrating-target.html?lang=en).

@@ -29,15 +29,15 @@ Dans cette vidéo, vous apprendrez à :
 
 * Professionnels
 
->[!VIDEO](https://video.tv.adobe.com/v/38301?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/22418?quality=12)
 
 ## Ressources supplémentaires
 
-* [Télécharger le manuel d’Experience Personalization](https://guided.adobe.com/?promoid=K42KVXHD&amp;mv=other&amp;search=personalization+playbook#recommended/solutions/target)
-* [Documentation sur le ciblage d’expérience](https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/experience-target.html?lang=fr)
+* [Télécharger le manuel d’Experience Personalization](https://guided.adobe.com/?promoid=K42KVXHD&mv=other&search=personalization+playbook#recommended/solutions/target)
+* [Documentation sur le ciblage d’expérience](https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/experience-target.html?lang=en)
 
 ## Autres fonctionnalités utilisées dans cette vidéo
 
-* [Documentation sur les audiences pour la création de rapports](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=fr)
-* [Documentation sur la création d’audiences](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=fr)
-* [Création d’expériences avec la documentation du compositeur d’expérience visuelle](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=fr)
+* [Documentation sur les audiences pour la création de rapports](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
+* [Documentation sur la création d’audiences](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
+* [Création d’expériences avec la documentation du compositeur d’expérience visuelle](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=en)

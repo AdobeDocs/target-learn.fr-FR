@@ -1,6 +1,6 @@
 ---
-title: Téléchargement et mise à jour de l’application d’exemple We.Travel
-description: L’exemple d’application We.Travel est préimplémenté avec le SDK Mobile Services Adobe v4. Vous devez simplement le mettre à jour afin qu’il pointe vers vos propres comptes d’organisation Experience Cloud et de solution.
+title: Télécharger et mettre à jour l’exemple d’application We.Travel
+description: L’exemple d’application We.Travel est préimplémenté avec Adobe Mobile Services SDK v4. Il vous suffit de le mettre à jour pour qu’il pointe vers vos propres comptes d’organisation et de solution Experience Cloud.
 role: Developer
 level: Intermediate
 topic: Mobile, Personalization
@@ -15,51 +15,51 @@ ht-degree: 0%
 
 ---
 
-# Téléchargement et mise à jour de l’application d’exemple We.Travel
+# Télécharger et mettre à jour l’exemple d’application We.Travel
 
-L’exemple d’application We.Travel est préimplémenté avec le SDK Mobile Services Adobe v4. Il vous suffit de le mettre à jour afin qu’il pointe vers votre propre organisation Experience Cloud et vos propres comptes de solution.
+L’exemple d’application We.Travel est préimplémenté avec Adobe Mobile Services SDK v4. Il vous suffit de le mettre à jour, de sorte qu’il pointe vers vos propres comptes d’organisation et de solution Experience Cloud.
 
 ## Objectifs d’apprentissage
 
 À la fin de cette leçon, vous serez en mesure de :
 
-* Télécharger et ouvrir l’exemple d’application We.Travel dans Android Studio
-* Vérification et mise à jour des paramètres du SDK Mobile Services pour [!DNL Target]
+* Téléchargez et ouvrez l’exemple d’application We.Travel dans Android Studio
+* Vérifier et mettre à jour les paramètres SDK de Mobile Services pour [!DNL Target]
 
-## Téléchargement de l’application We.Travel
+## Télécharger l’application We.Travel
 
 * Téléchargez le fichier [sample-app-android-SDKv4-Base-Version.zip](assets/sample-app-android-SDKv4-Base-Version.zip)
 * Décompresser le fichier zip
-* Ouvrez l’application dans Android Studio en tant que projet existant (ignorez les erreurs concernant le &quot;mappage racine VCS non valide&quot;).
-* Exécutez l’application dans un émulateur pour confirmer que l’application est créée et que l’écran d’accueil s’affiche.
-* Parcourez l’application et vérifiez que vous pouvez terminer le processus de réservation (sélectionnez une option de paiement et appuyez simplement sur &quot;Continuer&quot; pour passer l’écran de facturation !)
+* Ouvrez l’application dans Android Studio en tant que projet existant (ignorez les erreurs relatives au « Mappage racine VCS non valide »).
+* Exécutez l’application dans un émulateur pour confirmer que l’application se crée et que vous pouvez voir l’écran d’accueil
+* Parcourez l&#39;application et vérifiez que vous pouvez terminer le processus de réservation (sélectionnez n&#39;importe quelle option de paiement et appuyez simplement sur « Continuer » pour passer sur l&#39;écran de facturation !)
 
-  ![ Ouvrez l’application ](assets/wetravel_homeScreen.png)![Ecran de confirmation](assets/wetravel_confirmationScreen.png)
+  ![Ouvrir l’écran ](assets/wetravel_homeScreen.png)![ confirmation de l’application](assets/wetravel_confirmationScreen.png)
 
-## Vérification et mise à jour des paramètres du SDK Mobile Services pour [!DNL Target]
+## Vérifier et mettre à jour les paramètres SDK de Mobile Services pour [!DNL Target]
 
-Le SDK Mobile Services Adobe a été préinstallé dans l’application We.Travel [, conformément à la documentation ](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=fr). Vous allez maintenant mettre à jour l&#39;installation pour pointer vers votre propre compte [!DNL Target].
+Le SDK Adobe Mobile Services a été préinstallé dans l’application We.Travel [conformément à la documentation](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=en). Vous allez maintenant mettre à jour l’installation pour pointer vers votre propre compte [!DNL Target].
 
-Tout d’abord, créez une application dans l’interface utilisateur de Mobile Services :
+Créez tout d’abord une application dans l’interface utilisateur de Mobile Services :
 
-1. Connectez-vous à l’ [interface Adobe Mobile Services](https://mobilemarketing.adobe.com/).
-1. Accédez à [!UICONTROL Manage Apps], puis cliquez sur **[!UICONTROL Add]** pour ajouter une nouvelle application à utiliser avec ce tutoriel (**[!UICONTROL Manage Apps]** > **[!UICONTROL Add]**).
-1. Choisissez une suite de rapports Analytics avec des données hors production, attribuez un nom à l’application, sélectionnez le type **[!UICONTROL Standard]** et cliquez sur **[!UICONTROL Save]**.
-1. Une fois l’application ajoutée, ajoutez votre code client [!DNL Target] sur l’écran suivant de la section [!UICONTROL SDK Target Options] (vous trouverez votre code client dans l’interface [!DNL Target] sous **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit Settings]**, en regard du bouton Télécharger `at.js` ).
-1. Le paramètre [!UICONTROL Request Timeout] détermine la durée pendant laquelle l’application attend la réponse du serveur [!DNL Target] avant d’exécuter les instructions d’expiration. Laissez simplement le paramètre par défaut.
-1. Activez le [!UICONTROL Visitor ID Service] et assurez-vous que votre [!UICONTROL Organization] est sélectionné dans la liste déroulante.
-1. Enregistrez vos modifications en cliquant sur **[!UICONTROL Save]** dans le coin supérieur droit de la fenêtre (et non sur celui des options [!UICONTROL Universal Links], [!UICONTROL App Links] ou [!UICONTROL Push Services] ).
-1. Accédez à la section Téléchargements du SDK de l’application au bas de la page et téléchargez le fichier de configuration :
+1. Connectez-vous à l’interface [Adobe Mobile Services](https://mobilemarketing.adobe.com/).
+1. Accédez à la [!UICONTROL Manage Apps], puis cliquez sur **[!UICONTROL Add]** pour ajouter une nouvelle application à utiliser avec ce tutoriel (**[!UICONTROL Manage Apps]** > **[!UICONTROL Add]**).
+1. Choisissez une suite de rapports Analytics avec des données hors production, attribuez un nom à l’application, sélectionnez le type de **[!UICONTROL Standard]** et cliquez sur **[!UICONTROL Save]**.
+1. Une fois l’application ajoutée, ajoutez votre code client [!DNL Target] à l’écran suivant de la section [!UICONTROL SDK Target Options] (vous pouvez trouver votre code client dans l’interface [!DNL Target] sous **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit Settings]**, en regard du bouton Télécharger le `at.js` ).
+1. Le paramètre [!UICONTROL Request Timeout] détermine la durée pendant laquelle l’application attend la réponse du serveur [!DNL Target] avant d’exécuter les instructions de temporisation. Laissez simplement le paramètre par défaut.
+1. Activez la [!UICONTROL Visitor ID Service] et assurez-vous que la [!UICONTROL Organization] est sélectionnée dans la liste déroulante.
+1. Enregistrez vos modifications en cliquant sur **[!UICONTROL Save]** en haut à droite de la fenêtre (et non sur celle de la section [!UICONTROL Universal Links], Options de [!UICONTROL App Links] ou [!UICONTROL Push Services] ).
+1. Faites défiler jusqu’à la section Téléchargements d’App SDK au bas de la page et téléchargez le fichier de configuration :
 
    ![Télécharger le fichier de configuration](assets/config_file.jpg)
 
-1. Remplacez le fichier `ADBMobileConfig.json` dans le dossier des ressources de votre projet Android Studio (application > src > main > ressources).
+1. Remplacez le fichier `ADBMobileConfig.json` dans le dossier des ressources du projet Android Studio (app > src > main > assets).
 
-1. Ouvrez maintenant le fichier `ADBMobileConfig.json` et assurez-vous qu’il contient les modifications attendues, telles que votre code client [!DNL Target] et vos détails Analytics :
+1. Ouvrez maintenant le fichier `ADBMobileConfig.json` et assurez-vous qu’il contient les modifications attendues telles que votre code client [!DNL Target] et vos détails Analytics :
    ![Télécharger le fichier de configuration](assets/client_code.jpg)
 
-Si vos paramètres ne s’affichent pas, vérifiez que vous avez cliqué sur le bouton **[!UICONTROL Save]** approprié dans l’interface [!UICONTROL Mobile Services] et que vous avez copié le fichier à l’emplacement correct.
+Si vos paramètres ne s’affichent pas, vérifiez que vous avez cliqué sur le bouton droit de la **[!UICONTROL Save]** dans l’interface [!UICONTROL Mobile Services] et que vous avez copié le fichier à l’emplacement approprié.
 
-Félicitations ! Vous avez mis à jour le SDK avec les détails de votre compte [!DNL Target] ! Nous allons effectuer une validation supplémentaire de la configuration après avoir ajouté [!DNL Target] requêtes dans la leçon suivante.
+Félicitations ! Vous avez mis à jour le SDK avec les détails de votre compte [!DNL Target]. Nous effectuerons une validation supplémentaire de la configuration après avoir ajouté [!DNL Target] requêtes dans la leçon suivante.
 
-**[NEXT : &quot;Ajouter des requêtes Target&quot; >](add-requests.md)**
+**[NEXT : « Ajouter des requêtes Target » >](add-requests.md)**

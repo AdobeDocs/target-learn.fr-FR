@@ -31,10 +31,10 @@ Dans cette vidéo, vous apprendrez à :
 
 * Professionnel
 
->[!VIDEO](https://video.tv.adobe.com/v/328089/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/23218/?quality=12)
 
 ## Ressources supplémentaires
 
-* [Créer une audience de comparaison d’attributs de profil](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=fr)
-* [Création d’audiences](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=fr)
+* [Créer une audience de comparaison d’attributs de profil](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=en)
+* [Création d’audiences](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=en)
 * [Vidéo Créer Des Activités De Ciblage D’Expérience](../activities/create-experience-targeting-activities.md)

@@ -28,5 +28,5 @@ Les offres Recommendations peuvent être utilisées avec les activités de test 
 
 ## Ressources supplémentaires
 
-* [Documentation Recommendations en tant qu’offre](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-as-an-offer.html?lang=fr)
+* [Documentation Recommendations en tant qu’offre](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-as-an-offer.html?lang=en)
 * [Vidéo Créer une activité Recommendations](create-a-recommendations-activity.md)

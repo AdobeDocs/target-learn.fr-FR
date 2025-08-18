@@ -1,6 +1,6 @@
 ---
-title: Optimisation de la mise en oeuvre Adobe Target
-description: Obtenez un aperçu de la mise en oeuvre et de la structure d’Adobe Target. Découvrez comment comprendre et contrôler la configuration de votre organisation. Découvrez les techniques de dépannage courantes et des conseils sur la création d’un référentiel de connaissances pour votre équipe.
+title: Optimisation de votre implémentation Adobe Target
+description: Obtenez un aperçu de l’implémentation et de la structure d’Adobe Target. Découvrez comment comprendre et auditer la configuration de votre organisation. Découvrez les techniques de dépannage courantes et des conseils pour créer un référentiel de connaissances pour votre équipe.
 solution: Target
 feature: Overview
 role: Leader, User
@@ -12,158 +12,158 @@ ht-degree: 0%
 
 ---
 
-# Optimisation de la mise en oeuvre Adobe Target
+# Optimisation de votre implémentation Adobe Target
 
-Si vous découvrez votre entreprise et que vous souhaitez vous familiariser avec ce qui est en place à partir d’une pratique de test et d’optimisation, cet article vous aide à démarrer. Nous commencerons par une présentation de la mise en oeuvre et de la structure d’Adobe Target. Vous apprendrez à comprendre et à contrôler la configuration de votre organisation. Enfin, nous discuterons des techniques de dépannage courantes et des conseils sur la création d’un référentiel de connaissances pour votre équipe.
+Si vous êtes nouveau dans votre organisation et que vous souhaitez vous familiariser avec ce qui est en place grâce à une pratique de test et d’optimisation, cet article vous aidera à commencer. Nous allons commencer par un aperçu de la mise en œuvre et de la structure d’Adobe Target. Vous apprendrez à comprendre et à auditer la configuration de votre organisation. Enfin, nous discuterons des techniques de dépannage courantes et des conseils sur la création d’un référentiel de connaissances pour votre équipe.
 
-Adobe Target est un outil qui permet de tester et de cibler du contenu unique pour différents visiteurs. Pour un aperçu des fonctionnalités disponibles, [consultez ce guide](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr).
+Adobe Target est un outil qui permet de tester et de cibler du contenu unique pour différents visiteurs. Pour obtenir un aperçu des fonctionnalités disponibles, [consultez ce guide](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en).
 
 ## Implémentation et structure de Target
 
-Avant de passer au processus de mise en oeuvre d’Adobe Target ou à sa structure, il est utile de commencer par comprendre quelques principes de base du logiciel.
+Avant d’aborder le processus de mise en œuvre ou la structure d’Adobe Target, il est utile de comprendre certains principes de base du logiciel.
 
-Adobe Target est un outil qui permet de tester et de cibler du contenu unique pour différents visiteurs sans modifier le code natif du site web. Target modifie temporairement l’expérience de l’utilisateur final et suit le comportement des utilisateurs après avoir vu la modification. Target offre également la possibilité de modifier l’expérience pour les utilisateurs finaux en fonction des informations de profil ou des actions précédentes.
+Adobe Target est un outil qui permet de tester et de cibler du contenu unique pour différents visiteurs sans modifier le code natif du site web. Target modifie temporairement l’expérience de l’utilisateur final et suit le comportement des utilisateurs après avoir constaté la modification. Target offre également la possibilité de modifier l’expérience des utilisateurs finaux en fonction des informations de profil ou d’actions précédentes.
 
-Il existe trois types d’activité fondamentaux de Target :
+Il existe trois types d’activités fondamentales de Target :
 
 1. Test A/B
-2. Test multivarié (MVT)
+2. Multivariate testing (MVT)
 3. Test d’expérience
 
-**Le test A/B** compare plusieurs expériences afin de déterminer celle qui améliore le mieux les conversions tout au long d’une période de test prédéfinie. Le test A/B est une expérience hautement contrôlée avec des mesures de trafic, fractionnées en pourcentages plutôt qu’en règles, qui vous permet d’effectuer les opérations suivantes :
+Le **test A/B** compare plusieurs expériences afin de déterminer celle qui améliore le mieux les conversions au cours d’une période de test prédéfinie. Le test A/B est une expérience hautement contrôlée avec des mesures de trafic, divisées par des pourcentages plutôt que par une règle, ce qui vous permet d’effectuer les opérations suivantes :
 
 * pour analyser les données de test.
 * pour obtenir des informations sur votre audience.
 * pour déterminer l’expérience la plus performante.
 
-Le **test multivarié** (MVT) compare des combinaisons d’offres parmi les éléments d’une page afin de déterminer la combinaison offrant les meilleures performances pour une audience spécifique. Ce test identifie également l’élément de la page qui améliore le mieux les conversions tout au long d’une période de test prédéfinie. MVT fournit :
+Le **test multivarié** (MVT) compare les combinaisons d’offres entre les éléments d’une page afin de déterminer la combinaison la plus performante pour une audience spécifique. Ce test identifie également l’élément de la page qui améliore le mieux les conversions tout au long d’une période de test prédéfinie. MVT offre les avantages suivants :
 
-* Une façon d’afficher plusieurs offres dans plusieurs éléments.
-* Méthode permettant de tester l’expérience unique résultante par rapport à un objectif spécifique.
-* Identifier les éléments qui ont le plus d’impact négatif ou positif sur les interactions des visiteurs.
+* Méthode d’affichage de plusieurs offres dans plusieurs éléments.
+* Méthode permettant de tester l’expérience unique obtenue par rapport à un objectif spécifique.
+* Insight sur les éléments qui ont l’impact négatif ou positif le plus important sur les interactions des visiteurs.
 
-**Le** (ciblage d’expérience) diffuse du contenu à une audience spécifique selon un ensemble de règles et de critères définis par le marketeur. Cette méthode permet de cibler du contenu spécifique sur une audience spécifique en fonction d’un ensemble de règles d’attribution définies.
+Le **test d’expérience** (ciblage d’expérience) diffuse du contenu à une audience spécifique selon un ensemble de règles et de critères définis par les responsables marketing. Cette méthode permet de cibler un contenu spécifique vers une audience spécifique en fonction d’un ensemble de règles d’attribution définies.
 
-Comment Target fonctionne-t-il ?
+Comment fonctionne Target ?
 
-Voici un exemple général du fonctionnement de Target :
+Voici un exemple détaillé du fonctionnement de Target :
 
-1. Un visiteur demande une page à votre serveur et elle s’affiche dans le navigateur.
+1. Un visiteur demande une page à votre serveur et l’affiche dans le navigateur.
 1. Un cookie propriétaire est défini dans le navigateur du visiteur pour stocker le comportement.
 1. La page appelle ensuite Adobe Target.
 1. Le contenu s’affiche en fonction des règles de l’activité de l’utilisateur.
-1. Adobe Target capture des mesures spécifiques telles que définies dans la configuration de l’activité pour évaluer l’impact des expériences de test.
+1. Adobe Target capture les mesures spécifiques définies dans la configuration des activités afin d’évaluer l’impact des expériences de test.
 
-Target est basé sur une &quot;mbox globale&quot; qui permet d’avoir un impact sur n’importe quel élément de la page. Cette fonctionnalité est déployée au chargement de la page sous la forme d’un lien codé en dur vers le fichier at.js ou elle est diffusée à l’aide d’un gestionnaire de balises comme Adobe Launch.
+Target repose sur une « mbox globale » qui permet d’agir sur tout ce qui se trouve sur la page. Cette fonctionnalité se déploie au chargement de la page, soit sous la forme d’un lien codé en dur vers le fichier at.js, soit à l’aide d’un gestionnaire de balises comme Adobe Launch.
 
-## Présentation de votre implémentation actuelle
+## Comprendre votre implémentation actuelle
 
-Pour comprendre votre mise en oeuvre actuelle, Adobe vous recommande de passer en revue votre mise en oeuvre de l’interface utilisateur Target, ainsi que votre mise en oeuvre de Tag Manager et de Page Load.
+Pour comprendre votre implémentation actuelle, Adobe vous recommande de passer en revue votre implémentation de l’interface utilisateur de Target, ainsi que votre implémentation du gestionnaire de balises et du chargement de page.
 
-**Pour passer en revue votre [!DNL Target] interface utilisateur :**
+**Pour passer en revue votre interface utilisateur [!DNL Target], procédez comme suit**
 
-1. Commencez votre révision dans l’interface utilisateur de [!DNL Target] :
+1. Commencez votre examen sur l’interface utilisateur de [!DNL Target] :
 
-   * Examinez la pile de technologie [!DNL Target]
-   * Confirmation des fonctionnalités disponibles
-   * Identifier l’emplacement du déploiement actif
+   * Examen de la pile technologique [!DNL Target]
+   * Confirmer les fonctionnalités disponibles
+   * Identifier l’emplacement du déploiement
 
 1. Examinez les activités pour connaître les bonnes pratiques :
 
-   * Vérifier les campagnes historiques pour la maturité du programme
+   * Vérifier l’historique des campagnes pour la maturité du programme
 
 1. Désactiver les anciennes activités :
 
-   * Archivage et nettoyage d’une ressource [!DNL Target] qui n’a plus d’utilisation actuelle ou future
+   * Archiver et nettoyer [!DNL Target] ressource qui n’est plus utilisée actuellement ou ultérieurement
 
-1. Examinez les audiences.
+1. Vérifier les audiences.
 
 1. Examinez les définitions d’environnement et les domaines associés.
 
 1. Vérifier les scripts de profil pour l’applicabilité
 
-   * Tous les scripts de profil sont exécutés à chaque appel cible
-   * Conserver l’efficacité des appels en supprimant les scripts non applicables
+   * Tous les scripts de profil s’exécutent sur chaque appel Target
+   * Maintenir l’efficacité des appels en supprimant les scripts non applicables
 
-Pour examiner le gestionnaire de balises et le chargement de page :
+Pour passer en revue le gestionnaire de balises et le chargement de page :
 
-1. Confirmez ce qui suit dans le gestionnaire de balises :
+1. Confirmez les points suivants dans le gestionnaire de balises :
 
-   * Déploiement du code JavaScript [!DNL Target] attendu
-   * Solution de masquage du contenu appropriée
-   * Définissez les règles nécessaires pour remplir les appels [!DNL Target] avec les paramètres attendus.
+   * Le déploiement du code JavaScript [!DNL Target] attendu
+   * La solution de masquage de contenu appropriée
+   * Définissez les règles nécessaires pour renseigner les appels [!DNL Target] avec les paramètres attendus
 
-1. Confirmez ce qui suit au chargement de la page :
+1. Confirmez ce qui suit lors du chargement de la page :
 
-   * Correspondance de numéros de version pour l’URL de requête et l’URL de requête [!DNL Target]
-   * Valeur Experience Cloud ID renseignée (Cloud Body)
-   * Présenter les valeurs d’intégration attendues (Cloud Body)
-   * Paramètres renseignés [!DNL Target] sur les pages appropriées
+   * Correspondance des numéros de version de l’URL de requête et de l’URL de requête [!DNL Target]
+   * Valeur d’ID Experience Cloud renseignée (corps du cloud)
+   * Présenter les valeurs d’intégration attendues (corps du cloud)
+   * Paramètres de [!DNL Target] renseignés sur les pages appropriées
 
-## [!DNL Target] activités d’audit
+## [!DNL Target] les activités d’audit
 
-Pour éviter de parcourir manuellement chaque page pour contrôler les activités [!DNL Target], utilisez Adobe Auditor afin de vous aider à comprendre l’état technique actuel de votre mise en oeuvre. Adobe Auditor est optimisé par ObservePoint et peut être configuré pour s’exécuter manuellement afin d’identifier les problèmes de mise en oeuvre de haut niveau sur votre site.
+Pour éviter de parcourir manuellement chaque page pour auditer [!DNL Target] activités, utilisez l’auditeur Adobe pour mieux comprendre l’état technique actuel de votre implémentation. Adobe Auditor est optimisé par ObservePoint et peut être configuré pour s’exécuter manuellement, afin d’identifier les problèmes d’implémentation de haut niveau sur votre site.
 
-Adobe Auditor fournit les informations suivantes :
+Adobe Auditor fournit les éléments suivants :
 
-* Un haut niveau de santé
-* Appels rapides pour les problèmes de mise en oeuvre
+* Une intégrité élevée du site
+* Appels rapides pour les problèmes d’implémentation
 
 Adobe recommande d’effectuer des audits manuels mensuels pour :
 
 * Identification des pages non balisées
 * Identification des versions incohérentes
-* Découvrez les versions obsolètes
+* Découvrir les versions obsolètes
 * Fournir des informations détaillées qui peuvent être exportées
 
 ## Résolution des problèmes courants
 
 >[!NOTE]
 >
->Adobe recommande d’installer l’Adobe Experience Platform Debugger.
+>Adobe recommande d’installer Adobe Experience Platform Debugger.
 
-Vous trouverez ci-dessous des conseils généraux de dépannage lors de la saisie de l’expérience :
+Voici des conseils de dépannage généraux pour accéder à l’expérience :
 
 ### Cache et cookies**
 
 * Effacement du cache et des cookies
-* Faites attention en utilisant le mode privé (par exemple : le mode privé dans Firefox peut bloquer [!DNL Target]).
+* Faites attention en utilisant le mode privé (par exemple : le mode privé dans Firefox peut bloquer [!DNL Target])
 
-### Êtes-vous qualifié pour l’activité ?
+### Êtes-vous qualifié pour l&#39;activité ?
 
-* Vérifiez que vous avez effectué les mêmes étapes que l’audience utilisée dans l’activité.
-* Utiliser `mboxTrace` ou des jetons de réponse pour vérifier les valeurs de profil et de segment
+* Vérifiez que vous avez effectué les mêmes étapes que l’audience utilisée dans l’activité
+* Utilisez des jetons de `mboxTrace` ou de réponse pour vérifier les valeurs de profil et de segment.
 
-### Conseils de dépannage généraux lors de la validation visuelle/fonctionnelle
+### Conseils généraux de dépannage lors de la validation visuelle/fonctionnelle
 
-Si se trouve dans l’expérience [!DNL Target] et que vous ne voyez pas l’expérience visuelle attendue :
+Si vous êtes dans l’expérience [!DNL Target] et que vous ne voyez pas l’expérience visuelle attendue :
 
 Vérifiez la réponse [!DNL Target] :
 
 * Si le code n’est pas exécuté :
 
 1. Vérifier les activités en conflit
-1. Contacter le service à la clientèle
+1. Contactez l’assistance clientèle
 
 * Si le code est exécuté :
 
 1. Retravailler le code dans ce scénario
 
-## Maintenance d&#39;un référentiel de connaissances
+## Gestion d’un référentiel de connaissances
 
-Un référentiel de connaissances est une plateforme en ligne utilisée pour documenter et partager des informations. Le référentiel de connaissances contient des informations spécifiques à votre mise en oeuvre et peut contenir des informations spécifiques à l’équipe.
+Un référentiel de connaissances est une plateforme en ligne utilisée pour documenter et partager des informations. Le référentiel de connaissances contient des informations spécifiques à votre implémentation et peut également contenir des informations spécifiques à l’équipe.
 
-Idéalement, le référentiel doit permettre la modification et l’enregistrement automatique dans la plateforme. Une fois paramétré initialement, il est facile de le gérer et de le tenir à jour. Le contenu du référentiel de connaissances est traité en fonction des rôles utilisateur.
+Idéalement, le référentiel doit permettre la modification et l’enregistrement automatique dans la plateforme. Une fois qu’il a été initialement configuré, il est facile de le gérer et de le tenir à jour. Le contenu du référentiel de connaissances est traité en fonction des rôles utilisateur.
 
 Les documents standard d’un référentiel de connaissances sont les suivants :
 
-* **Document de présentation** : document utilisé pour expliquer clairement les objectifs, les objectifs, les processus et la structure du programme.
-* **Référentiel d’idées** : document utilisé pour gérer et classer par priorité les idées potentielles qui ne sont pas prêtes pour le processus de test.
-* **Feuille de route du programme** : document utilisé pour gérer tous les aspects des activités de test une fois que les idées sont prêtes à démarrer le processus de test.
-* **Document de plan d’activité** : document utilisé pour décrire les informations nécessaires à la création et au lancement des activités
-* **Document de plan d’activité** : document utilisé pour communiquer les résultats et les étapes suivantes recommandées aux parties prenantes
-* **Tableau de bord du programme** : document utilisé pour effectuer le suivi des performances, de la cadence et des recettes du programme au fil du temps.
+* **Document de présentation** - document utilisé pour expliquer clairement les buts, les objectifs, les processus et la structure du programme
+* **Référentiel d’idées** - document utilisé pour gérer et classer par priorité les idées potentielles qui ne sont pas prêtes pour le processus de test.
+* **Feuille de route du programme** - Document utilisé pour gérer tous les aspects des activités de test une fois que les idées sont prêtes à démarrer le processus de test
+* **Document du plan d’activité** - document utilisé pour décrire les informations nécessaires à la création et au lancement d’activités.
+* **Document du plan d’activité** - document utilisé pour communiquer les résultats et les étapes suivantes recommandées aux parties prenantes.
+* **Tableau de bord du programme** - Document utilisé pour effectuer le suivi des performances, du rythme et des bénéfices du programme au fil du temps.
 
-Pour plus d’informations, consultez notre [webinaire](https://adobecustomersuccess.adobeconnect.com/p4p7xlp7dh42mp4/) avec Wilder Freed, consultant principal.
+Pour plus d’informations, consultez notre [webinaire](https://adobecustomersuccess.adobeconnect.com/p4p7xlp7dh42mp4/) avec Wilder Freed, consultant senior.
 
-Pour en savoir plus sur la stratégie et le leadership de la pensée, rendez-vous sur le [hub Customer Success](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=fr).
+Pour en savoir plus sur la stratégie et le leadership, consultez le hub [Succès client](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html).

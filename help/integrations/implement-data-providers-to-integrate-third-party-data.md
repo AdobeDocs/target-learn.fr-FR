@@ -1,6 +1,6 @@
 ---
-title: Comment mettre en oeuvre des fournisseurs de données pour intégrer des données tierces
-description: Ce tutoriel fournit des détails de mise en oeuvre et des exemples d’utilisation de la fonction Fournisseurs de données Adobe Target pour récupérer les données de fournisseurs de données tiers et les transmettre dans la requête Target.
+title: Mise en œuvre des fournisseurs de données pour intégrer des données tierces
+description: Ce tutoriel fournit des détails d’implémentation et des exemples d’utilisation de la fonctionnalité des fournisseurs de données d’Adobe Target pour récupérer des données de fournisseurs de données tiers et les transmettre dans la requête Target.
 role: Developer
 level: Experienced
 topic: Personalization, Integrations
@@ -16,46 +16,46 @@ ht-degree: 0%
 
 ---
 
-# Mise en oeuvre de [!UICONTROL Data Providers] pour intégrer des données tierces dans Adobe Target
+# Implémenter des [!UICONTROL Data Providers] pour intégrer des données tierces dans Adobe Target
 
-Détails de mise en oeuvre et exemples d’utilisation de la fonctionnalité Adobe Target [!UICONTROL Data Providers] pour récupérer des données de fournisseurs de données tiers et les transmettre dans la requête Target.
+Détails d’implémentation et exemples d’utilisation de la fonction [!UICONTROL Data Providers] d’Adobe Target pour récupérer des données à partir de fournisseurs de données tiers et les transmettre dans la requête Target.
 
 >[!NOTE]
 >
->[!UICONTROL Data Providers] nécessite `at.js` 1.3 ou version ultérieure
+>[!UICONTROL Data Providers] nécessite `at.js` 1.3 ou une version ultérieure
 
-## Mise en oeuvre des composants de base des fournisseurs de données
+## Implémentation des composants de base des fournisseurs de données
 
->[!VIDEO](https://video.tv.adobe.com/v/33871/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/22348/?quality=12)
 
-Aperçu rapide des composants de base d’un `dataProvider` et comment obtenir votre code dans le bon ordre.\
-Vous trouverez ici un exemple pratique avec le code utilisé dans la vidéo :
+Aperçu rapide des composants de base d’un `dataProvider` et de la manière d’obtenir votre code dans le bon ordre.\
+Un exemple de travail avec le code utilisé dans la vidéo se trouve ici :
 [https://target.enablementadobe.com/data-providers/simple.html](https://target.enablementadobe.com/data-providers/simple.html)
 
 ## Intégration à une API tierce
 
->[!VIDEO](https://video.tv.adobe.com/v/33857?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/22345/)
 
-Exemple plus réaliste, l’intégration d’une API météorologique.\
-Vous trouverez ici un exemple pratique avec le code utilisé dans la vidéo :
+Exemple plus réaliste, l’intégration d’une API de météo.\
+Un exemple de travail avec le code utilisé dans la vidéo se trouve ici :
 [https://target.enablementadobe.com/data-providers/3rdparty.html](https://target.enablementadobe.com/data-providers/3rdparty.html)
 
 ## Intégration à plusieurs fournisseurs
 
->[!VIDEO](https://video.tv.adobe.com/v/36722?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/22346/)
 
-Comment incorporer des données de plusieurs fournisseurs dans votre requête [!DNL Target] globale.\
-Vous trouverez ici un exemple pratique avec le code utilisé dans la vidéo :
+Comment incorporer des données provenant de plusieurs fournisseurs dans votre requête [!DNL Target] globale.\
+Un exemple de travail avec le code utilisé dans la vidéo se trouve ici :
 [https://target.enablementadobe.com/data-providers/combined.html](https://target.enablementadobe.com/data-providers/combined.html)
 
-## Minimisation de l’impact de chargement de page
+## Réduire l’impact du chargement de page
 
->[!VIDEO](https://video.tv.adobe.com/v/36723?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/22347/)
 
-Réduisez l’impact sur le délai de chargement des pages en stockant les données dans un objet de stockage de session. Vous pouvez également transmettre les valeurs en tant que paramètres de profil à l’aide du préfixe `profile.` et simplement les transmettre dans la première requête [!DNL Target] de la session. Cependant, vous êtes limité à la transmission de cinquante paramètres de profil par requête.
+Réduisez l’impact sur le temps de chargement de la page en stockant les données dans un objet de stockage de session. Vous pouvez également transmettre les valeurs en tant que paramètres de profil à l’aide du préfixe `profile.`, et simplement les transmettre dans la première requête [!DNL Target] de la session. Cependant, vous seriez limité à transmettre cinquante paramètres de profil par requête.
 
-Vous trouverez un exemple de travail avec le code utilisé dans la vidéo ici : [https://target.enablementadobe.com/data-providers/reducedCalls.html](https://target.enablementadobe.com/data-providers/reducedCalls.html)
+Un exemple de travail avec le code utilisé dans la vidéo se trouve ici : [https://target.enablementadobe.com/data-providers/reducedCalls.html](https://target.enablementadobe.com/data-providers/reducedCalls.html)
 
 ## Documents annexes
 
-* [ Utilisation des fournisseurs de données avec Adobe Target](use-data-providers-to-integrate-third-party-data.md)
+* [Utilisation des fournisseurs de données avec Adobe Target](use-data-providers-to-integrate-third-party-data.md)

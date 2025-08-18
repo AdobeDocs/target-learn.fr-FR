@@ -1,6 +1,6 @@
 ---
-title: Résolution des problèmes liés aux traces de Target
-description: Le débogueur Adobe Experience Cloud vous permet de comprendre rapidement et facilement votre implémentation Target. Découvrez comment vous authentifier dans l’Experience Cloud et utiliser le puissant outil Target Traces pour examiner les qualifications de votre activité et de votre audience, ainsi que votre profil de visiteur.
+title: Dépannage avec Target Traces
+description: Le débogueur Adobe Experience Cloud vous permet de comprendre rapidement et facilement votre implémentation Target. Découvrez comment vous authentifier dans Experience Cloud et utiliser le puissant outil Target Traces pour inspecter vos qualifications d’activité et d’audience ainsi que votre profil de visiteur.
 role: User
 level: Intermediate
 topic: Personalization, Performance
@@ -16,8 +16,8 @@ ht-degree: 30%
 
 ---
 
-# Résolution des problèmes liés aux traces de Target
+# Résolution des problèmes liés à Target Traces
 
 ## Mbox Trace
 
->[!VIDEO](https://video.tv.adobe.com/v/33895/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/23113/?quality=12)

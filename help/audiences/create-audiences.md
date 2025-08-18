@@ -1,6 +1,6 @@
 ---
 title: Créer des audiences
-description: Découvrez comment créer et enregistrer des audiences personnalisées dans Target à utiliser dans vos activités.
+description: Découvrez comment créer et enregistrer des audiences personnalisées dans Target pour les utiliser dans vos activités.
 feature: Audiences
 topic: Personalization
 role: User
@@ -18,6 +18,6 @@ ht-degree: 12%
 
 # Créer des audiences
 
-Découvrez comment créer et enregistrer des audiences personnalisées dans [!DNL Target] à utiliser dans vos activités.
+Découvrez comment créer et enregistrer des audiences personnalisées dans [!DNL Target] pour les utiliser dans vos activités.
 
->[!VIDEO](https://video.tv.adobe.com/v/3411154/?quality=12&learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/344302/?quality=12&learn=on)
