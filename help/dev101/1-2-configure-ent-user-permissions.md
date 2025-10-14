@@ -32,4 +32,4 @@ Dans cette vidéo, vous apprendrez à :
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421782/?quality=12&captions=fre_fr)
 
-Pour plus d’informations, consultez la [ documentation ](https://experienceleague.adobe.com/docs/target/using/administer/administrating-target.html?lang=fr).
+Pour plus d’informations, consultez la [&#x200B; documentation &#x200B;](https://experienceleague.adobe.com/docs/target/using/administer/administrating-target.html?lang=fr).

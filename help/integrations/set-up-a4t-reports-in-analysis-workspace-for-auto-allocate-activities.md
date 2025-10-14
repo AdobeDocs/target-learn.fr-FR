@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Configurer des rapports A4T dans [!DNL Analysis Workspace] pour les activités [!DNL Auto-Allocate]
 
-Une activité [[!UICONTROL Auto-Allocate] ](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=fr){target=_blank} dans [!DNL Adobe Target] identifie un gagnant parmi plusieurs expériences et réaffecte automatiquement le trafic des visiteurs au gagnant pendant que le test continue à s’exécuter et à apprendre. L’intégration [!UICONTROL Analytics for Target] (A4T) d’[!UICONTROL Auto-Allocate] vous permet d’afficher les données de rapports dans [!DNL Adobe Analytics] et d’optimiser les événements ou mesures personnalisés définis dans [!DNL Analytics].
+Une activité [[!UICONTROL Auto-Allocate] &#x200B;](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=fr){target=_blank} dans [!DNL Adobe Target] identifie un gagnant parmi plusieurs expériences et réaffecte automatiquement le trafic des visiteurs au gagnant pendant que le test continue à s’exécuter et à apprendre. L’intégration [!UICONTROL Analytics for Target] (A4T) d’[!UICONTROL Auto-Allocate] vous permet d’afficher les données de rapports dans [!DNL Adobe Analytics] et d’optimiser les événements ou mesures personnalisés définis dans [!DNL Analytics].
 
 Bien que des fonctionnalités d’analyse riches soient disponibles dans [!DNL Adobe Analytics] [!DNL Analysis Workspace], quelques modifications apportées au panneau de [!UICONTROL Analytics for Target] par défaut peuvent être nécessaires pour interpréter correctement les activités [!UICONTROL Auto-Allocate]. Ces modifications sont nécessaires en raison des nuances dans les [critères de mesure d’optimisation](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=fr#supported){target=_blank}.
 
@@ -136,7 +136,7 @@ Les sections suivantes indiquent les configurations requises, en fonction de la 
 
 1. Cliquez sur l’icône **engrenage** en regard du titre de la colonne [!UICONTROL Conversion Rate].
 
-   ![ Icône d’engrenage dans la colonne Taux de conversion ](/help/integrations/assets/coversion-rate-gear-icon.png)
+   ![&#x200B; Icône d’engrenage dans la colonne Taux de conversion &#x200B;](/help/integrations/assets/coversion-rate-gear-icon.png)
 
    La boîte de dialogue [!UICONTROL Column] les paramètres s’affiche :
 
@@ -162,7 +162,7 @@ Les [!DNL Auto-Allocate] gagnants de l’activité sont sélectionnés en cas de
 
 >[!NOTE]
 >
->Les badges « Pas encore de gagnant » et « Gagnant » ne sont pas disponibles dans le panneau A4T d’[!DNL Analysis Workspace]. En outre, le badge « étoile » gagnant affiché dans les rapports [!DNL Target] pour les activités [!UICONTROL Auto-Allocate] doit être ignoré. Consultez [ Affectation automatique ](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=fr#aa){target=_blank} dans la section Prise en charge d’*A4T pour les activités d’affectation automatique et de ciblage automatique* dans la *[!UICONTROL Adobe Target Business Practitioner Guide]*.
+>Les badges « Pas encore de gagnant » et « Gagnant » ne sont pas disponibles dans le panneau A4T d’[!DNL Analysis Workspace]. En outre, le badge « étoile » gagnant affiché dans les rapports [!DNL Target] pour les activités [!UICONTROL Auto-Allocate] doit être ignoré. Consultez [&#x200B; Affectation automatique &#x200B;](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=fr#aa){target=_blank} dans la section Prise en charge d’*A4T pour les activités d’affectation automatique et de ciblage automatique* dans la *[!UICONTROL Adobe Target Business Practitioner Guide]*.
 
 ### Créer A4T pour [!UICONTROL Auto-Allocate] panneau dans [!DNL Analysis Workspace]
 

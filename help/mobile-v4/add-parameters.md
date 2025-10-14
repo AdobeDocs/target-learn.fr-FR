@@ -39,7 +39,7 @@ Pour activer les mesures de cycle de vie, ouvrez à nouveau le contrôleur HomeA
 ### Validation des paramètres de cycle de vie de la requête de prérécupération
 
 Exécutez l’émulateur et utilisez Logcat pour valider les paramètres du cycle de vie. Filtrez pour « prefetch » afin de trouver la réponse de prérécupération et de rechercher les nouveaux paramètres :
-![ Validation du cycle de vie ](assets/lifecycle_validation.jpg)
+![&#x200B; Validation du cycle de vie &#x200B;](assets/lifecycle_validation.jpg)
 
 Même si nous n’avons ajouté que des `Config.collectLifecycleData()` au contrôleur HomeActivity, vous devriez également voir les mesures de cycle de vie envoyées avec la requête Target sur votre écran de remerciement.
 

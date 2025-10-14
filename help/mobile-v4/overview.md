@@ -64,7 +64,7 @@ Cette leçon nécessite l’accès à Adobe Target. Avant de passer aux étapes 
 
 Dans ces leçons, vous allez mettre en œuvre Adobe Target dans une application de voyage de démonstration appelée « We.Travel » à l’aide de votre propre compte Adobe Target. À la fin du tutoriel, vous allez diffuser des messages personnalisés à l’utilisateur en fonction de son utilisation de l’application ! Les expériences de personnalisation finales ressembleront à ceci :
 
-![Application We.Travel finale ](assets/overview_final_result.jpg)
+![Application We.Travel finale &#x200B;](assets/overview_final_result.jpg)
 
 Après avoir parcouru l’implémentation dans l’application We.Travel, vous pourrez commencer à utiliser [!DNL Target] dans votre propre application mobile.
 

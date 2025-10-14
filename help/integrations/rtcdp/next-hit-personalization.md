@@ -18,6 +18,6 @@ ht-degree: 1%
 
 # Personnalisation des accès suivants avec Real-Time CDP et Adobe Target
 
-Découvrez comment personnaliser l’accès suivant avec Real-Time Customer Data Platform et Adobe Target. La destination Adobe Target dans Real-Time CDP vous permet d’utiliser des segments Experience Platform dans Adobe Target pour la personnalisation de la même page et de la page suivante avec prise en charge de la gouvernance et de la confidentialité. Pour plus d’informations, consultez la documentation [ Configurer des destinations de personnalisation pour la personnalisation de la même page et de la page suivante ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=fr)
+Découvrez comment personnaliser l’accès suivant avec Real-Time Customer Data Platform et Adobe Target. La destination Adobe Target dans Real-Time CDP vous permet d’utiliser des segments Experience Platform dans Adobe Target pour la personnalisation de la même page et de la page suivante avec prise en charge de la gouvernance et de la confidentialité. Pour plus d’informations, consultez la documentation [&#x200B; Configurer des destinations de personnalisation pour la personnalisation de la même page et de la page suivante &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=fr)
 
 >[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)

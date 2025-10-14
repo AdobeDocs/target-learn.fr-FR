@@ -34,7 +34,7 @@ L’exemple d’application We.Travel est préimplémenté avec Adobe Mobile Ser
 * Exécutez l’application dans un émulateur pour confirmer que l’application se crée et que vous pouvez voir l’écran d’accueil
 * Parcourez l&#39;application et vérifiez que vous pouvez terminer le processus de réservation (sélectionnez n&#39;importe quelle option de paiement et appuyez simplement sur « Continuer » pour passer sur l&#39;écran de facturation !)
 
-  ![Ouvrir l’écran ](assets/wetravel_homeScreen.png)![ confirmation de l’application](assets/wetravel_confirmationScreen.png)
+  ![Ouvrir l’écran &#x200B;](assets/wetravel_homeScreen.png)![&#x200B; confirmation de l’application](assets/wetravel_confirmationScreen.png)
 
 ## Vérifier et mettre à jour les paramètres SDK de Mobile Services pour [!DNL Target]
 
