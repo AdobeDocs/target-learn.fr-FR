@@ -36,7 +36,7 @@ L’optimisation est définie comme « l’action consistant à utiliser au mieu
 
 Sachant que le changement est une constante, notre stratégie d’optimisation doit être un cycle d’exécution itératif pour répondre aux besoins en constante évolution de vos clients (voir la figure 1 ci-dessous).
 
-![ Optimisation et personnalisation ](assets/optimize-and-personalize.png)
+![&#x200B; Optimisation et personnalisation &#x200B;](assets/optimize-and-personalize.png)
 
 _Figure 1 - Cycle itératif d’optimisation_
 
