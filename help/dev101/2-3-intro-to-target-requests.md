@@ -1,7 +1,7 @@
 ---
 title: Comment fonctionnent les requêtes Target ?
 description: Découvrez comment déterminer le nombre et les types de requêtes Adobe Target, différencier un déploiement synchrone d’un déploiement asynchrone et expliquer la gestion du scintillement.
-role: Developer, Architect
+role: Developer
 level: Intermediate
 topic: Personalization, Development
 feature: Implementation
@@ -9,7 +9,7 @@ doc-type: technical video
 kt: 5381
 thumbnail: 35141.jpg
 exl-id: b5182e70-551c-43e4-bca3-a9889740cecc
-source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
+source-git-commit: ac4fad8a7fb77852b1bd27b9b6d49e55f8aa975a
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 1%
@@ -32,4 +32,4 @@ Dans cette vidéo, vous apprendrez à :
 
 >[!VIDEO](https://video.tv.adobe.com/v/35141/?quality=12)
 
-Pour plus d’informations, consultez la [&#x200B; documentation &#x200B;](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=fr).
+Pour plus d’informations, consultez la [ documentation ](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=en).

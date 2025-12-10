@@ -2,11 +2,11 @@
 title: Bonnes pratiques pour l’optimisation
 description: Découvrez les six principes fondamentaux de l’optimisation d’Adobe et comment les appliquer.
 solution: Target
-role: Leader, Architect, Developer, Admin
+role: Leader, Developer, Admin
 feature: Overview
 level: Beginner
 exl-id: dd29faea-bb67-4128-b261-fa407ba7158c
-source-git-commit: d65720ae992a3079462ba59421c3b7a8d4f5ea7b
+source-git-commit: ac4fad8a7fb77852b1bd27b9b6d49e55f8aa975a
 workflow-type: tm+mt
 source-wordcount: '1236'
 ht-degree: 0%
@@ -36,7 +36,7 @@ L’optimisation est définie comme « l’action consistant à utiliser au mieu
 
 Sachant que le changement est une constante, notre stratégie d’optimisation doit être un cycle d’exécution itératif pour répondre aux besoins en constante évolution de vos clients (voir la figure 1 ci-dessous).
 
-![&#x200B; Optimisation et personnalisation &#x200B;](assets/optimize-and-personalize.png)
+![ Optimisation et personnalisation ](assets/optimize-and-personalize.png)
 
 _Figure 1 - Cycle itératif d’optimisation_
 
@@ -118,6 +118,6 @@ Personalization comprend également le type d’activité de test Ciblage d’ex
 
 Compte tenu de ce qui précède, Adobe vous recommande d’effectuer l’optimisation avant de personnaliser et de faire passer Personalization du mode étendu au mode granulaire. Pour faire évoluer les activités Personalization de larges à granulaires, vous commencerez à utiliser un style de personnalisation un-à-plusieurs (large) (à l’aide des tests A/B), puis passerez à un style de personnalisation un-à-un (granulaire) (à l’aide d’activités de personnalisation automatisée).
 
-Pour plus d’informations, veuillez lire la [QuickStart pour les tests de personnalisation et la création d’une feuille de route](https://experienceleague.adobe.com/fr/perspectives/quickstart-for-personalization-testing-and-roadmap-creation).
+Pour plus d’informations, veuillez lire la [QuickStart pour les tests de personnalisation et la création d’une feuille de route](https://experienceleague.adobe.com/en/perspectives/quickstart-for-personalization-testing-and-roadmap-creation).
 
-Pour en savoir plus sur la stratégie et le leadership de la pensée, consultez le hub [Perspectives](https://experienceleague.adobe.com/fr/perspectives).
+Pour en savoir plus sur la stratégie et le leadership de la pensée, consultez le hub [Perspectives](https://experienceleague.adobe.com/en/perspectives).
