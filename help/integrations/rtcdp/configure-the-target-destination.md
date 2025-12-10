@@ -20,4 +20,4 @@ ht-degree: 1%
 
 Découvrez comment configurer la destination Adobe Target dans Real-Time Customer Data Platform pour commencer à envoyer des segments et des attributs de profil de Real-Time CDP vers Target. Pour plus d’informations, voir la documentation de connexion d’Adobe Target [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=fr).
 
->[!VIDEO](https://video.tv.adobe.com/v/3418799/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3449795/?captions=fre_fr&learn=on)
