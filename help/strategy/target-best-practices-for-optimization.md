@@ -118,6 +118,6 @@ Personalization comprend également le type d’activité de test Ciblage d’ex
 
 Compte tenu de ce qui précède, Adobe vous recommande d’effectuer l’optimisation avant de personnaliser et de faire passer Personalization du mode étendu au mode granulaire. Pour faire évoluer les activités Personalization de larges à granulaires, vous commencerez à utiliser un style de personnalisation un-à-plusieurs (large) (à l’aide des tests A/B), puis passerez à un style de personnalisation un-à-un (granulaire) (à l’aide d’activités de personnalisation automatisée).
 
-Pour plus d’informations, veuillez lire la [QuickStart pour les tests de personnalisation et la création d’une feuille de route](https://experienceleague.adobe.com/en/perspectives/quickstart-for-personalization-testing-and-roadmap-creation).
+Pour plus d’informations, veuillez lire la [QuickStart pour les tests de personnalisation et la création d’une feuille de route](https://experienceleague.adobe.com/fr/perspectives/quickstart-for-personalization-testing-and-roadmap-creation).
 
-Pour en savoir plus sur la stratégie et le leadership de la pensée, consultez le hub [Perspectives](https://experienceleague.adobe.com/en/perspectives).
+Pour en savoir plus sur la stratégie et le leadership de la pensée, consultez le hub [Perspectives](https://experienceleague.adobe.com/fr/perspectives).
