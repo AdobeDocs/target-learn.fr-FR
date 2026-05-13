@@ -8,9 +8,15 @@ feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 exl-id: 0250e55f-a233-4060-84e1-86d1f88a6106
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+TQID: https://experienceleague.adobe.com/jX5KNFVLueF72JlxIo4OV0NRWRxpSAZ-tOMacI8FXL4
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: 816
 ht-degree: 0%
 
 ---
@@ -30,7 +36,7 @@ Dans cette leçon, nous allons ajouter des mesures de cycle de vie Adobe et des 
 
 ## Ajout des paramètres de cycle de vie
 
-Activons les [mesures de cycle de vie mobile Adobe](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=fr). Des paramètres seront ainsi ajoutés aux requêtes d’emplacement contenant des informations riches sur l’appareil de l’utilisateur et l’engagement dans l’application. Dans la leçon suivante, nous allons créer des audiences à l’aide des données fournies par la requête de cycle de vie.
+Activons les [mesures de cycle de vie mobile ](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=en). Des paramètres seront ainsi ajoutés aux requêtes d’emplacement contenant des informations riches sur l’appareil de l’utilisateur et l’engagement dans l’application. Dans la leçon suivante, nous allons créer des audiences à l’aide des données fournies par la requête de cycle de vie.
 
 Pour activer les mesures de cycle de vie, ouvrez à nouveau le contrôleur HomeActivity et ajoutez des `Config.collectLifecycleData(this);` à la fonction onResume() :
 
@@ -39,7 +45,7 @@ Pour activer les mesures de cycle de vie, ouvrez à nouveau le contrôleur HomeA
 ### Validation des paramètres de cycle de vie de la requête de prérécupération
 
 Exécutez l’émulateur et utilisez Logcat pour valider les paramètres du cycle de vie. Filtrez pour « prefetch » afin de trouver la réponse de prérécupération et de rechercher les nouveaux paramètres :
-![&#x200B; Validation du cycle de vie &#x200B;](assets/lifecycle_validation.jpg)
+![ Validation du cycle de vie ](assets/lifecycle_validation.jpg)
 
 Même si nous n’avons ajouté que des `Config.collectLifecycleData()` au contrôleur HomeActivity, vous devriez également voir les mesures de cycle de vie envoyées avec la requête Target sur votre écran de remerciement.
 
@@ -89,7 +95,7 @@ public void targetPrefetchContent() {
 
 ### Remarque Sur Les Paramètres
 
-Pour les projets futurs, vous pouvez implémenter des paramètres supplémentaires. La méthode `createTargetPrefetchObject()` autorise trois types de paramètres : `locationParams`, `orderParams` et `productParams`. Consultez la documentation pour [plus d’informations sur l’ajout de ces paramètres à la requête de prérécupération](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=fr).
+Pour les projets futurs, vous pouvez implémenter des paramètres supplémentaires. La méthode `createTargetPrefetchObject()` autorise trois types de paramètres : `locationParams`, `orderParams` et `productParams`. Consultez la documentation pour [plus d’informations sur l’ajout de ces paramètres à la requête de prérécupération](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en).
 
 Notez également que différents paramètres d’emplacement peuvent être ajoutés à chaque emplacement dans la requête de prérécupération. Par exemple, vous pouvez créer une autre Map appelée param2, y placer un nouveau paramètre, puis définir param2 à un emplacement et param1 à l’autre emplacement. Voici un exemple :
 
@@ -146,11 +152,11 @@ Exécutez l’émulateur et ouvrez Logcat. Filtrez l’un des paramètres pour v
 
 >[!NOTE]
 >
->Demandes et paramètres de confirmation de commande : bien que n’étant pas utilisés dans ce projet de démonstration, les détails des commandes sont généralement capturés dans une implémentation réelle, de sorte que [!DNL Target] pouvez utiliser les détails des commandes en tant que mesures/dimensions. Reportez-vous à la documentation pour obtenir des instructions sur la [implémentation de la demande et des paramètres de confirmation de commande](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=fr).
+>Demandes et paramètres de confirmation de commande : bien que n’étant pas utilisés dans ce projet de démonstration, les détails des commandes sont généralement capturés dans une implémentation réelle, de sorte que [!DNL Target] pouvez utiliser les détails des commandes en tant que mesures/dimensions. Reportez-vous à la documentation pour obtenir des instructions sur la [implémentation de la demande et des paramètres de confirmation de commande](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=en).
 
 >[!NOTE]
 >
->Analytics for Target (A4T) : Adobe Analytics peut être configuré comme source de création de rapports pour [!DNL Target]. Cela permet à toutes les mesures/dimensions collectées par le SDK cible d’être affichées dans Adobe Analytics. Voir la [Présentation d’A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=fr) pour plus d’informations.
+>Analytics for Target (A4T) : Adobe Analytics peut être configuré comme source de création de rapports pour [!DNL Target]. Cela permet à toutes les mesures/dimensions collectées par le SDK cible d’être affichées dans Adobe Analytics. Voir la [Présentation d’A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en) pour plus d’informations.
 
 Beau travail ! Maintenant que les paramètres sont en place, nous sommes prêts à les utiliser pour créer des audiences et des offres dans Adobe Target.
 

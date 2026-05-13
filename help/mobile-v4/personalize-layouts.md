@@ -9,9 +9,15 @@ doc-type: tutorial
 kt: 3040
 author: Daniel Wright
 exl-id: a9f033d9-9f72-4154-88f5-d36423a404d0
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+TQID: https://experienceleague.adobe.com/Ku3bhBHqeS5xdaAVtjPELQJ2fu-GdNWqTweOTILSqsI
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: 993
 ht-degree: 1%
 
 ---
@@ -35,7 +41,7 @@ Découvrez comment créer des activités Engager les utilisateurs et les offres 
 
 Voici un résumé de l’activité que nous allons créer :
 
-| Public | Emplacements | Offres |
+| Audience | Emplacements | Offres |
 |---|---|---|
 | Nouveaux utilisateurs de l’application mobile | wetravel_engage_home, wetravel_engage_search | Accueil : Engager De Nouveaux Utilisateurs, Rechercher : Engager De Nouveaux Utilisateurs |
 | Utilisateurs d’applications mobiles récurrents | wetravel_engage_home, wetravel_engage_search | Accueil : utilisateurs récurrents, default_content |
@@ -61,7 +67,7 @@ Dans l’interface [!DNL Target], procédez comme suit :
 1. Cliquez sur **[!UICONTROL Done]**.
    ![Nouvelle audience d’utilisateurs d’applications mobiles](assets/activity_create_4.jpg)
 
-1. Remplacez l’emplacement par _wetravel_engage_home_.
+1. Remplacez l’emplacement par _wetravel_ engage_home_.
 1. Sélectionnez la flèche de liste déroulante en regard de Contenu par défaut et sélectionnez **[!UICONTROL Change HTML Offer]**.
 
    ![Nouvelle audience d’utilisateurs d’applications mobiles](assets/activity_create_5.jpg)
@@ -74,7 +80,7 @@ Dans l’interface [!DNL Target], procédez comme suit :
 1. Sélectionnez **[!UICONTROL Add Location]**.
    ![Nouvelle audience d’utilisateurs d’applications mobiles](assets/activity_create_7.jpg)
 
-1. Sélectionnez l’emplacement _wetravel_engage_search_.
+1. Sélectionnez l’emplacement _wetravel_ engage_search_.
 1. Modifiez l’offre HTML.
 
    ![Nouvelle audience d’utilisateurs d’applications mobiles](assets/activity_create_8.jpg)
@@ -110,7 +116,7 @@ Passons à l’écran suivant de la configuration :
 Maintenant, terminons la configuration de l’activité :
 
 1. Définissez la **[!UICONTROL Primary Goal]** sur **[!UICONTROL Conversion]**.
-1. Définissez l’action sur **[!UICONTROL Viewed an mbox]** > _wetravel_context_dest_ (Cet emplacement se trouvant sur l’écran de confirmation, nous pouvons l’utiliser pour mesurer les conversions).
+1. Définissez l’action sur **[!UICONTROL Viewed an mbox]** > _wetravel_ context_dest_ (Cet emplacement se trouvant sur l’écran de confirmation, nous pouvons l’utiliser pour mesurer les conversions).
 
    ![Activité Engage Users - Objectifs](assets/activity_create_12.jpg)
 
@@ -126,7 +132,7 @@ Notre première activité est maintenant en ligne et prête à être testée !
 
 Voici un résumé de la deuxième activité que nous allons créer :
 
-| Public | Emplacement | Offres |
+| Audience | Emplacement | Offres |
 | --- | --- | --- |
 | Destination : San Diego | wetravel_context_dest | Promotion pour San Diego |
 | Destination : Los Angeles | wetravel_context_dest | Promotion pour Los Angeles |
@@ -144,7 +150,7 @@ Répétez le même processus que ci-dessus pour l&#39;Activité suivante : « Of
 À l’étape Objectifs et paramètres , nous modifierons l’objectif du Principal en fonction de l’emplacement sur l’écran de confirmation de réservation :
 
 1. Sous le **[!UICONTROL Reporting Settings]** , définissez la **[!UICONTROL Primary Goal]** sur **[!UICONTROL Conversion]**.
-1. Définissez l’action sur **[!UICONTROL Viewed an mbox]** > _wetravel_context_dest_ (dans cette activité, cette mesure n’a aucun sens, car il s’agit également du même emplacement qui fournit l’expérience).
+1. Définissez l’action sur **[!UICONTROL Viewed an mbox]** > _wetravel_ context_dest_ (dans cette activité, cette mesure n’a aucun sens, car il s’agit également du même emplacement qui fournit l’expérience).
 1. Cliquez sur **[!UICONTROL Save & Close]**.
 
 ![Offres contextuelles - Expérience](assets/activity_create_14.jpg)
@@ -163,7 +169,7 @@ Si la nouvelle offre utilisateur ne s’affiche pas, essayez d’effacer les don
 
 ![Effacer l’émulateur](assets/layout_home_validate_avd_wipe.jpg)
 
-Vous pouvez également valider la réponse dans Logcat en filtrant pour _wetravel_engage_home_ :
+Vous pouvez également valider la réponse dans Logcat en filtrant pour _wetravel_ engage_home_ :
 
 ![Valider L’Offre D’Accueil - Logcat](assets/layout_home_validate_logcat.jpg)
 

@@ -5,9 +5,15 @@ solution: Target,Analytics
 level: Intermediate
 role: Leader, Developer, Admin
 exl-id: c0b6f9a0-7074-4e25-81e6-9781a54e2156
-source-git-commit: ac4fad8a7fb77852b1bd27b9b6d49e55f8aa975a
+TQID: https://experienceleague.adobe.com/d2BYxVQLaDPbZ7538S-uP1pSjtGgd10nYk-WW3KnVZk
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3aid: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: b3f03848-ae12-48b2-8aab-cad18567eb32id: c93393a4-e558-47e1-992e-c91ed4d480ce
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: 1438
 ht-degree: 0%
 
 ---
@@ -45,7 +51,7 @@ C’est le point de départ où vous commencez à élaborer la feuille de route 
 
 * L’alignement de chaque opportunité doit avoir un impact sur une mesure d’objectif unique.
 
-Parfois, vous pouvez également avoir des objectifs qui semblent initialement intangibles, tels que la valeur de la marque ou la fidélité. Il est essentiel que vous puissiez les mesurer afin de les utiliser comme mesures d’objectif pour les activités Personalization. En règle générale, ces types d’objectifs peuvent toujours être alignés sur l’impact sur le chiffre d’affaires, tel que la valeur client à vie ou les coûts d’acquisition. Au fur et à mesure de votre progression, veillez à examiner régulièrement les performances du programme par rapport à vos objectifs commerciaux clés en vous assurant que la valeur est générée par votre programme Personalization.
+Parfois, vous pouvez également avoir des objectifs qui semblent initialement intangibles, tels que la valeur de la marque ou la fidélité. Il est essentiel que vous puissiez les mesurer afin de les utiliser comme mesures d’objectif pour les activités Personalization. En règle générale, ces types d’objectifs peuvent toujours être alignés sur l’impact sur le chiffre d’affaires, comme la valeur client à vie ou les coûts d’acquisition.Au fur et à mesure de votre progression, assurez-vous d’examiner régulièrement les performances du programme par rapport à vos objectifs commerciaux clés afin de vous assurer que votre programme Personalization génère de la valeur.
 
 Concentrez-vous sur l’analyse des données pour identifier les zones spécifiques de votre site web qui peuvent être améliorées. Adobe recommande de commencer par Adobe Analytics pour générer des cas d’utilisation ciblés. Si vous avez mis en place une équipe Analytics, demandez-lui d’examiner les points suivants :
 
@@ -88,6 +94,6 @@ Une fois que votre activité de personnalisation a impliqué un échantillon rep
 
 ### Plus d’informations
 
-Nous vous recommandons de regarder cette vidéo qui décrit chacune de ces étapes : [https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/](https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/)
+Nous vous recommandons de regarder cette vidéo qui décrit chacune de ces étapes : [](https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/)
 
-Pour en savoir plus sur la stratégie et le leadership, consultez le hub [Succès client](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=fr).
+Pour en savoir plus sur la stratégie et le leadership, consultez le hub [Succès client](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html).

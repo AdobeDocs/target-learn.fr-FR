@@ -6,9 +6,15 @@ role: Leader, Developer, Admin
 feature: Overview
 level: Beginner
 exl-id: dd29faea-bb67-4128-b261-fa407ba7158c
-source-git-commit: ac4fad8a7fb77852b1bd27b9b6d49e55f8aa975a
+TQID: https://experienceleague.adobe.com/4M13hg8c1kxAmsBaiSfyvV3XEXLxV5lHEy299YGBvII
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: 1254
 ht-degree: 0%
 
 ---
@@ -36,7 +42,7 @@ L’optimisation est définie comme « l’action consistant à utiliser au mieu
 
 Sachant que le changement est une constante, notre stratégie d’optimisation doit être un cycle d’exécution itératif pour répondre aux besoins en constante évolution de vos clients (voir la figure 1 ci-dessous).
 
-![&#x200B; Optimisation et personnalisation &#x200B;](assets/optimize-and-personalize.png)
+![ Optimisation et personnalisation ](assets/optimize-and-personalize.png)
 
 _Figure 1 - Cycle itératif d’optimisation_
 
@@ -83,11 +89,11 @@ Une hypothèse complète se divise en trois parties :
 
     A. Valeur de l
     
-    élément . Pour ce faire, revenez en arrière et demandez-vous pourquoi un certain élément existe sur votre site et si le contenu a un objectif spécifique. Ces questions sont un bon point de départ si votre site vient de terminer une reconception ou si une nouvelle fonctionnalité a été récemment déployée. La tactique utilisée pour déterminer la valeur de l’élément est appelée Test d’inclusion/exclusion. Les tests d’inclusion/exclusion fournissent une bonne lecture de la valeur sur la page où l’élément est affiché.
+    élément . Pour ce faire, revenez en arrière et demandez-vous pourquoi un certain élément existe sur votre site et si le contenu a un objectif spécifique. Ces questions sont un bon point de départ si votre site vient de terminer une reconception ou si une nouvelle fonctionnalité a été récemment déployée. La tactique utilisée pour déterminer la valeur de l’élément est appelée Test d’inclusion/exclusion. Les tests d’inclusion/exclusion offrent une bonne lecture de la valeur sur la page où l’élément est affiché.
     
     B. Présentation des éléments 
     
-    c’est là que vous devez réfléchir à l’aspect général de l’élément et à la manière dont cela affecte la présentation globale de la page. La tactique utilisée pour la présentation consiste à se concentrer sur la modification du contenu et des éléments ayant un impact.
+    c’est là que vous devez réfléchir à l’aspect général de l’élément et à la manière dont cela affecte la présentation globale de la page. La tactique utilisée pour la présentation consiste à se concentrer sur l’impact des modifications de page de contenu et d’élément.
     
     C. Fonction de l
     
@@ -118,6 +124,6 @@ Personalization comprend également le type d’activité de test Ciblage d’ex
 
 Compte tenu de ce qui précède, Adobe vous recommande d’effectuer l’optimisation avant de personnaliser et de faire passer Personalization du mode étendu au mode granulaire. Pour faire évoluer les activités Personalization de larges à granulaires, vous commencerez à utiliser un style de personnalisation un-à-plusieurs (large) (à l’aide des tests A/B), puis passerez à un style de personnalisation un-à-un (granulaire) (à l’aide d’activités de personnalisation automatisée).
 
-Pour plus d’informations, veuillez lire la [QuickStart pour les tests de personnalisation et la création d’une feuille de route](https://experienceleague.adobe.com/fr/perspectives/quickstart-for-personalization-testing-and-roadmap-creation).
+Pour plus d’informations, veuillez lire la [QuickStart pour les tests de personnalisation et la création d’une feuille de route](https://experienceleague.adobe.com/en/perspectives/quickstart-for-personalization-testing-and-roadmap-creation).
 
-Pour en savoir plus sur la stratégie et le leadership de la pensée, consultez le hub [Perspectives](https://experienceleague.adobe.com/fr/perspectives).
+Pour en savoir plus sur la stratégie et le leadership de la pensée, consultez le hub [Perspectives](https://experienceleague.adobe.com/en/perspectives).
