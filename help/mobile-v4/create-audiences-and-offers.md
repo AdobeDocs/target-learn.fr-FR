@@ -8,9 +8,20 @@ feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 exl-id: 4b153e4f-a979-49a8-8c26-f7ac95162a2f
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+TQID: https://experienceleague.adobe.com/DoRg-ukzkWeNsIVbq-KSKES4ECa0SMX-9S1uqoe-K44
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: 977
 ht-degree: 1%
 
 ---
@@ -28,7 +39,7 @@ Dans cette leçon, nous allons nous intéresser à l&#39;interface [!DNL Target]
 
 Plus précisément, dans cette leçon, nous allons créer les audiences et les offres nécessaires pour réaliser les cas d’utilisation de la personnalisation définis au début du tutoriel. Nous voulons utiliser les écrans Accueil et Recherche pour aider les utilisateurs de l&#39;application à réserver leurs voyages, et nous voulons utiliser l&#39;écran de remerciement pour afficher quelques promotions pertinentes en fonction de la destination de l&#39;utilisateur. Voici un tableau représentant ce que nous allons créer dans cette leçon pour chaque emplacement :
 
-| Emplacement | Public | Offre |
+| Emplacement | Audience | Offre |
 | --- | --- | --- |
 | wetravel_engage_home | Nouveaux utilisateurs de l’application mobile | « Sélectionnez votre origine et votre destination pour rechercher les itinéraires de bus disponibles » |
 | wetravel_engage_search | Nouveaux utilisateurs de l’application mobile | « Utilisez des filtres pour affiner vos résultats de recherche » |
@@ -41,7 +52,7 @@ Plus précisément, dans cette leçon, nous allons créer les audiences et les o
 
 Si votre société utilise Propriétés et Espaces de travail pour définir des limites en matière de personnalisation des applications et des sites web (et que vous avez implémenté le paramètre at_property dans la dernière leçon), vous devez d’abord vous assurer que vous vous trouvez dans le bon Workspace avant de poursuivre cette leçon. Si vous n’utilisez pas les propriétés et les espaces de travail, ignorez simplement cette étape. Sélectionnez le Workspace que vous avez utilisé dans la leçon précédente pour copier la valeur at_property :
 
-![Exemple Workspace](assets/workspace.jpg)
+![Exemple &#x200B;](assets/workspace.jpg)
 
 ## Création d’audiences
 

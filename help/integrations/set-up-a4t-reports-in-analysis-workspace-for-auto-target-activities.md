@@ -10,9 +10,26 @@ doc-type: tutorial
 thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: 78e5b5f7fa8f4c1a08c06c6d2b0e1a5242cd464c
+TQID: https://experienceleague.adobe.com/9UgPPqvQiI3LcX1Lhv1yxlM0BnQf6176cTB3bbPd1YE
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: '2430'
+source-wordcount: 2507
 ht-degree: 1%
 
 ---
@@ -93,8 +110,8 @@ Comparons les rapports au niveau des visiteurs et au niveau des visites :
 
 | Expérience | Visiteurs uniques | Visites | Conversions | Taux de conversion normalisé par le visiteur | Taux de conversion normalisé par les visites |
 | --- | --- | --- | --- | --- | --- |
-| A | 1 | 1 | - | 0 % | 0 % |
-| B | 2 | 3 | 1 | 50 % | 33,3 % |
+| A | 1 | 1 | - | 0% | 0% |
+| B | 2 | 3 | 1 | 50 % | 33.3% |
 | Totaux | 2 | 4 | 1 | 50 % | 25 % |
 
 *Tableau 1 : exemple de comparaison des rapports normalisés par le visiteur et normalisés par les visites pour un scénario dans lequel les décisions sont liées à une visite (et non à un visiteur, comme avec les tests A/B réguliers). Les mesures normalisées par le visiteur prêtent à confusion dans ce scénario.*
@@ -241,7 +258,7 @@ La définition complète de la mesure calculée s’affiche ici.
 
 ## Résumé : Exemple de panneau de [!DNL Analysis Workspace] final pour les rapports [!UICONTROL Auto-Target]
 
-En combinant toutes les étapes ci-dessus dans un seul panneau, la figure ci-dessous présente une vue complète du rapport recommandé pour les activités A4T [!UICONTROL Auto-Target]. Ce rapport est identique à celui utilisé par les modèles ML [!DNL Target] pour optimiser votre mesure d’objectif. Le rapport intègre toutes les nuances et recommandations abordées dans ce tutoriel. Ce rapport est également le plus proche des méthodes de comptage utilisées dans les activités de [!DNL Target] traditionnelles axées sur les rapports [!UICONTROL Auto-Target].
+En combinant toutes les étapes ci-dessus dans un seul panneau, la figure ci-dessous présente une vue complète du rapport recommandé pour les activités A4T [!UICONTROL Auto-Target]. Ce rapport est identique à celui utilisé par les modèles ML [!DNL Target] pour optimiser votre mesure d’objectif. Le rapport intègre toutes les nuances et recommandations abordées dans ce tutoriel. Ce rapport est également le plus proche des méthodes de comptage utilisées dans les activités de [!UICONTROL Auto-Target] traditionnelles axées sur les rapports [!DNL Target].
 
 Cliquez pour développer l’image.
 
