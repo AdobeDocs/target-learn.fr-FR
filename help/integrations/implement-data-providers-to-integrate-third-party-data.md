@@ -39,7 +39,7 @@ Détails d’implémentation et exemples d’utilisation de la fonction [!UICONT
 
 ## Implémentation des composants de base des fournisseurs de données
 
->[!VIDEO](https://video.tv.adobe.com/v/22348/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/33871/?captions=fre_fr&quality=12)
 
 Aperçu rapide des composants de base d’un `dataProvider` et de la manière d’obtenir votre code dans le bon ordre.\
 Un exemple de travail avec le code utilisé dans la vidéo se trouve ici :
@@ -47,7 +47,7 @@ Un exemple de travail avec le code utilisé dans la vidéo se trouve ici :
 
 ## Intégration à une API tierce
 
->[!VIDEO](https://video.tv.adobe.com/v/22345/)
+>[!VIDEO](https://video.tv.adobe.com/v/33857?captions=fre_fr)
 
 Exemple plus réaliste, l’intégration d’une API de météo.\
 Un exemple de travail avec le code utilisé dans la vidéo se trouve ici :
@@ -55,7 +55,7 @@ Un exemple de travail avec le code utilisé dans la vidéo se trouve ici :
 
 ## Intégration à plusieurs fournisseurs
 
->[!VIDEO](https://video.tv.adobe.com/v/22346/)
+>[!VIDEO](https://video.tv.adobe.com/v/36722?captions=fre_fr)
 
 Comment incorporer des données provenant de plusieurs fournisseurs dans votre requête [!DNL Target] globale.\
 Un exemple de travail avec le code utilisé dans la vidéo se trouve ici :
@@ -63,7 +63,7 @@ Un exemple de travail avec le code utilisé dans la vidéo se trouve ici :
 
 ## Réduire l’impact du chargement de page
 
->[!VIDEO](https://video.tv.adobe.com/v/22347/)
+>[!VIDEO](https://video.tv.adobe.com/v/36723?captions=fre_fr)
 
 Réduisez l’impact sur le temps de chargement de la page en stockant les données dans un objet de stockage de session. Vous pouvez également transmettre les valeurs en tant que paramètres de profil à l’aide du préfixe `profile.`, et simplement les transmettre dans la première requête [!DNL Target] de la session. Cependant, vous seriez limité à transmettre cinquante paramètres de profil par requête.
 
