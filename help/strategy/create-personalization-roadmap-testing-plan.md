@@ -112,4 +112,4 @@ Une fois que votre activité de personnalisation a impliqué un échantillon rep
 
 Nous vous recommandons de regarder cette vidéo qui décrit chacune de ces étapes : [&#128279;](https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/)
 
-Pour en savoir plus sur la stratégie et le leadership, consultez le hub [Succès client](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html).
+Pour en savoir plus sur la stratégie et le leadership, consultez le hub [Succès client](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=fr).
