@@ -9,19 +9,14 @@ doc-type: tutorial
 kt: 3040
 exl-id: 034d13f2-63b1-44b0-b3dc-867efe37672f
 TQID: https://experienceleague.adobe.com/eK2T9lkJ4-ieiTGjqAymdgn8lrbfcaBBObbp61-jX0M
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 735
+source-wordcount: 755
 ht-degree: 1%
 
 ---
@@ -139,20 +134,20 @@ Créons maintenant une activité de test A/B avec cette offre. Pour obtenir des 
 
    ![Configuration de l’activité d’indicateur de fonctionnalité](assets/feature_flag_activity.jpg)
 
-1. Cliquez sur **[!UICONTROL Add Experience]** pour ajouter l’expérience B.
+1. Cliquez sur **[!UICONTROL Ajouter une expérience]** pour ajouter l’expérience B.
 1. Laissez l’emplacement « wetravel_feature_flag_recs »
-1. Laisser **[!UICONTROL Default Content]** pour le contenu
-1. Cliquez sur **[!UICONTROL Next]** pour accéder à l’écran [!UICONTROL Targeting]
+1. Laissez **[!UICONTROL Contenu par défaut]** pour le contenu
+1. Cliquez sur **[!UICONTROL Suivant]** pour accéder à l’écran [!UICONTROL Ciblage]
 
    ![Configuration de l’activité d’indicateur de fonctionnalité](assets/feature_flag_activity_2.jpg)
 
-1. Sur l’écran [!UICONTROL Targeting], vérifiez que la méthode [!UICONTROL Traffic Allocation] est définie sur le paramètre par défaut (Manuel) et que chaque expérience dispose de l’affectation de 50 % par défaut. Sélectionnez **[!UICONTROL Next]** pour passer à la **[!UICONTROL Goals & Settings]**.
+1. Sur l’écran [!UICONTROL Ciblage], vérifiez que la méthode [!UICONTROL Affectation du trafic] est définie sur le paramètre par défaut (Manuel) et que chaque expérience dispose de l’affectation de 50 % par défaut. Sélectionnez **[!UICONTROL Suivant]** pour accéder à **[!UICONTROL Objectifs et paramètres]**.
 
    ![Configuration de l’activité d’indicateur de fonctionnalité](assets/feature_flag_activity_3.jpg)
 
-1. Définissez la **[!UICONTROL Primary Goal]** sur **[!UICONTROL Conversion]**.
-1. Définissez l’action sur **[!UICONTROL Viewed an Mbox]**. Nous utiliserons l’emplacement « wetravel_context_dest » (cet emplacement se trouvant sur l’écran de confirmation, nous pouvons l’utiliser pour voir si la nouvelle fonctionnalité entraîne plus de conversions).
-1. Cliquez sur **[!UICONTROL Save & Close]**.
+1. Définissez l’objectif de Principal **** sur **[!UICONTROL Conversion]**.
+1. Définissez l’action sur **[!UICONTROL Affichage d’une mbox]**. Nous utiliserons l’emplacement « wetravel_context_dest » (cet emplacement se trouvant sur l’écran de confirmation, nous pouvons l’utiliser pour voir si la nouvelle fonctionnalité entraîne plus de conversions).
+1. Cliquez sur **[!UICONTROL Enregistrer et fermer]**.
 
    ![Configuration de l’activité d’indicateur de fonctionnalité](assets/feature_flag_activity_4.jpg)
 
