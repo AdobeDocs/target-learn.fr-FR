@@ -40,7 +40,7 @@ ht-degree: 0%
 
 Découvrez comment utiliser les attributs de profil Adobe Real-Time Customer Data Platform dans Adobe Target pour offrir des expériences personnalisées sur votre site web et vos applications mobiles. Pour plus d’informations, voir [la documentation](https://experienceleague.adobe.com/docs/target/using/integrate/integrating-with-rtcdp.html?lang=fr).
 
->[!VIDEO](https://video.tv.adobe.com/v/3419318/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3451895/?captions=fre_fr&learn=on)
 
 >[!CAUTION]
 >
