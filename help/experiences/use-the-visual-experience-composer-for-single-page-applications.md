@@ -10,12 +10,22 @@ kt: null
 author: Daniel Wright
 exl-id: 3e32d869-a94a-4253-93d7-58b615921067
 TQID: https://experienceleague.adobe.com/IqOdh-24HM-vALGWkSuR3-5rHH9KPZ8ljwosv7iFS4Y
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2: id: df62f171-ac37-440f-8f0f-f41a72ebdd34id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
 source-wordcount: 216
@@ -29,7 +39,7 @@ Le compositeur d’expérience visuelle (VEC) de SPA permet aux marketeurs de cr
 
 * Le VEC SPA peut être utilisé pour créer des tests A/B et d’affectation automatique, ainsi que des activités de ciblage d’expérience (XT)
 * Le VEC SPA ne prend pas en charge les activités de ciblage automatique, d’Automated Personalization ou de recommandations
-* Le VEC SPA prend en charge les intégrations A4T] [!UICONTROL audiences Experience Cloud et [!UICONTROL attributs du client]
+* Le VEC SPA prend en charge les intégrations A4T audiences Experience Cloud et [!UICONTROL attributs du client]
 * Toutes les actions du VEC sont prises en charge dans les applications monopages, y compris le code personnalisé
 * Les actions du compositeur d’expérience visuelle peuvent être appliquées à une seule vue ou à l’événement de chargement de page
 * Il est possible d’ajouter différentes modifications à différents affichages sans avoir à utiliser l’option [!UICONTROL Pages supplémentaires]

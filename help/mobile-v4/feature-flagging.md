@@ -9,11 +9,16 @@ doc-type: tutorial
 kt: 3040
 exl-id: 034d13f2-63b1-44b0-b3dc-867efe37672f
 TQID: https://experienceleague.adobe.com/eK2T9lkJ4-ieiTGjqAymdgn8lrbfcaBBObbp61-jX0M
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
 source-wordcount: 755
@@ -145,7 +150,7 @@ Créons maintenant une activité de test A/B avec cette offre. Pour obtenir des 
 
    ![Configuration de l’activité d’indicateur de fonctionnalité](assets/feature_flag_activity_3.jpg)
 
-1. Définissez l’objectif de Principal **** sur **[!UICONTROL Conversion]**.
+1. Définissez l’objectif de Principal **&#x200B;**&#x200B;sur **[!UICONTROL Conversion]**.
 1. Définissez l’action sur **[!UICONTROL Affichage d’une mbox]**. Nous utiliserons l’emplacement « wetravel_context_dest » (cet emplacement se trouvant sur l’écran de confirmation, nous pouvons l’utiliser pour voir si la nouvelle fonctionnalité entraîne plus de conversions).
 1. Cliquez sur **[!UICONTROL Enregistrer et fermer]**.
 
