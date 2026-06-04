@@ -48,4 +48,4 @@ Dans cette vidéo, vous apprendrez à :
 
 >[!VIDEO](https://video.tv.adobe.com/v/35152/?quality=12)
 
-Pour plus d’informations, consultez la [&#x200B; documentation &#x200B;](https://experienceleague.adobe.com/docs/target/using/integrate/mmp.html?lang=en).
+Pour plus d’informations, consultez la [&#x200B; documentation &#x200B;](https://experienceleague.adobe.com/docs/target/using/integrate/mmp.html?lang=fr).

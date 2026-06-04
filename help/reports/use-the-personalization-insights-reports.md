@@ -38,4 +38,4 @@ Les activités Automated Personalization et de ciblage automatique s’appuient 
 
 ## Informations supplémentaires
 
-* [Personalization Insights dans la documentation d’aide](https://experienceleague.adobe.com/docs/target/using/reports/insights/personalization-insights-reports.html?lang=en)
+* [Personalization Insights dans la documentation d’aide](https://experienceleague.adobe.com/docs/target/using/reports/insights/personalization-insights-reports.html?lang=fr)

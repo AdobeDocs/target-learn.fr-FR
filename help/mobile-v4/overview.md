@@ -23,7 +23,7 @@ Une application Android de démonstration est fournie pour que vous puissiez sui
 
 Après avoir terminé cet didacticiel, vous serez en mesure de :
 
-* Valider la configuration de [Adobe Mobile Services SDK](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=en)
+* Valider la configuration de [Adobe Mobile Services SDK](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=fr)
 * Implémentez les types de requêtes [!DNL Target] suivants :
    * Prérécupération de contenu [!DNL Target]
    * Traitement par lots de plusieurs emplacements de [!DNL Target] (mbox) dans une seule requête
