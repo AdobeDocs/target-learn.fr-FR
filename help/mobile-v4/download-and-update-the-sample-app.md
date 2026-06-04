@@ -24,7 +24,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 499
+source-wordcount: 530
 ht-degree: 0%
 
 ---
@@ -57,12 +57,12 @@ Le SDK Adobe Mobile Services a été préinstallé dans l’application We.Trave
 Créez tout d’abord une application dans l’interface utilisateur de Mobile Services :
 
 1. Connectez-vous à l’interface [Adobe Mobile Services](https://mobilemarketing.adobe.com/).
-1. Accédez à la [!UICONTROL Manage Apps], puis cliquez sur **[!UICONTROL Add]** pour ajouter une nouvelle application à utiliser avec ce tutoriel (**[!UICONTROL Manage Apps]** > **[!UICONTROL Add]**).
-1. Choisissez une suite de rapports Analytics avec des données hors production, attribuez un nom à l’application, sélectionnez le type de **[!UICONTROL Standard]** et cliquez sur **[!UICONTROL Save]**.
-1. Une fois l’application ajoutée, ajoutez votre code client [!DNL Target] à l’écran suivant de la section [!UICONTROL SDK Target Options] (vous pouvez trouver votre code client dans l’interface [!DNL Target] sous **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit Settings]**, en regard du bouton Télécharger le `at.js` ).
-1. Le paramètre [!UICONTROL Request Timeout] détermine la durée pendant laquelle l’application attend la réponse du serveur [!DNL Target] avant d’exécuter les instructions de temporisation. Laissez simplement le paramètre par défaut.
-1. Activez la [!UICONTROL Visitor ID Service] et assurez-vous que la [!UICONTROL Organization] est sélectionnée dans la liste déroulante.
-1. Enregistrez vos modifications en cliquant sur **[!UICONTROL Save]** en haut à droite de la fenêtre (et non sur celle de la section [!UICONTROL Universal Links], Options de [!UICONTROL App Links] ou [!UICONTROL Push Services] ).
+1. Accédez à la [!UICONTROL Gérer les applications], puis cliquez sur **[!UICONTROL Ajouter]** pour ajouter une nouvelle application à utiliser avec ce tutoriel (**[!UICONTROL Gérer les applications]** > **[!UICONTROL Ajouter]**).
+1. Choisissez une suite de rapports Analytics avec des données hors production, attribuez un nom à l’application, sélectionnez le type **[!UICONTROL Standard]** et cliquez sur **[!UICONTROL Enregistrer]**.
+1. Une fois l’application ajoutée, ajoutez votre code client [!DNL Target] à l’écran suivant dans la section [!UICONTROL Options de SDK Target] (vous trouverez votre code client dans l’interface [!DNL Target] sous **[!UICONTROL Configuration]** > **[!UICONTROL Implémentation]** > **[!UICONTROL Modifier les paramètres]**, en regard du bouton Télécharger le `at.js` ).
+1. Le paramètre [!UICONTROL Délai d’expiration de la requête] détermine la durée pendant laquelle l’application attend la réponse du serveur [!DNL Target] avant d’exécuter les instructions de délai d’expiration. Laissez simplement le paramètre par défaut.
+1. Activez le [!UICONTROL service d’identification des visiteurs] et assurez-vous que votre [!UICONTROL organisation] est sélectionnée dans la liste déroulante.
+1. Enregistrez vos modifications en cliquant sur **[!UICONTROL Enregistrer]** en haut à droite de la fenêtre (et non sur celui de la section [!UICONTROL Liens universels], [!UICONTROL Liens d’application] ou [!UICONTROL Services push]).
 1. Faites défiler jusqu’à la section Téléchargements d’App SDK au bas de la page et téléchargez le fichier de configuration :
 
    ![Télécharger le fichier de configuration](assets/config_file.jpg)
@@ -72,7 +72,7 @@ Créez tout d’abord une application dans l’interface utilisateur de Mobile S
 1. Ouvrez maintenant le fichier `ADBMobileConfig.json` et assurez-vous qu’il contient les modifications attendues telles que votre code client [!DNL Target] et vos détails Analytics :
    ![Télécharger le fichier de configuration](assets/client_code.jpg)
 
-Si vos paramètres ne s’affichent pas, vérifiez que vous avez cliqué sur le bouton droit de la **[!UICONTROL Save]** dans l’interface [!UICONTROL Mobile Services] et que vous avez copié le fichier à l’emplacement approprié.
+Si vos paramètres ne s’affichent pas, confirmez que vous avez cliqué sur le bouton droit **[!UICONTROL Enregistrer]** dans l’interface [!UICONTROL Mobile Services] et que vous avez copié le fichier à l’emplacement approprié.
 
 Félicitations ! Vous avez mis à jour le SDK avec les détails de votre compte [!DNL Target]. Nous effectuerons une validation supplémentaire de la configuration après avoir ajouté [!DNL Target] requêtes dans la leçon suivante.
 

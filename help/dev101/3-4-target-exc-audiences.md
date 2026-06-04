@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ---
 
-# Intégration de [!DNL Target] à Experience Cloud Audiences
+# Intégration de [!DNL Target] avec les audiences Experience Cloud
 
 Dans cette vidéo, vous apprendrez à :
 

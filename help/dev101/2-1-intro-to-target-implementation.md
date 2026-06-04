@@ -25,8 +25,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 93
-ht-degree: 40%
+source-wordcount: 97
+ht-degree: 39%
 
 ---
 
@@ -45,5 +45,5 @@ Dans cette vidéo, vous apprendrez à :
 
 >[!VIDEO](https://video.tv.adobe.com/v/35139/?quality=12)
 
-Pour plus d’informations, consultez [Implémentation côté client](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=fr){target=_blank} ou [Implémentation côté serveur](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=fr){target=_blank} dans la *[!UICONTROL Adobe Target Developer Guide]*.
+Pour plus d’informations, consultez [Implémentation côté client](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=fr){target=_blank} ou [Implémentation côté serveur](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=fr){target=_blank} dans le *[!UICONTROL Guide du développeur d’Adobe Target]*.
 

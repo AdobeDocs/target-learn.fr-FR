@@ -27,14 +27,14 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 195
+source-wordcount: 199
 ht-degree: 16%
 
 ---
 
 # Utilisation des fournisseurs de données pour intégrer des données tierces à Adobe Target
 
-[!UICONTROL Data Providers] est une fonctionnalité qui vous permet de transmettre facilement des données de tiers à Target.  Un tiers peut être un service météorologique, une plateforme de gestion des données, ou même votre propre service web. Vous pouvez ensuite utiliser ces données pour créer des audiences, cibler du contenu et enrichir le profil du visiteur.
+[!UICONTROL Fournisseurs de données] est une fonctionnalité qui vous permet de transmettre facilement des données de tiers à Target.  Un tiers peut être un service météorologique, une plateforme de gestion des données, ou même votre propre service web. Vous pouvez ensuite utiliser ces données pour créer des audiences, cibler du contenu et enrichir le profil du visiteur.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22349/?quality=12)
 
@@ -47,7 +47,7 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->[!UICONTROL Data Providers] nécessite at.js version 1.3 ou supérieure
+>[!UICONTROL Fournisseurs de données] nécessite at.js version 1.3 ou ultérieure.
 
 ## Documents annexes
 

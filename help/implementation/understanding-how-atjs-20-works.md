@@ -1,6 +1,6 @@
 ---
 title: Comment fonctionne at.js 2.0 ?
-description: Découvrez comment at.js 2.0 améliore la prise en charge d’Adobe Target pour les applications monopages (SPA) et s’intègre à d’autres solutions Experience Cloud.
+description: Découvrez comment at.js 2.0 améliore la prise en charge par Adobe Target des applications monopages (SPA) et s’intègre à d’autres solutions Experience Cloud.
 role: Developer
 level: Intermediate
 topic: SPA, Architecture, Development
@@ -28,7 +28,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 396
+source-wordcount: 412
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 1. La requête de chargement de page est effectuée, y compris tous les paramètres configurés, ECID, SDID et ID de client.
 
-1. Les scripts de profil s’exécutent et sont intégrés au [!UICONTROL Profile Store]. Le magasin demande des audiences qualifiées au [!UICONTROL Audience Library] (par exemple, des audiences partagées depuis [!DNL Analytics], Audience Manager, etc.). [!UICONTROL Customer Attributes] sont envoyés à [!UICONTROL Profile Store] dans un traitement par lots.
+1. Les scripts de profil s’exécutent et se dirigent vers le [!UICONTROL magasin de profils]. Le magasin demande des audiences qualifiées à partir de la [!UICONTROL bibliothèque d’audiences] (par exemple, des audiences partagées depuis [!DNL Analytics], Audience Manager, etc.). Les [!UICONTROL attributs du client] sont envoyés au [!UICONTROL magasin de profils] dans un traitement par lots.
 1. En fonction de l’URL, des paramètres de requête et des données de profil, [!DNL Target] décide des activités et expériences à renvoyer au visiteur pour la page actuelle et les vues futures
 
 1. Contenu ciblé renvoyé à la page, comprenant éventuellement des valeurs de profil pour une personnalisation supplémentaire.
@@ -58,7 +58,7 @@ ht-degree: 0%
 
    Contenu ciblé pour les futures vues d’une application monopage mise en cache dans le navigateur, afin qu’elle puisse être appliquée instantanément sans appel au serveur supplémentaire lorsque les vues sont déclenchées. (Voir le diagramme suivant pour connaître le comportement des `triggerView()`).
 
-1. [!DNL Analytics] les données envoyées de la page aux serveurs [!UICONTROL Data Collection]
+1. [!DNL Analytics] les données envoyées de la page aux serveurs [!UICONTROL collecte de données]
 1. [!DNL Target] données sont mises en correspondance avec les données Analytics via le SDID et sont traitées dans le stockage de rapports [!DNL Analytics]. [!DNL Analytics] données peuvent ensuite être affichées dans [!DNL Analytics] et [!DNL Target] via les rapports A4T.
 
 ![comportement d’at.js 2.0 lorsque la fonction triggerView() est utilisée](assets/triggerview.png)
@@ -68,10 +68,10 @@ ht-degree: 0%
 
 1. Le contenu ciblé est révélé le plus rapidement possible sans scintillement du contenu par défaut
 
-1. Une demande de notification est envoyée au [!UICONTROL Profile Store] [!DNL Target] pour comptabiliser le visiteur dans l’activité et incrémenter les mesures
-1. [!DNL Analytics] données sont envoyées de la SPA vers les serveurs [!UICONTROL Data Collection]
+1. La demande de notification est envoyée au [!DNL Target] [!UICONTROL magasin de profils] pour comptabiliser le visiteur dans l’activité et incrémenter les mesures
+1. [!DNL Analytics] données sont envoyées de la SPA aux serveurs [!UICONTROL collecte de données].
 
-1. [!DNL Target] données sont envoyées du serveur principal [!DNL Target] aux serveurs [!UICONTROL Data Collection]. [!DNL Target] données sont mises en correspondance avec les données [!DNL Analytics] via le SDID et sont traitées dans le stockage de rapports [!DNL Analytics]. [!DNL Analytics] données peuvent ensuite être affichées dans [!DNL Analytics] et [!DNL Target] via les rapports A4T.
+1. [!DNL Target] données sont envoyées du serveur principal [!DNL Target] aux serveurs [!UICONTROL collecte de données]. [!DNL Target] données sont mises en correspondance avec les données [!DNL Analytics] via le SDID et sont traitées dans le stockage de rapports [!DNL Analytics]. [!DNL Analytics] données peuvent ensuite être affichées dans [!DNL Analytics] et [!DNL Target] via les rapports A4T.
 
 ## Ressources supplémentaires
 

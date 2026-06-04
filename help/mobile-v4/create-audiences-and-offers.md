@@ -21,7 +21,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 977
+source-wordcount: 1004
 ht-degree: 1%
 
 ---
@@ -63,16 +63,16 @@ Créons maintenant les audiences que nous utiliserons pour personnaliser l’app
 Les audiences Adobe Target sont utilisées pour identifier des groupes spécifiques de visiteurs. Les offres peuvent ensuite être ciblées vers ces groupes spécifiques. Pour les deux premiers emplacements, nous utiliserons une audience « Nouveaux utilisateurs » :
 
 1. Cliquez sur **[!UICONTROL Audiences]** dans le volet de navigation supérieur.
-1. Cliquez sur le bouton **[!UICONTROL Create Audience]** .
+1. Cliquez sur le bouton **[!UICONTROL Créer une audience]**.
    ![Créer une audience d’utilisateur](assets/audience_new_mobile_app_users_1.jpg)
 
-1. Saisissez **[!UICONTROL New Mobile App Users]** comme nom d’audience.
-1. Sélectionnez **[!UICONTROL Add Rule]**.
-1. Sélectionnez une règle de **[!UICONTROL Custom]**.
+1. Saisissez **[!UICONTROL Nouveaux utilisateurs de l’application mobile]** comme nom d’audience.
+1. Sélectionnez **[!UICONTROL Ajouter une règle]**.
+1. Sélectionnez une règle **[!UICONTROL Personnalisée]**.
    ![Créer une audience d’utilisateur](assets/audience_new_mobile_app_users_2.jpg)
 
-1. Sélectionnez **[!UICONTROL a.Launches]**.
-1. Sélectionnez **[!UICONTROL is less than]**.
+1. Sélectionnez **[!UICONTROL a.Lancements]**.
+1. Sélectionnez **[!UICONTROL est inférieur à]**.
 1. Entrez **5**.
 1. Enregistrez la nouvelle audience.
    ![Créer une audience d’utilisateur](assets/audience_new_mobile_app_users_3.jpg)
@@ -82,7 +82,7 @@ Les audiences Adobe Target sont utilisées pour identifier des groupes spécifiq
 Suivez les mêmes étapes que celles répertoriées ci-dessus pour créer une audience pour les utilisateurs et utilisatrices récurrents.
 
 1. Nommez l’audience _Utilisateurs d’applications mobiles récurrents_.
-1. Utilisez **[!UICONTROL a.Launches is greater than or equal to 5]** comme règle personnalisée.
+1. Utiliser **[!UICONTROL a.Le nombre de lancements est supérieur ou égal à 5]** en tant que règle personnalisée.
 1. Enregistrez la nouvelle audience.
 
    ![Créer une audience d’utilisateurs récurrente](assets/audience_returning_mobile_app_users.jpg)
@@ -121,9 +121,9 @@ Créons maintenant des offres pour afficher ces messages. Pour rappel, les offre
 
 Tout d’abord, créons des offres pour les messages aux nouveaux utilisateurs :
 
-1. Cliquez sur **[!UICONTROL Offers]** dans le volet de navigation supérieur.
-1. Cliquez sur **[!UICONTROL Create]**.
-1. Sélectionnez **[!UICONTROL HTML Offer]**.
+1. Cliquez sur **[!UICONTROL Offres]** dans le volet de navigation supérieur.
+1. Cliquez sur **[!UICONTROL Créer]**.
+1. Sélectionnez **[!UICONTROL Offre]**.
 
    ![Créer une offre d’accueil](assets/offer_home_1.jpg)
 

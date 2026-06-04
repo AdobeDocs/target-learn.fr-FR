@@ -10,7 +10,7 @@ kt: 3040
 exl-id: 20f8ed4f-a86d-4c5e-9296-71a93724caa3
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '559'
 ht-degree: 2%
 
 ---
@@ -41,11 +41,11 @@ Après avoir terminé cet didacticiel, vous serez en mesure de :
 Dans ces leçons, on suppose que vous :
 
 * disposer d’un Adobe Id et d’un accès de niveau approbateur à l’interface d’Adobe Target (voir les étapes de vérification ci-dessous) ;
-* connaître votre code client Adobe Target afin de pouvoir envoyer des requêtes à votre propre compte ; Le code client s’affiche dans l’interface d’Adobe Target sur le   Configuration > Implémentation > Écran Modifier les paramètres at.js
+* connaître votre code client Adobe Target afin de pouvoir envoyer des requêtes à votre propre compte ; Le code client s’affiche dans l’interface d’Adobe Target sous l’écran Configuration > Implémentation > Modifier les paramètres at.js .
 * disposer d’un accès à l’interface utilisateur [Mobile Services](https://mobilemarketing.adobe.com/) et la connaître ;
 * disposer d’un IDE pour le développement d’applications mobiles Android ; Ce tutoriel présente [Android Studio](https://developer.android.com/studio/install) en différentes étapes et copies d’écran
 
-Si vous ne disposez pas de l’accès requis aux solutions Experience Cloud, contactez votre administrateur ou administratrice Experience Cloud.
+Si vous ne disposez pas de l’accès requis aux solutions Experience Cloud, contactez votre administrateur Experience Cloud.
 
 En outre, il est supposé que vous connaissez le développement Android en Java. Vous n’avez pas besoin d’être un expert Java pour suivre les leçons, mais vous en tirerez davantage si vous pouvez lire et comprendre le code confortablement.
 
@@ -56,9 +56,9 @@ Cette leçon nécessite l’accès à Adobe Target. Avant de passer aux étapes 
 1. Connectez-vous à [Adobe Experience Cloud](https://experience.adobe.com/)
 1. Sur l’écran d’accueil d’Experience Cloud, cliquez sur [!DNL Target] :
    ![Écran d’accueil d’Experience Cloud](assets/aec_homeScreen_clickTarget.png)
-1. Vous devriez accéder à la liste des activités dans Adobe Target, comme illustré ci-dessous, et vous devriez voir que votre utilisateur dispose d’un accès de niveau Approbateur. Si vous ne parvenez pas à accéder à [!DNL Target] ou à vérifier l’accès au niveau de l’approbateur ou de l’approbatrice, contactez l’administration Experience Cloud de votre société, demandez cet accès et reprenez ce tutoriel une fois qu’il vous a été accordé :
+1. Vous devriez accéder à la liste des activités dans Adobe Target, comme illustré ci-dessous, et vous devriez voir que votre utilisateur dispose d’un accès de niveau Approbateur. Si vous ne parvenez pas à accéder à [!DNL Target] ou à vérifier l’accès au niveau de l’approbateur, contactez l’un des administrateurs Experience Cloud de votre entreprise, demandez cet accès et reprenez ce tutoriel une fois qu’il vous a été accordé :
 
-   ![Interface utilisateur Adobe](assets/targetUI_approver.png)
+   ![Interface utilisateur &#x200B;](assets/targetUI_approver.png)
 
 ## À propos des leçons
 

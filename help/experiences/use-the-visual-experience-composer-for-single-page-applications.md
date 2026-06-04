@@ -28,21 +28,21 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 206
+source-wordcount: 216
 ht-degree: 0%
 
 ---
 
-# Utilisation du [!UICONTROL Visual Experience Composer] pour les applications monopages (SPA VEC) dans Adobe Target
+# Utilisation du [!UICONTROL compositeur d’expérience visuelle] pour les applications monopages (SPA VEC) dans Adobe Target
 
 Le compositeur d’expérience visuelle (VEC) de SPA permet aux marketeurs de créer des tests et de personnaliser le contenu des SPA eux-mêmes sans dépendances de développement continu.
 
 * Le VEC SPA peut être utilisé pour créer des tests A/B et d’affectation automatique, ainsi que des activités de ciblage d’expérience (XT)
 * Le VEC SPA ne prend pas en charge les activités de ciblage automatique, d’Automated Personalization ou de recommandations
-* Le VEC SPA prend en charge les intégrations A4T, [!UICONTROL Experience Cloud Audiences] et [!UICONTROL Customer Attributes]
+* Le VEC SPA prend en charge les intégrations A4T audiences Experience Cloud et [!UICONTROL attributs du client]
 * Toutes les actions du VEC sont prises en charge dans les applications monopages, y compris le code personnalisé
 * Les actions du compositeur d’expérience visuelle peuvent être appliquées à une seule vue ou à l’événement de chargement de page
-* Vous pouvez ajouter différentes modifications à différentes vues sans avoir à utiliser l’option [!UICONTROL Additional Pages]
+* Il est possible d’ajouter différentes modifications à différents affichages sans avoir à utiliser l’option [!UICONTROL Pages supplémentaires]
 * `at.js 2.0+` et la fonction `adobe.target.triggerView()` doivent être mises en œuvre dans l’application avant de pouvoir utiliser le VEC de SPA
 
 ## Audience prévue
