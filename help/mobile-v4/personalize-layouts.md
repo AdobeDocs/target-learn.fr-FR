@@ -9,25 +9,34 @@ doc-type: tutorial
 kt: 3040
 author: Daniel Wright
 exl-id: a9f033d9-9f72-4154-88f5-d36423a404d0
-TQID: https://experienceleague.adobe.com/Ku3bhBHqeS5xdaAVtjPELQJ2fu-GdNWqTweOTILSqsI
+TQID: 'https://experienceleague.adobe.com/Ku3bhBHqeS5xdaAVtjPELQJ2fu-GdNWqTweOTILSqsI'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+subfeature_v2:
+  - id: d051910f-2bda-47ea-a969-6ade9fcd71f1
+    internal-label: Implement mobile
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
+    internal-label: Personalization
+source-git-commit: d11449f8685d14c2bbd1e70f80711d4edab9d3a1
 workflow-type: tm+mt
-source-wordcount: 1074
+source-wordcount: '1074'
 ht-degree: 1%
-
 ---
-
 # Personnaliser les mises en page
 
 Il est maintenant temps de tout rassembler et de créer des expériences personnalisées. Une _activité_ est le mécanisme [!DNL Target] qui relie les emplacements, les audiences et les offres entre eux, de sorte que lorsque la requête est effectuée à partir de l’application, [!DNL Target] répond avec le contenu personnalisé. Nous allons créer deux activités de personnalisation dans [!DNL Target] et vérifier que le contenu personnalisé s’affiche pour le bon utilisateur au bon moment et au bon endroit.
@@ -121,7 +130,7 @@ Passons à l’écran suivant de la configuration :
 
 Maintenant, terminons la configuration de l’activité :
 
-1. Définissez l’objectif de Principal **&#x200B;**&#x200B;sur **[!UICONTROL Conversion]**.
+1. Définissez l’objectif de Principal **** sur **[!UICONTROL Conversion]**.
 1. Définissez l’action sur **[!UICONTROL Affichage d’une mbox]** > _wetravel_ context_dest_ (cet emplacement étant sur l’écran de confirmation, nous pouvons l’utiliser pour mesurer les conversions).
 
    ![Activité Engage Users - Objectifs](assets/activity_create_12.jpg)
@@ -155,7 +164,7 @@ Répétez le même processus que ci-dessus pour l&#39;Activité suivante : « Of
 
 À l’étape Objectifs et paramètres , nous modifierons l’objectif du Principal en fonction de l’emplacement sur l’écran de confirmation de réservation :
 
-1. Sous **[!UICONTROL Paramètres de création de rapports]**, définissez l’Objectif de Principal **&#x200B;**&#x200B;sur **[!UICONTROL Conversion]**.
+1. Sous **[!UICONTROL Paramètres de création de rapports]**, définissez l’Objectif de Principal **** sur **[!UICONTROL Conversion]**.
 1. Définissez l’action sur **[!UICONTROL Affichage d’une mbox]** > _wetravel_ context_dest_ (dans cette activité, cette mesure n’a aucun sens, car il s’agit également du même emplacement qui fournit l’expérience).
 1. Cliquez sur **[!UICONTROL Enregistrer et fermer]**.
 

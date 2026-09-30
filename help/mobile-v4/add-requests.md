@@ -8,24 +8,32 @@ feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 exl-id: 88a5be3f-d61f-43e7-997a-574ef56122ed
-TQID: https://experienceleague.adobe.com/oQyrxuVXqyUR4v-BxX1cqqjvmGz58MeEme-fveXGG4o
+TQID: 'https://experienceleague.adobe.com/oQyrxuVXqyUR4v-BxX1cqqjvmGz58MeEme-fveXGG4o'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+subfeature_v2:
+  - id: d051910f-2bda-47ea-a969-6ade9fcd71f1
+    internal-label: Implement mobile
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
+    internal-label: Personalization
+source-git-commit: d11449f8685d14c2bbd1e70f80711d4edab9d3a1
 workflow-type: tm+mt
-source-wordcount: 1820
+source-wordcount: '1820'
 ht-degree: 0%
-
 ---
-
 # Ajout de requêtes Adobe Target
 
 Adobe Mobile Services SDK (v4) fournit des méthodes et des fonctionnalités Adobe Target qui vous permettent de personnaliser votre application avec différentes expériences pour différents utilisateurs. En règle générale, une ou plusieurs requêtes sont effectuées de l’application vers Adobe Target pour récupérer le contenu personnalisé et mesurer l’impact de ce contenu.
@@ -63,7 +71,7 @@ Vous trouverez ci-dessous certains termes clés de Target que nous utiliserons d
 
 La première demande que nous allons implémenter dans We.Travel est une demande de prérécupération par lots avec deux emplacements [!DNL Target] sur l’écran d’accueil. Dans une leçon ultérieure, nous allons configurer des offres pour ces emplacements qui affichent des messages pour aider les nouveaux utilisateurs à passer par le processus de réservation.
 
-Une requête de prérécupération récupère [!DNL Target] contenu aussi minimalement que possible en mettant en cache la réponse du serveur Adobe Target (offre). Une requête de prérécupération par lots récupère et met en cache plusieurs offres, chacune associée à un emplacement différent. Tous les emplacements prérécupérés sont mis en cache sur l’appareil pour une utilisation ultérieure dans la session utilisateur. En prérécupérant plusieurs emplacements sur l’écran d’accueil, nous pouvons récupérer les offres à utiliser ultérieurement lorsque le visiteur navigue dans l’application. Reportez-vous à la [documentation de prérécupération](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=fr) pour plus d’informations sur les méthodes de prérécupération.
+Une requête de prérécupération récupère [!DNL Target] contenu aussi minimalement que possible en mettant en cache la réponse du serveur Adobe Target (offre). Une requête de prérécupération par lots récupère et met en cache plusieurs offres, chacune associée à un emplacement différent. Tous les emplacements prérécupérés sont mis en cache sur l’appareil pour une utilisation ultérieure dans la session utilisateur. En prérécupérant plusieurs emplacements sur l’écran d’accueil, nous pouvons récupérer les offres à utiliser ultérieurement lorsque le visiteur navigue dans l’application. Reportez-vous à la [documentation de prérécupération](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en) pour plus d’informations sur les méthodes de prérécupération.
 
 ### Ajout de la requête de prérécupération par lot
 

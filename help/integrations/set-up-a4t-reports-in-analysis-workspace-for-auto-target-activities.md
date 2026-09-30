@@ -1,39 +1,53 @@
 ---
-title: Configuration des rapports A4T dans [!DNL Analysis Workspace] for [!DNL Auto-Target] Activities
-description: Comment configurer les rapports A4T dans  [!DNL Analysis Workspace]  obtenir les résultats attendus lors de l’exécution d’activités de [!UICONTROL &#x200B; ciblage automatique &#x200B;] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+title: Configuration de rapports A4T dans [!DNL Analysis Workspace] pour les activités [!DNL Auto-Target]
+description: Comment configurer les rapports A4T [!DNL Analysis Workspace] obtenir les résultats attendus lors de l’exécution d’activités de [!UICONTROL  ciblage automatique ] ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 role: User
 level: Intermediate
 topic: Personalization, Integrations
 feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
-thumbnail: null
-kt: null
+thumbnail:
+kt:
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-TQID: https://experienceleague.adobe.com/9UgPPqvQiI3LcX1Lhv1yxlM0BnQf6176cTB3bbPd1YE
+TQID: 'https://experienceleague.adobe.com/9UgPPqvQiI3LcX1Lhv1yxlM0BnQf6176cTB3bbPd1YE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
 subfeature_v2:
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+    internal-label: Analytics integration
+  - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
+    internal-label: Auto target
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
+    internal-label: Machine learning
+source-git-commit: d11449f8685d14c2bbd1e70f80711d4edab9d3a1
 workflow-type: tm+mt
-source-wordcount: 2717
+source-wordcount: '2720'
 ht-degree: 1%
-
 ---
-
 # Configurer des rapports A4T dans [!DNL Analysis Workspace] pour les activités [!DNL Auto-Target]
 
 >[!IMPORTANT]
@@ -42,12 +56,12 @@ ht-degree: 1%
 
 L’intégration [!UICONTROL Analytics for Target] (A4T) pour les activités [!DNL Auto-Target] utilise les algorithmes de machine learning (ML) d’[!DNL Adobe Target] ensemble pour choisir la meilleure expérience pour chaque visiteur en fonction de son profil, de son comportement et de son contexte, tout en utilisant une mesure d’objectif [!DNL Adobe Analytics].
 
-Bien que des fonctionnalités d’analyse riches soient disponibles dans [!DNL Adobe Analytics] [!DNL Analysis Workspace], quelques modifications sont nécessaires dans le panneau par défaut **[!UICONTROL Analytics for Target]** pour interpréter correctement les activités de [!DNL Auto-Target], en raison des différences entre les activités d’expérimentation (test A/B manuel et [!UICONTROL affectation automatique]) et les activités de personnalisation ( ciblage automatique).
+Bien que des fonctionnalités d’analyse riches soient disponibles dans [!DNL Adobe Analytics] [!DNL Analysis Workspace], quelques modifications sont nécessaires dans le panneau par défaut **[!UICONTROL Analytics for Target]** pour interpréter correctement les activités de [!DNL Auto-Target], en raison des différences entre les activités d’expérimentation (test A/B manuel] et [!UICONTROL affectation automatique]) et les activités de personnalisation ([!UICONTROL ] ciblage automatique[!UICONTROL ).
 
 Ce tutoriel décrit les modifications recommandées pour l’analyse des activités de [!UICONTROL ciblage automatique] dans [!DNL Analysis Workspace], qui reposent sur les concepts clés suivants :
 
 * La dimension **[!UICONTROL Contrôle par rapport à ciblé]** peut être utilisée pour faire la distinction entre les expériences [!UICONTROL Contrôle] et celles servies par l’algorithme de ML d’ensemble [!UICONTROL Ciblage automatique].
-* Les visites doivent être utilisées comme mesure de normalisation lors de l’affichage des répartitions de performances au niveau de l’expérience. En outre, la méthodologie de comptage par défaut d’[Adobe Analytics peut inclure des visites où l’utilisateur ne voit pas réellement le contenu de l’activité](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html?lang=fr#metrics){target=_blank} mais ce comportement par défaut peut être modifié en utilisant un segment de portée appropriée (détails ci-dessous).
+* Les visites doivent être utilisées comme mesure de normalisation lors de l’affichage des répartitions de performances au niveau de l’expérience. En outre, la méthodologie de comptage par défaut d’[Adobe Analytics peut inclure des visites où l’utilisateur ne voit pas réellement le contenu de l’activité](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html#metrics){target=_blank} mais ce comportement par défaut peut être modifié en utilisant un segment de portée appropriée (détails ci-dessous).
 * L’attribution étendue de la recherche en amont des visites, également appelée « fenêtre de recherche en amont des visites » sur le modèle d’attribution prescrit, est utilisée par les modèles ML [!DNL Adobe Target] pendant leurs phases d’entraînement. Le même modèle d’attribution (autre que celui par défaut) doit être utilisé lors de la répartition de la mesure d’objectif.
 
 ## Créez le panneau A4T pour [!UICONTROL ciblage automatique] dans [!DNL Analysis Workspace]
@@ -80,7 +94,7 @@ Panneau ![[!UICONTROL Expériences par conversion d’activité] dans [!DNL Anal
 
 >[!NOTE]
 >
->Actuellement, les nombres [!UICONTROL Effet élévateur et Degré de confiance] ne sont pas disponibles pour les dimensions [!UICONTROL Contrôle ou ciblé] des rapports A4T pour [!UICONTROL Ciblage automatique]. Jusqu’à ce que la prise en charge soit ajoutée, l’effet élévateur et le degré de confiance [!UICONTROL Lift and Confidence] peuvent être calculés manuellement en téléchargeant le [calculateur de confiance](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=fr).
+>Actuellement, les nombres [!UICONTROL Effet élévateur et Degré de confiance] ne sont pas disponibles pour les dimensions [!UICONTROL Contrôle ou ciblé] des rapports A4T pour [!UICONTROL Ciblage automatique]. Jusqu’à ce que la prise en charge soit ajoutée, l’effet élévateur et le degré de confiance [!UICONTROL Lift and Confidence] peuvent être calculés manuellement en téléchargeant le [calculateur de confiance](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx).
 
 ## Ajout de répartitions de mesures au niveau de l’expérience
 
@@ -100,7 +114,7 @@ Panneau ![[!UICONTROL Expériences par conversion d’activité] dans [!DNL Anal
 >
 >Dans [!DNL Analysis Workspace], cliquez sur l’icône en forme d’engrenage pour masquer les pourcentages dans la colonne [!UICONTROL Taux de conversion] afin de rester concentré sur les taux de conversion de l’expérience. Les taux de conversion seront alors formatés en décimales, mais interprétés comme des pourcentages en conséquence.
 
-## Pourquoi « [!UICONTROL &#x200B; Visites &#x200B;] » est-il la mesure de normalisation correcte pour les activités de [!UICONTROL ciblage automatique] ?
+## Pourquoi « [!UICONTROL  Visites ] » est-il la mesure de normalisation correcte pour les activités de [!UICONTROL ciblage automatique] ?
 
 Lors de l’analyse d’une activité de [!UICONTROL ciblage automatique], choisissez toujours [!UICONTROL Visites] comme mesure de normalisation par défaut. La personnalisation [!UICONTROL Ciblage automatique] sélectionne une expérience pour un visiteur une fois par visite (officiellement, une fois par session de [!DNL Target]), ce qui signifie que l’expérience présentée à un visiteur peut changer à chaque visite. Ainsi, si vous utilisez la mesure [!UICONTROL Visiteurs uniques] comme mesure de normalisation, le fait qu’un seul utilisateur ou une seule utilisatrice puisse voir plusieurs expériences (sur différentes visites) conduirait à des taux de conversion déroutants.
 
@@ -152,7 +166,7 @@ Le dernier panneau se présente comme suit :
 
 Panneau ![[!UICONTROL Expériences par conversion d’activité] dans [!DNL Analysis Workspace]](assets/Figure6.png)
 
-*Figure 6 : Panneau de création de rapports avec le segment « Accès avec une activité de ciblage automatique spécifique » appliqué à la mesure [!UICONTROL &#x200B; Visites &#x200B;]. Ce segment permet de s’assurer que seules les visites au cours desquelles un utilisateur ou une utilisatrice a réellement interagi avec l’activité de [!DNL Target] en question sont incluses dans le rapport.*
+*Figure 6 : Panneau de création de rapports avec le segment « Accès avec une activité de ciblage automatique spécifique » appliqué à la mesure [!UICONTROL  Visites ]. Ce segment permet de s’assurer que seules les visites au cours desquelles un utilisateur ou une utilisatrice a réellement interagi avec l’activité de [!DNL Target] en question sont incluses dans le rapport.*
 
 ## Assurez-vous que la mesure d’objectif et l’attribution sont alignées avec votre critère d’optimisation
 
@@ -166,7 +180,7 @@ Ainsi, la différence entre l’attribution utilisée par les modèles de [!DNL 
 >
 >Si les modèles ML effectuent une optimisation pour une mesure qui est attribuée différemment de celle des mesures que vous consultez dans un rapport, les modèles peuvent ne pas fonctionner comme prévu. Pour éviter cela, assurez-vous que les mesures d’objectif de votre rapport utilisent la même définition de mesure et la même attribution que celles utilisées par les modèles ML [!DNL Target].
 
-La définition exacte de la mesure et les paramètres d’attribution dépendent du [critère d’optimisation](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=fr#supported){target=_blank} que vous avez spécifié lors de la création de l’activité.
+La définition exacte de la mesure et les paramètres d’attribution dépendent du [critère d’optimisation](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank} que vous avez spécifié lors de la création de l’activité.
 
 ### Conversions définies par Target ou mesures [!DNL Analytics] avec *Maximiser la valeur de mesure par visite*
 
@@ -238,13 +252,13 @@ Pour ce faire, créez une [!UICONTROL mesure calculée] en procédant comme suit
 1. Faites glisser la mesure d’objectif appropriée pour votre activité (par exemple, [!UICONTROL Conversions d’activité]) dans la définition, puis utilisez l’icône d’engrenage de cette mesure d’objectif pour ajuster le modèle d’attribution sur (Participation|Visite), comme décrit précédemment.
 1. Sélectionnez **[!UICONTROL Ajouter > Conteneur]** dans le coin supérieur droit de la section **[!UICONTROL Définition]**.
 1. Sélectionnez l’opérateur de division (÷) entre les deux conteneurs.
-1. Faites glisser le segment créé précédemment et nommé « Accès avec une activité de ciblage automatique [!UICONTROL &#x200B; spécifique &#x200B;] » dans ce tutoriel pour cette activité de [!DNL Auto-Target] spécifique.
+1. Faites glisser le segment créé précédemment et nommé « Accès avec une activité de ciblage automatique [!UICONTROL  spécifique ] » dans ce tutoriel pour cette activité de [!DNL Auto-Target] spécifique.
 1. Faites glisser la mesure **[!UICONTROL Visites]** dans le conteneur de segments.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 >[!TIP]
 >
-> Vous pouvez également créer cette mesure à l’aide de la [fonctionnalité de mesure calculée rapide](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html?lang=fr).
+> Vous pouvez également créer cette mesure à l’aide de la [fonctionnalité de mesure calculée rapide](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html).
 
 La définition complète de la mesure calculée s’affiche ici.
 
