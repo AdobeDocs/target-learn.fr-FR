@@ -56,4 +56,4 @@ Dans la deuxième vidéo, vous apprendrez à :
 
 >[!VIDEO](https://video.tv.adobe.com/v/17399/?quality=12)
 
->[!VIDEO](https://video.tv.adobe.com/v/17401/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/30142/?captions=fre_fr&quality=12)

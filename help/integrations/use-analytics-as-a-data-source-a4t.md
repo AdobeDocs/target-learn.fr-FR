@@ -58,4 +58,4 @@ Cette vidéo présente aux spécialistes du marketing Analytics for Target (A4T)
 
 * Professionnel
 
->[!VIDEO](https://video.tv.adobe.com/v/17384/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3421725/?captions=fre_fr&quality=12)
