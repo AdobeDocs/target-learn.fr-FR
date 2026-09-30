@@ -1,35 +1,47 @@
 ---
-title: Comment configurer des rapports A4T dans  [!DNL Analysis Workspace]  pour les activités [!UICONTROL &#x200B; Affectation automatique &#x200B;]
-description: Comment configurer les rapports [!UICONTROL Analytics for Target] (A4T) dans  [!DNL Adobe] [!DNL Analysis Workspace] lors de l’exécution d’activités d’[!UICONTROL affectation automatique] ?
+title: Comment configurer des rapports A4T dans [!DNL Analysis Workspace] pour les activités [!UICONTROL &#x200B; Affectation automatique &#x200B;]
+description: Comment configurer les rapports [!UICONTROL Analytics for Target] (A4T) dans [!DNL Adobe] [!DNL Analysis Workspace] lors de l’exécution d’activités d’[!UICONTROL affectation automatique] ?
 role: User
 level: Intermediate
 topic: Personalization, Integrations
 feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
-kt: null
+kt:
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-TQID: https://experienceleague.adobe.com/5oQMgqqxw2VN-6cb29j4bwEP6VYmGRLXIp5AMJ3WWM4
+TQID: 'https://experienceleague.adobe.com/5oQMgqqxw2VN-6cb29j4bwEP6VYmGRLXIp5AMJ3WWM4'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
 subfeature_v2:
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+    internal-label: Analytics integration
+  - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
+    internal-label: Auto target
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
+    internal-label: Personalization
+source-git-commit: d11449f8685d14c2bbd1e70f80711d4edab9d3a1
 workflow-type: tm+mt
-source-wordcount: 1546
+source-wordcount: '1549'
 ht-degree: 0%
-
 ---
-
 # Configurer des rapports A4T dans [!DNL Analysis Workspace] pour les activités [!DNL Auto-Allocate]
 
 Une activité [[!UICONTROL Affectation automatique] &#x200B;](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=fr){target=_blank} dans [!DNL Adobe Target] identifie un gagnant parmi plusieurs expériences et réaffecte automatiquement le trafic des visiteurs au gagnant pendant que le test continue à s’exécuter et à apprendre. L’intégration [!UICONTROL Analytics for Target] (A4T) pour l’[!UICONTROL affectation automatique] vous permet d’afficher les données de rapports dans [!DNL Adobe Analytics] et d’optimiser les événements ou mesures personnalisés définis dans [!DNL Analytics].
@@ -40,8 +52,8 @@ Chaque type de mesure d’optimisation nécessite une configuration de rapport d
 
 * Utilisation d’une mesure [!DNL Analytics]
 
-   * [!UICONTROL Maximiser la valeur de la mesure par visiteur]
-   * [!UICONTROL Optimiser le taux de conversion des visiteurs uniques]
+  * [!UICONTROL Maximiser la valeur de la mesure par visiteur]
+  * [!UICONTROL Optimiser le taux de conversion des visiteurs uniques]
 
 * Utilisation d’une mesure de conversion définie par [!DNL Target]
 
@@ -169,7 +181,7 @@ Les sections suivantes indiquent les configurations requises, en fonction de la 
 
    ![Période dans le panneau A4T](/help/integrations/assets/date-range.png)
 
-1. Dans [!DNL Analytics], définissez la plage temporelle sur 12 :00am 11 :59pm.
+1. En [!DNL Analytics], définissez la plage horaire sur 12 h 00 à 23 h 59.
 
 ### Identifier le gagnant de l’activité {#winner}
 
