@@ -53,7 +53,7 @@ Dans cette leçon, nous allons ajouter des mesures de cycle de vie Adobe et des 
 
 ## Ajout des paramètres de cycle de vie
 
-Activons les [mesures de cycle de vie mobile ](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=en). Des paramètres seront ainsi ajoutés aux requêtes d’emplacement contenant des informations riches sur l’appareil de l’utilisateur et l’engagement dans l’application. Dans la leçon suivante, nous allons créer des audiences à l’aide des données fournies par la requête de cycle de vie.
+Activons les [mesures de cycle de vie mobile &#x200B;](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=en). Des paramètres seront ainsi ajoutés aux requêtes d’emplacement contenant des informations riches sur l’appareil de l’utilisateur et l’engagement dans l’application. Dans la leçon suivante, nous allons créer des audiences à l’aide des données fournies par la requête de cycle de vie.
 
 Pour activer les mesures de cycle de vie, ouvrez à nouveau le contrôleur HomeActivity et ajoutez des `Config.collectLifecycleData(this);` à la fonction onResume() :
 
@@ -62,7 +62,7 @@ Pour activer les mesures de cycle de vie, ouvrez à nouveau le contrôleur HomeA
 ### Validation des paramètres de cycle de vie de la requête de prérécupération
 
 Exécutez l’émulateur et utilisez Logcat pour valider les paramètres du cycle de vie. Filtrez pour « prefetch » afin de trouver la réponse de prérécupération et de rechercher les nouveaux paramètres :
-![ Validation du cycle de vie ](assets/lifecycle_validation.jpg)
+![&#x200B; Validation du cycle de vie &#x200B;](assets/lifecycle_validation.jpg)
 
 Même si nous n’avons ajouté que des `Config.collectLifecycleData()` au contrôleur HomeActivity, vous devriez également voir les mesures de cycle de vie envoyées avec la requête Target sur votre écran de remerciement.
 

@@ -158,7 +158,7 @@ Créons maintenant une activité de test A/B avec cette offre. Pour obtenir des 
 
    ![Configuration de l’activité d’indicateur de fonctionnalité](assets/feature_flag_activity_3.jpg)
 
-1. Définissez l’objectif de Principal **** sur **[!UICONTROL Conversion]**.
+1. Définissez l’objectif de Principal **&#x200B;**&#x200B;sur **[!UICONTROL Conversion]**.
 1. Définissez l’action sur **[!UICONTROL Affichage d’une mbox]**. Nous utiliserons l’emplacement « wetravel_context_dest » (cet emplacement se trouvant sur l’écran de confirmation, nous pouvons l’utiliser pour voir si la nouvelle fonctionnalité entraîne plus de conversions).
 1. Cliquez sur **[!UICONTROL Enregistrer et fermer]**.
 

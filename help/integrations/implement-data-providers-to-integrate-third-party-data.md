@@ -53,7 +53,7 @@ Détails d’implémentation et exemples d’utilisation de la fonctionnalité A
 
 Aperçu rapide des composants de base d’un `dataProvider` et de la manière d’obtenir votre code dans le bon ordre.\
 Un exemple de travail avec le code utilisé dans la vidéo se trouve ici :
-[](https://target.enablementadobe.com/data-providers/simple.html)
+[&#128279;](https://target.enablementadobe.com/data-providers/simple.html)
 
 ## Intégration à une API tierce
 
@@ -61,7 +61,7 @@ Un exemple de travail avec le code utilisé dans la vidéo se trouve ici :
 
 Exemple plus réaliste, l’intégration d’une API de météo.\
 Un exemple de travail avec le code utilisé dans la vidéo se trouve ici :
-[](https://target.enablementadobe.com/data-providers/3rdparty.html)
+[&#128279;](https://target.enablementadobe.com/data-providers/3rdparty.html)
 
 ## Intégration à plusieurs fournisseurs
 
@@ -69,7 +69,7 @@ Un exemple de travail avec le code utilisé dans la vidéo se trouve ici :
 
 Comment incorporer des données provenant de plusieurs fournisseurs dans votre requête [!DNL Target] globale.\
 Un exemple de travail avec le code utilisé dans la vidéo se trouve ici :
-[](https://target.enablementadobe.com/data-providers/combined.html)
+[&#128279;](https://target.enablementadobe.com/data-providers/combined.html)
 
 ## Réduire l’impact du chargement de page
 
@@ -77,7 +77,7 @@ Un exemple de travail avec le code utilisé dans la vidéo se trouve ici :
 
 Réduisez l’impact sur le temps de chargement de la page en stockant les données dans un objet de stockage de session. Vous pouvez également transmettre les valeurs en tant que paramètres de profil à l’aide du préfixe `profile.`, et simplement les transmettre dans la première requête [!DNL Target] de la session. Cependant, vous seriez limité à transmettre cinquante paramètres de profil par requête.
 
-Un exemple de travail avec le code utilisé dans la vidéo se trouve ici : [](https://target.enablementadobe.com/data-providers/reducedCalls.html)
+Un exemple de travail avec le code utilisé dans la vidéo se trouve ici : [&#128279;](https://target.enablementadobe.com/data-providers/reducedCalls.html)
 
 ## Documents annexes
 

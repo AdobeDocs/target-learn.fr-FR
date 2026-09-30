@@ -53,7 +53,7 @@ Le compositeur d’expérience visuelle (VEC) de SPA permet aux marketeurs de cr
 
 * Le VEC SPA peut être utilisé pour créer des tests A/B et d’affectation automatique, ainsi que des activités de ciblage d’expérience (XT)
 * Le VEC SPA ne prend pas en charge les activités de ciblage automatique, d’Automated Personalization ou de recommandations
-* Le VEC SPA prend en charge les intégrations A4T] [!UICONTROL audiences Experience Cloud et [!UICONTROL attributs du client]
+* Le VEC SPA prend en charge les intégrations A4T audiences Experience Cloud et [!UICONTROL attributs du client]
 * Toutes les actions du VEC sont prises en charge dans les applications monopages, y compris le code personnalisé
 * Les actions du compositeur d’expérience visuelle peuvent être appliquées à une seule vue ou à l’événement de chargement de page
 * Il est possible d’ajouter différentes modifications à différents affichages sans avoir à utiliser l’option [!UICONTROL Pages supplémentaires]

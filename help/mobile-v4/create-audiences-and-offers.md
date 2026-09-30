@@ -60,7 +60,7 @@ Plus précisément, dans cette leçon, nous allons créer les audiences et les o
 
 Si votre société utilise Propriétés et Espaces de travail pour définir des limites en matière de personnalisation des applications et des sites web (et que vous avez implémenté le paramètre at_property dans la dernière leçon), vous devez d’abord vous assurer que vous vous trouvez dans le bon Workspace avant de poursuivre cette leçon. Si vous n’utilisez pas les propriétés et les espaces de travail, ignorez simplement cette étape. Sélectionnez le Workspace que vous avez utilisé dans la leçon précédente pour copier la valeur at_property :
 
-![Exemple ](assets/workspace.jpg)
+![Exemple &#x200B;](assets/workspace.jpg)
 
 ## Création d’audiences
 

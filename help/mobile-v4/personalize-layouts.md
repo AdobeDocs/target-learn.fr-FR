@@ -130,7 +130,7 @@ Passons à l’écran suivant de la configuration :
 
 Maintenant, terminons la configuration de l’activité :
 
-1. Définissez l’objectif de Principal **** sur **[!UICONTROL Conversion]**.
+1. Définissez l’objectif de Principal **&#x200B;**&#x200B;sur **[!UICONTROL Conversion]**.
 1. Définissez l’action sur **[!UICONTROL Affichage d’une mbox]** > _wetravel_ context_dest_ (cet emplacement étant sur l’écran de confirmation, nous pouvons l’utiliser pour mesurer les conversions).
 
    ![Activité Engage Users - Objectifs](assets/activity_create_12.jpg)
@@ -164,7 +164,7 @@ Répétez le même processus que ci-dessus pour l&#39;Activité suivante : « Of
 
 À l’étape Objectifs et paramètres , nous modifierons l’objectif du Principal en fonction de l’emplacement sur l’écran de confirmation de réservation :
 
-1. Sous **[!UICONTROL Paramètres de création de rapports]**, définissez l’Objectif de Principal **** sur **[!UICONTROL Conversion]**.
+1. Sous **[!UICONTROL Paramètres de création de rapports]**, définissez l’Objectif de Principal **&#x200B;**&#x200B;sur **[!UICONTROL Conversion]**.
 1. Définissez l’action sur **[!UICONTROL Affichage d’une mbox]** > _wetravel_ context_dest_ (dans cette activité, cette mesure n’a aucun sens, car il s’agit également du même emplacement qui fournit l’expérience).
 1. Cliquez sur **[!UICONTROL Enregistrer et fermer]**.
 
