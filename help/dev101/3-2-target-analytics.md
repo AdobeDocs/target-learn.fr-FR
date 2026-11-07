@@ -52,6 +52,6 @@ Dans cette vidéo, vous apprendrez à :
 
 * Développeurs et développeuses
 
->[!VIDEO](https://video.tv.adobe.com/v/35146/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507690/?captions=fre_fr&quality=12)
 
 Pour plus d’informations, consultez la [&#x200B; documentation &#x200B;](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4timplementation.html?lang=fr).

@@ -47,7 +47,7 @@ ht-degree: 0%
 
 `at.js` 2.0 améliore la prise en charge d’Adobe Target pour les applications monopages (SPA) et s’intègre à d’autres solutions Experience Cloud. Cette vidéo et les diagrammes qui l’accompagnent expliquent comment tout se combine.
 
->[!VIDEO](https://video.tv.adobe.com/v/26250?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507927?captions=fre_fr&quality=12)
 
 ## Diagrammes d’architecture
 
