@@ -48,7 +48,7 @@ Dans cette vidéo, vous apprendrez à :
 
 * Développeurs et développeuses
 
->[!VIDEO](https://video.tv.adobe.com/v/35145/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507699/?captions=fre_fr&quality=12)
 
 Pour plus d’informations, consultez le tutoriel [balises](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=fr).
 

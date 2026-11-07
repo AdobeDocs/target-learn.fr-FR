@@ -58,6 +58,6 @@ Dans cette vidéo, vous apprendrez à :
 * Développeurs et développeuses
 * Architectes
 
->[!VIDEO](https://video.tv.adobe.com/v/33753/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507799/?captions=fre_fr&quality=12)
 
 Pour plus d’informations, consultez la [&#x200B; documentation &#x200B;](https://experienceleague.adobe.com/docs/target/using/administer/administrating-target.html?lang=fr).
